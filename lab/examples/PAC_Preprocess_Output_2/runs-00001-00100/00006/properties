@@ -1,0 +1,94 @@
+{
+  "unsolvable": 0,
+  "cost_all": [
+    20
+  ],
+  "run-search_parser0_returncode": 0,
+  "search_returncode": 0,
+  "validate_returncode": 0,
+  "commandline_config": [
+    "--search",
+    "astar(lmcut())"
+  ],
+  "initial_h_value": 16,
+  "score_search_time": 83.52,
+  "limit_search_time": 300,
+  "compact": true,
+  "search_time": 3.44,
+  "translate_nick": "WORK",
+  "preprocess_nick": "WORK",
+  "search_summary": "WORK 6d8b3994270d+ tip",
+  "memory": 6864,
+  "rm-tmp-files_returncode": 0,
+  "search_nick": "WORK",
+  "total_time": 3.44,
+  "generated_all": [
+    165807
+  ],
+  "limit_preprocess_memory": 8192,
+  "reopened": 0,
+  "dead_ends_all": [
+    0
+  ],
+  "plan_length": 20,
+  "limit_preprocess_time": 7200,
+  "limit_search_memory": 2048,
+  "validate_wall_clock_time": 0.039383888244628906,
+  "score_total_time": 83.52,
+  "preprocess_summary": "WORK 6d8b3994270d+ tip",
+  "translate_summary": "WORK 6d8b3994270d+ tip",
+  "expansions": 4868,
+  "search_wall_clock_time": 3.4874958992004395,
+  "initial_ff_h_value": 20,
+  "reopened_until_last_jump": 0,
+  "error": "none",
+  "run-search_parser0_wall_clock_time": 0.05771207809448242,
+  "id_string": "WORK-lmcut:satellite:p06-pfile6.pddl",
+  "problem": "p06-pfile6.pddl",
+  "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/satellite/p06-pfile6.pddl",
+  "domain": "satellite",
+  "cost": 20,
+  "initial_h_value_all": [
+    16
+  ],
+  "id": [
+    "WORK-lmcut",
+    "satellite",
+    "p06-pfile6.pddl"
+  ],
+  "translate_rev": "WORK",
+  "preprocess_rev": "WORK",
+  "evaluations_until_last_jump": 57929,
+  "dead_ends": 0,
+  "score_memory": 82.27,
+  "experiment_name": "PAC_Preprocess_Output",
+  "generated_until_last_jump": 165598,
+  "config": "WORK-lmcut",
+  "limit_translate_memory": 8192,
+  "score_expansions": 57.82,
+  "planner_type": "single",
+  "rm-tmp-files_wall_clock_time": 0.003628969192504883,
+  "search_rev": "WORK",
+  "expansions_all": [
+    4868
+  ],
+  "generated": 165807,
+  "coverage": 1,
+  "evaluations": 58080,
+  "search_time_all": [
+    3.44
+  ],
+  "stage": "search",
+  "run_dir": "runs-00001-00100/00006",
+  "plan_length_all": [
+    20
+  ],
+  "evaluations_all": [
+    58080
+  ],
+  "queue": null,
+  "config_nick": "lmcut",
+  "score_evaluations": 30.9,
+  "limit_translate_time": 7200,
+  "expansions_until_last_jump": 4861
+}

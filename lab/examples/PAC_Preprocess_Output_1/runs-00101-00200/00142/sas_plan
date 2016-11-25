@@ -1,0 +1,5 @@
+(do-immersion-paint b0 black)
+(do-lathe a0)
+(do-roll c0)
+(do-time-step )
+(do-immersion-paint c0 black)

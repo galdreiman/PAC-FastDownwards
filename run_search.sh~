@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+
+echo "/home/gal/downward/benchmarks/$1/$2"
+echo "start"
+
+cd /home/gal/downward/src/
+translate/translate.py /home/gal/downward/benchmarks/$1/$2
+preprocess/preprocess < output.sas
+search/downward --search "astar(lmcut())" < output
+
+echo "/home/gal/downward/benchmarks/$1/$2"
+echo "end" 
+
+exit

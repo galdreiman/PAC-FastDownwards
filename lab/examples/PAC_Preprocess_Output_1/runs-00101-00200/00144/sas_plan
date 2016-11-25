@@ -1,0 +1,5 @@
+(do-grind d0)
+(do-lathe c0)
+(do-roll b0)
+(do-time-step )
+(do-immersion-paint b0 red)

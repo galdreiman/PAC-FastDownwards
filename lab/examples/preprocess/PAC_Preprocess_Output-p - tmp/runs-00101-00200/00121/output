@@ -1,0 +1,13940 @@
+begin_version
+3
+end_version
+begin_metric
+0
+end_metric
+114
+begin_variable
+var112
+-1
+2
+Atom not_blocked(seg_n1_a_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n1_a_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var118
+-1
+2
+Atom not_blocked(seg_n2_n3_1_0_86, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n2_n3_1_0_86, airplane_cfbeg)
+end_variable
+begin_variable
+var122
+-1
+2
+Atom not_blocked(seg_n2_n3_3_0_86, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n2_n3_3_0_86, airplane_cfbeg)
+end_variable
+begin_variable
+var126
+-1
+2
+Atom not_blocked(seg_n2_n3_5_0_86, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n2_n3_5_0_86, airplane_cfbeg)
+end_variable
+begin_variable
+var116
+-1
+2
+Atom not_blocked(seg_n2_n3_0_85, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n2_n3_0_85, airplane_cfbeg)
+end_variable
+begin_variable
+var136
+-1
+2
+Atom not_blocked(seg_n4_n5_2_0_86, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n4_n5_2_0_86, airplane_cfbeg)
+end_variable
+begin_variable
+var140
+-1
+2
+Atom not_blocked(seg_n4_n5_4_0_85, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n4_n5_4_0_85, airplane_cfbeg)
+end_variable
+begin_variable
+var144
+-1
+2
+Atom not_blocked(seg_n4_n5_6_0_86, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n4_n5_6_0_86, airplane_cfbeg)
+end_variable
+begin_variable
+var146
+-1
+2
+Atom not_blocked(seg_n5_n6_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n5_n6_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var154
+-1
+2
+Atom not_blocked(seg_rwy_0_1300, airplane_cfbeg)
+NegatedAtom not_blocked(seg_rwy_0_1300, airplane_cfbeg)
+end_variable
+begin_variable
+var155
+-1
+2
+Atom not_blocked(seg_rwy_0_1300, airplane_dfboy)
+NegatedAtom not_blocked(seg_rwy_0_1300, airplane_dfboy)
+end_variable
+begin_variable
+var114
+-1
+2
+Atom not_blocked(seg_n1_n2_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n1_n2_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var120
+-1
+2
+Atom not_blocked(seg_n2_n3_2_0_86, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n2_n3_2_0_86, airplane_cfbeg)
+end_variable
+begin_variable
+var124
+-1
+2
+Atom not_blocked(seg_n2_n3_4_0_85, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n2_n3_4_0_85, airplane_cfbeg)
+end_variable
+begin_variable
+var128
+-1
+2
+Atom not_blocked(seg_n2_n3_6_0_86, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n2_n3_6_0_86, airplane_cfbeg)
+end_variable
+begin_variable
+var138
+-1
+2
+Atom not_blocked(seg_n4_n5_3_0_86, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n4_n5_3_0_86, airplane_cfbeg)
+end_variable
+begin_variable
+var142
+-1
+2
+Atom not_blocked(seg_n4_n5_5_0_86, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n4_n5_5_0_86, airplane_cfbeg)
+end_variable
+begin_variable
+var132
+-1
+2
+Atom not_blocked(seg_n4_n5_0_86, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n4_n5_0_86, airplane_cfbeg)
+end_variable
+begin_variable
+var148
+-1
+2
+Atom not_blocked(seg_n6_b_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n6_b_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var134
+-1
+2
+Atom not_blocked(seg_n4_n5_1_0_85, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n4_n5_1_0_85, airplane_cfbeg)
+end_variable
+begin_variable
+var90
+-1
+2
+Atom not_blocked(seg_a_09_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_a_09_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var88
+-1
+2
+Atom not_blocked(seg_a02_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_a02_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var92
+-1
+2
+Atom not_blocked(seg_b02_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_b02_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var104
+-1
+2
+Atom not_blocked(seg_c6_c7_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_c6_c7_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var94
+-1
+2
+Atom not_blocked(seg_b_27_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_b_27_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var81
+-1
+2
+Atom not_blocked(seg_09_0_150, airplane_cfbeg)
+NegatedAtom not_blocked(seg_09_0_150, airplane_cfbeg)
+end_variable
+begin_variable
+var84
+-1
+2
+Atom not_blocked(seg_27_0_150, airplane_cfbeg)
+NegatedAtom not_blocked(seg_27_0_150, airplane_cfbeg)
+end_variable
+begin_variable
+var91
+-1
+2
+Atom not_blocked(seg_a_09_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_a_09_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var115
+-1
+2
+Atom not_blocked(seg_n1_n2_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_n1_n2_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var121
+-1
+2
+Atom not_blocked(seg_n2_n3_2_0_86, airplane_dfboy)
+NegatedAtom not_blocked(seg_n2_n3_2_0_86, airplane_dfboy)
+end_variable
+begin_variable
+var125
+-1
+2
+Atom not_blocked(seg_n2_n3_4_0_85, airplane_dfboy)
+NegatedAtom not_blocked(seg_n2_n3_4_0_85, airplane_dfboy)
+end_variable
+begin_variable
+var129
+-1
+2
+Atom not_blocked(seg_n2_n3_6_0_86, airplane_dfboy)
+NegatedAtom not_blocked(seg_n2_n3_6_0_86, airplane_dfboy)
+end_variable
+begin_variable
+var119
+-1
+2
+Atom not_blocked(seg_n2_n3_1_0_86, airplane_dfboy)
+NegatedAtom not_blocked(seg_n2_n3_1_0_86, airplane_dfboy)
+end_variable
+begin_variable
+var123
+-1
+2
+Atom not_blocked(seg_n2_n3_3_0_86, airplane_dfboy)
+NegatedAtom not_blocked(seg_n2_n3_3_0_86, airplane_dfboy)
+end_variable
+begin_variable
+var173
+-1
+2
+Atom not_occupied(seg_n2_n3_1_0_86)
+NegatedAtom not_occupied(seg_n2_n3_1_0_86)
+end_variable
+begin_variable
+var174
+-1
+2
+Atom not_occupied(seg_n2_n3_2_0_86)
+NegatedAtom not_occupied(seg_n2_n3_2_0_86)
+end_variable
+begin_variable
+var175
+-1
+2
+Atom not_occupied(seg_n2_n3_3_0_86)
+NegatedAtom not_occupied(seg_n2_n3_3_0_86)
+end_variable
+begin_variable
+var176
+-1
+2
+Atom not_occupied(seg_n2_n3_4_0_85)
+NegatedAtom not_occupied(seg_n2_n3_4_0_85)
+end_variable
+begin_variable
+var127
+-1
+2
+Atom not_blocked(seg_n2_n3_5_0_86, airplane_dfboy)
+NegatedAtom not_blocked(seg_n2_n3_5_0_86, airplane_dfboy)
+end_variable
+begin_variable
+var177
+-1
+2
+Atom not_occupied(seg_n2_n3_5_0_86)
+NegatedAtom not_occupied(seg_n2_n3_5_0_86)
+end_variable
+begin_variable
+var178
+-1
+2
+Atom not_occupied(seg_n2_n3_6_0_86)
+NegatedAtom not_occupied(seg_n2_n3_6_0_86)
+end_variable
+begin_variable
+var117
+-1
+2
+Atom not_blocked(seg_n2_n3_0_85, airplane_dfboy)
+NegatedAtom not_blocked(seg_n2_n3_0_85, airplane_dfboy)
+end_variable
+begin_variable
+var172
+-1
+2
+Atom not_occupied(seg_n2_n3_0_85)
+NegatedAtom not_occupied(seg_n2_n3_0_85)
+end_variable
+begin_variable
+var141
+-1
+2
+Atom not_blocked(seg_n4_n5_4_0_85, airplane_dfboy)
+NegatedAtom not_blocked(seg_n4_n5_4_0_85, airplane_dfboy)
+end_variable
+begin_variable
+var145
+-1
+2
+Atom not_blocked(seg_n4_n5_6_0_86, airplane_dfboy)
+NegatedAtom not_blocked(seg_n4_n5_6_0_86, airplane_dfboy)
+end_variable
+begin_variable
+var147
+-1
+2
+Atom not_blocked(seg_n5_n6_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_n5_n6_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var95
+-1
+2
+Atom not_blocked(seg_b_27_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_b_27_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var82
+-1
+2
+Atom not_blocked(seg_09_0_150, airplane_dfboy)
+NegatedAtom not_blocked(seg_09_0_150, airplane_dfboy)
+end_variable
+begin_variable
+var113
+-1
+2
+Atom not_blocked(seg_n1_a_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_n1_a_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var159
+-1
+2
+Atom not_occupied(seg_a_09_0_100)
+NegatedAtom not_occupied(seg_a_09_0_100)
+end_variable
+begin_variable
+var170
+-1
+2
+Atom not_occupied(seg_n1_a_0_100)
+NegatedAtom not_occupied(seg_n1_a_0_100)
+end_variable
+begin_variable
+var171
+-1
+2
+Atom not_occupied(seg_n1_n2_0_100)
+NegatedAtom not_occupied(seg_n1_n2_0_100)
+end_variable
+begin_variable
+var143
+-1
+2
+Atom not_blocked(seg_n4_n5_5_0_86, airplane_dfboy)
+NegatedAtom not_blocked(seg_n4_n5_5_0_86, airplane_dfboy)
+end_variable
+begin_variable
+var133
+-1
+2
+Atom not_blocked(seg_n4_n5_0_86, airplane_dfboy)
+NegatedAtom not_blocked(seg_n4_n5_0_86, airplane_dfboy)
+end_variable
+begin_variable
+var185
+-1
+2
+Atom not_occupied(seg_n4_n5_5_0_86)
+NegatedAtom not_occupied(seg_n4_n5_5_0_86)
+end_variable
+begin_variable
+var186
+-1
+2
+Atom not_occupied(seg_n4_n5_6_0_86)
+NegatedAtom not_occupied(seg_n4_n5_6_0_86)
+end_variable
+begin_variable
+var180
+-1
+2
+Atom not_occupied(seg_n4_n5_0_86)
+NegatedAtom not_occupied(seg_n4_n5_0_86)
+end_variable
+begin_variable
+var187
+-1
+2
+Atom not_occupied(seg_n5_n6_0_100)
+NegatedAtom not_occupied(seg_n5_n6_0_100)
+end_variable
+begin_variable
+var149
+-1
+2
+Atom not_blocked(seg_n6_b_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_n6_b_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var188
+-1
+2
+Atom not_occupied(seg_n6_b_0_100)
+NegatedAtom not_occupied(seg_n6_b_0_100)
+end_variable
+begin_variable
+var161
+-1
+2
+Atom not_occupied(seg_b_27_0_100)
+NegatedAtom not_occupied(seg_b_27_0_100)
+end_variable
+begin_variable
+var85
+-1
+2
+Atom not_blocked(seg_27_0_150, airplane_dfboy)
+NegatedAtom not_blocked(seg_27_0_150, airplane_dfboy)
+end_variable
+begin_variable
+var139
+-1
+2
+Atom not_blocked(seg_n4_n5_3_0_86, airplane_dfboy)
+NegatedAtom not_blocked(seg_n4_n5_3_0_86, airplane_dfboy)
+end_variable
+begin_variable
+var184
+-1
+2
+Atom not_occupied(seg_n4_n5_4_0_85)
+NegatedAtom not_occupied(seg_n4_n5_4_0_85)
+end_variable
+begin_variable
+var89
+-1
+2
+Atom not_blocked(seg_a02_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_a02_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var137
+-1
+2
+Atom not_blocked(seg_n4_n5_2_0_86, airplane_dfboy)
+NegatedAtom not_blocked(seg_n4_n5_2_0_86, airplane_dfboy)
+end_variable
+begin_variable
+var183
+-1
+2
+Atom not_occupied(seg_n4_n5_3_0_86)
+NegatedAtom not_occupied(seg_n4_n5_3_0_86)
+end_variable
+begin_variable
+var191
+-1
+2
+Atom not_occupied(seg_rwy_0_1300)
+NegatedAtom not_occupied(seg_rwy_0_1300)
+end_variable
+begin_variable
+var182
+-1
+2
+Atom not_occupied(seg_n4_n5_2_0_86)
+NegatedAtom not_occupied(seg_n4_n5_2_0_86)
+end_variable
+begin_variable
+var135
+-1
+2
+Atom not_blocked(seg_n4_n5_1_0_85, airplane_dfboy)
+NegatedAtom not_blocked(seg_n4_n5_1_0_85, airplane_dfboy)
+end_variable
+begin_variable
+var179
+-1
+2
+Atom not_occupied(seg_n3_n_0_100)
+NegatedAtom not_occupied(seg_n3_n_0_100)
+end_variable
+begin_variable
+var158
+-1
+2
+Atom not_occupied(seg_a02_0_100)
+NegatedAtom not_occupied(seg_a02_0_100)
+end_variable
+begin_variable
+var156
+-1
+2
+Atom not_occupied(seg_09_0_150)
+NegatedAtom not_occupied(seg_09_0_150)
+end_variable
+begin_variable
+var181
+-1
+2
+Atom not_occupied(seg_n4_n5_1_0_85)
+NegatedAtom not_occupied(seg_n4_n5_1_0_85)
+end_variable
+begin_variable
+var157
+-1
+2
+Atom not_occupied(seg_27_0_150)
+NegatedAtom not_occupied(seg_27_0_150)
+end_variable
+begin_variable
+var105
+-1
+2
+Atom not_blocked(seg_c6_c7_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_c6_c7_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var150
+-1
+2
+Atom not_blocked(seg_n_c_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n_c_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var130
+-1
+2
+Atom not_blocked(seg_n3_n_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n3_n_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var152
+-1
+2
+Atom not_blocked(seg_n_n4_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_n_n4_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var190
+-1
+2
+Atom not_occupied(seg_n_n4_0_100)
+NegatedAtom not_occupied(seg_n_n4_0_100)
+end_variable
+begin_variable
+var108
+-1
+2
+Atom not_blocked(seg_c_c2_1_0_83, airplane_cfbeg)
+NegatedAtom not_blocked(seg_c_c2_1_0_83, airplane_cfbeg)
+end_variable
+begin_variable
+var93
+-1
+2
+Atom not_blocked(seg_b02_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_b02_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var166
+-1
+2
+Atom not_occupied(seg_c6_c7_0_100)
+NegatedAtom not_occupied(seg_c6_c7_0_100)
+end_variable
+begin_variable
+var110
+-1
+2
+Atom not_blocked(seg_c_c2_2_0_83, airplane_cfbeg)
+NegatedAtom not_blocked(seg_c_c2_2_0_83, airplane_cfbeg)
+end_variable
+begin_variable
+var77
+-1
+2
+Atom facing(airplane_cfbeg, north)
+Atom facing(airplane_cfbeg, south)
+end_variable
+begin_variable
+var153
+-1
+2
+Atom not_blocked(seg_n_n4_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_n_n4_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var160
+-1
+2
+Atom not_occupied(seg_b02_0_100)
+NegatedAtom not_occupied(seg_b02_0_100)
+end_variable
+begin_variable
+var131
+-1
+2
+Atom not_blocked(seg_n3_n_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_n3_n_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var109
+-1
+2
+Atom not_blocked(seg_c_c2_1_0_83, airplane_dfboy)
+NegatedAtom not_blocked(seg_c_c2_1_0_83, airplane_dfboy)
+end_variable
+begin_variable
+var111
+-1
+2
+Atom not_blocked(seg_c_c2_2_0_83, airplane_dfboy)
+NegatedAtom not_blocked(seg_c_c2_2_0_83, airplane_dfboy)
+end_variable
+begin_variable
+var151
+-1
+2
+Atom not_blocked(seg_n_c_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_n_c_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var189
+-1
+2
+Atom not_occupied(seg_n_c_0_100)
+NegatedAtom not_occupied(seg_n_c_0_100)
+end_variable
+begin_variable
+var168
+-1
+2
+Atom not_occupied(seg_c_c2_1_0_83)
+NegatedAtom not_occupied(seg_c_c2_1_0_83)
+end_variable
+begin_variable
+var106
+-1
+2
+Atom not_blocked(seg_c_c2_0_84, airplane_cfbeg)
+NegatedAtom not_blocked(seg_c_c2_0_84, airplane_cfbeg)
+end_variable
+begin_variable
+var169
+-1
+2
+Atom not_occupied(seg_c_c2_2_0_83)
+NegatedAtom not_occupied(seg_c_c2_2_0_83)
+end_variable
+begin_variable
+var78
+-1
+2
+Atom facing(airplane_dfboy, north)
+Atom facing(airplane_dfboy, south)
+end_variable
+begin_variable
+var167
+-1
+2
+Atom not_occupied(seg_c_c2_0_84)
+NegatedAtom not_occupied(seg_c_c2_0_84)
+end_variable
+begin_variable
+var107
+-1
+2
+Atom not_blocked(seg_c_c2_0_84, airplane_dfboy)
+NegatedAtom not_blocked(seg_c_c2_0_84, airplane_dfboy)
+end_variable
+begin_variable
+var96
+-1
+2
+Atom not_blocked(seg_c4_c5_0_50, airplane_cfbeg)
+NegatedAtom not_blocked(seg_c4_c5_0_50, airplane_cfbeg)
+end_variable
+begin_variable
+var98
+-1
+2
+Atom not_blocked(seg_c5_c6_0_50, airplane_cfbeg)
+NegatedAtom not_blocked(seg_c5_c6_0_50, airplane_cfbeg)
+end_variable
+begin_variable
+var164
+-1
+2
+Atom not_occupied(seg_c5_c_a02_0_100)
+NegatedAtom not_occupied(seg_c5_c_a02_0_100)
+end_variable
+begin_variable
+var100
+-1
+2
+Atom not_blocked(seg_c5_c_a02_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_c5_c_a02_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var102
+-1
+2
+Atom not_blocked(seg_c5_c_b02_0_100, airplane_cfbeg)
+NegatedAtom not_blocked(seg_c5_c_b02_0_100, airplane_cfbeg)
+end_variable
+begin_variable
+var165
+-1
+2
+Atom not_occupied(seg_c5_c_b02_0_100)
+NegatedAtom not_occupied(seg_c5_c_b02_0_100)
+end_variable
+begin_variable
+var162
+-1
+2
+Atom not_occupied(seg_c4_c5_0_50)
+NegatedAtom not_occupied(seg_c4_c5_0_50)
+end_variable
+begin_variable
+var97
+-1
+2
+Atom not_blocked(seg_c4_c5_0_50, airplane_dfboy)
+NegatedAtom not_blocked(seg_c4_c5_0_50, airplane_dfboy)
+end_variable
+begin_variable
+var163
+-1
+2
+Atom not_occupied(seg_c5_c6_0_50)
+NegatedAtom not_occupied(seg_c5_c6_0_50)
+end_variable
+begin_variable
+var101
+-1
+2
+Atom not_blocked(seg_c5_c_a02_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_c5_c_a02_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var99
+-1
+2
+Atom not_blocked(seg_c5_c6_0_50, airplane_dfboy)
+NegatedAtom not_blocked(seg_c5_c6_0_50, airplane_dfboy)
+end_variable
+begin_variable
+var103
+-1
+2
+Atom not_blocked(seg_c5_c_b02_0_100, airplane_dfboy)
+NegatedAtom not_blocked(seg_c5_c_b02_0_100, airplane_dfboy)
+end_variable
+begin_variable
+var0
+-1
+38
+Atom airborne(airplane_cfbeg, seg_09_0_150)
+Atom airborne(airplane_cfbeg, seg_27_0_150)
+Atom at-segment(airplane_cfbeg, seg_09_0_150)
+Atom at-segment(airplane_cfbeg, seg_27_0_150)
+Atom at-segment(airplane_cfbeg, seg_a02_0_100)
+Atom at-segment(airplane_cfbeg, seg_a_09_0_100)
+Atom at-segment(airplane_cfbeg, seg_b02_0_100)
+Atom at-segment(airplane_cfbeg, seg_b_27_0_100)
+Atom at-segment(airplane_cfbeg, seg_c4_c5_0_50)
+Atom at-segment(airplane_cfbeg, seg_c5_c6_0_50)
+Atom at-segment(airplane_cfbeg, seg_c5_c_a02_0_100)
+Atom at-segment(airplane_cfbeg, seg_c5_c_b02_0_100)
+Atom at-segment(airplane_cfbeg, seg_c6_c7_0_100)
+Atom at-segment(airplane_cfbeg, seg_c_c2_0_84)
+Atom at-segment(airplane_cfbeg, seg_c_c2_1_0_83)
+Atom at-segment(airplane_cfbeg, seg_c_c2_2_0_83)
+Atom at-segment(airplane_cfbeg, seg_n1_a_0_100)
+Atom at-segment(airplane_cfbeg, seg_n1_n2_0_100)
+Atom at-segment(airplane_cfbeg, seg_n2_n3_0_85)
+Atom at-segment(airplane_cfbeg, seg_n2_n3_1_0_86)
+Atom at-segment(airplane_cfbeg, seg_n2_n3_2_0_86)
+Atom at-segment(airplane_cfbeg, seg_n2_n3_3_0_86)
+Atom at-segment(airplane_cfbeg, seg_n2_n3_4_0_85)
+Atom at-segment(airplane_cfbeg, seg_n2_n3_5_0_86)
+Atom at-segment(airplane_cfbeg, seg_n2_n3_6_0_86)
+Atom at-segment(airplane_cfbeg, seg_n3_n_0_100)
+Atom at-segment(airplane_cfbeg, seg_n4_n5_0_86)
+Atom at-segment(airplane_cfbeg, seg_n4_n5_1_0_85)
+Atom at-segment(airplane_cfbeg, seg_n4_n5_2_0_86)
+Atom at-segment(airplane_cfbeg, seg_n4_n5_3_0_86)
+Atom at-segment(airplane_cfbeg, seg_n4_n5_4_0_85)
+Atom at-segment(airplane_cfbeg, seg_n4_n5_5_0_86)
+Atom at-segment(airplane_cfbeg, seg_n4_n5_6_0_86)
+Atom at-segment(airplane_cfbeg, seg_n5_n6_0_100)
+Atom at-segment(airplane_cfbeg, seg_n6_b_0_100)
+Atom at-segment(airplane_cfbeg, seg_n_c_0_100)
+Atom at-segment(airplane_cfbeg, seg_n_n4_0_100)
+Atom at-segment(airplane_cfbeg, seg_rwy_0_1300)
+end_variable
+begin_variable
+var80
+-1
+5
+Atom is-moving(airplane_dfboy)
+Atom is-parked(airplane_dfboy, seg_a02_0_100)
+Atom is-parked(airplane_dfboy, seg_b02_0_100)
+Atom is-pushing(airplane_dfboy)
+<none of those>
+end_variable
+begin_variable
+var79
+-1
+4
+Atom is-moving(airplane_cfbeg)
+Atom is-parked(airplane_cfbeg, seg_a02_0_100)
+Atom is-parked(airplane_cfbeg, seg_b02_0_100)
+<none of those>
+end_variable
+begin_variable
+var1
+-1
+38
+Atom airborne(airplane_dfboy, seg_09_0_150)
+Atom airborne(airplane_dfboy, seg_27_0_150)
+Atom at-segment(airplane_dfboy, seg_09_0_150)
+Atom at-segment(airplane_dfboy, seg_27_0_150)
+Atom at-segment(airplane_dfboy, seg_a02_0_100)
+Atom at-segment(airplane_dfboy, seg_a_09_0_100)
+Atom at-segment(airplane_dfboy, seg_b02_0_100)
+Atom at-segment(airplane_dfboy, seg_b_27_0_100)
+Atom at-segment(airplane_dfboy, seg_c4_c5_0_50)
+Atom at-segment(airplane_dfboy, seg_c5_c6_0_50)
+Atom at-segment(airplane_dfboy, seg_c5_c_a02_0_100)
+Atom at-segment(airplane_dfboy, seg_c5_c_b02_0_100)
+Atom at-segment(airplane_dfboy, seg_c6_c7_0_100)
+Atom at-segment(airplane_dfboy, seg_c_c2_0_84)
+Atom at-segment(airplane_dfboy, seg_c_c2_1_0_83)
+Atom at-segment(airplane_dfboy, seg_c_c2_2_0_83)
+Atom at-segment(airplane_dfboy, seg_n1_a_0_100)
+Atom at-segment(airplane_dfboy, seg_n1_n2_0_100)
+Atom at-segment(airplane_dfboy, seg_n2_n3_0_85)
+Atom at-segment(airplane_dfboy, seg_n2_n3_1_0_86)
+Atom at-segment(airplane_dfboy, seg_n2_n3_2_0_86)
+Atom at-segment(airplane_dfboy, seg_n2_n3_3_0_86)
+Atom at-segment(airplane_dfboy, seg_n2_n3_4_0_85)
+Atom at-segment(airplane_dfboy, seg_n2_n3_5_0_86)
+Atom at-segment(airplane_dfboy, seg_n2_n3_6_0_86)
+Atom at-segment(airplane_dfboy, seg_n3_n_0_100)
+Atom at-segment(airplane_dfboy, seg_n4_n5_0_86)
+Atom at-segment(airplane_dfboy, seg_n4_n5_1_0_85)
+Atom at-segment(airplane_dfboy, seg_n4_n5_2_0_86)
+Atom at-segment(airplane_dfboy, seg_n4_n5_3_0_86)
+Atom at-segment(airplane_dfboy, seg_n4_n5_4_0_85)
+Atom at-segment(airplane_dfboy, seg_n4_n5_5_0_86)
+Atom at-segment(airplane_dfboy, seg_n4_n5_6_0_86)
+Atom at-segment(airplane_dfboy, seg_n5_n6_0_100)
+Atom at-segment(airplane_dfboy, seg_n6_b_0_100)
+Atom at-segment(airplane_dfboy, seg_n_c_0_100)
+Atom at-segment(airplane_dfboy, seg_n_n4_0_100)
+Atom at-segment(airplane_dfboy, seg_rwy_0_1300)
+end_variable
+38
+begin_mutex_group
+3
+110 0
+110 1
+112 0
+end_mutex_group
+begin_mutex_group
+4
+113 0
+113 1
+111 0
+111 3
+end_mutex_group
+begin_mutex_group
+3
+110 2
+113 2
+72 0
+end_mutex_group
+begin_mutex_group
+3
+110 3
+113 3
+74 0
+end_mutex_group
+begin_mutex_group
+3
+110 4
+113 4
+71 0
+end_mutex_group
+begin_mutex_group
+3
+110 5
+113 5
+49 0
+end_mutex_group
+begin_mutex_group
+3
+110 6
+113 6
+86 0
+end_mutex_group
+begin_mutex_group
+3
+110 7
+113 7
+60 0
+end_mutex_group
+begin_mutex_group
+3
+110 8
+113 8
+104 0
+end_mutex_group
+begin_mutex_group
+3
+110 9
+113 9
+106 0
+end_mutex_group
+begin_mutex_group
+3
+110 10
+113 10
+100 0
+end_mutex_group
+begin_mutex_group
+3
+110 11
+113 11
+103 0
+end_mutex_group
+begin_mutex_group
+3
+110 12
+113 12
+82 0
+end_mutex_group
+begin_mutex_group
+3
+110 13
+113 13
+96 0
+end_mutex_group
+begin_mutex_group
+3
+110 14
+113 14
+92 0
+end_mutex_group
+begin_mutex_group
+3
+110 15
+113 15
+94 0
+end_mutex_group
+begin_mutex_group
+3
+110 16
+113 16
+50 0
+end_mutex_group
+begin_mutex_group
+3
+110 17
+113 17
+51 0
+end_mutex_group
+begin_mutex_group
+3
+110 18
+113 18
+42 0
+end_mutex_group
+begin_mutex_group
+3
+110 19
+113 19
+34 0
+end_mutex_group
+begin_mutex_group
+3
+110 20
+113 20
+35 0
+end_mutex_group
+begin_mutex_group
+3
+110 21
+113 21
+36 0
+end_mutex_group
+begin_mutex_group
+3
+110 22
+113 22
+37 0
+end_mutex_group
+begin_mutex_group
+3
+110 23
+113 23
+39 0
+end_mutex_group
+begin_mutex_group
+3
+110 24
+113 24
+40 0
+end_mutex_group
+begin_mutex_group
+3
+110 25
+113 25
+70 0
+end_mutex_group
+begin_mutex_group
+3
+110 26
+113 26
+56 0
+end_mutex_group
+begin_mutex_group
+3
+110 27
+113 27
+73 0
+end_mutex_group
+begin_mutex_group
+3
+110 28
+113 28
+68 0
+end_mutex_group
+begin_mutex_group
+3
+110 29
+113 29
+66 0
+end_mutex_group
+begin_mutex_group
+3
+110 30
+113 30
+63 0
+end_mutex_group
+begin_mutex_group
+3
+110 31
+113 31
+54 0
+end_mutex_group
+begin_mutex_group
+3
+110 32
+113 32
+55 0
+end_mutex_group
+begin_mutex_group
+3
+110 33
+113 33
+57 0
+end_mutex_group
+begin_mutex_group
+3
+110 34
+113 34
+59 0
+end_mutex_group
+begin_mutex_group
+3
+110 35
+113 35
+91 0
+end_mutex_group
+begin_mutex_group
+3
+110 36
+113 36
+79 0
+end_mutex_group
+begin_mutex_group
+3
+110 37
+113 37
+67 0
+end_mutex_group
+begin_state
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+37
+3
+0
+6
+end_state
+begin_goal
+2
+112 1
+113 0
+end_goal
+171
+begin_operator
+move_seg_09_0_150_seg_rwy_0_1300_south_south_medium airplane_cfbeg
+3
+84 1
+112 0
+10 0
+5
+0 110 2 37
+0 20 -1 0
+0 9 0 1
+0 72 -1 0
+0 67 0 1
+0
+end_operator
+begin_operator
+move_seg_09_0_150_seg_rwy_0_1300_south_south_medium airplane_dfboy
+3
+95 1
+111 0
+9 0
+5
+0 113 2 37
+0 27 -1 0
+0 10 0 1
+0 72 -1 0
+0 67 0 1
+0
+end_operator
+begin_operator
+move_seg_27_0_150_seg_b_27_0_100_south_north_medium airplane_cfbeg
+2
+112 0
+46 0
+7
+0 110 3 7
+0 84 1 0
+0 25 -1 0
+0 24 0 1
+0 9 -1 0
+0 74 -1 0
+0 60 0 1
+0
+end_operator
+begin_operator
+move_seg_27_0_150_seg_b_27_0_100_south_north_medium airplane_dfboy
+2
+111 0
+24 0
+7
+0 113 3 7
+0 95 1 0
+0 47 -1 0
+0 46 0 1
+0 10 -1 0
+0 74 -1 0
+0 60 0 1
+0
+end_operator
+begin_operator
+move_seg_a02_0_100_seg_c5_c_a02_0_100_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+107 0
+4
+0 110 4 10
+0 101 0 1
+0 71 -1 0
+0 100 0 1
+0
+end_operator
+begin_operator
+move_seg_a02_0_100_seg_c5_c_a02_0_100_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+101 0
+4
+0 113 4 10
+0 107 0 1
+0 71 -1 0
+0 100 0 1
+0
+end_operator
+begin_operator
+move_seg_a_09_0_100_seg_09_0_150_south_south_medium airplane_cfbeg
+3
+84 1
+112 0
+47 0
+5
+0 110 5 2
+0 25 0 1
+0 0 -1 0
+0 72 0 1
+0 49 -1 0
+0
+end_operator
+begin_operator
+move_seg_a_09_0_100_seg_09_0_150_south_south_medium airplane_dfboy
+3
+95 1
+111 0
+25 0
+5
+0 113 5 2
+0 47 0 1
+0 48 -1 0
+0 72 0 1
+0 49 -1 0
+0
+end_operator
+begin_operator
+move_seg_b02_0_100_seg_c5_c_b02_0_100_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+109 0
+4
+0 110 6 11
+0 102 0 1
+0 86 -1 0
+0 103 0 1
+0
+end_operator
+begin_operator
+move_seg_b02_0_100_seg_c5_c_b02_0_100_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+102 0
+4
+0 113 6 11
+0 109 0 1
+0 86 -1 0
+0 103 0 1
+0
+end_operator
+begin_operator
+move_seg_b_27_0_100_seg_n6_b_0_100_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+58 0
+5
+0 110 7 34
+0 26 -1 0
+0 18 0 1
+0 60 -1 0
+0 59 0 1
+0
+end_operator
+begin_operator
+move_seg_b_27_0_100_seg_n6_b_0_100_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+18 0
+5
+0 113 7 34
+0 61 -1 0
+0 58 0 1
+0 60 -1 0
+0 59 0 1
+0
+end_operator
+begin_operator
+move_seg_c4_c5_0_50_seg_c5_c_a02_0_100_south_south_medium airplane_cfbeg
+5
+84 1
+112 0
+107 0
+106 0
+103 0
+7
+0 110 8 10
+0 99 -1 1
+0 101 0 1
+0 102 -1 1
+0 93 -1 0
+0 104 -1 0
+0 100 0 1
+0
+end_operator
+begin_operator
+move_seg_c4_c5_0_50_seg_c5_c_a02_0_100_south_south_medium airplane_dfboy
+5
+95 1
+111 0
+101 0
+106 0
+103 0
+7
+0 113 8 10
+0 108 -1 1
+0 107 0 1
+0 109 -1 1
+0 97 -1 0
+0 104 -1 0
+0 100 0 1
+0
+end_operator
+begin_operator
+move_seg_c4_c5_0_50_seg_c5_c_b02_0_100_south_south_medium airplane_cfbeg
+5
+84 1
+112 0
+109 0
+106 0
+100 0
+7
+0 110 8 11
+0 99 -1 1
+0 101 -1 1
+0 102 0 1
+0 93 -1 0
+0 104 -1 0
+0 103 0 1
+0
+end_operator
+begin_operator
+move_seg_c4_c5_0_50_seg_c5_c_b02_0_100_south_south_medium airplane_dfboy
+5
+95 1
+111 0
+102 0
+106 0
+100 0
+7
+0 113 8 11
+0 108 -1 1
+0 107 -1 1
+0 109 0 1
+0 97 -1 0
+0 104 -1 0
+0 103 0 1
+0
+end_operator
+begin_operator
+move_seg_c4_c5_0_50_seg_c_c2_0_84_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+97 0
+7
+0 110 8 13
+0 99 -1 0
+0 101 -1 0
+0 102 -1 0
+0 93 0 1
+0 104 -1 0
+0 96 0 1
+0
+end_operator
+begin_operator
+move_seg_c4_c5_0_50_seg_c_c2_0_84_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+93 0
+7
+0 113 8 13
+0 108 -1 0
+0 107 -1 0
+0 109 -1 0
+0 97 0 1
+0 104 -1 0
+0 96 0 1
+0
+end_operator
+begin_operator
+move_seg_c5_c6_0_50_seg_c4_c5_0_50_north_north_medium airplane_cfbeg
+5
+84 0
+112 0
+105 0
+100 0
+103 0
+7
+0 110 9 8
+0 98 0 1
+0 101 -1 1
+0 102 -1 1
+0 23 -1 0
+0 104 0 1
+0 106 -1 0
+0
+end_operator
+begin_operator
+move_seg_c5_c6_0_50_seg_c4_c5_0_50_north_north_medium airplane_dfboy
+5
+95 0
+111 0
+98 0
+100 0
+103 0
+7
+0 113 9 8
+0 105 0 1
+0 107 -1 1
+0 109 -1 1
+0 75 -1 0
+0 104 0 1
+0 106 -1 0
+0
+end_operator
+begin_operator
+move_seg_c5_c6_0_50_seg_c6_c7_0_100_south_south_medium airplane_cfbeg
+3
+84 1
+112 0
+75 0
+7
+0 110 9 12
+0 98 -1 0
+0 101 -1 0
+0 102 -1 0
+0 23 0 1
+0 106 -1 0
+0 82 0 1
+0
+end_operator
+begin_operator
+move_seg_c5_c6_0_50_seg_c6_c7_0_100_south_south_medium airplane_dfboy
+3
+95 1
+111 0
+23 0
+7
+0 113 9 12
+0 105 -1 0
+0 107 -1 0
+0 109 -1 0
+0 75 0 1
+0 106 -1 0
+0 82 0 1
+0
+end_operator
+begin_operator
+move_seg_c5_c_a02_0_100_seg_a02_0_100_south_south_medium airplane_cfbeg
+3
+84 1
+112 0
+64 0
+7
+0 110 10 4
+0 21 0 1
+0 98 -1 0
+0 99 -1 0
+0 102 -1 0
+0 71 0 1
+0 100 -1 0
+0
+end_operator
+begin_operator
+move_seg_c5_c_a02_0_100_seg_a02_0_100_south_south_medium airplane_dfboy
+3
+95 1
+111 0
+21 0
+7
+0 113 10 4
+0 64 0 1
+0 105 -1 0
+0 108 -1 0
+0 109 -1 0
+0 71 0 1
+0 100 -1 0
+0
+end_operator
+begin_operator
+move_seg_c5_c_a02_0_100_seg_c5_c6_0_50_north_south_medium airplane_cfbeg
+4
+112 0
+108 0
+104 0
+103 0
+8
+0 110 10 9
+0 84 0 1
+0 21 -1 0
+0 98 -1 1
+0 99 0 1
+0 102 -1 1
+0 106 0 1
+0 100 -1 0
+0
+end_operator
+begin_operator
+move_seg_c5_c_a02_0_100_seg_c5_c6_0_50_north_south_medium airplane_dfboy
+4
+111 0
+99 0
+104 0
+103 0
+8
+0 113 10 9
+0 95 0 1
+0 64 -1 0
+0 105 -1 1
+0 108 0 1
+0 109 -1 1
+0 106 0 1
+0 100 -1 0
+0
+end_operator
+begin_operator
+move_seg_c5_c_b02_0_100_seg_b02_0_100_south_south_medium airplane_cfbeg
+3
+84 1
+112 0
+81 0
+7
+0 110 11 6
+0 22 0 1
+0 98 -1 0
+0 99 -1 0
+0 101 -1 0
+0 86 0 1
+0 103 -1 0
+0
+end_operator
+begin_operator
+move_seg_c5_c_b02_0_100_seg_b02_0_100_south_south_medium airplane_dfboy
+3
+95 1
+111 0
+22 0
+7
+0 113 11 6
+0 81 0 1
+0 105 -1 0
+0 108 -1 0
+0 107 -1 0
+0 86 0 1
+0 103 -1 0
+0
+end_operator
+begin_operator
+move_seg_c5_c_b02_0_100_seg_c5_c6_0_50_north_south_medium airplane_cfbeg
+4
+112 0
+108 0
+104 0
+100 0
+8
+0 110 11 9
+0 84 0 1
+0 22 -1 0
+0 98 -1 1
+0 99 0 1
+0 101 -1 1
+0 106 0 1
+0 103 -1 0
+0
+end_operator
+begin_operator
+move_seg_c5_c_b02_0_100_seg_c5_c6_0_50_north_south_medium airplane_dfboy
+4
+111 0
+99 0
+104 0
+100 0
+8
+0 113 11 9
+0 95 0 1
+0 81 -1 0
+0 105 -1 1
+0 108 0 1
+0 107 -1 1
+0 106 0 1
+0 103 -1 0
+0
+end_operator
+begin_operator
+move_seg_c6_c7_0_100_seg_c5_c6_0_50_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+108 0
+4
+0 110 12 9
+0 99 0 1
+0 106 0 1
+0 82 -1 0
+0
+end_operator
+begin_operator
+move_seg_c6_c7_0_100_seg_c5_c6_0_50_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+99 0
+4
+0 113 12 9
+0 108 0 1
+0 106 0 1
+0 82 -1 0
+0
+end_operator
+begin_operator
+move_seg_c_c2_0_84_seg_c4_c5_0_50_south_south_medium airplane_cfbeg
+3
+84 1
+112 0
+105 0
+5
+0 110 13 8
+0 98 0 1
+0 83 -1 0
+0 104 0 1
+0 96 -1 0
+0
+end_operator
+begin_operator
+move_seg_c_c2_0_84_seg_c4_c5_0_50_south_south_medium airplane_dfboy
+3
+95 1
+111 0
+98 0
+5
+0 113 13 8
+0 105 0 1
+0 89 -1 0
+0 104 0 1
+0 96 -1 0
+0
+end_operator
+begin_operator
+move_seg_c_c2_0_84_seg_c_c2_2_0_83_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+89 0
+5
+0 110 13 15
+0 98 -1 0
+0 83 0 1
+0 96 -1 0
+0 94 0 1
+0
+end_operator
+begin_operator
+move_seg_c_c2_0_84_seg_c_c2_2_0_83_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+83 0
+5
+0 113 13 15
+0 105 -1 0
+0 89 0 1
+0 96 -1 0
+0 94 0 1
+0
+end_operator
+begin_operator
+move_seg_c_c2_1_0_83_seg_c_c2_2_0_83_south_south_medium airplane_cfbeg
+3
+84 1
+112 0
+89 0
+5
+0 110 14 15
+0 83 0 1
+0 76 -1 0
+0 92 -1 0
+0 94 0 1
+0
+end_operator
+begin_operator
+move_seg_c_c2_1_0_83_seg_c_c2_2_0_83_south_south_medium airplane_dfboy
+3
+95 1
+111 0
+83 0
+5
+0 113 14 15
+0 89 0 1
+0 90 -1 0
+0 92 -1 0
+0 94 0 1
+0
+end_operator
+begin_operator
+move_seg_c_c2_1_0_83_seg_n_c_0_100_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+90 0
+5
+0 110 14 35
+0 83 -1 0
+0 76 0 1
+0 92 -1 0
+0 91 0 1
+0
+end_operator
+begin_operator
+move_seg_c_c2_1_0_83_seg_n_c_0_100_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+76 0
+5
+0 113 14 35
+0 89 -1 0
+0 90 0 1
+0 92 -1 0
+0 91 0 1
+0
+end_operator
+begin_operator
+move_seg_c_c2_2_0_83_seg_c_c2_0_84_south_south_medium airplane_cfbeg
+3
+84 1
+112 0
+97 0
+5
+0 110 15 13
+0 93 0 1
+0 80 -1 0
+0 96 0 1
+0 94 -1 0
+0
+end_operator
+begin_operator
+move_seg_c_c2_2_0_83_seg_c_c2_0_84_south_south_medium airplane_dfboy
+3
+95 1
+111 0
+93 0
+5
+0 113 15 13
+0 97 0 1
+0 88 -1 0
+0 96 0 1
+0 94 -1 0
+0
+end_operator
+begin_operator
+move_seg_c_c2_2_0_83_seg_c_c2_1_0_83_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+88 0
+5
+0 110 15 14
+0 93 -1 0
+0 80 0 1
+0 92 0 1
+0 94 -1 0
+0
+end_operator
+begin_operator
+move_seg_c_c2_2_0_83_seg_c_c2_1_0_83_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+80 0
+5
+0 113 15 14
+0 97 -1 0
+0 88 0 1
+0 92 0 1
+0 94 -1 0
+0
+end_operator
+begin_operator
+move_seg_n1_a_0_100_seg_a_09_0_100_south_south_medium airplane_cfbeg
+3
+84 1
+112 0
+27 0
+5
+0 110 16 5
+0 20 0 1
+0 11 -1 0
+0 49 0 1
+0 50 -1 0
+0
+end_operator
+begin_operator
+move_seg_n1_a_0_100_seg_a_09_0_100_south_south_medium airplane_dfboy
+3
+95 1
+111 0
+20 0
+5
+0 113 16 5
+0 27 0 1
+0 28 -1 0
+0 49 0 1
+0 50 -1 0
+0
+end_operator
+begin_operator
+move_seg_n1_n2_0_100_seg_n1_a_0_100_north_south_medium airplane_cfbeg
+2
+112 0
+48 0
+6
+0 110 17 16
+0 84 0 1
+0 0 0 1
+0 1 -1 0
+0 50 0 1
+0 51 -1 0
+0
+end_operator
+begin_operator
+move_seg_n1_n2_0_100_seg_n1_a_0_100_north_south_medium airplane_dfboy
+2
+111 0
+0 0
+6
+0 113 17 16
+0 95 0 1
+0 48 0 1
+0 32 -1 0
+0 50 0 1
+0 51 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_0_85_seg_n2_n3_6_0_86_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+31 0
+5
+0 110 18 24
+0 14 0 1
+0 77 -1 0
+0 42 -1 0
+0 40 0 1
+0
+end_operator
+begin_operator
+move_seg_n2_n3_0_85_seg_n2_n3_6_0_86_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+14 0
+5
+0 113 18 24
+0 31 0 1
+0 87 -1 0
+0 42 -1 0
+0 40 0 1
+0
+end_operator
+begin_operator
+move_seg_n2_n3_1_0_86_seg_n1_n2_0_100_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+28 0
+5
+0 110 19 17
+0 11 0 1
+0 12 -1 0
+0 51 0 1
+0 34 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_1_0_86_seg_n1_n2_0_100_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+11 0
+5
+0 113 19 17
+0 28 0 1
+0 29 -1 0
+0 51 0 1
+0 34 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_2_0_86_seg_n2_n3_1_0_86_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+32 0
+5
+0 110 20 19
+0 1 0 1
+0 2 -1 0
+0 34 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_2_0_86_seg_n2_n3_1_0_86_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+1 0
+5
+0 113 20 19
+0 32 0 1
+0 33 -1 0
+0 34 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_3_0_86_seg_n2_n3_2_0_86_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+29 0
+5
+0 110 21 20
+0 12 0 1
+0 13 -1 0
+0 35 0 1
+0 36 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_3_0_86_seg_n2_n3_2_0_86_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+12 0
+5
+0 113 21 20
+0 29 0 1
+0 30 -1 0
+0 35 0 1
+0 36 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_4_0_85_seg_n2_n3_3_0_86_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+33 0
+5
+0 110 22 21
+0 2 0 1
+0 3 -1 0
+0 36 0 1
+0 37 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_4_0_85_seg_n2_n3_3_0_86_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+2 0
+5
+0 113 22 21
+0 33 0 1
+0 38 -1 0
+0 36 0 1
+0 37 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_5_0_86_seg_n2_n3_4_0_85_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+30 0
+5
+0 110 23 22
+0 13 0 1
+0 14 -1 0
+0 37 0 1
+0 39 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_5_0_86_seg_n2_n3_4_0_85_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+13 0
+5
+0 113 23 22
+0 30 0 1
+0 31 -1 0
+0 37 0 1
+0 39 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_6_0_86_seg_n2_n3_5_0_86_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+38 0
+5
+0 110 24 23
+0 4 -1 0
+0 3 0 1
+0 39 0 1
+0 40 -1 0
+0
+end_operator
+begin_operator
+move_seg_n2_n3_6_0_86_seg_n2_n3_5_0_86_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+3 0
+5
+0 113 24 23
+0 41 -1 0
+0 38 0 1
+0 39 0 1
+0 40 -1 0
+0
+end_operator
+begin_operator
+move_seg_n3_n_0_100_seg_n2_n3_0_85_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+41 0
+6
+0 110 25 18
+0 4 0 1
+0 76 -1 0
+0 78 -1 0
+0 42 0 1
+0 70 -1 0
+0
+end_operator
+begin_operator
+move_seg_n3_n_0_100_seg_n2_n3_0_85_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+4 0
+6
+0 113 25 18
+0 41 0 1
+0 90 -1 0
+0 85 -1 0
+0 42 0 1
+0 70 -1 0
+0
+end_operator
+begin_operator
+move_seg_n4_n5_0_86_seg_n4_n5_6_0_86_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+44 0
+5
+0 110 26 32
+0 7 0 1
+0 8 -1 0
+0 56 -1 0
+0 55 0 1
+0
+end_operator
+begin_operator
+move_seg_n4_n5_0_86_seg_n4_n5_6_0_86_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+7 0
+5
+0 113 26 32
+0 44 0 1
+0 45 -1 0
+0 56 -1 0
+0 55 0 1
+0
+end_operator
+begin_operator
+move_seg_n4_n5_1_0_85_seg_n_n4_0_100_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+85 0
+5
+0 110 27 36
+0 5 -1 0
+0 78 0 1
+0 73 -1 0
+0 79 0 1
+0
+end_operator
+begin_operator
+move_seg_n4_n5_1_0_85_seg_n_n4_0_100_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+78 0
+5
+0 113 27 36
+0 65 -1 0
+0 85 0 1
+0 73 -1 0
+0 79 0 1
+0
+end_operator
+begin_operator
+move_seg_n4_n5_2_0_86_seg_n4_n5_1_0_85_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+69 0
+5
+0 110 28 27
+0 19 0 1
+0 15 -1 0
+0 73 0 1
+0 68 -1 0
+0
+end_operator
+begin_operator
+move_seg_n4_n5_2_0_86_seg_n4_n5_1_0_85_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+19 0
+5
+0 113 28 27
+0 69 0 1
+0 62 -1 0
+0 73 0 1
+0 68 -1 0
+0
+end_operator
+begin_operator
+move_seg_n4_n5_3_0_86_seg_n4_n5_2_0_86_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+65 0
+5
+0 110 29 28
+0 5 0 1
+0 6 -1 0
+0 68 0 1
+0 66 -1 0
+0
+end_operator
+begin_operator
+move_seg_n4_n5_3_0_86_seg_n4_n5_2_0_86_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+5 0
+5
+0 113 29 28
+0 65 0 1
+0 43 -1 0
+0 68 0 1
+0 66 -1 0
+0
+end_operator
+begin_operator
+move_seg_n4_n5_4_0_85_seg_n4_n5_3_0_86_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+62 0
+5
+0 110 30 29
+0 15 0 1
+0 16 -1 0
+0 66 0 1
+0 63 -1 0
+0
+end_operator
+begin_operator
+move_seg_n4_n5_4_0_85_seg_n4_n5_3_0_86_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+15 0
+5
+0 113 30 29
+0 62 0 1
+0 52 -1 0
+0 66 0 1
+0 63 -1 0
+0
+end_operator
+begin_operator
+move_seg_n4_n5_5_0_86_seg_n4_n5_4_0_85_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+43 0
+5
+0 110 31 30
+0 6 0 1
+0 7 -1 0
+0 63 0 1
+0 54 -1 0
+0
+end_operator
+begin_operator
+move_seg_n4_n5_5_0_86_seg_n4_n5_4_0_85_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+6 0
+5
+0 113 31 30
+0 43 0 1
+0 44 -1 0
+0 63 0 1
+0 54 -1 0
+0
+end_operator
+begin_operator
+move_seg_n4_n5_6_0_86_seg_n4_n5_5_0_86_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+52 0
+5
+0 110 32 31
+0 17 -1 0
+0 16 0 1
+0 54 0 1
+0 55 -1 0
+0
+end_operator
+begin_operator
+move_seg_n4_n5_6_0_86_seg_n4_n5_5_0_86_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+16 0
+5
+0 113 32 31
+0 53 -1 0
+0 52 0 1
+0 54 0 1
+0 55 -1 0
+0
+end_operator
+begin_operator
+move_seg_n5_n6_0_100_seg_n4_n5_0_86_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+53 0
+5
+0 110 33 26
+0 17 0 1
+0 18 -1 0
+0 56 0 1
+0 57 -1 0
+0
+end_operator
+begin_operator
+move_seg_n5_n6_0_100_seg_n4_n5_0_86_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+17 0
+5
+0 113 33 26
+0 53 0 1
+0 58 -1 0
+0 56 0 1
+0 57 -1 0
+0
+end_operator
+begin_operator
+move_seg_n6_b_0_100_seg_n5_n6_0_100_north_north_medium airplane_cfbeg
+3
+84 0
+112 0
+45 0
+5
+0 110 34 33
+0 24 -1 0
+0 8 0 1
+0 57 0 1
+0 59 -1 0
+0
+end_operator
+begin_operator
+move_seg_n6_b_0_100_seg_n5_n6_0_100_north_north_medium airplane_dfboy
+3
+95 0
+111 0
+8 0
+5
+0 113 34 33
+0 46 -1 0
+0 45 0 1
+0 57 0 1
+0 59 -1 0
+0
+end_operator
+begin_operator
+move_seg_n_c_0_100_seg_c_c2_1_0_83_south_south_medium airplane_cfbeg
+3
+84 1
+112 0
+88 0
+6
+0 110 35 14
+0 80 0 1
+0 77 -1 0
+0 78 -1 0
+0 92 0 1
+0 91 -1 0
+0
+end_operator
+begin_operator
+move_seg_n_c_0_100_seg_c_c2_1_0_83_south_south_medium airplane_dfboy
+3
+95 1
+111 0
+80 0
+6
+0 113 35 14
+0 88 0 1
+0 87 -1 0
+0 85 -1 0
+0 92 0 1
+0 91 -1 0
+0
+end_operator
+begin_operator
+move_seg_n_c_0_100_seg_n3_n_0_100_north_north_medium airplane_cfbeg
+4
+84 0
+112 0
+87 0
+79 0
+6
+0 110 35 25
+0 80 -1 0
+0 77 0 1
+0 78 -1 1
+0 70 0 1
+0 91 -1 0
+0
+end_operator
+begin_operator
+move_seg_n_c_0_100_seg_n3_n_0_100_north_north_medium airplane_dfboy
+4
+95 0
+111 0
+77 0
+79 0
+6
+0 113 35 25
+0 88 -1 0
+0 87 0 1
+0 85 -1 1
+0 70 0 1
+0 91 -1 0
+0
+end_operator
+begin_operator
+move_seg_n_n4_0_100_seg_n_c_0_100_north_south_medium airplane_cfbeg
+3
+112 0
+90 0
+70 0
+7
+0 110 36 35
+0 84 0 1
+0 77 -1 1
+0 19 -1 0
+0 76 0 1
+0 91 0 1
+0 79 -1 0
+0
+end_operator
+begin_operator
+move_seg_n_n4_0_100_seg_n_c_0_100_north_south_medium airplane_dfboy
+3
+111 0
+76 0
+70 0
+7
+0 113 36 35
+0 95 0 1
+0 87 -1 1
+0 69 -1 0
+0 90 0 1
+0 91 0 1
+0 79 -1 0
+0
+end_operator
+begin_operator
+move_seg_rwy_0_1300_seg_27_0_150_south_south_medium airplane_cfbeg
+4
+84 1
+112 0
+61 0
+72 0
+4
+0 110 37 3
+0 26 0 1
+0 74 0 1
+0 67 -1 0
+0
+end_operator
+begin_operator
+move_seg_rwy_0_1300_seg_27_0_150_south_south_medium airplane_dfboy
+4
+95 1
+111 0
+26 0
+72 0
+4
+0 113 37 3
+0 61 0 1
+0 74 0 1
+0 67 -1 0
+0
+end_operator
+begin_operator
+park_seg_a02_0_100_north airplane_cfbeg
+2
+110 4
+84 0
+1
+0 112 0 1
+0
+end_operator
+begin_operator
+park_seg_a02_0_100_north airplane_dfboy
+2
+113 4
+95 0
+1
+0 111 0 1
+0
+end_operator
+begin_operator
+park_seg_a02_0_100_south airplane_cfbeg
+2
+110 4
+84 1
+2
+0 112 0 1
+0 101 -1 0
+0
+end_operator
+begin_operator
+park_seg_a02_0_100_south airplane_dfboy
+2
+113 4
+95 1
+2
+0 111 0 1
+0 107 -1 0
+0
+end_operator
+begin_operator
+park_seg_b02_0_100_north airplane_cfbeg
+2
+110 6
+84 0
+1
+0 112 0 2
+0
+end_operator
+begin_operator
+park_seg_b02_0_100_north airplane_dfboy
+2
+113 6
+95 0
+1
+0 111 0 2
+0
+end_operator
+begin_operator
+park_seg_b02_0_100_south airplane_cfbeg
+2
+110 6
+84 1
+2
+0 112 0 2
+0 102 -1 0
+0
+end_operator
+begin_operator
+park_seg_b02_0_100_south airplane_dfboy
+2
+113 6
+95 1
+2
+0 111 0 2
+0 109 -1 0
+0
+end_operator
+begin_operator
+pushback_seg_b02_0_100_seg_c5_c_b02_0_100_south_south_medium airplane_dfboy
+3
+95 1
+111 3
+102 0
+5
+0 113 6 11
+0 81 -1 0
+0 109 0 1
+0 86 -1 0
+0 103 0 1
+0
+end_operator
+begin_operator
+pushback_seg_c5_c6_0_50_seg_c6_c7_0_100_north_north_medium airplane_dfboy
+3
+95 0
+111 3
+23 0
+5
+0 113 9 12
+0 108 -1 0
+0 75 0 1
+0 106 -1 0
+0 82 0 1
+0
+end_operator
+begin_operator
+pushback_seg_c5_c_b02_0_100_seg_c5_c6_0_50_south_north_medium airplane_dfboy
+2
+111 3
+99 0
+6
+0 113 11 9
+0 95 1 0
+0 108 0 1
+0 109 -1 0
+0 106 0 1
+0 103 -1 0
+0
+end_operator
+begin_operator
+startup_seg_a02_0_100_north_medium airplane_dfboy
+1
+113 4
+1
+0 111 3 0
+0
+end_operator
+begin_operator
+startup_seg_a02_0_100_south_medium airplane_dfboy
+2
+113 4
+100 0
+2
+0 111 3 0
+0 107 -1 1
+0
+end_operator
+begin_operator
+startup_seg_a_09_0_100_north_medium airplane_dfboy
+2
+113 5
+72 0
+2
+0 111 3 0
+0 47 -1 1
+0
+end_operator
+begin_operator
+startup_seg_a_09_0_100_south_medium airplane_dfboy
+2
+113 5
+50 0
+2
+0 111 3 0
+0 48 -1 1
+0
+end_operator
+begin_operator
+startup_seg_b02_0_100_north_medium airplane_dfboy
+1
+113 6
+1
+0 111 3 0
+0
+end_operator
+begin_operator
+startup_seg_b02_0_100_south_medium airplane_dfboy
+2
+113 6
+103 0
+2
+0 111 3 0
+0 109 -1 1
+0
+end_operator
+begin_operator
+startup_seg_b_27_0_100_north_medium airplane_dfboy
+2
+113 7
+74 0
+2
+0 111 3 0
+0 61 -1 1
+0
+end_operator
+begin_operator
+startup_seg_b_27_0_100_south_medium airplane_dfboy
+2
+113 7
+59 0
+2
+0 111 3 0
+0 58 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c4_c5_0_50_north_medium airplane_dfboy
+4
+113 8
+106 0
+100 0
+103 0
+4
+0 111 3 0
+0 108 -1 1
+0 107 -1 1
+0 109 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c4_c5_0_50_south_medium airplane_dfboy
+2
+113 8
+96 0
+2
+0 111 3 0
+0 97 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c5_c6_0_50_north_medium airplane_dfboy
+2
+113 9
+82 0
+2
+0 111 3 0
+0 75 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c5_c6_0_50_south_medium airplane_dfboy
+4
+113 9
+104 0
+100 0
+103 0
+4
+0 111 3 0
+0 105 -1 1
+0 107 -1 1
+0 109 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c5_c_a02_0_100_north_medium airplane_dfboy
+2
+113 10
+71 0
+2
+0 111 3 0
+0 64 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c5_c_a02_0_100_south_medium airplane_dfboy
+4
+113 10
+104 0
+106 0
+103 0
+4
+0 111 3 0
+0 105 -1 1
+0 108 -1 1
+0 109 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c5_c_b02_0_100_north_medium airplane_dfboy
+2
+113 11
+86 0
+2
+0 111 3 0
+0 81 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c5_c_b02_0_100_south_medium airplane_dfboy
+4
+113 11
+104 0
+106 0
+100 0
+4
+0 111 3 0
+0 105 -1 1
+0 108 -1 1
+0 107 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c6_c7_0_100_north_medium airplane_dfboy
+1
+113 12
+1
+0 111 3 0
+0
+end_operator
+begin_operator
+startup_seg_c6_c7_0_100_south_medium airplane_dfboy
+2
+113 12
+106 0
+2
+0 111 3 0
+0 108 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c_c2_0_84_north_medium airplane_dfboy
+2
+113 13
+104 0
+2
+0 111 3 0
+0 105 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c_c2_0_84_south_medium airplane_dfboy
+2
+113 13
+94 0
+2
+0 111 3 0
+0 89 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c_c2_1_0_83_north_medium airplane_dfboy
+2
+113 14
+94 0
+2
+0 111 3 0
+0 89 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c_c2_1_0_83_south_medium airplane_dfboy
+2
+113 14
+91 0
+2
+0 111 3 0
+0 90 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c_c2_2_0_83_north_medium airplane_dfboy
+2
+113 15
+96 0
+2
+0 111 3 0
+0 97 -1 1
+0
+end_operator
+begin_operator
+startup_seg_c_c2_2_0_83_south_medium airplane_dfboy
+2
+113 15
+92 0
+2
+0 111 3 0
+0 88 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n1_a_0_100_north_medium airplane_dfboy
+2
+113 16
+49 0
+2
+0 111 3 0
+0 27 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n1_a_0_100_south_medium airplane_dfboy
+2
+113 16
+51 0
+2
+0 111 3 0
+0 28 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n1_n2_0_100_north_medium airplane_dfboy
+2
+113 17
+34 0
+2
+0 111 3 0
+0 32 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n1_n2_0_100_south_medium airplane_dfboy
+2
+113 17
+50 0
+2
+0 111 3 0
+0 48 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_0_85_north_medium airplane_dfboy
+2
+113 18
+70 0
+2
+0 111 3 0
+0 87 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_0_85_south_medium airplane_dfboy
+2
+113 18
+40 0
+2
+0 111 3 0
+0 31 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_1_0_86_north_medium airplane_dfboy
+2
+113 19
+35 0
+2
+0 111 3 0
+0 29 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_1_0_86_south_medium airplane_dfboy
+2
+113 19
+51 0
+2
+0 111 3 0
+0 28 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_2_0_86_north_medium airplane_dfboy
+2
+113 20
+36 0
+2
+0 111 3 0
+0 33 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_2_0_86_south_medium airplane_dfboy
+2
+113 20
+34 0
+2
+0 111 3 0
+0 32 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_3_0_86_north_medium airplane_dfboy
+2
+113 21
+37 0
+2
+0 111 3 0
+0 30 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_3_0_86_south_medium airplane_dfboy
+2
+113 21
+35 0
+2
+0 111 3 0
+0 29 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_4_0_85_north_medium airplane_dfboy
+2
+113 22
+39 0
+2
+0 111 3 0
+0 38 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_4_0_85_south_medium airplane_dfboy
+2
+113 22
+36 0
+2
+0 111 3 0
+0 33 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_5_0_86_north_medium airplane_dfboy
+2
+113 23
+40 0
+2
+0 111 3 0
+0 31 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_5_0_86_south_medium airplane_dfboy
+2
+113 23
+37 0
+2
+0 111 3 0
+0 30 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_6_0_86_north_medium airplane_dfboy
+2
+113 24
+42 0
+2
+0 111 3 0
+0 41 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n2_n3_6_0_86_south_medium airplane_dfboy
+2
+113 24
+39 0
+2
+0 111 3 0
+0 38 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n3_n_0_100_north_medium airplane_dfboy
+3
+113 25
+91 0
+79 0
+3
+0 111 3 0
+0 90 -1 1
+0 85 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n3_n_0_100_south_medium airplane_dfboy
+2
+113 25
+42 0
+2
+0 111 3 0
+0 41 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_0_86_north_medium airplane_dfboy
+2
+113 26
+57 0
+2
+0 111 3 0
+0 45 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_0_86_south_medium airplane_dfboy
+2
+113 26
+55 0
+2
+0 111 3 0
+0 44 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_1_0_85_north_medium airplane_dfboy
+2
+113 27
+68 0
+2
+0 111 3 0
+0 65 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_1_0_85_south_medium airplane_dfboy
+2
+113 27
+79 0
+2
+0 111 3 0
+0 85 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_2_0_86_north_medium airplane_dfboy
+2
+113 28
+66 0
+2
+0 111 3 0
+0 62 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_2_0_86_south_medium airplane_dfboy
+2
+113 28
+73 0
+2
+0 111 3 0
+0 69 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_3_0_86_north_medium airplane_dfboy
+2
+113 29
+63 0
+2
+0 111 3 0
+0 43 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_3_0_86_south_medium airplane_dfboy
+2
+113 29
+68 0
+2
+0 111 3 0
+0 65 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_4_0_85_north_medium airplane_dfboy
+2
+113 30
+54 0
+2
+0 111 3 0
+0 52 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_4_0_85_south_medium airplane_dfboy
+2
+113 30
+66 0
+2
+0 111 3 0
+0 62 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_5_0_86_north_medium airplane_dfboy
+2
+113 31
+55 0
+2
+0 111 3 0
+0 44 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_5_0_86_south_medium airplane_dfboy
+2
+113 31
+63 0
+2
+0 111 3 0
+0 43 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_6_0_86_north_medium airplane_dfboy
+2
+113 32
+56 0
+2
+0 111 3 0
+0 53 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n4_n5_6_0_86_south_medium airplane_dfboy
+2
+113 32
+54 0
+2
+0 111 3 0
+0 52 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n5_n6_0_100_north_medium airplane_dfboy
+2
+113 33
+59 0
+2
+0 111 3 0
+0 58 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n5_n6_0_100_south_medium airplane_dfboy
+2
+113 33
+56 0
+2
+0 111 3 0
+0 53 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n6_b_0_100_north_medium airplane_dfboy
+2
+113 34
+60 0
+2
+0 111 3 0
+0 46 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n6_b_0_100_south_medium airplane_dfboy
+2
+113 34
+57 0
+2
+0 111 3 0
+0 45 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n_c_0_100_north_medium airplane_dfboy
+2
+113 35
+92 0
+2
+0 111 3 0
+0 88 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n_c_0_100_south_medium airplane_dfboy
+3
+113 35
+70 0
+79 0
+3
+0 111 3 0
+0 87 -1 1
+0 85 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n_n4_0_100_north_medium airplane_dfboy
+2
+113 36
+73 0
+2
+0 111 3 0
+0 69 -1 1
+0
+end_operator
+begin_operator
+startup_seg_n_n4_0_100_south_medium airplane_dfboy
+3
+113 36
+70 0
+91 0
+3
+0 111 3 0
+0 87 -1 1
+0 90 -1 1
+0
+end_operator
+begin_operator
+takeoff_seg_09_0_150_south airplane_cfbeg
+1
+84 1
+5
+0 110 2 0
+0 112 0 3
+0 25 -1 0
+0 20 -1 0
+0 72 -1 0
+0
+end_operator
+begin_operator
+takeoff_seg_09_0_150_south airplane_dfboy
+1
+95 1
+5
+0 113 2 0
+0 111 0 4
+0 47 -1 0
+0 27 -1 0
+0 72 -1 0
+0
+end_operator
+begin_operator
+takeoff_seg_27_0_150_north airplane_cfbeg
+1
+84 0
+5
+0 110 3 1
+0 112 0 3
+0 26 -1 0
+0 24 -1 0
+0 74 -1 0
+0
+end_operator
+begin_operator
+takeoff_seg_27_0_150_north airplane_dfboy
+1
+95 0
+5
+0 113 3 1
+0 111 0 4
+0 61 -1 0
+0 46 -1 0
+0 74 -1 0
+0
+end_operator
+0
+begin_SG
+switch 110
+check 0
+check 0
+check 0
+switch 84
+check 0
+check 0
+switch 112
+check 0
+switch 111
+check 1
+167
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 9
+check 0
+switch 10
+check 0
+switch 67
+check 0
+check 1
+0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+check 1
+169
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+switch 24
+check 0
+switch 46
+check 0
+switch 60
+check 0
+check 1
+2
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 111
+check 1
+90
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 101
+check 0
+switch 107
+check 0
+switch 100
+check 0
+check 1
+4
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+check 1
+92
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+check 0
+switch 112
+check 0
+switch 25
+check 0
+switch 47
+check 0
+switch 72
+check 0
+check 1
+6
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 111
+check 1
+94
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 102
+check 0
+switch 109
+check 0
+switch 103
+check 0
+check 1
+8
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+check 1
+96
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 18
+check 0
+switch 58
+check 0
+switch 59
+check 0
+check 1
+10
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 93
+check 0
+switch 97
+check 0
+switch 96
+check 0
+check 1
+16
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+switch 101
+check 0
+switch 107
+check 0
+switch 106
+check 0
+switch 100
+check 0
+switch 103
+check 0
+check 1
+12
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 102
+check 0
+switch 109
+check 0
+switch 106
+check 0
+switch 100
+check 0
+switch 103
+check 0
+check 1
+14
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 98
+check 0
+switch 105
+check 0
+switch 104
+check 0
+switch 100
+check 0
+switch 103
+check 0
+check 1
+18
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+switch 23
+check 0
+switch 75
+check 0
+switch 82
+check 0
+check 1
+20
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 99
+check 0
+switch 108
+check 0
+switch 104
+check 0
+switch 106
+check 0
+switch 103
+check 0
+check 1
+24
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+switch 21
+check 0
+switch 64
+check 0
+switch 71
+check 0
+check 1
+22
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 99
+check 0
+switch 108
+check 0
+switch 104
+check 0
+switch 106
+check 0
+switch 100
+check 0
+check 1
+28
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+switch 22
+check 0
+switch 81
+check 0
+switch 86
+check 0
+check 1
+26
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 99
+check 0
+switch 108
+check 0
+switch 106
+check 0
+check 1
+30
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 83
+check 0
+switch 89
+check 0
+switch 94
+check 0
+check 1
+34
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+switch 98
+check 0
+switch 105
+check 0
+switch 104
+check 0
+check 1
+32
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 76
+check 0
+switch 90
+check 0
+switch 91
+check 0
+check 1
+38
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+switch 83
+check 0
+switch 89
+check 0
+switch 94
+check 0
+check 1
+36
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 80
+check 0
+switch 88
+check 0
+switch 92
+check 0
+check 1
+42
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+switch 93
+check 0
+switch 97
+check 0
+switch 96
+check 0
+check 1
+40
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+check 0
+switch 112
+check 0
+switch 20
+check 0
+switch 27
+check 0
+switch 49
+check 0
+check 1
+44
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 0
+check 0
+switch 48
+check 0
+switch 50
+check 0
+check 1
+46
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 14
+check 0
+switch 31
+check 0
+switch 40
+check 0
+check 1
+48
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 11
+check 0
+switch 28
+check 0
+switch 51
+check 0
+check 1
+50
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 1
+check 0
+switch 32
+check 0
+switch 34
+check 0
+check 1
+52
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 12
+check 0
+switch 29
+check 0
+switch 35
+check 0
+check 1
+54
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 2
+check 0
+switch 33
+check 0
+switch 36
+check 0
+check 1
+56
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 13
+check 0
+switch 30
+check 0
+switch 37
+check 0
+check 1
+58
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 3
+check 0
+switch 38
+check 0
+switch 39
+check 0
+check 1
+60
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 4
+check 0
+switch 41
+check 0
+switch 42
+check 0
+check 1
+62
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 7
+check 0
+switch 44
+check 0
+switch 55
+check 0
+check 1
+64
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 78
+check 0
+switch 85
+check 0
+switch 79
+check 0
+check 1
+66
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 19
+check 0
+switch 69
+check 0
+switch 73
+check 0
+check 1
+68
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 5
+check 0
+switch 65
+check 0
+switch 68
+check 0
+check 1
+70
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 15
+check 0
+switch 62
+check 0
+switch 66
+check 0
+check 1
+72
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 6
+check 0
+switch 43
+check 0
+switch 63
+check 0
+check 1
+74
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 16
+check 0
+switch 52
+check 0
+switch 54
+check 0
+check 1
+76
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 17
+check 0
+switch 53
+check 0
+switch 56
+check 0
+check 1
+78
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 8
+check 0
+switch 45
+check 0
+switch 57
+check 0
+check 1
+80
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 77
+check 0
+switch 87
+check 0
+switch 70
+check 0
+switch 79
+check 0
+check 1
+84
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 112
+check 0
+switch 80
+check 0
+switch 88
+check 0
+switch 92
+check 0
+check 1
+82
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+switch 112
+check 0
+switch 76
+check 0
+switch 90
+check 0
+switch 70
+check 0
+switch 91
+check 0
+check 1
+86
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 84
+check 0
+check 0
+switch 112
+check 0
+switch 26
+check 0
+switch 61
+check 0
+switch 72
+check 0
+switch 74
+check 0
+check 1
+88
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 113
+check 0
+check 0
+check 0
+switch 95
+check 0
+check 0
+switch 111
+check 0
+switch 25
+check 1
+168
+check 0
+check 0
+switch 9
+check 0
+switch 10
+check 0
+switch 67
+check 0
+check 1
+1
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+check 1
+170
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+switch 24
+check 0
+switch 46
+check 0
+switch 60
+check 0
+check 1
+3
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 25
+check 1
+91
+check 0
+check 0
+switch 101
+check 0
+switch 107
+check 0
+switch 100
+check 0
+check 1
+5
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 1
+93
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 25
+check 1
+101
+check 0
+check 0
+switch 100
+check 0
+check 1
+102
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+check 0
+switch 111
+check 0
+switch 25
+check 0
+switch 47
+check 0
+switch 72
+check 0
+check 1
+7
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 72
+check 0
+check 1
+103
+check 0
+switch 50
+check 0
+check 1
+104
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 25
+check 1
+95
+check 0
+check 0
+switch 102
+check 0
+switch 109
+check 0
+switch 103
+check 0
+check 1
+9
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 1
+97
+check 0
+check 0
+switch 102
+check 0
+switch 109
+check 0
+switch 103
+check 0
+check 1
+98
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 25
+check 1
+105
+check 0
+check 0
+switch 103
+check 0
+check 1
+106
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 18
+check 0
+switch 58
+check 0
+switch 59
+check 0
+check 1
+11
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 74
+check 0
+check 1
+107
+check 0
+switch 59
+check 0
+check 1
+108
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 93
+check 0
+switch 97
+check 0
+switch 96
+check 0
+check 1
+17
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+switch 101
+check 0
+switch 107
+check 0
+switch 106
+check 0
+switch 100
+check 0
+switch 103
+check 0
+check 1
+13
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 102
+check 0
+switch 109
+check 0
+switch 106
+check 0
+switch 100
+check 0
+switch 103
+check 0
+check 1
+15
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 106
+check 0
+switch 100
+check 0
+switch 103
+check 0
+check 1
+109
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 96
+check 0
+check 1
+110
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 98
+check 0
+switch 105
+check 0
+switch 104
+check 0
+switch 100
+check 0
+switch 103
+check 0
+check 1
+19
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 23
+check 0
+switch 75
+check 0
+switch 82
+check 0
+check 1
+99
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+switch 23
+check 0
+switch 75
+check 0
+switch 82
+check 0
+check 1
+21
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 104
+check 0
+switch 100
+check 0
+switch 103
+check 0
+check 1
+112
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 82
+check 0
+check 1
+111
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 99
+check 0
+switch 108
+check 0
+switch 104
+check 0
+switch 106
+check 0
+switch 103
+check 0
+check 1
+25
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+switch 21
+check 0
+switch 64
+check 0
+switch 71
+check 0
+check 1
+23
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 71
+check 0
+check 1
+113
+check 0
+switch 104
+check 0
+switch 106
+check 0
+switch 103
+check 0
+check 1
+114
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 99
+check 0
+switch 108
+check 0
+switch 104
+check 0
+switch 106
+check 0
+switch 100
+check 0
+check 1
+29
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+switch 22
+check 0
+switch 81
+check 0
+switch 86
+check 0
+check 1
+27
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 99
+check 0
+switch 108
+check 0
+switch 106
+check 0
+check 1
+100
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 86
+check 0
+check 1
+115
+check 0
+switch 104
+check 0
+switch 106
+check 0
+switch 100
+check 0
+check 1
+116
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 99
+check 0
+switch 108
+check 0
+switch 106
+check 0
+check 1
+31
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 25
+check 1
+117
+check 0
+check 0
+switch 106
+check 0
+check 1
+118
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 83
+check 0
+switch 89
+check 0
+switch 94
+check 0
+check 1
+35
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+switch 98
+check 0
+switch 105
+check 0
+switch 104
+check 0
+check 1
+33
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 104
+check 0
+check 1
+119
+check 0
+switch 94
+check 0
+check 1
+120
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 76
+check 0
+switch 90
+check 0
+switch 91
+check 0
+check 1
+39
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+switch 83
+check 0
+switch 89
+check 0
+switch 94
+check 0
+check 1
+37
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 94
+check 0
+check 1
+121
+check 0
+switch 91
+check 0
+check 1
+122
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 80
+check 0
+switch 88
+check 0
+switch 92
+check 0
+check 1
+43
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+switch 93
+check 0
+switch 97
+check 0
+switch 96
+check 0
+check 1
+41
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 96
+check 0
+check 1
+123
+check 0
+switch 92
+check 0
+check 1
+124
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+check 0
+switch 111
+check 0
+switch 20
+check 0
+switch 27
+check 0
+switch 49
+check 0
+check 1
+45
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 49
+check 0
+check 1
+125
+check 0
+switch 51
+check 0
+check 1
+126
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 0
+check 0
+switch 48
+check 0
+switch 50
+check 0
+check 1
+47
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 50
+check 0
+check 1
+128
+check 0
+switch 34
+check 0
+check 1
+127
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 14
+check 0
+switch 31
+check 0
+switch 40
+check 0
+check 1
+49
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 40
+check 0
+check 1
+130
+check 0
+switch 70
+check 0
+check 1
+129
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 11
+check 0
+switch 28
+check 0
+switch 51
+check 0
+check 1
+51
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 51
+check 0
+check 1
+132
+check 0
+switch 35
+check 0
+check 1
+131
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 1
+check 0
+switch 32
+check 0
+switch 34
+check 0
+check 1
+53
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 34
+check 0
+check 1
+134
+check 0
+switch 36
+check 0
+check 1
+133
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 12
+check 0
+switch 29
+check 0
+switch 35
+check 0
+check 1
+55
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 35
+check 0
+check 1
+136
+check 0
+switch 37
+check 0
+check 1
+135
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 2
+check 0
+switch 33
+check 0
+switch 36
+check 0
+check 1
+57
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 36
+check 0
+check 1
+138
+check 0
+switch 39
+check 0
+check 1
+137
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 13
+check 0
+switch 30
+check 0
+switch 37
+check 0
+check 1
+59
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 37
+check 0
+check 1
+140
+check 0
+switch 40
+check 0
+check 1
+139
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 3
+check 0
+switch 38
+check 0
+switch 39
+check 0
+check 1
+61
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 42
+check 0
+check 1
+141
+check 0
+switch 39
+check 0
+check 1
+142
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 4
+check 0
+switch 41
+check 0
+switch 42
+check 0
+check 1
+63
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 42
+check 0
+check 1
+144
+check 0
+switch 91
+check 0
+switch 79
+check 0
+check 1
+143
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 7
+check 0
+switch 44
+check 0
+switch 55
+check 0
+check 1
+65
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 55
+check 0
+check 1
+146
+check 0
+switch 57
+check 0
+check 1
+145
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 78
+check 0
+switch 85
+check 0
+switch 79
+check 0
+check 1
+67
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 68
+check 0
+check 1
+147
+check 0
+switch 79
+check 0
+check 1
+148
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 19
+check 0
+switch 69
+check 0
+switch 73
+check 0
+check 1
+69
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 73
+check 0
+check 1
+150
+check 0
+switch 66
+check 0
+check 1
+149
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 5
+check 0
+switch 65
+check 0
+switch 68
+check 0
+check 1
+71
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 68
+check 0
+check 1
+152
+check 0
+switch 63
+check 0
+check 1
+151
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 15
+check 0
+switch 62
+check 0
+switch 66
+check 0
+check 1
+73
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 66
+check 0
+check 1
+154
+check 0
+switch 54
+check 0
+check 1
+153
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 6
+check 0
+switch 43
+check 0
+switch 63
+check 0
+check 1
+75
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 63
+check 0
+check 1
+156
+check 0
+switch 55
+check 0
+check 1
+155
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 16
+check 0
+switch 52
+check 0
+switch 54
+check 0
+check 1
+77
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 56
+check 0
+check 1
+157
+check 0
+switch 54
+check 0
+check 1
+158
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 17
+check 0
+switch 53
+check 0
+switch 56
+check 0
+check 1
+79
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 56
+check 0
+check 1
+160
+check 0
+switch 59
+check 0
+check 1
+159
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 8
+check 0
+switch 45
+check 0
+switch 57
+check 0
+check 1
+81
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 60
+check 0
+check 1
+161
+check 0
+switch 57
+check 0
+check 1
+162
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 77
+check 0
+switch 87
+check 0
+switch 70
+check 0
+switch 79
+check 0
+check 1
+85
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+switch 80
+check 0
+switch 88
+check 0
+switch 92
+check 0
+check 1
+83
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 92
+check 0
+check 1
+163
+check 0
+switch 70
+check 0
+switch 79
+check 0
+check 1
+164
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+switch 111
+check 0
+switch 76
+check 0
+switch 90
+check 0
+switch 70
+check 0
+switch 91
+check 0
+check 1
+87
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 111
+check 0
+check 0
+check 0
+check 0
+switch 70
+check 0
+switch 91
+check 0
+check 1
+166
+check 0
+check 0
+check 0
+switch 73
+check 0
+check 1
+165
+check 0
+check 0
+check 0
+check 0
+switch 95
+check 0
+check 0
+switch 111
+check 0
+switch 26
+check 0
+switch 61
+check 0
+switch 72
+check 0
+switch 74
+check 0
+check 1
+89
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+end_SG
+begin_DTG
+1
+1
+46
+5
+110 17
+84 0
+112 0
+48 0
+50 0
+1
+0
+6
+6
+110 5
+84 1
+112 0
+25 0
+47 0
+72 0
+end_DTG
+begin_DTG
+1
+1
+52
+5
+110 20
+84 0
+112 0
+32 0
+34 0
+1
+0
+46
+6
+110 17
+84 0
+112 0
+0 0
+48 0
+50 0
+end_DTG
+begin_DTG
+1
+1
+56
+5
+110 22
+84 0
+112 0
+33 0
+36 0
+1
+0
+52
+6
+110 20
+84 0
+112 0
+1 0
+32 0
+34 0
+end_DTG
+begin_DTG
+1
+1
+60
+5
+110 24
+84 0
+112 0
+38 0
+39 0
+1
+0
+56
+6
+110 22
+84 0
+112 0
+2 0
+33 0
+36 0
+end_DTG
+begin_DTG
+1
+1
+62
+5
+110 25
+84 0
+112 0
+41 0
+42 0
+1
+0
+60
+6
+110 24
+84 0
+112 0
+3 0
+38 0
+39 0
+end_DTG
+begin_DTG
+1
+1
+70
+5
+110 29
+84 0
+112 0
+65 0
+68 0
+1
+0
+66
+6
+110 27
+84 0
+112 0
+78 0
+85 0
+79 0
+end_DTG
+begin_DTG
+1
+1
+74
+5
+110 31
+84 0
+112 0
+43 0
+63 0
+1
+0
+70
+6
+110 29
+84 0
+112 0
+5 0
+65 0
+68 0
+end_DTG
+begin_DTG
+1
+1
+64
+5
+110 26
+84 0
+112 0
+44 0
+55 0
+1
+0
+74
+6
+110 31
+84 0
+112 0
+6 0
+43 0
+63 0
+end_DTG
+begin_DTG
+1
+1
+80
+5
+110 34
+84 0
+112 0
+45 0
+57 0
+1
+0
+64
+6
+110 26
+84 0
+112 0
+7 0
+44 0
+55 0
+end_DTG
+begin_DTG
+1
+1
+0
+5
+110 2
+84 1
+112 0
+10 0
+67 0
+1
+0
+2
+6
+110 3
+84 1
+112 0
+24 0
+46 0
+60 0
+end_DTG
+begin_DTG
+1
+1
+1
+5
+113 2
+95 1
+111 0
+9 0
+67 0
+1
+0
+3
+6
+113 3
+95 1
+111 0
+24 0
+46 0
+60 0
+end_DTG
+begin_DTG
+1
+1
+50
+5
+110 19
+84 0
+112 0
+28 0
+51 0
+1
+0
+44
+6
+110 16
+84 1
+112 0
+20 0
+27 0
+49 0
+end_DTG
+begin_DTG
+1
+1
+54
+5
+110 21
+84 0
+112 0
+29 0
+35 0
+1
+0
+50
+6
+110 19
+84 0
+112 0
+11 0
+28 0
+51 0
+end_DTG
+begin_DTG
+1
+1
+58
+5
+110 23
+84 0
+112 0
+30 0
+37 0
+1
+0
+54
+6
+110 21
+84 0
+112 0
+12 0
+29 0
+35 0
+end_DTG
+begin_DTG
+1
+1
+48
+5
+110 18
+84 0
+112 0
+31 0
+40 0
+1
+0
+58
+6
+110 23
+84 0
+112 0
+13 0
+30 0
+37 0
+end_DTG
+begin_DTG
+1
+1
+72
+5
+110 30
+84 0
+112 0
+62 0
+66 0
+1
+0
+68
+6
+110 28
+84 0
+112 0
+19 0
+69 0
+73 0
+end_DTG
+begin_DTG
+1
+1
+76
+5
+110 32
+84 0
+112 0
+52 0
+54 0
+1
+0
+72
+6
+110 30
+84 0
+112 0
+15 0
+62 0
+66 0
+end_DTG
+begin_DTG
+1
+1
+78
+5
+110 33
+84 0
+112 0
+53 0
+56 0
+1
+0
+76
+6
+110 32
+84 0
+112 0
+16 0
+52 0
+54 0
+end_DTG
+begin_DTG
+1
+1
+10
+5
+110 7
+84 0
+112 0
+58 0
+59 0
+1
+0
+78
+6
+110 33
+84 0
+112 0
+17 0
+53 0
+56 0
+end_DTG
+begin_DTG
+1
+1
+68
+5
+110 28
+84 0
+112 0
+69 0
+73 0
+1
+0
+86
+7
+110 36
+84 0
+112 0
+76 0
+90 0
+70 0
+91 0
+end_DTG
+begin_DTG
+1
+1
+44
+5
+110 16
+84 1
+112 0
+27 0
+49 0
+1
+0
+167
+3
+110 2
+84 1
+112 0
+end_DTG
+begin_DTG
+1
+1
+22
+5
+110 10
+84 1
+112 0
+64 0
+71 0
+1
+0
+24
+8
+110 10
+84 0
+112 0
+99 0
+108 0
+104 0
+106 0
+103 0
+end_DTG
+begin_DTG
+1
+1
+26
+5
+110 11
+84 1
+112 0
+81 0
+86 0
+1
+0
+28
+8
+110 11
+84 0
+112 0
+99 0
+108 0
+104 0
+106 0
+100 0
+end_DTG
+begin_DTG
+1
+1
+20
+5
+110 9
+84 1
+112 0
+75 0
+82 0
+1
+0
+18
+8
+110 9
+84 0
+112 0
+98 0
+105 0
+104 0
+100 0
+103 0
+end_DTG
+begin_DTG
+1
+1
+2
+5
+110 3
+84 1
+112 0
+46 0
+60 0
+2
+0
+169
+3
+110 3
+84 0
+112 0
+0
+80
+6
+110 34
+84 0
+112 0
+8 0
+45 0
+57 0
+end_DTG
+begin_DTG
+1
+1
+6
+5
+110 5
+84 1
+112 0
+47 0
+72 0
+2
+0
+167
+3
+110 2
+84 1
+112 0
+0
+2
+6
+110 3
+84 1
+112 0
+24 0
+46 0
+60 0
+end_DTG
+begin_DTG
+1
+1
+88
+6
+110 37
+84 1
+112 0
+61 0
+72 0
+74 0
+2
+0
+169
+3
+110 3
+84 0
+112 0
+0
+10
+6
+110 7
+84 0
+112 0
+18 0
+58 0
+59 0
+end_DTG
+begin_DTG
+2
+1
+125
+3
+113 16
+111 3
+49 0
+1
+45
+5
+113 16
+95 1
+111 0
+20 0
+49 0
+1
+0
+168
+3
+113 2
+95 1
+111 0
+end_DTG
+begin_DTG
+3
+1
+126
+3
+113 16
+111 3
+51 0
+1
+132
+3
+113 19
+111 3
+51 0
+1
+51
+5
+113 19
+95 0
+111 0
+11 0
+51 0
+1
+0
+45
+6
+113 16
+95 1
+111 0
+20 0
+27 0
+49 0
+end_DTG
+begin_DTG
+3
+1
+131
+3
+113 19
+111 3
+35 0
+1
+136
+3
+113 21
+111 3
+35 0
+1
+55
+5
+113 21
+95 0
+111 0
+12 0
+35 0
+1
+0
+51
+6
+113 19
+95 0
+111 0
+11 0
+28 0
+51 0
+end_DTG
+begin_DTG
+3
+1
+135
+3
+113 21
+111 3
+37 0
+1
+140
+3
+113 23
+111 3
+37 0
+1
+59
+5
+113 23
+95 0
+111 0
+13 0
+37 0
+1
+0
+55
+6
+113 21
+95 0
+111 0
+12 0
+29 0
+35 0
+end_DTG
+begin_DTG
+3
+1
+130
+3
+113 18
+111 3
+40 0
+1
+139
+3
+113 23
+111 3
+40 0
+1
+49
+5
+113 18
+95 0
+111 0
+14 0
+40 0
+1
+0
+59
+6
+113 23
+95 0
+111 0
+13 0
+30 0
+37 0
+end_DTG
+begin_DTG
+3
+1
+127
+3
+113 17
+111 3
+34 0
+1
+134
+3
+113 20
+111 3
+34 0
+1
+53
+5
+113 20
+95 0
+111 0
+1 0
+34 0
+1
+0
+47
+6
+113 17
+95 0
+111 0
+0 0
+48 0
+50 0
+end_DTG
+begin_DTG
+3
+1
+133
+3
+113 20
+111 3
+36 0
+1
+138
+3
+113 22
+111 3
+36 0
+1
+57
+5
+113 22
+95 0
+111 0
+2 0
+36 0
+1
+0
+53
+6
+113 20
+95 0
+111 0
+1 0
+32 0
+34 0
+end_DTG
+begin_DTG
+2
+1
+52
+5
+110 20
+84 0
+112 0
+1 0
+32 0
+1
+53
+5
+113 20
+95 0
+111 0
+1 0
+32 0
+2
+0
+50
+6
+110 19
+84 0
+112 0
+11 0
+28 0
+51 0
+0
+51
+6
+113 19
+95 0
+111 0
+11 0
+28 0
+51 0
+end_DTG
+begin_DTG
+2
+1
+54
+5
+110 21
+84 0
+112 0
+12 0
+29 0
+1
+55
+5
+113 21
+95 0
+111 0
+12 0
+29 0
+2
+0
+52
+6
+110 20
+84 0
+112 0
+1 0
+32 0
+34 0
+0
+53
+6
+113 20
+95 0
+111 0
+1 0
+32 0
+34 0
+end_DTG
+begin_DTG
+2
+1
+56
+5
+110 22
+84 0
+112 0
+2 0
+33 0
+1
+57
+5
+113 22
+95 0
+111 0
+2 0
+33 0
+2
+0
+54
+6
+110 21
+84 0
+112 0
+12 0
+29 0
+35 0
+0
+55
+6
+113 21
+95 0
+111 0
+12 0
+29 0
+35 0
+end_DTG
+begin_DTG
+2
+1
+58
+5
+110 23
+84 0
+112 0
+13 0
+30 0
+1
+59
+5
+113 23
+95 0
+111 0
+13 0
+30 0
+2
+0
+56
+6
+110 22
+84 0
+112 0
+2 0
+33 0
+36 0
+0
+57
+6
+113 22
+95 0
+111 0
+2 0
+33 0
+36 0
+end_DTG
+begin_DTG
+3
+1
+137
+3
+113 22
+111 3
+39 0
+1
+142
+3
+113 24
+111 3
+39 0
+1
+61
+5
+113 24
+95 0
+111 0
+3 0
+39 0
+1
+0
+57
+6
+113 22
+95 0
+111 0
+2 0
+33 0
+36 0
+end_DTG
+begin_DTG
+2
+1
+60
+5
+110 24
+84 0
+112 0
+3 0
+38 0
+1
+61
+5
+113 24
+95 0
+111 0
+3 0
+38 0
+2
+0
+58
+6
+110 23
+84 0
+112 0
+13 0
+30 0
+37 0
+0
+59
+6
+113 23
+95 0
+111 0
+13 0
+30 0
+37 0
+end_DTG
+begin_DTG
+2
+1
+48
+5
+110 18
+84 0
+112 0
+14 0
+31 0
+1
+49
+5
+113 18
+95 0
+111 0
+14 0
+31 0
+2
+0
+60
+6
+110 24
+84 0
+112 0
+3 0
+38 0
+39 0
+0
+61
+6
+113 24
+95 0
+111 0
+3 0
+38 0
+39 0
+end_DTG
+begin_DTG
+3
+1
+141
+3
+113 24
+111 3
+42 0
+1
+144
+3
+113 25
+111 3
+42 0
+1
+63
+5
+113 25
+95 0
+111 0
+4 0
+42 0
+1
+0
+61
+6
+113 24
+95 0
+111 0
+3 0
+38 0
+39 0
+end_DTG
+begin_DTG
+2
+1
+62
+5
+110 25
+84 0
+112 0
+4 0
+41 0
+1
+63
+5
+113 25
+95 0
+111 0
+4 0
+41 0
+2
+0
+48
+6
+110 18
+84 0
+112 0
+14 0
+31 0
+40 0
+0
+49
+6
+113 18
+95 0
+111 0
+14 0
+31 0
+40 0
+end_DTG
+begin_DTG
+3
+1
+151
+3
+113 29
+111 3
+63 0
+1
+156
+3
+113 31
+111 3
+63 0
+1
+75
+5
+113 31
+95 0
+111 0
+6 0
+63 0
+1
+0
+71
+6
+113 29
+95 0
+111 0
+5 0
+65 0
+68 0
+end_DTG
+begin_DTG
+3
+1
+146
+3
+113 26
+111 3
+55 0
+1
+155
+3
+113 31
+111 3
+55 0
+1
+65
+5
+113 26
+95 0
+111 0
+7 0
+55 0
+1
+0
+75
+6
+113 31
+95 0
+111 0
+6 0
+43 0
+63 0
+end_DTG
+begin_DTG
+3
+1
+145
+3
+113 26
+111 3
+57 0
+1
+162
+3
+113 34
+111 3
+57 0
+1
+81
+5
+113 34
+95 0
+111 0
+8 0
+57 0
+1
+0
+65
+6
+113 26
+95 0
+111 0
+7 0
+44 0
+55 0
+end_DTG
+begin_DTG
+2
+1
+161
+3
+113 34
+111 3
+60 0
+1
+3
+5
+113 3
+95 1
+111 0
+24 0
+60 0
+2
+0
+170
+3
+113 3
+95 0
+111 0
+0
+81
+6
+113 34
+95 0
+111 0
+8 0
+45 0
+57 0
+end_DTG
+begin_DTG
+2
+1
+103
+3
+113 5
+111 3
+72 0
+1
+7
+5
+113 5
+95 1
+111 0
+25 0
+72 0
+2
+0
+168
+3
+113 2
+95 1
+111 0
+0
+3
+6
+113 3
+95 1
+111 0
+24 0
+46 0
+60 0
+end_DTG
+begin_DTG
+3
+1
+104
+3
+113 5
+111 3
+50 0
+1
+128
+3
+113 17
+111 3
+50 0
+1
+47
+5
+113 17
+95 0
+111 0
+0 0
+50 0
+1
+0
+7
+6
+113 5
+95 1
+111 0
+25 0
+47 0
+72 0
+end_DTG
+begin_DTG
+2
+1
+44
+5
+110 16
+84 1
+112 0
+20 0
+27 0
+1
+45
+5
+113 16
+95 1
+111 0
+20 0
+27 0
+2
+0
+6
+6
+110 5
+84 1
+112 0
+25 0
+47 0
+72 0
+0
+7
+6
+113 5
+95 1
+111 0
+25 0
+47 0
+72 0
+end_DTG
+begin_DTG
+2
+1
+46
+5
+110 17
+84 0
+112 0
+0 0
+48 0
+1
+47
+5
+113 17
+95 0
+111 0
+0 0
+48 0
+2
+0
+44
+6
+110 16
+84 1
+112 0
+20 0
+27 0
+49 0
+0
+45
+6
+113 16
+95 1
+111 0
+20 0
+27 0
+49 0
+end_DTG
+begin_DTG
+2
+1
+50
+5
+110 19
+84 0
+112 0
+11 0
+28 0
+1
+51
+5
+113 19
+95 0
+111 0
+11 0
+28 0
+2
+0
+46
+6
+110 17
+84 0
+112 0
+0 0
+48 0
+50 0
+0
+47
+6
+113 17
+95 0
+111 0
+0 0
+48 0
+50 0
+end_DTG
+begin_DTG
+3
+1
+153
+3
+113 30
+111 3
+54 0
+1
+158
+3
+113 32
+111 3
+54 0
+1
+77
+5
+113 32
+95 0
+111 0
+16 0
+54 0
+1
+0
+73
+6
+113 30
+95 0
+111 0
+15 0
+62 0
+66 0
+end_DTG
+begin_DTG
+3
+1
+157
+3
+113 32
+111 3
+56 0
+1
+160
+3
+113 33
+111 3
+56 0
+1
+79
+5
+113 33
+95 0
+111 0
+17 0
+56 0
+1
+0
+77
+6
+113 32
+95 0
+111 0
+16 0
+52 0
+54 0
+end_DTG
+begin_DTG
+2
+1
+76
+5
+110 32
+84 0
+112 0
+16 0
+52 0
+1
+77
+5
+113 32
+95 0
+111 0
+16 0
+52 0
+2
+0
+74
+6
+110 31
+84 0
+112 0
+6 0
+43 0
+63 0
+0
+75
+6
+113 31
+95 0
+111 0
+6 0
+43 0
+63 0
+end_DTG
+begin_DTG
+2
+1
+64
+5
+110 26
+84 0
+112 0
+7 0
+44 0
+1
+65
+5
+113 26
+95 0
+111 0
+7 0
+44 0
+2
+0
+76
+6
+110 32
+84 0
+112 0
+16 0
+52 0
+54 0
+0
+77
+6
+113 32
+95 0
+111 0
+16 0
+52 0
+54 0
+end_DTG
+begin_DTG
+2
+1
+78
+5
+110 33
+84 0
+112 0
+17 0
+53 0
+1
+79
+5
+113 33
+95 0
+111 0
+17 0
+53 0
+2
+0
+64
+6
+110 26
+84 0
+112 0
+7 0
+44 0
+55 0
+0
+65
+6
+113 26
+95 0
+111 0
+7 0
+44 0
+55 0
+end_DTG
+begin_DTG
+2
+1
+80
+5
+110 34
+84 0
+112 0
+8 0
+45 0
+1
+81
+5
+113 34
+95 0
+111 0
+8 0
+45 0
+2
+0
+78
+6
+110 33
+84 0
+112 0
+17 0
+53 0
+56 0
+0
+79
+6
+113 33
+95 0
+111 0
+17 0
+53 0
+56 0
+end_DTG
+begin_DTG
+3
+1
+108
+3
+113 7
+111 3
+59 0
+1
+159
+3
+113 33
+111 3
+59 0
+1
+11
+5
+113 7
+95 0
+111 0
+18 0
+59 0
+1
+0
+79
+6
+113 33
+95 0
+111 0
+17 0
+53 0
+56 0
+end_DTG
+begin_DTG
+2
+1
+10
+5
+110 7
+84 0
+112 0
+18 0
+58 0
+1
+11
+5
+113 7
+95 0
+111 0
+18 0
+58 0
+2
+0
+80
+6
+110 34
+84 0
+112 0
+8 0
+45 0
+57 0
+0
+81
+6
+113 34
+95 0
+111 0
+8 0
+45 0
+57 0
+end_DTG
+begin_DTG
+2
+1
+2
+5
+110 3
+84 1
+112 0
+24 0
+46 0
+1
+3
+5
+113 3
+95 1
+111 0
+24 0
+46 0
+2
+0
+10
+6
+110 7
+84 0
+112 0
+18 0
+58 0
+59 0
+0
+11
+6
+113 7
+95 0
+111 0
+18 0
+58 0
+59 0
+end_DTG
+begin_DTG
+2
+1
+107
+3
+113 7
+111 3
+74 0
+1
+89
+6
+113 37
+95 1
+111 0
+26 0
+72 0
+74 0
+2
+0
+170
+3
+113 3
+95 0
+111 0
+0
+11
+6
+113 7
+95 0
+111 0
+18 0
+58 0
+59 0
+end_DTG
+begin_DTG
+3
+1
+149
+3
+113 28
+111 3
+66 0
+1
+154
+3
+113 30
+111 3
+66 0
+1
+73
+5
+113 30
+95 0
+111 0
+15 0
+66 0
+1
+0
+69
+6
+113 28
+95 0
+111 0
+19 0
+69 0
+73 0
+end_DTG
+begin_DTG
+2
+1
+74
+5
+110 31
+84 0
+112 0
+6 0
+43 0
+1
+75
+5
+113 31
+95 0
+111 0
+6 0
+43 0
+2
+0
+72
+6
+110 30
+84 0
+112 0
+15 0
+62 0
+66 0
+0
+73
+6
+113 30
+95 0
+111 0
+15 0
+62 0
+66 0
+end_DTG
+begin_DTG
+2
+1
+113
+3
+113 10
+111 3
+71 0
+1
+23
+5
+113 10
+95 1
+111 0
+21 0
+71 0
+1
+0
+25
+8
+113 10
+95 0
+111 0
+99 0
+108 0
+104 0
+106 0
+103 0
+end_DTG
+begin_DTG
+3
+1
+147
+3
+113 27
+111 3
+68 0
+1
+152
+3
+113 29
+111 3
+68 0
+1
+71
+5
+113 29
+95 0
+111 0
+5 0
+68 0
+1
+0
+67
+6
+113 27
+95 0
+111 0
+78 0
+85 0
+79 0
+end_DTG
+begin_DTG
+2
+1
+72
+5
+110 30
+84 0
+112 0
+15 0
+62 0
+1
+73
+5
+113 30
+95 0
+111 0
+15 0
+62 0
+2
+0
+70
+6
+110 29
+84 0
+112 0
+5 0
+65 0
+68 0
+0
+71
+6
+113 29
+95 0
+111 0
+5 0
+65 0
+68 0
+end_DTG
+begin_DTG
+2
+1
+0
+5
+110 2
+84 1
+112 0
+9 0
+10 0
+1
+1
+5
+113 2
+95 1
+111 0
+9 0
+10 0
+2
+0
+88
+7
+110 37
+84 1
+112 0
+26 0
+61 0
+72 0
+74 0
+0
+89
+7
+113 37
+95 1
+111 0
+26 0
+61 0
+72 0
+74 0
+end_DTG
+begin_DTG
+2
+1
+70
+5
+110 29
+84 0
+112 0
+5 0
+65 0
+1
+71
+5
+113 29
+95 0
+111 0
+5 0
+65 0
+2
+0
+68
+6
+110 28
+84 0
+112 0
+19 0
+69 0
+73 0
+0
+69
+6
+113 28
+95 0
+111 0
+19 0
+69 0
+73 0
+end_DTG
+begin_DTG
+3
+1
+150
+3
+113 28
+111 3
+73 0
+1
+165
+3
+113 36
+111 3
+73 0
+1
+69
+5
+113 28
+95 0
+111 0
+19 0
+73 0
+1
+0
+87
+7
+113 36
+95 0
+111 0
+76 0
+90 0
+70 0
+91 0
+end_DTG
+begin_DTG
+2
+1
+84
+6
+110 35
+84 0
+112 0
+77 0
+87 0
+79 0
+1
+85
+6
+113 35
+95 0
+111 0
+77 0
+87 0
+79 0
+2
+0
+62
+6
+110 25
+84 0
+112 0
+4 0
+41 0
+42 0
+0
+63
+6
+113 25
+95 0
+111 0
+4 0
+41 0
+42 0
+end_DTG
+begin_DTG
+2
+1
+22
+5
+110 10
+84 1
+112 0
+21 0
+64 0
+1
+23
+5
+113 10
+95 1
+111 0
+21 0
+64 0
+2
+0
+4
+6
+110 4
+84 0
+112 0
+101 0
+107 0
+100 0
+0
+5
+6
+113 4
+95 0
+111 0
+101 0
+107 0
+100 0
+end_DTG
+begin_DTG
+2
+1
+6
+5
+110 5
+84 1
+112 0
+25 0
+47 0
+1
+7
+5
+113 5
+95 1
+111 0
+25 0
+47 0
+2
+0
+167
+3
+110 2
+84 1
+112 0
+0
+168
+3
+113 2
+95 1
+111 0
+end_DTG
+begin_DTG
+2
+1
+68
+5
+110 28
+84 0
+112 0
+19 0
+69 0
+1
+69
+5
+113 28
+95 0
+111 0
+19 0
+69 0
+2
+0
+66
+6
+110 27
+84 0
+112 0
+78 0
+85 0
+79 0
+0
+67
+6
+113 27
+95 0
+111 0
+78 0
+85 0
+79 0
+end_DTG
+begin_DTG
+2
+1
+88
+6
+110 37
+84 1
+112 0
+26 0
+61 0
+72 0
+1
+89
+6
+113 37
+95 1
+111 0
+26 0
+61 0
+72 0
+4
+0
+169
+3
+110 3
+84 0
+112 0
+0
+170
+3
+113 3
+95 0
+111 0
+0
+2
+6
+110 3
+84 1
+112 0
+24 0
+46 0
+60 0
+0
+3
+6
+113 3
+95 1
+111 0
+24 0
+46 0
+60 0
+end_DTG
+begin_DTG
+2
+1
+111
+3
+113 9
+111 3
+82 0
+1
+21
+5
+113 9
+95 1
+111 0
+23 0
+82 0
+1
+0
+19
+8
+113 9
+95 0
+111 0
+98 0
+105 0
+104 0
+100 0
+103 0
+end_DTG
+begin_DTG
+2
+1
+38
+5
+110 14
+84 0
+112 0
+90 0
+91 0
+1
+86
+6
+110 36
+84 0
+112 0
+90 0
+70 0
+91 0
+2
+0
+36
+6
+110 14
+84 1
+112 0
+83 0
+89 0
+94 0
+0
+62
+6
+110 25
+84 0
+112 0
+4 0
+41 0
+42 0
+end_DTG
+begin_DTG
+2
+1
+84
+6
+110 35
+84 0
+112 0
+87 0
+70 0
+79 0
+1
+86
+7
+110 36
+84 0
+112 0
+76 0
+90 0
+70 0
+91 0
+2
+0
+48
+6
+110 18
+84 0
+112 0
+14 0
+31 0
+40 0
+0
+82
+6
+110 35
+84 1
+112 0
+80 0
+88 0
+92 0
+end_DTG
+begin_DTG
+2
+1
+66
+5
+110 27
+84 0
+112 0
+85 0
+79 0
+1
+84
+7
+110 35
+84 0
+112 0
+77 0
+87 0
+70 0
+79 0
+2
+0
+62
+6
+110 25
+84 0
+112 0
+4 0
+41 0
+42 0
+0
+82
+6
+110 35
+84 1
+112 0
+80 0
+88 0
+92 0
+end_DTG
+begin_DTG
+2
+1
+66
+5
+110 27
+84 0
+112 0
+78 0
+85 0
+1
+67
+5
+113 27
+95 0
+111 0
+78 0
+85 0
+2
+0
+86
+7
+110 36
+84 0
+112 0
+76 0
+90 0
+70 0
+91 0
+0
+87
+7
+113 36
+95 0
+111 0
+76 0
+90 0
+70 0
+91 0
+end_DTG
+begin_DTG
+2
+1
+42
+5
+110 15
+84 0
+112 0
+88 0
+92 0
+1
+82
+5
+110 35
+84 1
+112 0
+88 0
+92 0
+2
+0
+40
+6
+110 15
+84 1
+112 0
+93 0
+97 0
+96 0
+0
+84
+7
+110 35
+84 0
+112 0
+77 0
+87 0
+70 0
+79 0
+end_DTG
+begin_DTG
+2
+1
+115
+3
+113 11
+111 3
+86 0
+1
+27
+5
+113 11
+95 1
+111 0
+22 0
+86 0
+2
+0
+98
+6
+113 6
+95 1
+111 3
+102 0
+109 0
+103 0
+0
+29
+8
+113 11
+95 0
+111 0
+99 0
+108 0
+104 0
+106 0
+100 0
+end_DTG
+begin_DTG
+3
+1
+20
+5
+110 9
+84 1
+112 0
+23 0
+75 0
+1
+21
+5
+113 9
+95 1
+111 0
+23 0
+75 0
+1
+99
+5
+113 9
+95 0
+111 3
+23 0
+75 0
+2
+0
+30
+6
+110 12
+84 0
+112 0
+99 0
+108 0
+106 0
+0
+31
+6
+113 12
+95 0
+111 0
+99 0
+108 0
+106 0
+end_DTG
+begin_DTG
+2
+1
+34
+5
+110 13
+84 0
+112 0
+89 0
+94 0
+1
+36
+5
+110 14
+84 1
+112 0
+89 0
+94 0
+2
+0
+32
+6
+110 13
+84 1
+112 0
+98 0
+105 0
+104 0
+0
+38
+6
+110 14
+84 0
+112 0
+76 0
+90 0
+91 0
+end_DTG
+begin_DTG
+4
+1
+46
+5
+110 17
+112 0
+0 0
+48 0
+50 0
+1
+86
+6
+110 36
+112 0
+76 0
+90 0
+70 0
+91 0
+1
+24
+7
+110 10
+112 0
+99 0
+108 0
+104 0
+106 0
+103 0
+1
+28
+7
+110 11
+112 0
+99 0
+108 0
+104 0
+106 0
+100 0
+1
+0
+2
+5
+110 3
+112 0
+24 0
+46 0
+60 0
+end_DTG
+begin_DTG
+5
+1
+148
+3
+113 27
+111 3
+79 0
+1
+143
+4
+113 25
+111 3
+91 0
+79 0
+1
+164
+4
+113 35
+111 3
+70 0
+79 0
+1
+67
+5
+113 27
+95 0
+111 0
+78 0
+79 0
+1
+85
+7
+113 35
+95 0
+111 0
+77 0
+87 0
+70 0
+79 0
+2
+0
+63
+6
+113 25
+95 0
+111 0
+4 0
+41 0
+42 0
+0
+83
+6
+113 35
+95 1
+111 0
+80 0
+88 0
+92 0
+end_DTG
+begin_DTG
+2
+1
+26
+5
+110 11
+84 1
+112 0
+22 0
+81 0
+1
+27
+5
+113 11
+95 1
+111 0
+22 0
+81 0
+3
+0
+8
+6
+110 6
+84 0
+112 0
+102 0
+109 0
+103 0
+0
+9
+6
+113 6
+95 0
+111 0
+102 0
+109 0
+103 0
+0
+98
+6
+113 6
+95 1
+111 3
+102 0
+109 0
+103 0
+end_DTG
+begin_DTG
+5
+1
+129
+3
+113 18
+111 3
+70 0
+1
+164
+4
+113 35
+111 3
+70 0
+79 0
+1
+166
+4
+113 36
+111 3
+70 0
+91 0
+1
+85
+6
+113 35
+95 0
+111 0
+77 0
+70 0
+79 0
+1
+87
+7
+113 36
+95 0
+111 0
+76 0
+90 0
+70 0
+91 0
+2
+0
+49
+6
+113 18
+95 0
+111 0
+14 0
+31 0
+40 0
+0
+83
+6
+113 35
+95 1
+111 0
+80 0
+88 0
+92 0
+end_DTG
+begin_DTG
+4
+1
+124
+3
+113 15
+111 3
+92 0
+1
+163
+3
+113 35
+111 3
+92 0
+1
+43
+5
+113 15
+95 0
+111 0
+80 0
+92 0
+1
+83
+5
+113 35
+95 1
+111 0
+80 0
+92 0
+2
+0
+41
+6
+113 15
+95 1
+111 0
+93 0
+97 0
+96 0
+0
+85
+7
+113 35
+95 0
+111 0
+77 0
+87 0
+70 0
+79 0
+end_DTG
+begin_DTG
+4
+1
+120
+3
+113 13
+111 3
+94 0
+1
+121
+3
+113 14
+111 3
+94 0
+1
+35
+5
+113 13
+95 0
+111 0
+83 0
+94 0
+1
+37
+5
+113 14
+95 1
+111 0
+83 0
+94 0
+2
+0
+33
+6
+113 13
+95 1
+111 0
+98 0
+105 0
+104 0
+0
+39
+6
+113 14
+95 0
+111 0
+76 0
+90 0
+91 0
+end_DTG
+begin_DTG
+5
+1
+122
+3
+113 14
+111 3
+91 0
+1
+143
+4
+113 25
+111 3
+91 0
+79 0
+1
+166
+4
+113 36
+111 3
+70 0
+91 0
+1
+39
+5
+113 14
+95 0
+111 0
+76 0
+91 0
+1
+87
+6
+113 36
+95 0
+111 0
+76 0
+70 0
+91 0
+2
+0
+37
+6
+113 14
+95 1
+111 0
+83 0
+89 0
+94 0
+0
+63
+6
+113 25
+95 0
+111 0
+4 0
+41 0
+42 0
+end_DTG
+begin_DTG
+4
+1
+38
+5
+110 14
+84 0
+112 0
+76 0
+90 0
+1
+39
+5
+113 14
+95 0
+111 0
+76 0
+90 0
+1
+86
+6
+110 36
+84 0
+112 0
+76 0
+90 0
+70 0
+1
+87
+6
+113 36
+95 0
+111 0
+76 0
+90 0
+70 0
+4
+0
+82
+6
+110 35
+84 1
+112 0
+80 0
+88 0
+92 0
+0
+83
+6
+113 35
+95 1
+111 0
+80 0
+88 0
+92 0
+0
+84
+7
+110 35
+84 0
+112 0
+77 0
+87 0
+70 0
+79 0
+0
+85
+7
+113 35
+95 0
+111 0
+77 0
+87 0
+70 0
+79 0
+end_DTG
+begin_DTG
+4
+1
+42
+5
+110 15
+84 0
+112 0
+80 0
+88 0
+1
+43
+5
+113 15
+95 0
+111 0
+80 0
+88 0
+1
+82
+5
+110 35
+84 1
+112 0
+80 0
+88 0
+1
+83
+5
+113 35
+95 1
+111 0
+80 0
+88 0
+4
+0
+36
+6
+110 14
+84 1
+112 0
+83 0
+89 0
+94 0
+0
+37
+6
+113 14
+95 1
+111 0
+83 0
+89 0
+94 0
+0
+38
+6
+110 14
+84 0
+112 0
+76 0
+90 0
+91 0
+0
+39
+6
+113 14
+95 0
+111 0
+76 0
+90 0
+91 0
+end_DTG
+begin_DTG
+2
+1
+16
+5
+110 8
+84 0
+112 0
+97 0
+96 0
+1
+40
+5
+110 15
+84 1
+112 0
+97 0
+96 0
+3
+0
+42
+6
+110 15
+84 0
+112 0
+80 0
+88 0
+92 0
+0
+12
+8
+110 8
+84 1
+112 0
+101 0
+107 0
+106 0
+100 0
+103 0
+0
+14
+8
+110 8
+84 1
+112 0
+102 0
+109 0
+106 0
+100 0
+103 0
+end_DTG
+begin_DTG
+4
+1
+34
+5
+110 13
+84 0
+112 0
+83 0
+89 0
+1
+35
+5
+113 13
+95 0
+111 0
+83 0
+89 0
+1
+36
+5
+110 14
+84 1
+112 0
+83 0
+89 0
+1
+37
+5
+113 14
+95 1
+111 0
+83 0
+89 0
+4
+0
+40
+6
+110 15
+84 1
+112 0
+93 0
+97 0
+96 0
+0
+41
+6
+113 15
+95 1
+111 0
+93 0
+97 0
+96 0
+0
+42
+6
+110 15
+84 0
+112 0
+80 0
+88 0
+92 0
+0
+43
+6
+113 15
+95 0
+111 0
+80 0
+88 0
+92 0
+end_DTG
+begin_DTG
+4
+1
+47
+5
+113 17
+111 0
+0 0
+48 0
+50 0
+1
+87
+6
+113 36
+111 0
+76 0
+90 0
+70 0
+91 0
+1
+25
+7
+113 10
+111 0
+99 0
+108 0
+104 0
+106 0
+103 0
+1
+29
+7
+113 11
+111 0
+99 0
+108 0
+104 0
+106 0
+100 0
+2
+0
+3
+5
+113 3
+111 0
+24 0
+46 0
+60 0
+0
+100
+5
+113 11
+111 3
+99 0
+108 0
+106 0
+end_DTG
+begin_DTG
+4
+1
+16
+5
+110 8
+84 0
+112 0
+93 0
+97 0
+1
+17
+5
+113 8
+95 0
+111 0
+93 0
+97 0
+1
+40
+5
+110 15
+84 1
+112 0
+93 0
+97 0
+1
+41
+5
+113 15
+95 1
+111 0
+93 0
+97 0
+4
+0
+32
+6
+110 13
+84 1
+112 0
+98 0
+105 0
+104 0
+0
+33
+6
+113 13
+95 1
+111 0
+98 0
+105 0
+104 0
+0
+34
+6
+110 13
+84 0
+112 0
+83 0
+89 0
+94 0
+0
+35
+6
+113 13
+95 0
+111 0
+83 0
+89 0
+94 0
+end_DTG
+begin_DTG
+4
+1
+110
+3
+113 8
+111 3
+96 0
+1
+123
+3
+113 15
+111 3
+96 0
+1
+17
+5
+113 8
+95 0
+111 0
+93 0
+96 0
+1
+41
+5
+113 15
+95 1
+111 0
+93 0
+96 0
+3
+0
+43
+6
+113 15
+95 0
+111 0
+80 0
+88 0
+92 0
+0
+13
+8
+113 8
+95 1
+111 0
+101 0
+107 0
+106 0
+100 0
+103 0
+0
+15
+8
+113 8
+95 1
+111 0
+102 0
+109 0
+106 0
+100 0
+103 0
+end_DTG
+begin_DTG
+4
+1
+32
+5
+110 13
+84 1
+112 0
+105 0
+104 0
+1
+18
+7
+110 9
+84 0
+112 0
+105 0
+104 0
+100 0
+103 0
+1
+24
+8
+110 10
+84 0
+112 0
+99 0
+108 0
+104 0
+106 0
+103 0
+1
+28
+8
+110 11
+84 0
+112 0
+99 0
+108 0
+104 0
+106 0
+100 0
+4
+0
+20
+6
+110 9
+84 1
+112 0
+23 0
+75 0
+82 0
+0
+22
+6
+110 10
+84 1
+112 0
+21 0
+64 0
+71 0
+0
+26
+6
+110 11
+84 1
+112 0
+22 0
+81 0
+86 0
+0
+34
+6
+110 13
+84 0
+112 0
+83 0
+89 0
+94 0
+end_DTG
+begin_DTG
+5
+1
+30
+5
+110 12
+84 0
+112 0
+108 0
+106 0
+1
+24
+7
+110 10
+84 0
+112 0
+108 0
+104 0
+106 0
+103 0
+1
+28
+7
+110 11
+84 0
+112 0
+108 0
+104 0
+106 0
+100 0
+1
+12
+8
+110 8
+84 1
+112 0
+101 0
+107 0
+106 0
+100 0
+103 0
+1
+14
+8
+110 8
+84 1
+112 0
+102 0
+109 0
+106 0
+100 0
+103 0
+3
+0
+16
+6
+110 8
+84 0
+112 0
+93 0
+97 0
+96 0
+0
+22
+6
+110 10
+84 1
+112 0
+21 0
+64 0
+71 0
+0
+26
+6
+110 11
+84 1
+112 0
+22 0
+81 0
+86 0
+end_DTG
+begin_DTG
+4
+1
+4
+5
+110 4
+84 0
+112 0
+101 0
+107 0
+1
+5
+5
+113 4
+95 0
+111 0
+101 0
+107 0
+1
+12
+7
+110 8
+84 1
+112 0
+101 0
+107 0
+106 0
+103 0
+1
+13
+7
+113 8
+95 1
+111 0
+101 0
+107 0
+106 0
+103 0
+4
+0
+22
+6
+110 10
+84 1
+112 0
+21 0
+64 0
+71 0
+0
+23
+6
+113 10
+95 1
+111 0
+21 0
+64 0
+71 0
+0
+24
+8
+110 10
+84 0
+112 0
+99 0
+108 0
+104 0
+106 0
+103 0
+0
+25
+8
+113 10
+95 0
+111 0
+99 0
+108 0
+104 0
+106 0
+103 0
+end_DTG
+begin_DTG
+5
+1
+4
+5
+110 4
+84 0
+112 0
+107 0
+100 0
+1
+12
+7
+110 8
+84 1
+112 0
+107 0
+106 0
+100 0
+103 0
+1
+14
+8
+110 8
+84 1
+112 0
+102 0
+109 0
+106 0
+100 0
+103 0
+1
+18
+8
+110 9
+84 0
+112 0
+98 0
+105 0
+104 0
+100 0
+103 0
+1
+28
+8
+110 11
+84 0
+112 0
+99 0
+108 0
+104 0
+106 0
+100 0
+4
+0
+92
+3
+110 4
+84 1
+112 0
+0
+16
+6
+110 8
+84 0
+112 0
+93 0
+97 0
+96 0
+0
+20
+6
+110 9
+84 1
+112 0
+23 0
+75 0
+82 0
+0
+26
+6
+110 11
+84 1
+112 0
+22 0
+81 0
+86 0
+end_DTG
+begin_DTG
+5
+1
+8
+5
+110 6
+84 0
+112 0
+109 0
+103 0
+1
+14
+7
+110 8
+84 1
+112 0
+109 0
+106 0
+100 0
+103 0
+1
+12
+8
+110 8
+84 1
+112 0
+101 0
+107 0
+106 0
+100 0
+103 0
+1
+18
+8
+110 9
+84 0
+112 0
+98 0
+105 0
+104 0
+100 0
+103 0
+1
+24
+8
+110 10
+84 0
+112 0
+99 0
+108 0
+104 0
+106 0
+103 0
+4
+0
+96
+3
+110 6
+84 1
+112 0
+0
+16
+6
+110 8
+84 0
+112 0
+93 0
+97 0
+96 0
+0
+20
+6
+110 9
+84 1
+112 0
+23 0
+75 0
+82 0
+0
+22
+6
+110 10
+84 1
+112 0
+21 0
+64 0
+71 0
+end_DTG
+begin_DTG
+5
+1
+8
+5
+110 6
+84 0
+112 0
+102 0
+109 0
+1
+9
+5
+113 6
+95 0
+111 0
+102 0
+109 0
+1
+98
+5
+113 6
+95 1
+111 3
+102 0
+109 0
+1
+14
+7
+110 8
+84 1
+112 0
+102 0
+109 0
+106 0
+100 0
+1
+15
+7
+113 8
+95 1
+111 0
+102 0
+109 0
+106 0
+100 0
+5
+0
+26
+6
+110 11
+84 1
+112 0
+22 0
+81 0
+86 0
+0
+27
+6
+113 11
+95 1
+111 0
+22 0
+81 0
+86 0
+0
+100
+6
+113 11
+95 1
+111 3
+99 0
+108 0
+106 0
+0
+28
+8
+110 11
+84 0
+112 0
+99 0
+108 0
+104 0
+106 0
+100 0
+0
+29
+8
+113 11
+95 0
+111 0
+99 0
+108 0
+104 0
+106 0
+100 0
+end_DTG
+begin_DTG
+4
+1
+32
+5
+110 13
+84 1
+112 0
+98 0
+105 0
+1
+33
+5
+113 13
+95 1
+111 0
+98 0
+105 0
+1
+18
+7
+110 9
+84 0
+112 0
+98 0
+105 0
+100 0
+103 0
+1
+19
+7
+113 9
+95 0
+111 0
+98 0
+105 0
+100 0
+103 0
+6
+0
+16
+6
+110 8
+84 0
+112 0
+93 0
+97 0
+96 0
+0
+17
+6
+113 8
+95 0
+111 0
+93 0
+97 0
+96 0
+0
+12
+8
+110 8
+84 1
+112 0
+101 0
+107 0
+106 0
+100 0
+103 0
+0
+13
+8
+113 8
+95 1
+111 0
+101 0
+107 0
+106 0
+100 0
+103 0
+0
+14
+8
+110 8
+84 1
+112 0
+102 0
+109 0
+106 0
+100 0
+103 0
+0
+15
+8
+113 8
+95 1
+111 0
+102 0
+109 0
+106 0
+100 0
+103 0
+end_DTG
+begin_DTG
+8
+1
+119
+3
+113 13
+111 3
+104 0
+1
+33
+5
+113 13
+95 1
+111 0
+98 0
+104 0
+1
+112
+5
+113 9
+111 3
+104 0
+100 0
+103 0
+1
+114
+5
+113 10
+111 3
+104 0
+106 0
+103 0
+1
+116
+5
+113 11
+111 3
+104 0
+106 0
+100 0
+1
+19
+7
+113 9
+95 0
+111 0
+98 0
+104 0
+100 0
+103 0
+1
+25
+8
+113 10
+95 0
+111 0
+99 0
+108 0
+104 0
+106 0
+103 0
+1
+29
+8
+113 11
+95 0
+111 0
+99 0
+108 0
+104 0
+106 0
+100 0
+4
+0
+21
+6
+113 9
+95 1
+111 0
+23 0
+75 0
+82 0
+0
+23
+6
+113 10
+95 1
+111 0
+21 0
+64 0
+71 0
+0
+27
+6
+113 11
+95 1
+111 0
+22 0
+81 0
+86 0
+0
+35
+6
+113 13
+95 0
+111 0
+83 0
+89 0
+94 0
+end_DTG
+begin_DTG
+7
+1
+30
+5
+110 12
+84 0
+112 0
+99 0
+108 0
+1
+31
+5
+113 12
+95 0
+111 0
+99 0
+108 0
+1
+100
+5
+113 11
+95 1
+111 3
+99 0
+108 0
+1
+24
+7
+110 10
+84 0
+112 0
+99 0
+108 0
+104 0
+103 0
+1
+25
+7
+113 10
+95 0
+111 0
+99 0
+108 0
+104 0
+103 0
+1
+28
+7
+110 11
+84 0
+112 0
+99 0
+108 0
+104 0
+100 0
+1
+29
+7
+113 11
+95 0
+111 0
+99 0
+108 0
+104 0
+100 0
+5
+0
+20
+6
+110 9
+84 1
+112 0
+23 0
+75 0
+82 0
+0
+21
+6
+113 9
+95 1
+111 0
+23 0
+75 0
+82 0
+0
+99
+6
+113 9
+95 0
+111 3
+23 0
+75 0
+82 0
+0
+18
+8
+110 9
+84 0
+112 0
+98 0
+105 0
+104 0
+100 0
+103 0
+0
+19
+8
+113 9
+95 0
+111 0
+98 0
+105 0
+104 0
+100 0
+103 0
+end_DTG
+begin_DTG
+9
+1
+102
+3
+113 4
+111 3
+100 0
+1
+5
+5
+113 4
+95 0
+111 0
+101 0
+100 0
+1
+109
+5
+113 8
+111 3
+106 0
+100 0
+103 0
+1
+112
+5
+113 9
+111 3
+104 0
+100 0
+103 0
+1
+116
+5
+113 11
+111 3
+104 0
+106 0
+100 0
+1
+13
+7
+113 8
+95 1
+111 0
+101 0
+106 0
+100 0
+103 0
+1
+15
+8
+113 8
+95 1
+111 0
+102 0
+109 0
+106 0
+100 0
+103 0
+1
+19
+8
+113 9
+95 0
+111 0
+98 0
+105 0
+104 0
+100 0
+103 0
+1
+29
+8
+113 11
+95 0
+111 0
+99 0
+108 0
+104 0
+106 0
+100 0
+4
+0
+93
+3
+113 4
+95 1
+111 0
+0
+17
+6
+113 8
+95 0
+111 0
+93 0
+97 0
+96 0
+0
+21
+6
+113 9
+95 1
+111 0
+23 0
+75 0
+82 0
+0
+27
+6
+113 11
+95 1
+111 0
+22 0
+81 0
+86 0
+end_DTG
+begin_DTG
+10
+1
+118
+3
+113 12
+111 3
+106 0
+1
+31
+5
+113 12
+95 0
+111 0
+99 0
+106 0
+1
+100
+5
+113 11
+95 1
+111 3
+99 0
+106 0
+1
+109
+5
+113 8
+111 3
+106 0
+100 0
+103 0
+1
+114
+5
+113 10
+111 3
+104 0
+106 0
+103 0
+1
+116
+5
+113 11
+111 3
+104 0
+106 0
+100 0
+1
+25
+7
+113 10
+95 0
+111 0
+99 0
+104 0
+106 0
+103 0
+1
+29
+7
+113 11
+95 0
+111 0
+99 0
+104 0
+106 0
+100 0
+1
+13
+8
+113 8
+95 1
+111 0
+101 0
+107 0
+106 0
+100 0
+103 0
+1
+15
+8
+113 8
+95 1
+111 0
+102 0
+109 0
+106 0
+100 0
+103 0
+4
+0
+17
+6
+113 8
+95 0
+111 0
+93 0
+97 0
+96 0
+0
+23
+6
+113 10
+95 1
+111 0
+21 0
+64 0
+71 0
+0
+27
+6
+113 11
+95 1
+111 0
+22 0
+81 0
+86 0
+0
+99
+6
+113 9
+95 0
+111 3
+23 0
+75 0
+82 0
+end_DTG
+begin_DTG
+9
+1
+106
+3
+113 6
+111 3
+103 0
+1
+9
+5
+113 6
+95 0
+111 0
+102 0
+103 0
+1
+109
+5
+113 8
+111 3
+106 0
+100 0
+103 0
+1
+112
+5
+113 9
+111 3
+104 0
+100 0
+103 0
+1
+114
+5
+113 10
+111 3
+104 0
+106 0
+103 0
+1
+15
+7
+113 8
+95 1
+111 0
+102 0
+106 0
+100 0
+103 0
+1
+13
+8
+113 8
+95 1
+111 0
+101 0
+107 0
+106 0
+100 0
+103 0
+1
+19
+8
+113 9
+95 0
+111 0
+98 0
+105 0
+104 0
+100 0
+103 0
+1
+25
+8
+113 10
+95 0
+111 0
+99 0
+108 0
+104 0
+106 0
+103 0
+5
+0
+97
+3
+113 6
+95 1
+111 0
+0
+17
+6
+113 8
+95 0
+111 0
+93 0
+97 0
+96 0
+0
+21
+6
+113 9
+95 1
+111 0
+23 0
+75 0
+82 0
+0
+23
+6
+113 10
+95 1
+111 0
+21 0
+64 0
+71 0
+0
+100
+6
+113 11
+95 1
+111 3
+99 0
+108 0
+106 0
+end_DTG
+begin_DTG
+0
+0
+2
+0
+167
+2
+84 1
+112 0
+37
+0
+5
+84 1
+112 0
+9 0
+10 0
+67 0
+2
+1
+169
+2
+84 0
+112 0
+7
+2
+5
+84 1
+112 0
+24 0
+46 0
+60 0
+1
+10
+4
+5
+84 0
+112 0
+101 0
+107 0
+100 0
+1
+2
+6
+5
+84 1
+112 0
+25 0
+47 0
+72 0
+1
+11
+8
+5
+84 0
+112 0
+102 0
+109 0
+103 0
+1
+34
+10
+5
+84 0
+112 0
+18 0
+58 0
+59 0
+3
+10
+12
+7
+84 1
+112 0
+101 0
+107 0
+106 0
+100 0
+103 0
+11
+14
+7
+84 1
+112 0
+102 0
+109 0
+106 0
+100 0
+103 0
+13
+16
+5
+84 0
+112 0
+93 0
+97 0
+96 0
+2
+8
+18
+7
+84 0
+112 0
+98 0
+105 0
+104 0
+100 0
+103 0
+12
+20
+5
+84 1
+112 0
+23 0
+75 0
+82 0
+2
+4
+22
+5
+84 1
+112 0
+21 0
+64 0
+71 0
+9
+24
+7
+84 0
+112 0
+99 0
+108 0
+104 0
+106 0
+103 0
+2
+6
+26
+5
+84 1
+112 0
+22 0
+81 0
+86 0
+9
+28
+7
+84 0
+112 0
+99 0
+108 0
+104 0
+106 0
+100 0
+1
+9
+30
+5
+84 0
+112 0
+99 0
+108 0
+106 0
+2
+8
+32
+5
+84 1
+112 0
+98 0
+105 0
+104 0
+15
+34
+5
+84 0
+112 0
+83 0
+89 0
+94 0
+2
+15
+36
+5
+84 1
+112 0
+83 0
+89 0
+94 0
+35
+38
+5
+84 0
+112 0
+76 0
+90 0
+91 0
+2
+13
+40
+5
+84 1
+112 0
+93 0
+97 0
+96 0
+14
+42
+5
+84 0
+112 0
+80 0
+88 0
+92 0
+1
+5
+44
+5
+84 1
+112 0
+20 0
+27 0
+49 0
+1
+16
+46
+5
+84 0
+112 0
+0 0
+48 0
+50 0
+1
+24
+48
+5
+84 0
+112 0
+14 0
+31 0
+40 0
+1
+17
+50
+5
+84 0
+112 0
+11 0
+28 0
+51 0
+1
+19
+52
+5
+84 0
+112 0
+1 0
+32 0
+34 0
+1
+20
+54
+5
+84 0
+112 0
+12 0
+29 0
+35 0
+1
+21
+56
+5
+84 0
+112 0
+2 0
+33 0
+36 0
+1
+22
+58
+5
+84 0
+112 0
+13 0
+30 0
+37 0
+1
+23
+60
+5
+84 0
+112 0
+3 0
+38 0
+39 0
+1
+18
+62
+5
+84 0
+112 0
+4 0
+41 0
+42 0
+1
+32
+64
+5
+84 0
+112 0
+7 0
+44 0
+55 0
+1
+36
+66
+5
+84 0
+112 0
+78 0
+85 0
+79 0
+1
+27
+68
+5
+84 0
+112 0
+19 0
+69 0
+73 0
+1
+28
+70
+5
+84 0
+112 0
+5 0
+65 0
+68 0
+1
+29
+72
+5
+84 0
+112 0
+15 0
+62 0
+66 0
+1
+30
+74
+5
+84 0
+112 0
+6 0
+43 0
+63 0
+1
+31
+76
+5
+84 0
+112 0
+16 0
+52 0
+54 0
+1
+26
+78
+5
+84 0
+112 0
+17 0
+53 0
+56 0
+1
+33
+80
+5
+84 0
+112 0
+8 0
+45 0
+57 0
+2
+14
+82
+5
+84 1
+112 0
+80 0
+88 0
+92 0
+25
+84
+6
+84 0
+112 0
+77 0
+87 0
+70 0
+79 0
+1
+35
+86
+6
+84 0
+112 0
+76 0
+90 0
+70 0
+91 0
+1
+3
+88
+6
+84 1
+112 0
+26 0
+61 0
+72 0
+74 0
+end_DTG
+begin_DTG
+6
+1
+91
+2
+113 4
+95 0
+1
+93
+2
+113 4
+95 1
+2
+95
+2
+113 6
+95 0
+2
+97
+2
+113 6
+95 1
+4
+168
+2
+113 2
+95 1
+4
+170
+2
+113 3
+95 0
+0
+0
+63
+0
+101
+1
+113 4
+0
+117
+1
+113 12
+0
+105
+1
+113 6
+0
+150
+2
+113 28
+73 0
+0
+135
+2
+113 21
+37 0
+0
+136
+2
+113 21
+35 0
+0
+137
+2
+113 22
+39 0
+0
+138
+2
+113 22
+36 0
+0
+139
+2
+113 23
+40 0
+0
+140
+2
+113 23
+37 0
+0
+141
+2
+113 24
+42 0
+0
+142
+2
+113 24
+39 0
+0
+144
+2
+113 25
+42 0
+0
+145
+2
+113 26
+57 0
+0
+146
+2
+113 26
+55 0
+0
+147
+2
+113 27
+68 0
+0
+148
+2
+113 27
+79 0
+0
+149
+2
+113 28
+66 0
+0
+163
+2
+113 35
+92 0
+0
+151
+2
+113 29
+63 0
+0
+152
+2
+113 29
+68 0
+0
+153
+2
+113 30
+54 0
+0
+154
+2
+113 30
+66 0
+0
+155
+2
+113 31
+55 0
+0
+156
+2
+113 31
+63 0
+0
+157
+2
+113 32
+56 0
+0
+158
+2
+113 32
+54 0
+0
+159
+2
+113 33
+59 0
+0
+160
+2
+113 33
+56 0
+0
+161
+2
+113 34
+60 0
+0
+162
+2
+113 34
+57 0
+0
+165
+2
+113 36
+73 0
+0
+133
+2
+113 20
+36 0
+0
+103
+2
+113 5
+72 0
+0
+104
+2
+113 5
+50 0
+0
+107
+2
+113 7
+74 0
+0
+108
+2
+113 7
+59 0
+0
+110
+2
+113 8
+96 0
+0
+111
+2
+113 9
+82 0
+0
+113
+2
+113 10
+71 0
+0
+115
+2
+113 11
+86 0
+0
+119
+2
+113 13
+104 0
+0
+120
+2
+113 13
+94 0
+0
+121
+2
+113 14
+94 0
+0
+123
+2
+113 15
+96 0
+0
+134
+2
+113 20
+34 0
+0
+132
+2
+113 19
+51 0
+0
+131
+2
+113 19
+35 0
+0
+130
+2
+113 18
+40 0
+0
+129
+2
+113 18
+70 0
+0
+128
+2
+113 17
+50 0
+0
+127
+2
+113 17
+34 0
+0
+126
+2
+113 16
+51 0
+0
+125
+2
+113 16
+49 0
+0
+124
+2
+113 15
+92 0
+0
+122
+2
+113 14
+91 0
+0
+143
+3
+113 25
+91 0
+79 0
+0
+164
+3
+113 35
+70 0
+79 0
+0
+166
+3
+113 36
+70 0
+91 0
+0
+112
+4
+113 9
+104 0
+100 0
+103 0
+0
+114
+4
+113 10
+104 0
+106 0
+103 0
+0
+109
+4
+113 8
+106 0
+100 0
+103 0
+0
+116
+4
+113 11
+104 0
+106 0
+100 0
+0
+end_DTG
+begin_DTG
+6
+1
+90
+2
+110 4
+84 0
+1
+92
+2
+110 4
+84 1
+2
+94
+2
+110 6
+84 0
+2
+96
+2
+110 6
+84 1
+3
+167
+2
+110 2
+84 1
+3
+169
+2
+110 3
+84 0
+0
+0
+0
+end_DTG
+begin_DTG
+0
+0
+2
+0
+168
+2
+95 1
+111 0
+37
+1
+5
+95 1
+111 0
+9 0
+10 0
+67 0
+2
+1
+170
+2
+95 0
+111 0
+7
+3
+5
+95 1
+111 0
+24 0
+46 0
+60 0
+1
+10
+5
+5
+95 0
+111 0
+101 0
+107 0
+100 0
+1
+2
+7
+5
+95 1
+111 0
+25 0
+47 0
+72 0
+2
+11
+9
+5
+95 0
+111 0
+102 0
+109 0
+103 0
+11
+98
+5
+95 1
+111 3
+102 0
+109 0
+103 0
+1
+34
+11
+5
+95 0
+111 0
+18 0
+58 0
+59 0
+3
+10
+13
+7
+95 1
+111 0
+101 0
+107 0
+106 0
+100 0
+103 0
+11
+15
+7
+95 1
+111 0
+102 0
+109 0
+106 0
+100 0
+103 0
+13
+17
+5
+95 0
+111 0
+93 0
+97 0
+96 0
+3
+8
+19
+7
+95 0
+111 0
+98 0
+105 0
+104 0
+100 0
+103 0
+12
+21
+5
+95 1
+111 0
+23 0
+75 0
+82 0
+12
+99
+5
+95 0
+111 3
+23 0
+75 0
+82 0
+2
+4
+23
+5
+95 1
+111 0
+21 0
+64 0
+71 0
+9
+25
+7
+95 0
+111 0
+99 0
+108 0
+104 0
+106 0
+103 0
+3
+6
+27
+5
+95 1
+111 0
+22 0
+81 0
+86 0
+9
+100
+5
+95 1
+111 3
+99 0
+108 0
+106 0
+9
+29
+7
+95 0
+111 0
+99 0
+108 0
+104 0
+106 0
+100 0
+1
+9
+31
+5
+95 0
+111 0
+99 0
+108 0
+106 0
+2
+8
+33
+5
+95 1
+111 0
+98 0
+105 0
+104 0
+15
+35
+5
+95 0
+111 0
+83 0
+89 0
+94 0
+2
+15
+37
+5
+95 1
+111 0
+83 0
+89 0
+94 0
+35
+39
+5
+95 0
+111 0
+76 0
+90 0
+91 0
+2
+13
+41
+5
+95 1
+111 0
+93 0
+97 0
+96 0
+14
+43
+5
+95 0
+111 0
+80 0
+88 0
+92 0
+1
+5
+45
+5
+95 1
+111 0
+20 0
+27 0
+49 0
+1
+16
+47
+5
+95 0
+111 0
+0 0
+48 0
+50 0
+1
+24
+49
+5
+95 0
+111 0
+14 0
+31 0
+40 0
+1
+17
+51
+5
+95 0
+111 0
+11 0
+28 0
+51 0
+1
+19
+53
+5
+95 0
+111 0
+1 0
+32 0
+34 0
+1
+20
+55
+5
+95 0
+111 0
+12 0
+29 0
+35 0
+1
+21
+57
+5
+95 0
+111 0
+2 0
+33 0
+36 0
+1
+22
+59
+5
+95 0
+111 0
+13 0
+30 0
+37 0
+1
+23
+61
+5
+95 0
+111 0
+3 0
+38 0
+39 0
+1
+18
+63
+5
+95 0
+111 0
+4 0
+41 0
+42 0
+1
+32
+65
+5
+95 0
+111 0
+7 0
+44 0
+55 0
+1
+36
+67
+5
+95 0
+111 0
+78 0
+85 0
+79 0
+1
+27
+69
+5
+95 0
+111 0
+19 0
+69 0
+73 0
+1
+28
+71
+5
+95 0
+111 0
+5 0
+65 0
+68 0
+1
+29
+73
+5
+95 0
+111 0
+15 0
+62 0
+66 0
+1
+30
+75
+5
+95 0
+111 0
+6 0
+43 0
+63 0
+1
+31
+77
+5
+95 0
+111 0
+16 0
+52 0
+54 0
+1
+26
+79
+5
+95 0
+111 0
+17 0
+53 0
+56 0
+1
+33
+81
+5
+95 0
+111 0
+8 0
+45 0
+57 0
+2
+14
+83
+5
+95 1
+111 0
+80 0
+88 0
+92 0
+25
+85
+6
+95 0
+111 0
+77 0
+87 0
+70 0
+79 0
+1
+35
+87
+6
+95 0
+111 0
+76 0
+90 0
+70 0
+91 0
+1
+3
+89
+6
+95 1
+111 0
+26 0
+61 0
+72 0
+74 0
+end_DTG
+begin_CG
+9
+110 1
+113 1
+84 1
+95 1
+48 1
+1 1
+32 1
+50 2
+51 2
+7
+110 1
+113 1
+32 1
+2 1
+33 1
+34 2
+35 2
+7
+110 1
+113 1
+33 1
+3 1
+38 1
+36 2
+37 2
+7
+110 1
+113 1
+4 1
+41 1
+38 1
+39 2
+40 2
+9
+110 1
+113 1
+41 1
+76 1
+90 1
+78 1
+85 1
+42 2
+70 2
+7
+110 1
+113 1
+65 1
+6 1
+43 1
+68 2
+66 2
+7
+110 1
+113 1
+43 1
+7 1
+44 1
+63 2
+54 2
+7
+110 1
+113 1
+44 1
+8 1
+45 1
+56 2
+55 2
+7
+110 1
+113 1
+24 1
+46 1
+45 1
+57 2
+59 2
+7
+110 1
+113 1
+20 1
+27 1
+10 1
+72 2
+67 2
+7
+110 1
+113 1
+20 1
+27 1
+9 1
+72 2
+67 2
+7
+110 1
+113 1
+28 1
+12 1
+29 1
+51 2
+34 2
+7
+110 1
+113 1
+29 1
+13 1
+30 1
+35 2
+36 2
+7
+110 1
+113 1
+30 1
+14 1
+31 1
+37 2
+39 2
+7
+110 1
+113 1
+31 1
+77 1
+87 1
+42 2
+40 2
+7
+110 1
+113 1
+62 1
+16 1
+52 1
+66 2
+63 2
+7
+110 1
+113 1
+17 1
+53 1
+52 1
+54 2
+55 2
+7
+110 1
+113 1
+53 1
+18 1
+58 1
+56 2
+57 2
+7
+110 1
+113 1
+26 1
+61 1
+58 1
+60 2
+59 2
+7
+110 1
+113 1
+69 1
+15 1
+62 1
+73 2
+68 2
+7
+110 1
+113 1
+27 1
+11 1
+28 1
+49 2
+50 2
+11
+110 1
+113 1
+64 1
+98 1
+105 1
+99 1
+108 1
+102 1
+109 1
+71 2
+100 2
+11
+110 1
+113 1
+81 1
+98 1
+105 1
+99 1
+108 1
+101 1
+107 1
+86 2
+103 2
+12
+110 1
+113 2
+98 1
+105 1
+108 1
+101 1
+107 1
+102 1
+109 1
+75 2
+106 3
+82 3
+11
+110 1
+113 1
+84 1
+95 1
+25 1
+47 1
+46 1
+9 1
+10 1
+74 2
+60 2
+7
+110 1
+113 1
+47 1
+0 1
+48 1
+72 2
+49 2
+5
+110 1
+113 1
+61 1
+74 2
+67 2
+7
+110 1
+113 1
+20 1
+11 1
+28 1
+49 2
+50 2
+7
+110 1
+113 1
+11 1
+12 1
+29 1
+51 2
+34 2
+7
+110 1
+113 1
+12 1
+13 1
+30 1
+35 2
+36 2
+7
+110 1
+113 1
+13 1
+14 1
+31 1
+37 2
+39 2
+7
+110 1
+113 1
+14 1
+77 1
+87 1
+42 2
+40 2
+7
+110 1
+113 1
+1 1
+2 1
+33 1
+34 2
+35 2
+7
+110 1
+113 1
+2 1
+3 1
+38 1
+36 2
+37 2
+8
+110 1
+113 1
+111 2
+1 1
+32 3
+2 1
+33 1
+35 2
+8
+110 1
+113 1
+111 2
+12 1
+29 3
+13 1
+30 1
+36 2
+8
+110 1
+113 1
+111 2
+2 1
+33 3
+3 1
+38 1
+37 2
+8
+110 1
+113 1
+111 2
+13 1
+30 3
+14 1
+31 1
+39 2
+7
+110 1
+113 1
+4 1
+41 1
+3 1
+39 2
+40 2
+8
+110 1
+113 1
+111 2
+4 1
+41 1
+3 1
+38 3
+40 2
+8
+110 1
+113 1
+111 2
+14 1
+31 3
+77 1
+87 1
+42 2
+9
+110 1
+113 1
+4 1
+76 1
+90 1
+78 1
+85 1
+42 2
+70 2
+10
+110 1
+113 1
+111 2
+4 1
+41 3
+76 1
+90 1
+78 1
+85 1
+70 2
+7
+110 1
+113 1
+6 1
+7 1
+44 1
+63 2
+54 2
+7
+110 1
+113 1
+7 1
+8 1
+45 1
+56 2
+55 2
+7
+110 1
+113 1
+24 1
+46 1
+8 1
+57 2
+59 2
+11
+110 1
+113 1
+84 1
+95 1
+25 1
+47 1
+24 1
+9 1
+10 1
+74 2
+60 2
+7
+110 1
+113 1
+25 1
+0 1
+48 1
+72 2
+49 2
+9
+110 1
+113 1
+84 1
+95 1
+0 1
+1 1
+32 1
+50 2
+51 2
+8
+110 1
+113 1
+111 1
+20 1
+27 2
+11 1
+28 1
+50 2
+10
+110 1
+113 1
+84 1
+95 1
+111 2
+0 1
+48 3
+1 1
+32 1
+51 2
+8
+110 1
+113 1
+111 2
+11 1
+28 3
+12 1
+29 1
+34 2
+7
+110 1
+113 1
+17 1
+53 1
+16 1
+54 2
+55 2
+7
+110 1
+113 1
+17 1
+18 1
+58 1
+56 2
+57 2
+8
+110 1
+113 1
+111 2
+17 1
+53 1
+16 1
+52 3
+55 2
+8
+110 1
+113 1
+111 2
+7 1
+44 3
+8 1
+45 1
+56 2
+8
+110 1
+113 1
+111 2
+17 1
+53 3
+18 1
+58 1
+57 2
+8
+110 1
+113 1
+111 2
+24 1
+46 1
+8 1
+45 3
+59 2
+7
+110 1
+113 1
+26 1
+61 1
+18 1
+60 2
+59 2
+8
+110 1
+113 1
+111 2
+26 1
+61 1
+18 1
+58 3
+60 2
+12
+110 1
+113 1
+84 1
+95 1
+111 1
+25 1
+47 1
+24 1
+46 2
+9 1
+10 1
+74 2
+5
+110 1
+113 1
+26 1
+74 2
+67 2
+7
+110 1
+113 1
+15 1
+16 1
+52 1
+66 2
+63 2
+8
+110 1
+113 1
+111 2
+6 1
+43 3
+7 1
+44 1
+54 2
+11
+110 1
+113 1
+21 1
+98 1
+105 1
+99 1
+108 1
+102 1
+109 1
+71 2
+100 2
+7
+110 1
+113 1
+5 1
+6 1
+43 1
+68 2
+66 2
+8
+110 1
+113 1
+111 2
+15 1
+62 3
+16 1
+52 1
+63 2
+7
+110 1
+113 1
+20 1
+27 1
+9 1
+10 1
+72 2
+8
+110 1
+113 1
+111 2
+5 1
+65 3
+6 1
+43 1
+66 2
+7
+110 1
+113 1
+19 1
+15 1
+62 1
+73 2
+68 2
+17
+110 2
+113 2
+84 1
+95 1
+111 3
+80 1
+88 1
+77 2
+87 5
+19 1
+69 1
+76 1
+90 2
+78 1
+85 2
+91 4
+79 2
+12
+110 1
+113 1
+111 1
+21 1
+64 2
+98 1
+105 1
+99 1
+108 1
+102 1
+109 1
+100 2
+12
+110 2
+113 2
+111 1
+25 1
+47 2
+26 1
+61 1
+0 1
+48 1
+74 2
+49 2
+67 2
+8
+110 1
+113 1
+111 2
+19 1
+69 3
+15 1
+62 1
+68 2
+6
+110 1
+113 1
+111 1
+26 1
+61 2
+67 2
+12
+110 1
+113 2
+98 1
+105 1
+108 1
+101 1
+107 1
+102 1
+109 1
+23 1
+106 3
+82 3
+14
+110 2
+113 2
+84 1
+95 1
+83 1
+89 1
+77 1
+87 1
+19 1
+69 1
+90 2
+92 2
+91 4
+79 2
+9
+110 1
+113 1
+80 1
+88 1
+87 1
+78 1
+85 1
+70 2
+91 2
+7
+110 1
+113 1
+5 1
+65 1
+85 1
+73 2
+79 2
+15
+110 2
+113 2
+111 3
+80 1
+88 1
+77 1
+87 2
+5 1
+65 1
+90 1
+78 2
+85 5
+70 2
+73 2
+91 2
+12
+110 2
+113 2
+93 1
+97 1
+88 2
+77 1
+87 1
+78 1
+85 1
+92 4
+94 2
+91 2
+11
+110 1
+113 1
+22 1
+98 1
+105 1
+99 1
+108 1
+101 1
+107 1
+86 2
+103 2
+13
+110 1
+113 2
+111 1
+98 1
+105 1
+108 1
+101 1
+107 1
+102 1
+109 1
+23 1
+75 3
+106 3
+10
+110 2
+113 2
+98 1
+105 1
+89 2
+76 1
+90 1
+96 2
+92 2
+94 4
+74
+110 47
+112 6
+25 3
+26 3
+21 2
+20 3
+22 2
+24 3
+98 8
+99 8
+101 9
+102 9
+23 2
+93 5
+80 4
+83 4
+0 2
+11 2
+4 2
+1 2
+12 2
+2 2
+13 2
+3 2
+14 2
+77 4
+17 2
+19 2
+5 2
+15 2
+6 2
+16 2
+7 2
+8 2
+18 2
+76 4
+78 4
+9 2
+72 3
+74 3
+71 2
+49 2
+86 2
+60 2
+104 5
+106 5
+100 4
+103 4
+82 2
+96 4
+92 4
+94 4
+50 2
+51 2
+42 2
+34 2
+35 2
+36 2
+37 2
+39 2
+40 2
+70 2
+56 2
+73 2
+68 2
+66 2
+63 2
+54 2
+55 2
+57 2
+59 2
+91 4
+79 2
+67 2
+7
+110 1
+113 1
+5 1
+65 1
+78 1
+73 2
+79 2
+12
+110 1
+113 1
+111 1
+22 1
+81 2
+98 1
+105 1
+99 1
+108 1
+101 1
+107 1
+103 2
+9
+110 1
+113 1
+80 1
+88 1
+77 1
+78 1
+85 1
+70 2
+91 2
+12
+110 2
+113 2
+93 1
+97 1
+80 2
+77 1
+87 1
+78 1
+85 1
+92 4
+94 2
+91 2
+10
+110 2
+113 2
+98 1
+105 1
+83 2
+76 1
+90 1
+96 2
+92 2
+94 4
+14
+110 2
+113 2
+84 1
+95 1
+83 1
+89 1
+77 1
+87 1
+19 1
+69 1
+76 2
+92 2
+91 4
+79 2
+16
+110 2
+113 2
+84 1
+95 1
+111 3
+83 1
+89 1
+77 1
+87 2
+19 1
+69 1
+76 2
+90 5
+85 1
+92 2
+79 2
+13
+110 2
+113 2
+111 2
+93 1
+97 1
+80 2
+88 4
+77 1
+87 1
+78 1
+85 1
+94 2
+91 2
+14
+110 2
+113 2
+99 1
+108 1
+101 1
+107 1
+102 1
+109 1
+97 2
+80 1
+88 1
+104 2
+96 4
+94 2
+11
+110 2
+113 2
+111 2
+98 1
+105 1
+83 2
+89 4
+76 1
+90 1
+96 2
+92 2
+74
+113 50
+111 6
+47 3
+61 3
+64 2
+27 3
+81 3
+46 3
+105 8
+108 10
+107 9
+109 11
+75 3
+97 5
+88 4
+89 4
+48 2
+28 2
+41 2
+32 2
+29 2
+33 2
+30 2
+38 2
+31 2
+87 4
+53 2
+69 2
+65 2
+62 2
+43 2
+52 2
+44 2
+45 2
+58 2
+90 4
+85 4
+10 2
+72 3
+74 3
+71 2
+49 2
+86 3
+60 2
+104 5
+106 7
+100 4
+103 6
+82 3
+96 4
+92 4
+94 4
+50 2
+51 2
+42 2
+34 2
+35 2
+36 2
+37 2
+39 2
+40 2
+70 2
+56 2
+73 2
+68 2
+66 2
+63 2
+54 2
+55 2
+57 2
+59 2
+91 4
+79 2
+67 2
+15
+110 2
+113 2
+111 2
+99 1
+108 1
+101 1
+107 1
+102 1
+109 1
+93 2
+97 4
+80 1
+88 1
+104 2
+94 2
+14
+110 2
+113 2
+99 1
+108 1
+101 1
+107 1
+102 1
+109 1
+93 2
+80 1
+88 1
+104 2
+96 4
+94 2
+14
+110 2
+113 2
+105 2
+101 1
+107 1
+102 1
+109 1
+23 1
+75 1
+83 1
+89 1
+104 4
+106 2
+96 2
+19
+110 3
+113 4
+84 2
+95 3
+21 1
+64 1
+22 1
+81 1
+98 2
+105 2
+108 4
+101 1
+107 1
+102 1
+109 2
+106 7
+100 2
+103 3
+82 2
+23
+110 5
+113 5
+84 1
+95 1
+111 4
+22 1
+81 1
+98 2
+105 4
+99 3
+108 5
+101 5
+107 9
+102 3
+109 5
+23 1
+75 1
+93 2
+97 2
+71 2
+104 6
+106 4
+103 4
+12
+110 2
+113 2
+99 1
+108 1
+107 2
+102 1
+109 1
+93 1
+97 1
+71 2
+104 2
+100 4
+13
+110 2
+113 3
+81 1
+99 1
+108 1
+101 1
+107 1
+109 3
+93 1
+97 1
+86 3
+104 2
+103 5
+24
+110 5
+113 6
+84 1
+95 1
+111 4
+21 1
+64 1
+81 1
+98 2
+105 4
+99 3
+108 5
+101 3
+107 5
+102 5
+109 10
+23 1
+75 1
+93 2
+97 2
+86 3
+104 6
+106 4
+100 4
+25
+110 4
+113 4
+84 2
+95 2
+111 4
+21 1
+64 1
+22 1
+81 1
+98 4
+105 8
+99 2
+108 4
+101 2
+107 4
+102 2
+109 4
+23 1
+75 1
+83 1
+89 1
+106 6
+100 2
+103 2
+96 2
+14
+110 2
+113 2
+98 2
+101 1
+107 1
+102 1
+109 1
+23 1
+75 1
+83 1
+89 1
+104 4
+106 2
+96 2
+23
+110 5
+113 6
+84 2
+95 3
+111 4
+21 1
+64 1
+22 1
+81 1
+98 2
+105 4
+99 5
+108 10
+101 3
+107 5
+102 3
+109 6
+93 2
+97 2
+104 4
+100 4
+103 5
+82 2
+12
+110 2
+113 2
+99 1
+108 1
+101 2
+102 1
+109 1
+93 1
+97 1
+71 2
+104 2
+100 4
+19
+110 3
+113 4
+84 2
+95 3
+21 1
+64 1
+22 1
+81 1
+98 2
+105 2
+99 3
+101 1
+107 1
+102 1
+109 2
+106 7
+100 2
+103 3
+82 2
+13
+110 2
+113 3
+81 1
+99 1
+108 1
+101 1
+107 1
+102 2
+93 1
+97 1
+86 3
+104 2
+103 5
+74
+84 5
+112 6
+25 3
+26 3
+21 2
+20 3
+22 2
+24 3
+98 8
+99 8
+101 9
+102 9
+23 2
+93 5
+80 4
+83 4
+0 2
+11 2
+4 2
+1 2
+12 2
+2 2
+13 2
+3 2
+14 2
+77 4
+17 2
+19 2
+5 2
+15 2
+6 2
+16 2
+7 2
+8 2
+18 2
+76 4
+78 4
+9 2
+72 3
+74 3
+71 2
+49 2
+86 2
+60 2
+104 5
+106 5
+100 4
+103 4
+82 2
+96 4
+92 4
+94 4
+50 2
+51 2
+42 2
+34 2
+35 2
+36 2
+37 2
+39 2
+40 2
+70 2
+56 2
+73 2
+68 2
+66 2
+63 2
+54 2
+55 2
+57 2
+59 2
+91 4
+79 2
+67 2
+74
+113 50
+95 6
+47 4
+61 4
+64 3
+27 4
+81 4
+46 4
+105 12
+108 14
+107 13
+109 15
+75 4
+97 7
+88 6
+89 6
+48 4
+28 4
+41 4
+32 4
+29 4
+33 4
+30 4
+38 4
+31 4
+87 7
+53 4
+69 4
+65 4
+62 4
+43 4
+52 4
+44 4
+45 4
+58 4
+90 7
+85 7
+10 2
+72 3
+74 3
+71 2
+49 2
+86 3
+60 2
+104 5
+106 7
+100 4
+103 6
+82 3
+96 4
+92 4
+94 4
+50 2
+51 2
+42 2
+34 2
+35 2
+36 2
+37 2
+39 2
+40 2
+70 2
+56 2
+73 2
+68 2
+66 2
+63 2
+54 2
+55 2
+57 2
+59 2
+91 4
+79 2
+67 2
+74
+110 47
+84 5
+25 3
+26 3
+21 2
+20 3
+22 2
+24 3
+98 8
+99 8
+101 9
+102 9
+23 2
+93 5
+80 4
+83 4
+0 2
+11 2
+4 2
+1 2
+12 2
+2 2
+13 2
+3 2
+14 2
+77 4
+17 2
+19 2
+5 2
+15 2
+6 2
+16 2
+7 2
+8 2
+18 2
+76 4
+78 4
+9 2
+72 3
+74 3
+71 2
+49 2
+86 2
+60 2
+104 5
+106 5
+100 4
+103 4
+82 2
+96 4
+92 4
+94 4
+50 2
+51 2
+42 2
+34 2
+35 2
+36 2
+37 2
+39 2
+40 2
+70 2
+56 2
+73 2
+68 2
+66 2
+63 2
+54 2
+55 2
+57 2
+59 2
+91 4
+79 2
+67 2
+74
+95 6
+111 72
+47 4
+61 4
+64 3
+27 4
+81 4
+46 4
+105 12
+108 14
+107 13
+109 15
+75 4
+97 7
+88 6
+89 6
+48 4
+28 4
+41 4
+32 4
+29 4
+33 4
+30 4
+38 4
+31 4
+87 7
+53 4
+69 4
+65 4
+62 4
+43 4
+52 4
+44 4
+45 4
+58 4
+90 7
+85 7
+10 2
+72 3
+74 3
+71 2
+49 2
+86 3
+60 2
+104 5
+106 7
+100 4
+103 6
+82 3
+96 4
+92 4
+94 4
+50 2
+51 2
+42 2
+34 2
+35 2
+36 2
+37 2
+39 2
+40 2
+70 2
+56 2
+73 2
+68 2
+66 2
+63 2
+54 2
+55 2
+57 2
+59 2
+91 4
+79 2
+67 2
+end_CG

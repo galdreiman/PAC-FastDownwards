@@ -1,0 +1,4 @@
+(do-grind c0)
+(do-immersion-paint a0 yellow)
+(do-time-step )
+(do-punch a0 one back)

@@ -1,0 +1,16135 @@
+begin_version
+3
+end_version
+begin_metric
+0
+end_metric
+40
+begin_variable
+var24
+-1
+2
+Atom at(truck1, l1)
+NegatedAtom at(truck1, l1)
+end_variable
+begin_variable
+var25
+-1
+2
+Atom at(truck1, l2)
+NegatedAtom at(truck1, l2)
+end_variable
+begin_variable
+var249
+-1
+9
+Atom time-now(t0)
+Atom time-now(t1)
+Atom time-now(t2)
+Atom time-now(t3)
+Atom time-now(t4)
+Atom time-now(t5)
+Atom time-now(t6)
+Atom time-now(t7)
+Atom time-now(t8)
+end_variable
+begin_variable
+var26
+-1
+2
+Atom at(truck1, l3)
+NegatedAtom at(truck1, l3)
+end_variable
+begin_variable
+var27
+-1
+2
+Atom at(truck1, l4)
+NegatedAtom at(truck1, l4)
+end_variable
+begin_variable
+var247
+0
+2
+Atom new-axiom@0(a2, truck1)
+NegatedAtom new-axiom@0(a2, truck1)
+end_variable
+begin_variable
+var248
+0
+2
+Atom new-axiom@0(a3, truck1)
+NegatedAtom new-axiom@0(a3, truck1)
+end_variable
+begin_variable
+var0
+-1
+2
+Atom at(package1, l1)
+NegatedAtom at(package1, l1)
+end_variable
+begin_variable
+var1
+-1
+2
+Atom at(package1, l2)
+NegatedAtom at(package1, l2)
+end_variable
+begin_variable
+var2
+-1
+2
+Atom at(package1, l3)
+NegatedAtom at(package1, l3)
+end_variable
+begin_variable
+var3
+-1
+2
+Atom at(package1, l4)
+NegatedAtom at(package1, l4)
+end_variable
+begin_variable
+var4
+-1
+2
+Atom at(package2, l1)
+NegatedAtom at(package2, l1)
+end_variable
+begin_variable
+var5
+-1
+2
+Atom at(package2, l2)
+NegatedAtom at(package2, l2)
+end_variable
+begin_variable
+var6
+-1
+2
+Atom at(package2, l3)
+NegatedAtom at(package2, l3)
+end_variable
+begin_variable
+var7
+-1
+2
+Atom at(package2, l4)
+NegatedAtom at(package2, l4)
+end_variable
+begin_variable
+var8
+-1
+2
+Atom at(package3, l1)
+NegatedAtom at(package3, l1)
+end_variable
+begin_variable
+var9
+-1
+2
+Atom at(package3, l2)
+NegatedAtom at(package3, l2)
+end_variable
+begin_variable
+var10
+-1
+2
+Atom at(package3, l3)
+NegatedAtom at(package3, l3)
+end_variable
+begin_variable
+var11
+-1
+2
+Atom at(package3, l4)
+NegatedAtom at(package3, l4)
+end_variable
+begin_variable
+var12
+-1
+2
+Atom at(package4, l1)
+NegatedAtom at(package4, l1)
+end_variable
+begin_variable
+var13
+-1
+2
+Atom at(package4, l2)
+NegatedAtom at(package4, l2)
+end_variable
+begin_variable
+var14
+-1
+2
+Atom at(package4, l3)
+NegatedAtom at(package4, l3)
+end_variable
+begin_variable
+var15
+-1
+2
+Atom at(package4, l4)
+NegatedAtom at(package4, l4)
+end_variable
+begin_variable
+var16
+-1
+2
+Atom at(package5, l1)
+NegatedAtom at(package5, l1)
+end_variable
+begin_variable
+var17
+-1
+2
+Atom at(package5, l2)
+NegatedAtom at(package5, l2)
+end_variable
+begin_variable
+var18
+-1
+2
+Atom at(package5, l3)
+NegatedAtom at(package5, l3)
+end_variable
+begin_variable
+var244
+-1
+7
+Atom free(a1, truck1)
+Atom in(package1, truck1, a1)
+Atom in(package2, truck1, a1)
+Atom in(package3, truck1, a1)
+Atom in(package4, truck1, a1)
+Atom in(package5, truck1, a1)
+Atom in(package6, truck1, a1)
+end_variable
+begin_variable
+var19
+-1
+2
+Atom at(package5, l4)
+NegatedAtom at(package5, l4)
+end_variable
+begin_variable
+var20
+-1
+2
+Atom at(package6, l1)
+NegatedAtom at(package6, l1)
+end_variable
+begin_variable
+var245
+-1
+7
+Atom free(a2, truck1)
+Atom in(package1, truck1, a2)
+Atom in(package2, truck1, a2)
+Atom in(package3, truck1, a2)
+Atom in(package4, truck1, a2)
+Atom in(package5, truck1, a2)
+Atom in(package6, truck1, a2)
+end_variable
+begin_variable
+var21
+-1
+2
+Atom at(package6, l2)
+NegatedAtom at(package6, l2)
+end_variable
+begin_variable
+var22
+-1
+2
+Atom at(package6, l3)
+NegatedAtom at(package6, l3)
+end_variable
+begin_variable
+var246
+-1
+7
+Atom free(a3, truck1)
+Atom in(package1, truck1, a3)
+Atom in(package2, truck1, a3)
+Atom in(package3, truck1, a3)
+Atom in(package4, truck1, a3)
+Atom in(package5, truck1, a3)
+Atom in(package6, truck1, a3)
+end_variable
+begin_variable
+var23
+-1
+2
+Atom at(package6, l4)
+NegatedAtom at(package6, l4)
+end_variable
+begin_variable
+var235
+-1
+2
+Atom delivered(package6, l3, t8)
+NegatedAtom delivered(package6, l3, t8)
+end_variable
+begin_variable
+var46
+-1
+2
+Atom at-destination(package5, l3)
+NegatedAtom at-destination(package5, l3)
+end_variable
+begin_variable
+var163
+-1
+2
+Atom delivered(package4, l2, t8)
+NegatedAtom delivered(package4, l2, t8)
+end_variable
+begin_variable
+var127
+-1
+2
+Atom delivered(package3, l2, t4)
+NegatedAtom delivered(package3, l2, t4)
+end_variable
+begin_variable
+var103
+-1
+2
+Atom delivered(package2, l3, t4)
+NegatedAtom delivered(package2, l3, t4)
+end_variable
+begin_variable
+var71
+-1
+2
+Atom delivered(package1, l3, t4)
+NegatedAtom delivered(package1, l3, t4)
+end_variable
+0
+begin_state
+1
+1
+0
+0
+1
+0
+0
+0
+1
+1
+1
+0
+1
+1
+1
+0
+1
+1
+1
+0
+1
+1
+1
+0
+1
+1
+0
+1
+0
+0
+1
+1
+0
+1
+1
+1
+1
+1
+1
+1
+end_state
+begin_goal
+6
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+end_goal
+1104
+begin_operator
+deliver package1 l1 t1 t1
+1
+2 1
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t1 t2
+1
+2 1
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t1 t3
+1
+2 1
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t1 t4
+1
+2 1
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t1 t5
+1
+2 1
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t1 t6
+1
+2 1
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t1 t7
+1
+2 1
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t1 t8
+1
+2 1
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t2 t2
+1
+2 2
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t2 t3
+1
+2 2
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t2 t4
+1
+2 2
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t2 t5
+1
+2 2
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t2 t6
+1
+2 2
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t2 t7
+1
+2 2
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t2 t8
+1
+2 2
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t3 t3
+1
+2 3
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t3 t4
+1
+2 3
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t3 t5
+1
+2 3
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t3 t6
+1
+2 3
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t3 t7
+1
+2 3
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t3 t8
+1
+2 3
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t4 t4
+1
+2 4
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t4 t5
+1
+2 4
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t4 t6
+1
+2 4
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t4 t7
+1
+2 4
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t4 t8
+1
+2 4
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t5 t5
+1
+2 5
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t5 t6
+1
+2 5
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t5 t7
+1
+2 5
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t5 t8
+1
+2 5
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t6 t6
+1
+2 6
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t6 t7
+1
+2 6
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t6 t8
+1
+2 6
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t7 t7
+1
+2 7
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t7 t8
+1
+2 7
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l1 t8 t8
+1
+2 8
+1
+0 7 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t1 t1
+1
+2 1
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t1 t2
+1
+2 1
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t1 t3
+1
+2 1
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t1 t4
+1
+2 1
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t1 t5
+1
+2 1
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t1 t6
+1
+2 1
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t1 t7
+1
+2 1
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t1 t8
+1
+2 1
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t2 t2
+1
+2 2
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t2 t3
+1
+2 2
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t2 t4
+1
+2 2
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t2 t5
+1
+2 2
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t2 t6
+1
+2 2
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t2 t7
+1
+2 2
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t2 t8
+1
+2 2
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t3 t3
+1
+2 3
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t3 t4
+1
+2 3
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t3 t5
+1
+2 3
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t3 t6
+1
+2 3
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t3 t7
+1
+2 3
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t3 t8
+1
+2 3
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t4 t4
+1
+2 4
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t4 t5
+1
+2 4
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t4 t6
+1
+2 4
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t4 t7
+1
+2 4
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t4 t8
+1
+2 4
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t5 t5
+1
+2 5
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t5 t6
+1
+2 5
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t5 t7
+1
+2 5
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t5 t8
+1
+2 5
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t6 t6
+1
+2 6
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t6 t7
+1
+2 6
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t6 t8
+1
+2 6
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t7 t7
+1
+2 7
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t7 t8
+1
+2 7
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l2 t8 t8
+1
+2 8
+1
+0 8 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t1 t1
+1
+2 1
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t1 t2
+1
+2 1
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t1 t3
+1
+2 1
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t1 t4
+1
+2 1
+2
+0 9 0 1
+0 39 -1 0
+0
+end_operator
+begin_operator
+deliver package1 l3 t1 t5
+1
+2 1
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t1 t6
+1
+2 1
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t1 t7
+1
+2 1
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t1 t8
+1
+2 1
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t2 t2
+1
+2 2
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t2 t3
+1
+2 2
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t2 t4
+1
+2 2
+2
+0 9 0 1
+0 39 -1 0
+0
+end_operator
+begin_operator
+deliver package1 l3 t2 t5
+1
+2 2
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t2 t6
+1
+2 2
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t2 t7
+1
+2 2
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t2 t8
+1
+2 2
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t3 t3
+1
+2 3
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t3 t4
+1
+2 3
+2
+0 9 0 1
+0 39 -1 0
+0
+end_operator
+begin_operator
+deliver package1 l3 t3 t5
+1
+2 3
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t3 t6
+1
+2 3
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t3 t7
+1
+2 3
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t3 t8
+1
+2 3
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t4 t4
+1
+2 4
+2
+0 9 0 1
+0 39 -1 0
+0
+end_operator
+begin_operator
+deliver package1 l3 t4 t5
+1
+2 4
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t4 t6
+1
+2 4
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t4 t7
+1
+2 4
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t4 t8
+1
+2 4
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t5 t5
+1
+2 5
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t5 t6
+1
+2 5
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t5 t7
+1
+2 5
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t5 t8
+1
+2 5
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t6 t6
+1
+2 6
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t6 t7
+1
+2 6
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t6 t8
+1
+2 6
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t7 t7
+1
+2 7
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t7 t8
+1
+2 7
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l3 t8 t8
+1
+2 8
+1
+0 9 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t1 t1
+1
+2 1
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t1 t2
+1
+2 1
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t1 t3
+1
+2 1
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t1 t4
+1
+2 1
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t1 t5
+1
+2 1
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t1 t6
+1
+2 1
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t1 t7
+1
+2 1
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t1 t8
+1
+2 1
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t2 t2
+1
+2 2
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t2 t3
+1
+2 2
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t2 t4
+1
+2 2
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t2 t5
+1
+2 2
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t2 t6
+1
+2 2
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t2 t7
+1
+2 2
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t2 t8
+1
+2 2
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t3 t3
+1
+2 3
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t3 t4
+1
+2 3
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t3 t5
+1
+2 3
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t3 t6
+1
+2 3
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t3 t7
+1
+2 3
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t3 t8
+1
+2 3
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t4 t4
+1
+2 4
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t4 t5
+1
+2 4
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t4 t6
+1
+2 4
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t4 t7
+1
+2 4
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t4 t8
+1
+2 4
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t5 t5
+1
+2 5
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t5 t6
+1
+2 5
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t5 t7
+1
+2 5
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t5 t8
+1
+2 5
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t6 t6
+1
+2 6
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t6 t7
+1
+2 6
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t6 t8
+1
+2 6
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t7 t7
+1
+2 7
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t7 t8
+1
+2 7
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package1 l4 t8 t8
+1
+2 8
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t1 t1
+1
+2 1
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t1 t2
+1
+2 1
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t1 t3
+1
+2 1
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t1 t4
+1
+2 1
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t1 t5
+1
+2 1
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t1 t6
+1
+2 1
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t1 t7
+1
+2 1
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t1 t8
+1
+2 1
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t2 t2
+1
+2 2
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t2 t3
+1
+2 2
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t2 t4
+1
+2 2
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t2 t5
+1
+2 2
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t2 t6
+1
+2 2
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t2 t7
+1
+2 2
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t2 t8
+1
+2 2
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t3 t3
+1
+2 3
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t3 t4
+1
+2 3
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t3 t5
+1
+2 3
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t3 t6
+1
+2 3
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t3 t7
+1
+2 3
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t3 t8
+1
+2 3
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t4 t4
+1
+2 4
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t4 t5
+1
+2 4
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t4 t6
+1
+2 4
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t4 t7
+1
+2 4
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t4 t8
+1
+2 4
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t5 t5
+1
+2 5
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t5 t6
+1
+2 5
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t5 t7
+1
+2 5
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t5 t8
+1
+2 5
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t6 t6
+1
+2 6
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t6 t7
+1
+2 6
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t6 t8
+1
+2 6
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t7 t7
+1
+2 7
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t7 t8
+1
+2 7
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l1 t8 t8
+1
+2 8
+1
+0 11 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t1 t1
+1
+2 1
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t1 t2
+1
+2 1
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t1 t3
+1
+2 1
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t1 t4
+1
+2 1
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t1 t5
+1
+2 1
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t1 t6
+1
+2 1
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t1 t7
+1
+2 1
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t1 t8
+1
+2 1
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t2 t2
+1
+2 2
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t2 t3
+1
+2 2
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t2 t4
+1
+2 2
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t2 t5
+1
+2 2
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t2 t6
+1
+2 2
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t2 t7
+1
+2 2
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t2 t8
+1
+2 2
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t3 t3
+1
+2 3
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t3 t4
+1
+2 3
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t3 t5
+1
+2 3
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t3 t6
+1
+2 3
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t3 t7
+1
+2 3
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t3 t8
+1
+2 3
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t4 t4
+1
+2 4
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t4 t5
+1
+2 4
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t4 t6
+1
+2 4
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t4 t7
+1
+2 4
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t4 t8
+1
+2 4
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t5 t5
+1
+2 5
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t5 t6
+1
+2 5
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t5 t7
+1
+2 5
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t5 t8
+1
+2 5
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t6 t6
+1
+2 6
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t6 t7
+1
+2 6
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t6 t8
+1
+2 6
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t7 t7
+1
+2 7
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t7 t8
+1
+2 7
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l2 t8 t8
+1
+2 8
+1
+0 12 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t1 t1
+1
+2 1
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t1 t2
+1
+2 1
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t1 t3
+1
+2 1
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t1 t4
+1
+2 1
+2
+0 13 0 1
+0 38 -1 0
+0
+end_operator
+begin_operator
+deliver package2 l3 t1 t5
+1
+2 1
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t1 t6
+1
+2 1
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t1 t7
+1
+2 1
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t1 t8
+1
+2 1
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t2 t2
+1
+2 2
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t2 t3
+1
+2 2
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t2 t4
+1
+2 2
+2
+0 13 0 1
+0 38 -1 0
+0
+end_operator
+begin_operator
+deliver package2 l3 t2 t5
+1
+2 2
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t2 t6
+1
+2 2
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t2 t7
+1
+2 2
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t2 t8
+1
+2 2
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t3 t3
+1
+2 3
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t3 t4
+1
+2 3
+2
+0 13 0 1
+0 38 -1 0
+0
+end_operator
+begin_operator
+deliver package2 l3 t3 t5
+1
+2 3
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t3 t6
+1
+2 3
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t3 t7
+1
+2 3
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t3 t8
+1
+2 3
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t4 t4
+1
+2 4
+2
+0 13 0 1
+0 38 -1 0
+0
+end_operator
+begin_operator
+deliver package2 l3 t4 t5
+1
+2 4
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t4 t6
+1
+2 4
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t4 t7
+1
+2 4
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t4 t8
+1
+2 4
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t5 t5
+1
+2 5
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t5 t6
+1
+2 5
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t5 t7
+1
+2 5
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t5 t8
+1
+2 5
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t6 t6
+1
+2 6
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t6 t7
+1
+2 6
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t6 t8
+1
+2 6
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t7 t7
+1
+2 7
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t7 t8
+1
+2 7
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l3 t8 t8
+1
+2 8
+1
+0 13 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t1 t1
+1
+2 1
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t1 t2
+1
+2 1
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t1 t3
+1
+2 1
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t1 t4
+1
+2 1
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t1 t5
+1
+2 1
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t1 t6
+1
+2 1
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t1 t7
+1
+2 1
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t1 t8
+1
+2 1
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t2 t2
+1
+2 2
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t2 t3
+1
+2 2
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t2 t4
+1
+2 2
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t2 t5
+1
+2 2
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t2 t6
+1
+2 2
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t2 t7
+1
+2 2
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t2 t8
+1
+2 2
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t3 t3
+1
+2 3
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t3 t4
+1
+2 3
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t3 t5
+1
+2 3
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t3 t6
+1
+2 3
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t3 t7
+1
+2 3
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t3 t8
+1
+2 3
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t4 t4
+1
+2 4
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t4 t5
+1
+2 4
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t4 t6
+1
+2 4
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t4 t7
+1
+2 4
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t4 t8
+1
+2 4
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t5 t5
+1
+2 5
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t5 t6
+1
+2 5
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t5 t7
+1
+2 5
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t5 t8
+1
+2 5
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t6 t6
+1
+2 6
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t6 t7
+1
+2 6
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t6 t8
+1
+2 6
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t7 t7
+1
+2 7
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t7 t8
+1
+2 7
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package2 l4 t8 t8
+1
+2 8
+1
+0 14 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t1 t1
+1
+2 1
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t1 t2
+1
+2 1
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t1 t3
+1
+2 1
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t1 t4
+1
+2 1
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t1 t5
+1
+2 1
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t1 t6
+1
+2 1
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t1 t7
+1
+2 1
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t1 t8
+1
+2 1
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t2 t2
+1
+2 2
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t2 t3
+1
+2 2
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t2 t4
+1
+2 2
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t2 t5
+1
+2 2
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t2 t6
+1
+2 2
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t2 t7
+1
+2 2
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t2 t8
+1
+2 2
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t3 t3
+1
+2 3
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t3 t4
+1
+2 3
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t3 t5
+1
+2 3
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t3 t6
+1
+2 3
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t3 t7
+1
+2 3
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t3 t8
+1
+2 3
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t4 t4
+1
+2 4
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t4 t5
+1
+2 4
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t4 t6
+1
+2 4
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t4 t7
+1
+2 4
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t4 t8
+1
+2 4
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t5 t5
+1
+2 5
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t5 t6
+1
+2 5
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t5 t7
+1
+2 5
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t5 t8
+1
+2 5
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t6 t6
+1
+2 6
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t6 t7
+1
+2 6
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t6 t8
+1
+2 6
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t7 t7
+1
+2 7
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t7 t8
+1
+2 7
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l1 t8 t8
+1
+2 8
+1
+0 15 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t1 t1
+1
+2 1
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t1 t2
+1
+2 1
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t1 t3
+1
+2 1
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t1 t4
+1
+2 1
+2
+0 16 0 1
+0 37 -1 0
+0
+end_operator
+begin_operator
+deliver package3 l2 t1 t5
+1
+2 1
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t1 t6
+1
+2 1
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t1 t7
+1
+2 1
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t1 t8
+1
+2 1
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t2 t2
+1
+2 2
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t2 t3
+1
+2 2
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t2 t4
+1
+2 2
+2
+0 16 0 1
+0 37 -1 0
+0
+end_operator
+begin_operator
+deliver package3 l2 t2 t5
+1
+2 2
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t2 t6
+1
+2 2
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t2 t7
+1
+2 2
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t2 t8
+1
+2 2
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t3 t3
+1
+2 3
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t3 t4
+1
+2 3
+2
+0 16 0 1
+0 37 -1 0
+0
+end_operator
+begin_operator
+deliver package3 l2 t3 t5
+1
+2 3
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t3 t6
+1
+2 3
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t3 t7
+1
+2 3
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t3 t8
+1
+2 3
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t4 t4
+1
+2 4
+2
+0 16 0 1
+0 37 -1 0
+0
+end_operator
+begin_operator
+deliver package3 l2 t4 t5
+1
+2 4
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t4 t6
+1
+2 4
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t4 t7
+1
+2 4
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t4 t8
+1
+2 4
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t5 t5
+1
+2 5
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t5 t6
+1
+2 5
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t5 t7
+1
+2 5
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t5 t8
+1
+2 5
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t6 t6
+1
+2 6
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t6 t7
+1
+2 6
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t6 t8
+1
+2 6
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t7 t7
+1
+2 7
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t7 t8
+1
+2 7
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l2 t8 t8
+1
+2 8
+1
+0 16 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t1 t1
+1
+2 1
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t1 t2
+1
+2 1
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t1 t3
+1
+2 1
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t1 t4
+1
+2 1
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t1 t5
+1
+2 1
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t1 t6
+1
+2 1
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t1 t7
+1
+2 1
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t1 t8
+1
+2 1
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t2 t2
+1
+2 2
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t2 t3
+1
+2 2
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t2 t4
+1
+2 2
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t2 t5
+1
+2 2
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t2 t6
+1
+2 2
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t2 t7
+1
+2 2
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t2 t8
+1
+2 2
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t3 t3
+1
+2 3
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t3 t4
+1
+2 3
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t3 t5
+1
+2 3
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t3 t6
+1
+2 3
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t3 t7
+1
+2 3
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t3 t8
+1
+2 3
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t4 t4
+1
+2 4
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t4 t5
+1
+2 4
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t4 t6
+1
+2 4
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t4 t7
+1
+2 4
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t4 t8
+1
+2 4
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t5 t5
+1
+2 5
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t5 t6
+1
+2 5
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t5 t7
+1
+2 5
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t5 t8
+1
+2 5
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t6 t6
+1
+2 6
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t6 t7
+1
+2 6
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t6 t8
+1
+2 6
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t7 t7
+1
+2 7
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t7 t8
+1
+2 7
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l3 t8 t8
+1
+2 8
+1
+0 17 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t1 t1
+1
+2 1
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t1 t2
+1
+2 1
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t1 t3
+1
+2 1
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t1 t4
+1
+2 1
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t1 t5
+1
+2 1
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t1 t6
+1
+2 1
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t1 t7
+1
+2 1
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t1 t8
+1
+2 1
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t2 t2
+1
+2 2
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t2 t3
+1
+2 2
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t2 t4
+1
+2 2
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t2 t5
+1
+2 2
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t2 t6
+1
+2 2
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t2 t7
+1
+2 2
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t2 t8
+1
+2 2
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t3 t3
+1
+2 3
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t3 t4
+1
+2 3
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t3 t5
+1
+2 3
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t3 t6
+1
+2 3
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t3 t7
+1
+2 3
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t3 t8
+1
+2 3
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t4 t4
+1
+2 4
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t4 t5
+1
+2 4
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t4 t6
+1
+2 4
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t4 t7
+1
+2 4
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t4 t8
+1
+2 4
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t5 t5
+1
+2 5
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t5 t6
+1
+2 5
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t5 t7
+1
+2 5
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t5 t8
+1
+2 5
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t6 t6
+1
+2 6
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t6 t7
+1
+2 6
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t6 t8
+1
+2 6
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t7 t7
+1
+2 7
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t7 t8
+1
+2 7
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package3 l4 t8 t8
+1
+2 8
+1
+0 18 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t1 t1
+1
+2 1
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t1 t2
+1
+2 1
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t1 t3
+1
+2 1
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t1 t4
+1
+2 1
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t1 t5
+1
+2 1
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t1 t6
+1
+2 1
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t1 t7
+1
+2 1
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t1 t8
+1
+2 1
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t2 t2
+1
+2 2
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t2 t3
+1
+2 2
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t2 t4
+1
+2 2
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t2 t5
+1
+2 2
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t2 t6
+1
+2 2
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t2 t7
+1
+2 2
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t2 t8
+1
+2 2
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t3 t3
+1
+2 3
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t3 t4
+1
+2 3
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t3 t5
+1
+2 3
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t3 t6
+1
+2 3
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t3 t7
+1
+2 3
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t3 t8
+1
+2 3
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t4 t4
+1
+2 4
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t4 t5
+1
+2 4
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t4 t6
+1
+2 4
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t4 t7
+1
+2 4
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t4 t8
+1
+2 4
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t5 t5
+1
+2 5
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t5 t6
+1
+2 5
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t5 t7
+1
+2 5
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t5 t8
+1
+2 5
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t6 t6
+1
+2 6
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t6 t7
+1
+2 6
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t6 t8
+1
+2 6
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t7 t7
+1
+2 7
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t7 t8
+1
+2 7
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l1 t8 t8
+1
+2 8
+1
+0 19 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t1 t1
+1
+2 1
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t1 t2
+1
+2 1
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t1 t3
+1
+2 1
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t1 t4
+1
+2 1
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t1 t5
+1
+2 1
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t1 t6
+1
+2 1
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t1 t7
+1
+2 1
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t1 t8
+1
+2 1
+2
+0 20 0 1
+0 36 -1 0
+0
+end_operator
+begin_operator
+deliver package4 l2 t2 t2
+1
+2 2
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t2 t3
+1
+2 2
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t2 t4
+1
+2 2
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t2 t5
+1
+2 2
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t2 t6
+1
+2 2
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t2 t7
+1
+2 2
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t2 t8
+1
+2 2
+2
+0 20 0 1
+0 36 -1 0
+0
+end_operator
+begin_operator
+deliver package4 l2 t3 t3
+1
+2 3
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t3 t4
+1
+2 3
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t3 t5
+1
+2 3
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t3 t6
+1
+2 3
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t3 t7
+1
+2 3
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t3 t8
+1
+2 3
+2
+0 20 0 1
+0 36 -1 0
+0
+end_operator
+begin_operator
+deliver package4 l2 t4 t4
+1
+2 4
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t4 t5
+1
+2 4
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t4 t6
+1
+2 4
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t4 t7
+1
+2 4
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t4 t8
+1
+2 4
+2
+0 20 0 1
+0 36 -1 0
+0
+end_operator
+begin_operator
+deliver package4 l2 t5 t5
+1
+2 5
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t5 t6
+1
+2 5
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t5 t7
+1
+2 5
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t5 t8
+1
+2 5
+2
+0 20 0 1
+0 36 -1 0
+0
+end_operator
+begin_operator
+deliver package4 l2 t6 t6
+1
+2 6
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t6 t7
+1
+2 6
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t6 t8
+1
+2 6
+2
+0 20 0 1
+0 36 -1 0
+0
+end_operator
+begin_operator
+deliver package4 l2 t7 t7
+1
+2 7
+1
+0 20 0 1
+0
+end_operator
+begin_operator
+deliver package4 l2 t7 t8
+1
+2 7
+2
+0 20 0 1
+0 36 -1 0
+0
+end_operator
+begin_operator
+deliver package4 l2 t8 t8
+1
+2 8
+2
+0 20 0 1
+0 36 -1 0
+0
+end_operator
+begin_operator
+deliver package4 l3 t1 t1
+1
+2 1
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t1 t2
+1
+2 1
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t1 t3
+1
+2 1
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t1 t4
+1
+2 1
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t1 t5
+1
+2 1
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t1 t6
+1
+2 1
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t1 t7
+1
+2 1
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t1 t8
+1
+2 1
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t2 t2
+1
+2 2
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t2 t3
+1
+2 2
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t2 t4
+1
+2 2
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t2 t5
+1
+2 2
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t2 t6
+1
+2 2
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t2 t7
+1
+2 2
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t2 t8
+1
+2 2
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t3 t3
+1
+2 3
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t3 t4
+1
+2 3
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t3 t5
+1
+2 3
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t3 t6
+1
+2 3
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t3 t7
+1
+2 3
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t3 t8
+1
+2 3
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t4 t4
+1
+2 4
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t4 t5
+1
+2 4
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t4 t6
+1
+2 4
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t4 t7
+1
+2 4
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t4 t8
+1
+2 4
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t5 t5
+1
+2 5
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t5 t6
+1
+2 5
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t5 t7
+1
+2 5
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t5 t8
+1
+2 5
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t6 t6
+1
+2 6
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t6 t7
+1
+2 6
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t6 t8
+1
+2 6
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t7 t7
+1
+2 7
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t7 t8
+1
+2 7
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l3 t8 t8
+1
+2 8
+1
+0 21 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t1 t1
+1
+2 1
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t1 t2
+1
+2 1
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t1 t3
+1
+2 1
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t1 t4
+1
+2 1
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t1 t5
+1
+2 1
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t1 t6
+1
+2 1
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t1 t7
+1
+2 1
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t1 t8
+1
+2 1
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t2 t2
+1
+2 2
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t2 t3
+1
+2 2
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t2 t4
+1
+2 2
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t2 t5
+1
+2 2
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t2 t6
+1
+2 2
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t2 t7
+1
+2 2
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t2 t8
+1
+2 2
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t3 t3
+1
+2 3
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t3 t4
+1
+2 3
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t3 t5
+1
+2 3
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t3 t6
+1
+2 3
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t3 t7
+1
+2 3
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t3 t8
+1
+2 3
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t4 t4
+1
+2 4
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t4 t5
+1
+2 4
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t4 t6
+1
+2 4
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t4 t7
+1
+2 4
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t4 t8
+1
+2 4
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t5 t5
+1
+2 5
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t5 t6
+1
+2 5
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t5 t7
+1
+2 5
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t5 t8
+1
+2 5
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t6 t6
+1
+2 6
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t6 t7
+1
+2 6
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t6 t8
+1
+2 6
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t7 t7
+1
+2 7
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t7 t8
+1
+2 7
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package4 l4 t8 t8
+1
+2 8
+1
+0 22 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t1 t1
+1
+2 1
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t1 t2
+1
+2 1
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t1 t3
+1
+2 1
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t1 t4
+1
+2 1
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t1 t5
+1
+2 1
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t1 t6
+1
+2 1
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t1 t7
+1
+2 1
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t1 t8
+1
+2 1
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t2 t2
+1
+2 2
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t2 t3
+1
+2 2
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t2 t4
+1
+2 2
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t2 t5
+1
+2 2
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t2 t6
+1
+2 2
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t2 t7
+1
+2 2
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t2 t8
+1
+2 2
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t3 t3
+1
+2 3
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t3 t4
+1
+2 3
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t3 t5
+1
+2 3
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t3 t6
+1
+2 3
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t3 t7
+1
+2 3
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t3 t8
+1
+2 3
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t4 t4
+1
+2 4
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t4 t5
+1
+2 4
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t4 t6
+1
+2 4
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t4 t7
+1
+2 4
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t4 t8
+1
+2 4
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t5 t5
+1
+2 5
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t5 t6
+1
+2 5
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t5 t7
+1
+2 5
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t5 t8
+1
+2 5
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t6 t6
+1
+2 6
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t6 t7
+1
+2 6
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t6 t8
+1
+2 6
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t7 t7
+1
+2 7
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t7 t8
+1
+2 7
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l1 t8 t8
+1
+2 8
+1
+0 23 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t1 t1
+1
+2 1
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t1 t2
+1
+2 1
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t1 t3
+1
+2 1
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t1 t4
+1
+2 1
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t1 t5
+1
+2 1
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t1 t6
+1
+2 1
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t1 t7
+1
+2 1
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t1 t8
+1
+2 1
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t2 t2
+1
+2 2
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t2 t3
+1
+2 2
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t2 t4
+1
+2 2
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t2 t5
+1
+2 2
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t2 t6
+1
+2 2
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t2 t7
+1
+2 2
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t2 t8
+1
+2 2
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t3 t3
+1
+2 3
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t3 t4
+1
+2 3
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t3 t5
+1
+2 3
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t3 t6
+1
+2 3
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t3 t7
+1
+2 3
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t3 t8
+1
+2 3
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t4 t4
+1
+2 4
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t4 t5
+1
+2 4
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t4 t6
+1
+2 4
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t4 t7
+1
+2 4
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t4 t8
+1
+2 4
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t5 t5
+1
+2 5
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t5 t6
+1
+2 5
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t5 t7
+1
+2 5
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t5 t8
+1
+2 5
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t6 t6
+1
+2 6
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t6 t7
+1
+2 6
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t6 t8
+1
+2 6
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t7 t7
+1
+2 7
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t7 t8
+1
+2 7
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l2 t8 t8
+1
+2 8
+1
+0 24 0 1
+0
+end_operator
+begin_operator
+deliver package5 l3 t1 t1
+1
+2 1
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t1 t2
+1
+2 1
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t1 t3
+1
+2 1
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t1 t4
+1
+2 1
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t1 t5
+1
+2 1
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t1 t6
+1
+2 1
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t1 t7
+1
+2 1
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t1 t8
+1
+2 1
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t2 t2
+1
+2 2
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t2 t3
+1
+2 2
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t2 t4
+1
+2 2
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t2 t5
+1
+2 2
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t2 t6
+1
+2 2
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t2 t7
+1
+2 2
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t2 t8
+1
+2 2
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t3 t3
+1
+2 3
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t3 t4
+1
+2 3
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t3 t5
+1
+2 3
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t3 t6
+1
+2 3
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t3 t7
+1
+2 3
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t3 t8
+1
+2 3
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t4 t4
+1
+2 4
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t4 t5
+1
+2 4
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t4 t6
+1
+2 4
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t4 t7
+1
+2 4
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t4 t8
+1
+2 4
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t5 t5
+1
+2 5
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t5 t6
+1
+2 5
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t5 t7
+1
+2 5
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t5 t8
+1
+2 5
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t6 t6
+1
+2 6
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t6 t7
+1
+2 6
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t6 t8
+1
+2 6
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t7 t7
+1
+2 7
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t7 t8
+1
+2 7
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l3 t8 t8
+1
+2 8
+2
+0 25 0 1
+0 35 -1 0
+0
+end_operator
+begin_operator
+deliver package5 l4 t1 t1
+1
+2 1
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t1 t2
+1
+2 1
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t1 t3
+1
+2 1
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t1 t4
+1
+2 1
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t1 t5
+1
+2 1
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t1 t6
+1
+2 1
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t1 t7
+1
+2 1
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t1 t8
+1
+2 1
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t2 t2
+1
+2 2
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t2 t3
+1
+2 2
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t2 t4
+1
+2 2
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t2 t5
+1
+2 2
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t2 t6
+1
+2 2
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t2 t7
+1
+2 2
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t2 t8
+1
+2 2
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t3 t3
+1
+2 3
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t3 t4
+1
+2 3
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t3 t5
+1
+2 3
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t3 t6
+1
+2 3
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t3 t7
+1
+2 3
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t3 t8
+1
+2 3
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t4 t4
+1
+2 4
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t4 t5
+1
+2 4
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t4 t6
+1
+2 4
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t4 t7
+1
+2 4
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t4 t8
+1
+2 4
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t5 t5
+1
+2 5
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t5 t6
+1
+2 5
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t5 t7
+1
+2 5
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t5 t8
+1
+2 5
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t6 t6
+1
+2 6
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t6 t7
+1
+2 6
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t6 t8
+1
+2 6
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t7 t7
+1
+2 7
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t7 t8
+1
+2 7
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package5 l4 t8 t8
+1
+2 8
+1
+0 27 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t1 t1
+1
+2 1
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t1 t2
+1
+2 1
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t1 t3
+1
+2 1
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t1 t4
+1
+2 1
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t1 t5
+1
+2 1
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t1 t6
+1
+2 1
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t1 t7
+1
+2 1
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t1 t8
+1
+2 1
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t2 t2
+1
+2 2
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t2 t3
+1
+2 2
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t2 t4
+1
+2 2
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t2 t5
+1
+2 2
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t2 t6
+1
+2 2
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t2 t7
+1
+2 2
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t2 t8
+1
+2 2
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t3 t3
+1
+2 3
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t3 t4
+1
+2 3
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t3 t5
+1
+2 3
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t3 t6
+1
+2 3
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t3 t7
+1
+2 3
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t3 t8
+1
+2 3
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t4 t4
+1
+2 4
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t4 t5
+1
+2 4
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t4 t6
+1
+2 4
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t4 t7
+1
+2 4
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t4 t8
+1
+2 4
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t5 t5
+1
+2 5
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t5 t6
+1
+2 5
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t5 t7
+1
+2 5
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t5 t8
+1
+2 5
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t6 t6
+1
+2 6
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t6 t7
+1
+2 6
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t6 t8
+1
+2 6
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t7 t7
+1
+2 7
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t7 t8
+1
+2 7
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l1 t8 t8
+1
+2 8
+1
+0 28 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t1 t1
+1
+2 1
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t1 t2
+1
+2 1
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t1 t3
+1
+2 1
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t1 t4
+1
+2 1
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t1 t5
+1
+2 1
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t1 t6
+1
+2 1
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t1 t7
+1
+2 1
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t1 t8
+1
+2 1
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t2 t2
+1
+2 2
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t2 t3
+1
+2 2
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t2 t4
+1
+2 2
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t2 t5
+1
+2 2
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t2 t6
+1
+2 2
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t2 t7
+1
+2 2
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t2 t8
+1
+2 2
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t3 t3
+1
+2 3
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t3 t4
+1
+2 3
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t3 t5
+1
+2 3
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t3 t6
+1
+2 3
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t3 t7
+1
+2 3
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t3 t8
+1
+2 3
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t4 t4
+1
+2 4
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t4 t5
+1
+2 4
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t4 t6
+1
+2 4
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t4 t7
+1
+2 4
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t4 t8
+1
+2 4
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t5 t5
+1
+2 5
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t5 t6
+1
+2 5
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t5 t7
+1
+2 5
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t5 t8
+1
+2 5
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t6 t6
+1
+2 6
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t6 t7
+1
+2 6
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t6 t8
+1
+2 6
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t7 t7
+1
+2 7
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t7 t8
+1
+2 7
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l2 t8 t8
+1
+2 8
+1
+0 30 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t1 t1
+1
+2 1
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t1 t2
+1
+2 1
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t1 t3
+1
+2 1
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t1 t4
+1
+2 1
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t1 t5
+1
+2 1
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t1 t6
+1
+2 1
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t1 t7
+1
+2 1
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t1 t8
+1
+2 1
+2
+0 31 0 1
+0 34 -1 0
+0
+end_operator
+begin_operator
+deliver package6 l3 t2 t2
+1
+2 2
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t2 t3
+1
+2 2
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t2 t4
+1
+2 2
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t2 t5
+1
+2 2
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t2 t6
+1
+2 2
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t2 t7
+1
+2 2
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t2 t8
+1
+2 2
+2
+0 31 0 1
+0 34 -1 0
+0
+end_operator
+begin_operator
+deliver package6 l3 t3 t3
+1
+2 3
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t3 t4
+1
+2 3
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t3 t5
+1
+2 3
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t3 t6
+1
+2 3
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t3 t7
+1
+2 3
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t3 t8
+1
+2 3
+2
+0 31 0 1
+0 34 -1 0
+0
+end_operator
+begin_operator
+deliver package6 l3 t4 t4
+1
+2 4
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t4 t5
+1
+2 4
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t4 t6
+1
+2 4
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t4 t7
+1
+2 4
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t4 t8
+1
+2 4
+2
+0 31 0 1
+0 34 -1 0
+0
+end_operator
+begin_operator
+deliver package6 l3 t5 t5
+1
+2 5
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t5 t6
+1
+2 5
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t5 t7
+1
+2 5
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t5 t8
+1
+2 5
+2
+0 31 0 1
+0 34 -1 0
+0
+end_operator
+begin_operator
+deliver package6 l3 t6 t6
+1
+2 6
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t6 t7
+1
+2 6
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t6 t8
+1
+2 6
+2
+0 31 0 1
+0 34 -1 0
+0
+end_operator
+begin_operator
+deliver package6 l3 t7 t7
+1
+2 7
+1
+0 31 0 1
+0
+end_operator
+begin_operator
+deliver package6 l3 t7 t8
+1
+2 7
+2
+0 31 0 1
+0 34 -1 0
+0
+end_operator
+begin_operator
+deliver package6 l3 t8 t8
+1
+2 8
+2
+0 31 0 1
+0 34 -1 0
+0
+end_operator
+begin_operator
+deliver package6 l4 t1 t1
+1
+2 1
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t1 t2
+1
+2 1
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t1 t3
+1
+2 1
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t1 t4
+1
+2 1
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t1 t5
+1
+2 1
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t1 t6
+1
+2 1
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t1 t7
+1
+2 1
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t1 t8
+1
+2 1
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t2 t2
+1
+2 2
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t2 t3
+1
+2 2
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t2 t4
+1
+2 2
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t2 t5
+1
+2 2
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t2 t6
+1
+2 2
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t2 t7
+1
+2 2
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t2 t8
+1
+2 2
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t3 t3
+1
+2 3
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t3 t4
+1
+2 3
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t3 t5
+1
+2 3
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t3 t6
+1
+2 3
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t3 t7
+1
+2 3
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t3 t8
+1
+2 3
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t4 t4
+1
+2 4
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t4 t5
+1
+2 4
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t4 t6
+1
+2 4
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t4 t7
+1
+2 4
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t4 t8
+1
+2 4
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t5 t5
+1
+2 5
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t5 t6
+1
+2 5
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t5 t7
+1
+2 5
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t5 t8
+1
+2 5
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t6 t6
+1
+2 6
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t6 t7
+1
+2 6
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t6 t8
+1
+2 6
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t7 t7
+1
+2 7
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t7 t8
+1
+2 7
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+deliver package6 l4 t8 t8
+1
+2 8
+1
+0 33 0 1
+0
+end_operator
+begin_operator
+drive truck1 l1 l2 t0 t1
+0
+3
+0 0 0 1
+0 1 -1 0
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l1 l2 t1 t2
+0
+3
+0 0 0 1
+0 1 -1 0
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l1 l2 t2 t3
+0
+3
+0 0 0 1
+0 1 -1 0
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l1 l2 t3 t4
+0
+3
+0 0 0 1
+0 1 -1 0
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l1 l2 t4 t5
+0
+3
+0 0 0 1
+0 1 -1 0
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l1 l2 t5 t6
+0
+3
+0 0 0 1
+0 1 -1 0
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l1 l2 t6 t7
+0
+3
+0 0 0 1
+0 1 -1 0
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l1 l2 t7 t8
+0
+3
+0 0 0 1
+0 1 -1 0
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l1 l3 t0 t1
+0
+3
+0 0 0 1
+0 3 -1 0
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l1 l3 t1 t2
+0
+3
+0 0 0 1
+0 3 -1 0
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l1 l3 t2 t3
+0
+3
+0 0 0 1
+0 3 -1 0
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l1 l3 t3 t4
+0
+3
+0 0 0 1
+0 3 -1 0
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l1 l3 t4 t5
+0
+3
+0 0 0 1
+0 3 -1 0
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l1 l3 t5 t6
+0
+3
+0 0 0 1
+0 3 -1 0
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l1 l3 t6 t7
+0
+3
+0 0 0 1
+0 3 -1 0
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l1 l3 t7 t8
+0
+3
+0 0 0 1
+0 3 -1 0
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l1 l4 t0 t1
+0
+3
+0 0 0 1
+0 4 -1 0
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l1 l4 t1 t2
+0
+3
+0 0 0 1
+0 4 -1 0
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l1 l4 t2 t3
+0
+3
+0 0 0 1
+0 4 -1 0
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l1 l4 t3 t4
+0
+3
+0 0 0 1
+0 4 -1 0
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l1 l4 t4 t5
+0
+3
+0 0 0 1
+0 4 -1 0
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l1 l4 t5 t6
+0
+3
+0 0 0 1
+0 4 -1 0
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l1 l4 t6 t7
+0
+3
+0 0 0 1
+0 4 -1 0
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l1 l4 t7 t8
+0
+3
+0 0 0 1
+0 4 -1 0
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l2 l1 t0 t1
+0
+3
+0 0 -1 0
+0 1 0 1
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l2 l1 t1 t2
+0
+3
+0 0 -1 0
+0 1 0 1
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l2 l1 t2 t3
+0
+3
+0 0 -1 0
+0 1 0 1
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l2 l1 t3 t4
+0
+3
+0 0 -1 0
+0 1 0 1
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l2 l1 t4 t5
+0
+3
+0 0 -1 0
+0 1 0 1
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l2 l1 t5 t6
+0
+3
+0 0 -1 0
+0 1 0 1
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l2 l1 t6 t7
+0
+3
+0 0 -1 0
+0 1 0 1
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l2 l1 t7 t8
+0
+3
+0 0 -1 0
+0 1 0 1
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l2 l3 t0 t1
+0
+3
+0 1 0 1
+0 3 -1 0
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l2 l3 t1 t2
+0
+3
+0 1 0 1
+0 3 -1 0
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l2 l3 t2 t3
+0
+3
+0 1 0 1
+0 3 -1 0
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l2 l3 t3 t4
+0
+3
+0 1 0 1
+0 3 -1 0
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l2 l3 t4 t5
+0
+3
+0 1 0 1
+0 3 -1 0
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l2 l3 t5 t6
+0
+3
+0 1 0 1
+0 3 -1 0
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l2 l3 t6 t7
+0
+3
+0 1 0 1
+0 3 -1 0
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l2 l3 t7 t8
+0
+3
+0 1 0 1
+0 3 -1 0
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l2 l4 t0 t1
+0
+3
+0 1 0 1
+0 4 -1 0
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l2 l4 t1 t2
+0
+3
+0 1 0 1
+0 4 -1 0
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l2 l4 t2 t3
+0
+3
+0 1 0 1
+0 4 -1 0
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l2 l4 t3 t4
+0
+3
+0 1 0 1
+0 4 -1 0
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l2 l4 t4 t5
+0
+3
+0 1 0 1
+0 4 -1 0
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l2 l4 t5 t6
+0
+3
+0 1 0 1
+0 4 -1 0
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l2 l4 t6 t7
+0
+3
+0 1 0 1
+0 4 -1 0
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l2 l4 t7 t8
+0
+3
+0 1 0 1
+0 4 -1 0
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l3 l1 t0 t1
+0
+3
+0 0 -1 0
+0 3 0 1
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l3 l1 t1 t2
+0
+3
+0 0 -1 0
+0 3 0 1
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l3 l1 t2 t3
+0
+3
+0 0 -1 0
+0 3 0 1
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l3 l1 t3 t4
+0
+3
+0 0 -1 0
+0 3 0 1
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l3 l1 t4 t5
+0
+3
+0 0 -1 0
+0 3 0 1
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l3 l1 t5 t6
+0
+3
+0 0 -1 0
+0 3 0 1
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l3 l1 t6 t7
+0
+3
+0 0 -1 0
+0 3 0 1
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l3 l1 t7 t8
+0
+3
+0 0 -1 0
+0 3 0 1
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l3 l2 t0 t1
+0
+3
+0 1 -1 0
+0 3 0 1
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l3 l2 t1 t2
+0
+3
+0 1 -1 0
+0 3 0 1
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l3 l2 t2 t3
+0
+3
+0 1 -1 0
+0 3 0 1
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l3 l2 t3 t4
+0
+3
+0 1 -1 0
+0 3 0 1
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l3 l2 t4 t5
+0
+3
+0 1 -1 0
+0 3 0 1
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l3 l2 t5 t6
+0
+3
+0 1 -1 0
+0 3 0 1
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l3 l2 t6 t7
+0
+3
+0 1 -1 0
+0 3 0 1
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l3 l2 t7 t8
+0
+3
+0 1 -1 0
+0 3 0 1
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l3 l4 t0 t1
+0
+3
+0 3 0 1
+0 4 -1 0
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l3 l4 t1 t2
+0
+3
+0 3 0 1
+0 4 -1 0
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l3 l4 t2 t3
+0
+3
+0 3 0 1
+0 4 -1 0
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l3 l4 t3 t4
+0
+3
+0 3 0 1
+0 4 -1 0
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l3 l4 t4 t5
+0
+3
+0 3 0 1
+0 4 -1 0
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l3 l4 t5 t6
+0
+3
+0 3 0 1
+0 4 -1 0
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l3 l4 t6 t7
+0
+3
+0 3 0 1
+0 4 -1 0
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l3 l4 t7 t8
+0
+3
+0 3 0 1
+0 4 -1 0
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l4 l1 t0 t1
+0
+3
+0 0 -1 0
+0 4 0 1
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l4 l1 t1 t2
+0
+3
+0 0 -1 0
+0 4 0 1
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l4 l1 t2 t3
+0
+3
+0 0 -1 0
+0 4 0 1
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l4 l1 t3 t4
+0
+3
+0 0 -1 0
+0 4 0 1
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l4 l1 t4 t5
+0
+3
+0 0 -1 0
+0 4 0 1
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l4 l1 t5 t6
+0
+3
+0 0 -1 0
+0 4 0 1
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l4 l1 t6 t7
+0
+3
+0 0 -1 0
+0 4 0 1
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l4 l1 t7 t8
+0
+3
+0 0 -1 0
+0 4 0 1
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l4 l2 t0 t1
+0
+3
+0 1 -1 0
+0 4 0 1
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l4 l2 t1 t2
+0
+3
+0 1 -1 0
+0 4 0 1
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l4 l2 t2 t3
+0
+3
+0 1 -1 0
+0 4 0 1
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l4 l2 t3 t4
+0
+3
+0 1 -1 0
+0 4 0 1
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l4 l2 t4 t5
+0
+3
+0 1 -1 0
+0 4 0 1
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l4 l2 t5 t6
+0
+3
+0 1 -1 0
+0 4 0 1
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l4 l2 t6 t7
+0
+3
+0 1 -1 0
+0 4 0 1
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l4 l2 t7 t8
+0
+3
+0 1 -1 0
+0 4 0 1
+0 2 7 8
+0
+end_operator
+begin_operator
+drive truck1 l4 l3 t0 t1
+0
+3
+0 3 -1 0
+0 4 0 1
+0 2 0 1
+0
+end_operator
+begin_operator
+drive truck1 l4 l3 t1 t2
+0
+3
+0 3 -1 0
+0 4 0 1
+0 2 1 2
+0
+end_operator
+begin_operator
+drive truck1 l4 l3 t2 t3
+0
+3
+0 3 -1 0
+0 4 0 1
+0 2 2 3
+0
+end_operator
+begin_operator
+drive truck1 l4 l3 t3 t4
+0
+3
+0 3 -1 0
+0 4 0 1
+0 2 3 4
+0
+end_operator
+begin_operator
+drive truck1 l4 l3 t4 t5
+0
+3
+0 3 -1 0
+0 4 0 1
+0 2 4 5
+0
+end_operator
+begin_operator
+drive truck1 l4 l3 t5 t6
+0
+3
+0 3 -1 0
+0 4 0 1
+0 2 5 6
+0
+end_operator
+begin_operator
+drive truck1 l4 l3 t6 t7
+0
+3
+0 3 -1 0
+0 4 0 1
+0 2 6 7
+0
+end_operator
+begin_operator
+drive truck1 l4 l3 t7 t8
+0
+3
+0 3 -1 0
+0 4 0 1
+0 2 7 8
+0
+end_operator
+begin_operator
+load package1 truck1 a1 l1
+1
+0 0
+2
+0 7 0 1
+0 26 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a1 l2
+1
+1 0
+2
+0 8 0 1
+0 26 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a1 l3
+1
+3 0
+2
+0 9 0 1
+0 26 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a1 l4
+1
+4 0
+2
+0 10 0 1
+0 26 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 7 0 1
+0 29 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 8 0 1
+0 29 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 9 0 1
+0 29 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 10 0 1
+0 29 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 7 0 1
+0 32 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 8 0 1
+0 32 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 9 0 1
+0 32 0 1
+0
+end_operator
+begin_operator
+load package1 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 10 0 1
+0 32 0 1
+0
+end_operator
+begin_operator
+load package2 truck1 a1 l1
+1
+0 0
+2
+0 11 0 1
+0 26 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a1 l2
+1
+1 0
+2
+0 12 0 1
+0 26 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a1 l3
+1
+3 0
+2
+0 13 0 1
+0 26 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a1 l4
+1
+4 0
+2
+0 14 0 1
+0 26 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 11 0 1
+0 29 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 12 0 1
+0 29 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 13 0 1
+0 29 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 14 0 1
+0 29 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 11 0 1
+0 32 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 12 0 1
+0 32 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 13 0 1
+0 32 0 2
+0
+end_operator
+begin_operator
+load package2 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 14 0 1
+0 32 0 2
+0
+end_operator
+begin_operator
+load package3 truck1 a1 l1
+1
+0 0
+2
+0 15 0 1
+0 26 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a1 l2
+1
+1 0
+2
+0 16 0 1
+0 26 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a1 l3
+1
+3 0
+2
+0 17 0 1
+0 26 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a1 l4
+1
+4 0
+2
+0 18 0 1
+0 26 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 15 0 1
+0 29 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 16 0 1
+0 29 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 17 0 1
+0 29 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 18 0 1
+0 29 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 15 0 1
+0 32 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 16 0 1
+0 32 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 17 0 1
+0 32 0 3
+0
+end_operator
+begin_operator
+load package3 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 18 0 1
+0 32 0 3
+0
+end_operator
+begin_operator
+load package4 truck1 a1 l1
+1
+0 0
+2
+0 19 0 1
+0 26 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a1 l2
+1
+1 0
+2
+0 20 0 1
+0 26 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a1 l3
+1
+3 0
+2
+0 21 0 1
+0 26 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a1 l4
+1
+4 0
+2
+0 22 0 1
+0 26 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 19 0 1
+0 29 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 20 0 1
+0 29 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 21 0 1
+0 29 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 22 0 1
+0 29 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 19 0 1
+0 32 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 20 0 1
+0 32 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 21 0 1
+0 32 0 4
+0
+end_operator
+begin_operator
+load package4 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 22 0 1
+0 32 0 4
+0
+end_operator
+begin_operator
+load package5 truck1 a1 l1
+1
+0 0
+2
+0 23 0 1
+0 26 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a1 l2
+1
+1 0
+2
+0 24 0 1
+0 26 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a1 l3
+1
+3 0
+2
+0 25 0 1
+0 26 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a1 l4
+1
+4 0
+2
+0 27 0 1
+0 26 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 23 0 1
+0 29 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 24 0 1
+0 29 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 25 0 1
+0 29 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 27 0 1
+0 29 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 23 0 1
+0 32 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 24 0 1
+0 32 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 25 0 1
+0 32 0 5
+0
+end_operator
+begin_operator
+load package5 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 27 0 1
+0 32 0 5
+0
+end_operator
+begin_operator
+load package6 truck1 a1 l1
+1
+0 0
+2
+0 28 0 1
+0 26 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a1 l2
+1
+1 0
+2
+0 30 0 1
+0 26 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a1 l3
+1
+3 0
+2
+0 31 0 1
+0 26 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a1 l4
+1
+4 0
+2
+0 33 0 1
+0 26 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 28 0 1
+0 29 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 30 0 1
+0 29 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 31 0 1
+0 29 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 33 0 1
+0 29 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 28 0 1
+0 32 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 30 0 1
+0 32 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 31 0 1
+0 32 0 6
+0
+end_operator
+begin_operator
+load package6 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 33 0 1
+0 32 0 6
+0
+end_operator
+begin_operator
+unload package1 truck1 a1 l1
+1
+0 0
+2
+0 7 -1 0
+0 26 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a1 l2
+1
+1 0
+2
+0 8 -1 0
+0 26 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a1 l3
+1
+3 0
+2
+0 9 -1 0
+0 26 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a1 l4
+1
+4 0
+2
+0 10 -1 0
+0 26 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 7 -1 0
+0 29 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 8 -1 0
+0 29 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 9 -1 0
+0 29 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 10 -1 0
+0 29 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 7 -1 0
+0 32 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 8 -1 0
+0 32 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 9 -1 0
+0 32 1 0
+0
+end_operator
+begin_operator
+unload package1 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 10 -1 0
+0 32 1 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a1 l1
+1
+0 0
+2
+0 11 -1 0
+0 26 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a1 l2
+1
+1 0
+2
+0 12 -1 0
+0 26 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a1 l3
+1
+3 0
+2
+0 13 -1 0
+0 26 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a1 l4
+1
+4 0
+2
+0 14 -1 0
+0 26 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 11 -1 0
+0 29 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 12 -1 0
+0 29 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 13 -1 0
+0 29 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 14 -1 0
+0 29 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 11 -1 0
+0 32 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 12 -1 0
+0 32 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 13 -1 0
+0 32 2 0
+0
+end_operator
+begin_operator
+unload package2 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 14 -1 0
+0 32 2 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a1 l1
+1
+0 0
+2
+0 15 -1 0
+0 26 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a1 l2
+1
+1 0
+2
+0 16 -1 0
+0 26 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a1 l3
+1
+3 0
+2
+0 17 -1 0
+0 26 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a1 l4
+1
+4 0
+2
+0 18 -1 0
+0 26 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 15 -1 0
+0 29 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 16 -1 0
+0 29 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 17 -1 0
+0 29 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 18 -1 0
+0 29 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 15 -1 0
+0 32 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 16 -1 0
+0 32 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 17 -1 0
+0 32 3 0
+0
+end_operator
+begin_operator
+unload package3 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 18 -1 0
+0 32 3 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a1 l1
+1
+0 0
+2
+0 19 -1 0
+0 26 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a1 l2
+1
+1 0
+2
+0 20 -1 0
+0 26 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a1 l3
+1
+3 0
+2
+0 21 -1 0
+0 26 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a1 l4
+1
+4 0
+2
+0 22 -1 0
+0 26 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 19 -1 0
+0 29 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 20 -1 0
+0 29 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 21 -1 0
+0 29 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 22 -1 0
+0 29 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 19 -1 0
+0 32 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 20 -1 0
+0 32 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 21 -1 0
+0 32 4 0
+0
+end_operator
+begin_operator
+unload package4 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 22 -1 0
+0 32 4 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a1 l1
+1
+0 0
+2
+0 23 -1 0
+0 26 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a1 l2
+1
+1 0
+2
+0 24 -1 0
+0 26 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a1 l3
+1
+3 0
+2
+0 25 -1 0
+0 26 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a1 l4
+1
+4 0
+2
+0 27 -1 0
+0 26 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 23 -1 0
+0 29 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 24 -1 0
+0 29 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 25 -1 0
+0 29 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 27 -1 0
+0 29 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 23 -1 0
+0 32 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 24 -1 0
+0 32 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 25 -1 0
+0 32 5 0
+0
+end_operator
+begin_operator
+unload package5 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 27 -1 0
+0 32 5 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a1 l1
+1
+0 0
+2
+0 28 -1 0
+0 26 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a1 l2
+1
+1 0
+2
+0 30 -1 0
+0 26 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a1 l3
+1
+3 0
+2
+0 31 -1 0
+0 26 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a1 l4
+1
+4 0
+2
+0 33 -1 0
+0 26 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a2 l1
+2
+0 0
+5 1
+2
+0 28 -1 0
+0 29 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a2 l2
+2
+1 0
+5 1
+2
+0 30 -1 0
+0 29 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a2 l3
+2
+3 0
+5 1
+2
+0 31 -1 0
+0 29 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a2 l4
+2
+4 0
+5 1
+2
+0 33 -1 0
+0 29 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a3 l1
+2
+0 0
+6 1
+2
+0 28 -1 0
+0 32 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a3 l2
+2
+1 0
+6 1
+2
+0 30 -1 0
+0 32 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a3 l3
+2
+3 0
+6 1
+2
+0 31 -1 0
+0 32 6 0
+0
+end_operator
+begin_operator
+unload package6 truck1 a3 l4
+2
+4 0
+6 1
+2
+0 33 -1 0
+0 32 6 0
+0
+end_operator
+2
+begin_rule
+1
+26 0
+5 0 1
+end_rule
+begin_rule
+2
+26 0
+29 0
+6 0 1
+end_rule
+begin_SG
+switch 7
+check 0
+switch 0
+check 0
+switch 26
+check 0
+check 1
+960
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+964
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+968
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+0
+1
+2
+3
+4
+5
+6
+7
+check 7
+8
+9
+10
+11
+12
+13
+14
+check 6
+15
+16
+17
+18
+19
+20
+check 5
+21
+22
+23
+24
+25
+check 4
+26
+27
+28
+29
+check 3
+30
+31
+32
+check 2
+33
+34
+check 1
+35
+check 0
+check 0
+switch 8
+check 0
+switch 1
+check 0
+switch 26
+check 0
+check 1
+961
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+965
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+969
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+36
+37
+38
+39
+40
+41
+42
+43
+check 7
+44
+45
+46
+47
+48
+49
+50
+check 6
+51
+52
+53
+54
+55
+56
+check 5
+57
+58
+59
+60
+61
+check 4
+62
+63
+64
+65
+check 3
+66
+67
+68
+check 2
+69
+70
+check 1
+71
+check 0
+check 0
+switch 9
+check 0
+switch 3
+check 0
+switch 26
+check 0
+check 1
+962
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+966
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+970
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+72
+73
+74
+75
+76
+77
+78
+79
+check 7
+80
+81
+82
+83
+84
+85
+86
+check 6
+87
+88
+89
+90
+91
+92
+check 5
+93
+94
+95
+96
+97
+check 4
+98
+99
+100
+101
+check 3
+102
+103
+104
+check 2
+105
+106
+check 1
+107
+check 0
+check 0
+switch 10
+check 0
+switch 4
+check 0
+switch 26
+check 0
+check 1
+963
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+967
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+971
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+108
+109
+110
+111
+112
+113
+114
+115
+check 7
+116
+117
+118
+119
+120
+121
+122
+check 6
+123
+124
+125
+126
+127
+128
+check 5
+129
+130
+131
+132
+133
+check 4
+134
+135
+136
+137
+check 3
+138
+139
+140
+check 2
+141
+142
+check 1
+143
+check 0
+check 0
+switch 11
+check 0
+switch 0
+check 0
+switch 26
+check 0
+check 1
+972
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+976
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+980
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+144
+145
+146
+147
+148
+149
+150
+151
+check 7
+152
+153
+154
+155
+156
+157
+158
+check 6
+159
+160
+161
+162
+163
+164
+check 5
+165
+166
+167
+168
+169
+check 4
+170
+171
+172
+173
+check 3
+174
+175
+176
+check 2
+177
+178
+check 1
+179
+check 0
+check 0
+switch 12
+check 0
+switch 1
+check 0
+switch 26
+check 0
+check 1
+973
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+977
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+981
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+180
+181
+182
+183
+184
+185
+186
+187
+check 7
+188
+189
+190
+191
+192
+193
+194
+check 6
+195
+196
+197
+198
+199
+200
+check 5
+201
+202
+203
+204
+205
+check 4
+206
+207
+208
+209
+check 3
+210
+211
+212
+check 2
+213
+214
+check 1
+215
+check 0
+check 0
+switch 13
+check 0
+switch 3
+check 0
+switch 26
+check 0
+check 1
+974
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+978
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+982
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+216
+217
+218
+219
+220
+221
+222
+223
+check 7
+224
+225
+226
+227
+228
+229
+230
+check 6
+231
+232
+233
+234
+235
+236
+check 5
+237
+238
+239
+240
+241
+check 4
+242
+243
+244
+245
+check 3
+246
+247
+248
+check 2
+249
+250
+check 1
+251
+check 0
+check 0
+switch 14
+check 0
+switch 4
+check 0
+switch 26
+check 0
+check 1
+975
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+979
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+983
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+252
+253
+254
+255
+256
+257
+258
+259
+check 7
+260
+261
+262
+263
+264
+265
+266
+check 6
+267
+268
+269
+270
+271
+272
+check 5
+273
+274
+275
+276
+277
+check 4
+278
+279
+280
+281
+check 3
+282
+283
+284
+check 2
+285
+286
+check 1
+287
+check 0
+check 0
+switch 15
+check 0
+switch 0
+check 0
+switch 26
+check 0
+check 1
+984
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+988
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+992
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+288
+289
+290
+291
+292
+293
+294
+295
+check 7
+296
+297
+298
+299
+300
+301
+302
+check 6
+303
+304
+305
+306
+307
+308
+check 5
+309
+310
+311
+312
+313
+check 4
+314
+315
+316
+317
+check 3
+318
+319
+320
+check 2
+321
+322
+check 1
+323
+check 0
+check 0
+switch 16
+check 0
+switch 1
+check 0
+switch 26
+check 0
+check 1
+985
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+989
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+993
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+324
+325
+326
+327
+328
+329
+330
+331
+check 7
+332
+333
+334
+335
+336
+337
+338
+check 6
+339
+340
+341
+342
+343
+344
+check 5
+345
+346
+347
+348
+349
+check 4
+350
+351
+352
+353
+check 3
+354
+355
+356
+check 2
+357
+358
+check 1
+359
+check 0
+check 0
+switch 17
+check 0
+switch 3
+check 0
+switch 26
+check 0
+check 1
+986
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+990
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+994
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+360
+361
+362
+363
+364
+365
+366
+367
+check 7
+368
+369
+370
+371
+372
+373
+374
+check 6
+375
+376
+377
+378
+379
+380
+check 5
+381
+382
+383
+384
+385
+check 4
+386
+387
+388
+389
+check 3
+390
+391
+392
+check 2
+393
+394
+check 1
+395
+check 0
+check 0
+switch 18
+check 0
+switch 4
+check 0
+switch 26
+check 0
+check 1
+987
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+991
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+995
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+396
+397
+398
+399
+400
+401
+402
+403
+check 7
+404
+405
+406
+407
+408
+409
+410
+check 6
+411
+412
+413
+414
+415
+416
+check 5
+417
+418
+419
+420
+421
+check 4
+422
+423
+424
+425
+check 3
+426
+427
+428
+check 2
+429
+430
+check 1
+431
+check 0
+check 0
+switch 19
+check 0
+switch 0
+check 0
+switch 26
+check 0
+check 1
+996
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1000
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1004
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+432
+433
+434
+435
+436
+437
+438
+439
+check 7
+440
+441
+442
+443
+444
+445
+446
+check 6
+447
+448
+449
+450
+451
+452
+check 5
+453
+454
+455
+456
+457
+check 4
+458
+459
+460
+461
+check 3
+462
+463
+464
+check 2
+465
+466
+check 1
+467
+check 0
+check 0
+switch 20
+check 0
+switch 1
+check 0
+switch 26
+check 0
+check 1
+997
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1001
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1005
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+468
+469
+470
+471
+472
+473
+474
+475
+check 7
+476
+477
+478
+479
+480
+481
+482
+check 6
+483
+484
+485
+486
+487
+488
+check 5
+489
+490
+491
+492
+493
+check 4
+494
+495
+496
+497
+check 3
+498
+499
+500
+check 2
+501
+502
+check 1
+503
+check 0
+check 0
+switch 21
+check 0
+switch 3
+check 0
+switch 26
+check 0
+check 1
+998
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1002
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1006
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+504
+505
+506
+507
+508
+509
+510
+511
+check 7
+512
+513
+514
+515
+516
+517
+518
+check 6
+519
+520
+521
+522
+523
+524
+check 5
+525
+526
+527
+528
+529
+check 4
+530
+531
+532
+533
+check 3
+534
+535
+536
+check 2
+537
+538
+check 1
+539
+check 0
+check 0
+switch 22
+check 0
+switch 4
+check 0
+switch 26
+check 0
+check 1
+999
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1003
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1007
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+540
+541
+542
+543
+544
+545
+546
+547
+check 7
+548
+549
+550
+551
+552
+553
+554
+check 6
+555
+556
+557
+558
+559
+560
+check 5
+561
+562
+563
+564
+565
+check 4
+566
+567
+568
+569
+check 3
+570
+571
+572
+check 2
+573
+574
+check 1
+575
+check 0
+check 0
+switch 23
+check 0
+switch 0
+check 0
+switch 26
+check 0
+check 1
+1008
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1012
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1016
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+576
+577
+578
+579
+580
+581
+582
+583
+check 7
+584
+585
+586
+587
+588
+589
+590
+check 6
+591
+592
+593
+594
+595
+596
+check 5
+597
+598
+599
+600
+601
+check 4
+602
+603
+604
+605
+check 3
+606
+607
+608
+check 2
+609
+610
+check 1
+611
+check 0
+check 0
+switch 24
+check 0
+switch 1
+check 0
+switch 26
+check 0
+check 1
+1009
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1013
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1017
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+612
+613
+614
+615
+616
+617
+618
+619
+check 7
+620
+621
+622
+623
+624
+625
+626
+check 6
+627
+628
+629
+630
+631
+632
+check 5
+633
+634
+635
+636
+637
+check 4
+638
+639
+640
+641
+check 3
+642
+643
+644
+check 2
+645
+646
+check 1
+647
+check 0
+check 0
+switch 25
+check 0
+switch 3
+check 0
+switch 26
+check 0
+check 1
+1010
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1014
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1018
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+648
+649
+650
+651
+652
+653
+654
+655
+check 7
+656
+657
+658
+659
+660
+661
+662
+check 6
+663
+664
+665
+666
+667
+668
+check 5
+669
+670
+671
+672
+673
+check 4
+674
+675
+676
+677
+check 3
+678
+679
+680
+check 2
+681
+682
+check 1
+683
+check 0
+check 0
+switch 27
+check 0
+switch 4
+check 0
+switch 26
+check 0
+check 1
+1011
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1015
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1019
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+684
+685
+686
+687
+688
+689
+690
+691
+check 7
+692
+693
+694
+695
+696
+697
+698
+check 6
+699
+700
+701
+702
+703
+704
+check 5
+705
+706
+707
+708
+709
+check 4
+710
+711
+712
+713
+check 3
+714
+715
+716
+check 2
+717
+718
+check 1
+719
+check 0
+check 0
+switch 28
+check 0
+switch 0
+check 0
+switch 26
+check 0
+check 1
+1020
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1024
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1028
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+720
+721
+722
+723
+724
+725
+726
+727
+check 7
+728
+729
+730
+731
+732
+733
+734
+check 6
+735
+736
+737
+738
+739
+740
+check 5
+741
+742
+743
+744
+745
+check 4
+746
+747
+748
+749
+check 3
+750
+751
+752
+check 2
+753
+754
+check 1
+755
+check 0
+check 0
+switch 30
+check 0
+switch 1
+check 0
+switch 26
+check 0
+check 1
+1021
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1025
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1029
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+756
+757
+758
+759
+760
+761
+762
+763
+check 7
+764
+765
+766
+767
+768
+769
+770
+check 6
+771
+772
+773
+774
+775
+776
+check 5
+777
+778
+779
+780
+781
+check 4
+782
+783
+784
+785
+check 3
+786
+787
+788
+check 2
+789
+790
+check 1
+791
+check 0
+check 0
+switch 31
+check 0
+switch 3
+check 0
+switch 26
+check 0
+check 1
+1022
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1026
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1030
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+792
+793
+794
+795
+796
+797
+798
+799
+check 7
+800
+801
+802
+803
+804
+805
+806
+check 6
+807
+808
+809
+810
+811
+812
+check 5
+813
+814
+815
+816
+817
+check 4
+818
+819
+820
+821
+check 3
+822
+823
+824
+check 2
+825
+826
+check 1
+827
+check 0
+check 0
+switch 33
+check 0
+switch 4
+check 0
+switch 26
+check 0
+check 1
+1023
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 29
+check 0
+switch 5
+check 0
+check 0
+check 1
+1027
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 32
+check 0
+switch 6
+check 0
+check 0
+check 1
+1031
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 0
+check 8
+828
+829
+830
+831
+832
+833
+834
+835
+check 7
+836
+837
+838
+839
+840
+841
+842
+check 6
+843
+844
+845
+846
+847
+848
+check 5
+849
+850
+851
+852
+853
+check 4
+854
+855
+856
+857
+check 3
+858
+859
+860
+check 2
+861
+862
+check 1
+863
+check 0
+check 0
+switch 0
+check 0
+switch 26
+check 0
+check 0
+check 1
+1032
+check 1
+1044
+check 1
+1056
+check 1
+1068
+check 1
+1080
+check 1
+1092
+switch 29
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+1036
+check 0
+switch 5
+check 0
+check 0
+check 1
+1048
+check 0
+switch 5
+check 0
+check 0
+check 1
+1060
+check 0
+switch 5
+check 0
+check 0
+check 1
+1072
+check 0
+switch 5
+check 0
+check 0
+check 1
+1084
+check 0
+switch 5
+check 0
+check 0
+check 1
+1096
+check 0
+switch 32
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+1040
+check 0
+switch 6
+check 0
+check 0
+check 1
+1052
+check 0
+switch 6
+check 0
+check 0
+check 1
+1064
+check 0
+switch 6
+check 0
+check 0
+check 1
+1076
+check 0
+switch 6
+check 0
+check 0
+check 1
+1088
+check 0
+switch 6
+check 0
+check 0
+check 1
+1100
+check 0
+switch 2
+check 0
+check 3
+864
+872
+880
+check 3
+865
+873
+881
+check 3
+866
+874
+882
+check 3
+867
+875
+883
+check 3
+868
+876
+884
+check 3
+869
+877
+885
+check 3
+870
+878
+886
+check 3
+871
+879
+887
+check 0
+check 0
+check 0
+switch 1
+check 0
+switch 26
+check 0
+check 0
+check 1
+1033
+check 1
+1045
+check 1
+1057
+check 1
+1069
+check 1
+1081
+check 1
+1093
+switch 29
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+1037
+check 0
+switch 5
+check 0
+check 0
+check 1
+1049
+check 0
+switch 5
+check 0
+check 0
+check 1
+1061
+check 0
+switch 5
+check 0
+check 0
+check 1
+1073
+check 0
+switch 5
+check 0
+check 0
+check 1
+1085
+check 0
+switch 5
+check 0
+check 0
+check 1
+1097
+check 0
+switch 32
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+1041
+check 0
+switch 6
+check 0
+check 0
+check 1
+1053
+check 0
+switch 6
+check 0
+check 0
+check 1
+1065
+check 0
+switch 6
+check 0
+check 0
+check 1
+1077
+check 0
+switch 6
+check 0
+check 0
+check 1
+1089
+check 0
+switch 6
+check 0
+check 0
+check 1
+1101
+check 0
+switch 2
+check 0
+check 3
+888
+896
+904
+check 3
+889
+897
+905
+check 3
+890
+898
+906
+check 3
+891
+899
+907
+check 3
+892
+900
+908
+check 3
+893
+901
+909
+check 3
+894
+902
+910
+check 3
+895
+903
+911
+check 0
+check 0
+check 0
+switch 3
+check 0
+switch 26
+check 0
+check 0
+check 1
+1034
+check 1
+1046
+check 1
+1058
+check 1
+1070
+check 1
+1082
+check 1
+1094
+switch 29
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+1038
+check 0
+switch 5
+check 0
+check 0
+check 1
+1050
+check 0
+switch 5
+check 0
+check 0
+check 1
+1062
+check 0
+switch 5
+check 0
+check 0
+check 1
+1074
+check 0
+switch 5
+check 0
+check 0
+check 1
+1086
+check 0
+switch 5
+check 0
+check 0
+check 1
+1098
+check 0
+switch 32
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+1042
+check 0
+switch 6
+check 0
+check 0
+check 1
+1054
+check 0
+switch 6
+check 0
+check 0
+check 1
+1066
+check 0
+switch 6
+check 0
+check 0
+check 1
+1078
+check 0
+switch 6
+check 0
+check 0
+check 1
+1090
+check 0
+switch 6
+check 0
+check 0
+check 1
+1102
+check 0
+switch 2
+check 0
+check 3
+912
+920
+928
+check 3
+913
+921
+929
+check 3
+914
+922
+930
+check 3
+915
+923
+931
+check 3
+916
+924
+932
+check 3
+917
+925
+933
+check 3
+918
+926
+934
+check 3
+919
+927
+935
+check 0
+check 0
+check 0
+switch 4
+check 0
+switch 26
+check 0
+check 0
+check 1
+1035
+check 1
+1047
+check 1
+1059
+check 1
+1071
+check 1
+1083
+check 1
+1095
+switch 29
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+1039
+check 0
+switch 5
+check 0
+check 0
+check 1
+1051
+check 0
+switch 5
+check 0
+check 0
+check 1
+1063
+check 0
+switch 5
+check 0
+check 0
+check 1
+1075
+check 0
+switch 5
+check 0
+check 0
+check 1
+1087
+check 0
+switch 5
+check 0
+check 0
+check 1
+1099
+check 0
+switch 32
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+1043
+check 0
+switch 6
+check 0
+check 0
+check 1
+1055
+check 0
+switch 6
+check 0
+check 0
+check 1
+1067
+check 0
+switch 6
+check 0
+check 0
+check 1
+1079
+check 0
+switch 6
+check 0
+check 0
+check 1
+1091
+check 0
+switch 6
+check 0
+check 0
+check 1
+1103
+check 0
+switch 2
+check 0
+check 3
+936
+944
+952
+check 3
+937
+945
+953
+check 3
+938
+946
+954
+check 3
+939
+947
+955
+check 3
+940
+948
+956
+check 3
+941
+949
+957
+check 3
+942
+950
+958
+check 3
+943
+951
+959
+check 0
+check 0
+check 0
+check 0
+end_SG
+begin_DTG
+8
+1
+876
+1
+2 4
+1
+887
+1
+2 7
+1
+886
+1
+2 6
+1
+885
+1
+2 5
+1
+883
+1
+2 3
+1
+882
+1
+2 2
+1
+881
+1
+2 1
+1
+880
+1
+2 0
+24
+0
+916
+2
+3 0
+2 4
+0
+943
+2
+4 0
+2 7
+0
+942
+2
+4 0
+2 6
+0
+941
+2
+4 0
+2 5
+0
+940
+2
+4 0
+2 4
+0
+939
+2
+4 0
+2 3
+0
+938
+2
+4 0
+2 2
+0
+937
+2
+4 0
+2 1
+0
+936
+2
+4 0
+2 0
+0
+919
+2
+3 0
+2 7
+0
+918
+2
+3 0
+2 6
+0
+917
+2
+3 0
+2 5
+0
+888
+2
+1 0
+2 0
+0
+915
+2
+3 0
+2 3
+0
+914
+2
+3 0
+2 2
+0
+913
+2
+3 0
+2 1
+0
+912
+2
+3 0
+2 0
+0
+895
+2
+1 0
+2 7
+0
+894
+2
+1 0
+2 6
+0
+893
+2
+1 0
+2 5
+0
+892
+2
+1 0
+2 4
+0
+891
+2
+1 0
+2 3
+0
+890
+2
+1 0
+2 2
+0
+889
+2
+1 0
+2 1
+end_DTG
+begin_DTG
+8
+1
+900
+1
+2 4
+1
+911
+1
+2 7
+1
+910
+1
+2 6
+1
+909
+1
+2 5
+1
+907
+1
+2 3
+1
+906
+1
+2 2
+1
+905
+1
+2 1
+1
+904
+1
+2 0
+24
+0
+924
+2
+3 0
+2 4
+0
+951
+2
+4 0
+2 7
+0
+950
+2
+4 0
+2 6
+0
+949
+2
+4 0
+2 5
+0
+948
+2
+4 0
+2 4
+0
+947
+2
+4 0
+2 3
+0
+946
+2
+4 0
+2 2
+0
+945
+2
+4 0
+2 1
+0
+944
+2
+4 0
+2 0
+0
+927
+2
+3 0
+2 7
+0
+926
+2
+3 0
+2 6
+0
+925
+2
+3 0
+2 5
+0
+864
+2
+0 0
+2 0
+0
+923
+2
+3 0
+2 3
+0
+922
+2
+3 0
+2 2
+0
+921
+2
+3 0
+2 1
+0
+920
+2
+3 0
+2 0
+0
+871
+2
+0 0
+2 7
+0
+870
+2
+0 0
+2 6
+0
+869
+2
+0 0
+2 5
+0
+868
+2
+0 0
+2 4
+0
+867
+2
+0 0
+2 3
+0
+866
+2
+0 0
+2 2
+0
+865
+2
+0 0
+2 1
+end_DTG
+begin_DTG
+4
+1
+864
+1
+0 0
+1
+888
+1
+1 0
+1
+912
+1
+3 0
+1
+936
+1
+4 0
+4
+2
+865
+1
+0 0
+2
+889
+1
+1 0
+2
+913
+1
+3 0
+2
+937
+1
+4 0
+4
+3
+866
+1
+0 0
+3
+890
+1
+1 0
+3
+914
+1
+3 0
+3
+938
+1
+4 0
+4
+4
+867
+1
+0 0
+4
+891
+1
+1 0
+4
+915
+1
+3 0
+4
+939
+1
+4 0
+4
+5
+868
+1
+0 0
+5
+892
+1
+1 0
+5
+916
+1
+3 0
+5
+940
+1
+4 0
+4
+6
+869
+1
+0 0
+6
+893
+1
+1 0
+6
+917
+1
+3 0
+6
+941
+1
+4 0
+4
+7
+870
+1
+0 0
+7
+894
+1
+1 0
+7
+918
+1
+3 0
+7
+942
+1
+4 0
+4
+8
+871
+1
+0 0
+8
+895
+1
+1 0
+8
+919
+1
+3 0
+8
+943
+1
+4 0
+0
+end_DTG
+begin_DTG
+8
+1
+924
+1
+2 4
+1
+935
+1
+2 7
+1
+934
+1
+2 6
+1
+933
+1
+2 5
+1
+931
+1
+2 3
+1
+930
+1
+2 2
+1
+929
+1
+2 1
+1
+928
+1
+2 0
+24
+0
+900
+2
+1 0
+2 4
+0
+959
+2
+4 0
+2 7
+0
+958
+2
+4 0
+2 6
+0
+957
+2
+4 0
+2 5
+0
+956
+2
+4 0
+2 4
+0
+955
+2
+4 0
+2 3
+0
+954
+2
+4 0
+2 2
+0
+953
+2
+4 0
+2 1
+0
+952
+2
+4 0
+2 0
+0
+903
+2
+1 0
+2 7
+0
+902
+2
+1 0
+2 6
+0
+901
+2
+1 0
+2 5
+0
+872
+2
+0 0
+2 0
+0
+899
+2
+1 0
+2 3
+0
+898
+2
+1 0
+2 2
+0
+897
+2
+1 0
+2 1
+0
+896
+2
+1 0
+2 0
+0
+879
+2
+0 0
+2 7
+0
+878
+2
+0 0
+2 6
+0
+877
+2
+0 0
+2 5
+0
+876
+2
+0 0
+2 4
+0
+875
+2
+0 0
+2 3
+0
+874
+2
+0 0
+2 2
+0
+873
+2
+0 0
+2 1
+end_DTG
+begin_DTG
+8
+1
+948
+1
+2 4
+1
+959
+1
+2 7
+1
+958
+1
+2 6
+1
+957
+1
+2 5
+1
+955
+1
+2 3
+1
+954
+1
+2 2
+1
+953
+1
+2 1
+1
+952
+1
+2 0
+24
+0
+908
+2
+1 0
+2 4
+0
+935
+2
+3 0
+2 7
+0
+934
+2
+3 0
+2 6
+0
+933
+2
+3 0
+2 5
+0
+932
+2
+3 0
+2 4
+0
+931
+2
+3 0
+2 3
+0
+930
+2
+3 0
+2 2
+0
+929
+2
+3 0
+2 1
+0
+928
+2
+3 0
+2 0
+0
+911
+2
+1 0
+2 7
+0
+910
+2
+1 0
+2 6
+0
+909
+2
+1 0
+2 5
+0
+880
+2
+0 0
+2 0
+0
+907
+2
+1 0
+2 3
+0
+906
+2
+1 0
+2 2
+0
+905
+2
+1 0
+2 1
+0
+904
+2
+1 0
+2 0
+0
+887
+2
+0 0
+2 7
+0
+886
+2
+0 0
+2 6
+0
+885
+2
+0 0
+2 5
+0
+884
+2
+0 0
+2 4
+0
+883
+2
+0 0
+2 3
+0
+882
+2
+0 0
+2 2
+0
+881
+2
+0 0
+2 1
+end_DTG
+begin_DTG
+1
+1
+0
+1
+26 0
+0
+end_DTG
+begin_DTG
+1
+1
+1
+2
+26 0
+29 0
+0
+end_DTG
+begin_DTG
+11
+1
+27
+1
+2 5
+1
+19
+1
+2 3
+1
+21
+1
+2 4
+1
+1
+1
+2 1
+1
+30
+1
+2 6
+1
+33
+1
+2 7
+1
+35
+1
+2 8
+1
+8
+1
+2 2
+1
+960
+2
+0 0
+26 0
+1
+964
+3
+0 0
+29 0
+5 1
+1
+968
+3
+0 0
+32 0
+6 1
+3
+0
+1032
+2
+0 0
+26 1
+0
+1036
+3
+0 0
+29 1
+5 1
+0
+1040
+3
+0 0
+32 1
+6 1
+end_DTG
+begin_DTG
+11
+1
+63
+1
+2 5
+1
+55
+1
+2 3
+1
+57
+1
+2 4
+1
+37
+1
+2 1
+1
+66
+1
+2 6
+1
+69
+1
+2 7
+1
+71
+1
+2 8
+1
+44
+1
+2 2
+1
+961
+2
+1 0
+26 0
+1
+965
+3
+1 0
+29 0
+5 1
+1
+969
+3
+1 0
+32 0
+6 1
+3
+0
+1033
+2
+1 0
+26 1
+0
+1037
+3
+1 0
+29 1
+5 1
+0
+1041
+3
+1 0
+32 1
+6 1
+end_DTG
+begin_DTG
+11
+1
+99
+1
+2 5
+1
+91
+1
+2 3
+1
+93
+1
+2 4
+1
+73
+1
+2 1
+1
+102
+1
+2 6
+1
+105
+1
+2 7
+1
+107
+1
+2 8
+1
+80
+1
+2 2
+1
+962
+2
+3 0
+26 0
+1
+966
+3
+3 0
+29 0
+5 1
+1
+970
+3
+3 0
+32 0
+6 1
+3
+0
+1034
+2
+3 0
+26 1
+0
+1038
+3
+3 0
+29 1
+5 1
+0
+1042
+3
+3 0
+32 1
+6 1
+end_DTG
+begin_DTG
+11
+1
+135
+1
+2 5
+1
+127
+1
+2 3
+1
+129
+1
+2 4
+1
+109
+1
+2 1
+1
+138
+1
+2 6
+1
+141
+1
+2 7
+1
+143
+1
+2 8
+1
+116
+1
+2 2
+1
+963
+2
+4 0
+26 0
+1
+967
+3
+4 0
+29 0
+5 1
+1
+971
+3
+4 0
+32 0
+6 1
+3
+0
+1035
+2
+4 0
+26 1
+0
+1039
+3
+4 0
+29 1
+5 1
+0
+1043
+3
+4 0
+32 1
+6 1
+end_DTG
+begin_DTG
+11
+1
+171
+1
+2 5
+1
+163
+1
+2 3
+1
+165
+1
+2 4
+1
+145
+1
+2 1
+1
+174
+1
+2 6
+1
+177
+1
+2 7
+1
+179
+1
+2 8
+1
+152
+1
+2 2
+1
+972
+2
+0 0
+26 0
+1
+976
+3
+0 0
+29 0
+5 1
+1
+980
+3
+0 0
+32 0
+6 1
+3
+0
+1044
+2
+0 0
+26 2
+0
+1048
+3
+0 0
+29 2
+5 1
+0
+1052
+3
+0 0
+32 2
+6 1
+end_DTG
+begin_DTG
+11
+1
+207
+1
+2 5
+1
+199
+1
+2 3
+1
+201
+1
+2 4
+1
+181
+1
+2 1
+1
+210
+1
+2 6
+1
+213
+1
+2 7
+1
+215
+1
+2 8
+1
+188
+1
+2 2
+1
+973
+2
+1 0
+26 0
+1
+977
+3
+1 0
+29 0
+5 1
+1
+981
+3
+1 0
+32 0
+6 1
+3
+0
+1045
+2
+1 0
+26 2
+0
+1049
+3
+1 0
+29 2
+5 1
+0
+1053
+3
+1 0
+32 2
+6 1
+end_DTG
+begin_DTG
+11
+1
+243
+1
+2 5
+1
+235
+1
+2 3
+1
+237
+1
+2 4
+1
+217
+1
+2 1
+1
+246
+1
+2 6
+1
+249
+1
+2 7
+1
+251
+1
+2 8
+1
+224
+1
+2 2
+1
+974
+2
+3 0
+26 0
+1
+978
+3
+3 0
+29 0
+5 1
+1
+982
+3
+3 0
+32 0
+6 1
+3
+0
+1046
+2
+3 0
+26 2
+0
+1050
+3
+3 0
+29 2
+5 1
+0
+1054
+3
+3 0
+32 2
+6 1
+end_DTG
+begin_DTG
+11
+1
+279
+1
+2 5
+1
+271
+1
+2 3
+1
+273
+1
+2 4
+1
+253
+1
+2 1
+1
+282
+1
+2 6
+1
+285
+1
+2 7
+1
+287
+1
+2 8
+1
+260
+1
+2 2
+1
+975
+2
+4 0
+26 0
+1
+979
+3
+4 0
+29 0
+5 1
+1
+983
+3
+4 0
+32 0
+6 1
+3
+0
+1047
+2
+4 0
+26 2
+0
+1051
+3
+4 0
+29 2
+5 1
+0
+1055
+3
+4 0
+32 2
+6 1
+end_DTG
+begin_DTG
+11
+1
+315
+1
+2 5
+1
+307
+1
+2 3
+1
+309
+1
+2 4
+1
+289
+1
+2 1
+1
+318
+1
+2 6
+1
+321
+1
+2 7
+1
+323
+1
+2 8
+1
+296
+1
+2 2
+1
+984
+2
+0 0
+26 0
+1
+988
+3
+0 0
+29 0
+5 1
+1
+992
+3
+0 0
+32 0
+6 1
+3
+0
+1056
+2
+0 0
+26 3
+0
+1060
+3
+0 0
+29 3
+5 1
+0
+1064
+3
+0 0
+32 3
+6 1
+end_DTG
+begin_DTG
+11
+1
+351
+1
+2 5
+1
+343
+1
+2 3
+1
+345
+1
+2 4
+1
+325
+1
+2 1
+1
+354
+1
+2 6
+1
+357
+1
+2 7
+1
+359
+1
+2 8
+1
+332
+1
+2 2
+1
+985
+2
+1 0
+26 0
+1
+989
+3
+1 0
+29 0
+5 1
+1
+993
+3
+1 0
+32 0
+6 1
+3
+0
+1057
+2
+1 0
+26 3
+0
+1061
+3
+1 0
+29 3
+5 1
+0
+1065
+3
+1 0
+32 3
+6 1
+end_DTG
+begin_DTG
+11
+1
+387
+1
+2 5
+1
+379
+1
+2 3
+1
+381
+1
+2 4
+1
+361
+1
+2 1
+1
+390
+1
+2 6
+1
+393
+1
+2 7
+1
+395
+1
+2 8
+1
+368
+1
+2 2
+1
+986
+2
+3 0
+26 0
+1
+990
+3
+3 0
+29 0
+5 1
+1
+994
+3
+3 0
+32 0
+6 1
+3
+0
+1058
+2
+3 0
+26 3
+0
+1062
+3
+3 0
+29 3
+5 1
+0
+1066
+3
+3 0
+32 3
+6 1
+end_DTG
+begin_DTG
+11
+1
+423
+1
+2 5
+1
+415
+1
+2 3
+1
+417
+1
+2 4
+1
+397
+1
+2 1
+1
+426
+1
+2 6
+1
+429
+1
+2 7
+1
+431
+1
+2 8
+1
+404
+1
+2 2
+1
+987
+2
+4 0
+26 0
+1
+991
+3
+4 0
+29 0
+5 1
+1
+995
+3
+4 0
+32 0
+6 1
+3
+0
+1059
+2
+4 0
+26 3
+0
+1063
+3
+4 0
+29 3
+5 1
+0
+1067
+3
+4 0
+32 3
+6 1
+end_DTG
+begin_DTG
+11
+1
+459
+1
+2 5
+1
+451
+1
+2 3
+1
+453
+1
+2 4
+1
+433
+1
+2 1
+1
+462
+1
+2 6
+1
+465
+1
+2 7
+1
+467
+1
+2 8
+1
+440
+1
+2 2
+1
+996
+2
+0 0
+26 0
+1
+1000
+3
+0 0
+29 0
+5 1
+1
+1004
+3
+0 0
+32 0
+6 1
+3
+0
+1068
+2
+0 0
+26 4
+0
+1072
+3
+0 0
+29 4
+5 1
+0
+1076
+3
+0 0
+32 4
+6 1
+end_DTG
+begin_DTG
+11
+1
+495
+1
+2 5
+1
+487
+1
+2 3
+1
+489
+1
+2 4
+1
+469
+1
+2 1
+1
+498
+1
+2 6
+1
+501
+1
+2 7
+1
+503
+1
+2 8
+1
+476
+1
+2 2
+1
+997
+2
+1 0
+26 0
+1
+1001
+3
+1 0
+29 0
+5 1
+1
+1005
+3
+1 0
+32 0
+6 1
+3
+0
+1069
+2
+1 0
+26 4
+0
+1073
+3
+1 0
+29 4
+5 1
+0
+1077
+3
+1 0
+32 4
+6 1
+end_DTG
+begin_DTG
+11
+1
+531
+1
+2 5
+1
+523
+1
+2 3
+1
+525
+1
+2 4
+1
+505
+1
+2 1
+1
+534
+1
+2 6
+1
+537
+1
+2 7
+1
+539
+1
+2 8
+1
+512
+1
+2 2
+1
+998
+2
+3 0
+26 0
+1
+1002
+3
+3 0
+29 0
+5 1
+1
+1006
+3
+3 0
+32 0
+6 1
+3
+0
+1070
+2
+3 0
+26 4
+0
+1074
+3
+3 0
+29 4
+5 1
+0
+1078
+3
+3 0
+32 4
+6 1
+end_DTG
+begin_DTG
+11
+1
+567
+1
+2 5
+1
+559
+1
+2 3
+1
+561
+1
+2 4
+1
+541
+1
+2 1
+1
+570
+1
+2 6
+1
+573
+1
+2 7
+1
+575
+1
+2 8
+1
+548
+1
+2 2
+1
+999
+2
+4 0
+26 0
+1
+1003
+3
+4 0
+29 0
+5 1
+1
+1007
+3
+4 0
+32 0
+6 1
+3
+0
+1071
+2
+4 0
+26 4
+0
+1075
+3
+4 0
+29 4
+5 1
+0
+1079
+3
+4 0
+32 4
+6 1
+end_DTG
+begin_DTG
+11
+1
+603
+1
+2 5
+1
+595
+1
+2 3
+1
+597
+1
+2 4
+1
+577
+1
+2 1
+1
+606
+1
+2 6
+1
+609
+1
+2 7
+1
+611
+1
+2 8
+1
+584
+1
+2 2
+1
+1008
+2
+0 0
+26 0
+1
+1012
+3
+0 0
+29 0
+5 1
+1
+1016
+3
+0 0
+32 0
+6 1
+3
+0
+1080
+2
+0 0
+26 5
+0
+1084
+3
+0 0
+29 5
+5 1
+0
+1088
+3
+0 0
+32 5
+6 1
+end_DTG
+begin_DTG
+11
+1
+639
+1
+2 5
+1
+631
+1
+2 3
+1
+633
+1
+2 4
+1
+613
+1
+2 1
+1
+642
+1
+2 6
+1
+645
+1
+2 7
+1
+647
+1
+2 8
+1
+620
+1
+2 2
+1
+1009
+2
+1 0
+26 0
+1
+1013
+3
+1 0
+29 0
+5 1
+1
+1017
+3
+1 0
+32 0
+6 1
+3
+0
+1081
+2
+1 0
+26 5
+0
+1085
+3
+1 0
+29 5
+5 1
+0
+1089
+3
+1 0
+32 5
+6 1
+end_DTG
+begin_DTG
+11
+1
+675
+1
+2 5
+1
+667
+1
+2 3
+1
+669
+1
+2 4
+1
+649
+1
+2 1
+1
+678
+1
+2 6
+1
+681
+1
+2 7
+1
+683
+1
+2 8
+1
+656
+1
+2 2
+1
+1010
+2
+3 0
+26 0
+1
+1014
+3
+3 0
+29 0
+5 1
+1
+1018
+3
+3 0
+32 0
+6 1
+3
+0
+1082
+2
+3 0
+26 5
+0
+1086
+3
+3 0
+29 5
+5 1
+0
+1090
+3
+3 0
+32 5
+6 1
+end_DTG
+begin_DTG
+24
+1
+961
+2
+8 0
+1 0
+1
+962
+2
+9 0
+3 0
+1
+963
+2
+10 0
+4 0
+1
+960
+2
+7 0
+0 0
+2
+972
+2
+11 0
+0 0
+2
+973
+2
+12 0
+1 0
+2
+974
+2
+13 0
+3 0
+2
+975
+2
+14 0
+4 0
+3
+984
+2
+15 0
+0 0
+3
+985
+2
+16 0
+1 0
+3
+986
+2
+17 0
+3 0
+3
+987
+2
+18 0
+4 0
+4
+996
+2
+19 0
+0 0
+4
+999
+2
+22 0
+4 0
+4
+998
+2
+21 0
+3 0
+4
+997
+2
+20 0
+1 0
+5
+1008
+2
+23 0
+0 0
+5
+1009
+2
+24 0
+1 0
+5
+1010
+2
+25 0
+3 0
+5
+1011
+2
+27 0
+4 0
+6
+1020
+2
+28 0
+0 0
+6
+1021
+2
+30 0
+1 0
+6
+1022
+2
+31 0
+3 0
+6
+1023
+2
+33 0
+4 0
+4
+0
+1032
+1
+0 0
+0
+1033
+1
+1 0
+0
+1034
+1
+3 0
+0
+1035
+1
+4 0
+4
+0
+1044
+1
+0 0
+0
+1045
+1
+1 0
+0
+1046
+1
+3 0
+0
+1047
+1
+4 0
+4
+0
+1056
+1
+0 0
+0
+1057
+1
+1 0
+0
+1058
+1
+3 0
+0
+1059
+1
+4 0
+4
+0
+1068
+1
+0 0
+0
+1069
+1
+1 0
+0
+1070
+1
+3 0
+0
+1071
+1
+4 0
+4
+0
+1080
+1
+0 0
+0
+1081
+1
+1 0
+0
+1082
+1
+3 0
+0
+1083
+1
+4 0
+4
+0
+1092
+1
+0 0
+0
+1093
+1
+1 0
+0
+1094
+1
+3 0
+0
+1095
+1
+4 0
+end_DTG
+begin_DTG
+11
+1
+711
+1
+2 5
+1
+703
+1
+2 3
+1
+705
+1
+2 4
+1
+685
+1
+2 1
+1
+714
+1
+2 6
+1
+717
+1
+2 7
+1
+719
+1
+2 8
+1
+692
+1
+2 2
+1
+1011
+2
+4 0
+26 0
+1
+1015
+3
+4 0
+29 0
+5 1
+1
+1019
+3
+4 0
+32 0
+6 1
+3
+0
+1083
+2
+4 0
+26 5
+0
+1087
+3
+4 0
+29 5
+5 1
+0
+1091
+3
+4 0
+32 5
+6 1
+end_DTG
+begin_DTG
+11
+1
+747
+1
+2 5
+1
+739
+1
+2 3
+1
+741
+1
+2 4
+1
+721
+1
+2 1
+1
+750
+1
+2 6
+1
+753
+1
+2 7
+1
+755
+1
+2 8
+1
+728
+1
+2 2
+1
+1020
+2
+0 0
+26 0
+1
+1024
+3
+0 0
+29 0
+5 1
+1
+1028
+3
+0 0
+32 0
+6 1
+3
+0
+1092
+2
+0 0
+26 6
+0
+1096
+3
+0 0
+29 6
+5 1
+0
+1100
+3
+0 0
+32 6
+6 1
+end_DTG
+begin_DTG
+24
+1
+965
+3
+8 0
+1 0
+5 1
+1
+966
+3
+9 0
+3 0
+5 1
+1
+967
+3
+10 0
+4 0
+5 1
+1
+964
+3
+7 0
+0 0
+5 1
+2
+976
+3
+11 0
+0 0
+5 1
+2
+977
+3
+12 0
+1 0
+5 1
+2
+978
+3
+13 0
+3 0
+5 1
+2
+979
+3
+14 0
+4 0
+5 1
+3
+988
+3
+15 0
+0 0
+5 1
+3
+989
+3
+16 0
+1 0
+5 1
+3
+990
+3
+17 0
+3 0
+5 1
+3
+991
+3
+18 0
+4 0
+5 1
+4
+1000
+3
+19 0
+0 0
+5 1
+4
+1003
+3
+22 0
+4 0
+5 1
+4
+1002
+3
+21 0
+3 0
+5 1
+4
+1001
+3
+20 0
+1 0
+5 1
+5
+1012
+3
+23 0
+0 0
+5 1
+5
+1013
+3
+24 0
+1 0
+5 1
+5
+1014
+3
+25 0
+3 0
+5 1
+5
+1015
+3
+27 0
+4 0
+5 1
+6
+1024
+3
+28 0
+0 0
+5 1
+6
+1025
+3
+30 0
+1 0
+5 1
+6
+1026
+3
+31 0
+3 0
+5 1
+6
+1027
+3
+33 0
+4 0
+5 1
+4
+0
+1036
+2
+0 0
+5 1
+0
+1037
+2
+1 0
+5 1
+0
+1038
+2
+3 0
+5 1
+0
+1039
+2
+4 0
+5 1
+4
+0
+1048
+2
+0 0
+5 1
+0
+1049
+2
+1 0
+5 1
+0
+1050
+2
+3 0
+5 1
+0
+1051
+2
+4 0
+5 1
+4
+0
+1060
+2
+0 0
+5 1
+0
+1061
+2
+1 0
+5 1
+0
+1062
+2
+3 0
+5 1
+0
+1063
+2
+4 0
+5 1
+4
+0
+1072
+2
+0 0
+5 1
+0
+1073
+2
+1 0
+5 1
+0
+1074
+2
+3 0
+5 1
+0
+1075
+2
+4 0
+5 1
+4
+0
+1084
+2
+0 0
+5 1
+0
+1085
+2
+1 0
+5 1
+0
+1086
+2
+3 0
+5 1
+0
+1087
+2
+4 0
+5 1
+4
+0
+1096
+2
+0 0
+5 1
+0
+1097
+2
+1 0
+5 1
+0
+1098
+2
+3 0
+5 1
+0
+1099
+2
+4 0
+5 1
+end_DTG
+begin_DTG
+11
+1
+783
+1
+2 5
+1
+775
+1
+2 3
+1
+777
+1
+2 4
+1
+757
+1
+2 1
+1
+786
+1
+2 6
+1
+789
+1
+2 7
+1
+791
+1
+2 8
+1
+764
+1
+2 2
+1
+1021
+2
+1 0
+26 0
+1
+1025
+3
+1 0
+29 0
+5 1
+1
+1029
+3
+1 0
+32 0
+6 1
+3
+0
+1093
+2
+1 0
+26 6
+0
+1097
+3
+1 0
+29 6
+5 1
+0
+1101
+3
+1 0
+32 6
+6 1
+end_DTG
+begin_DTG
+11
+1
+819
+1
+2 5
+1
+811
+1
+2 3
+1
+813
+1
+2 4
+1
+793
+1
+2 1
+1
+822
+1
+2 6
+1
+825
+1
+2 7
+1
+827
+1
+2 8
+1
+800
+1
+2 2
+1
+1022
+2
+3 0
+26 0
+1
+1026
+3
+3 0
+29 0
+5 1
+1
+1030
+3
+3 0
+32 0
+6 1
+3
+0
+1094
+2
+3 0
+26 6
+0
+1098
+3
+3 0
+29 6
+5 1
+0
+1102
+3
+3 0
+32 6
+6 1
+end_DTG
+begin_DTG
+24
+1
+969
+3
+8 0
+1 0
+6 1
+1
+970
+3
+9 0
+3 0
+6 1
+1
+971
+3
+10 0
+4 0
+6 1
+1
+968
+3
+7 0
+0 0
+6 1
+2
+980
+3
+11 0
+0 0
+6 1
+2
+981
+3
+12 0
+1 0
+6 1
+2
+982
+3
+13 0
+3 0
+6 1
+2
+983
+3
+14 0
+4 0
+6 1
+3
+992
+3
+15 0
+0 0
+6 1
+3
+993
+3
+16 0
+1 0
+6 1
+3
+994
+3
+17 0
+3 0
+6 1
+3
+995
+3
+18 0
+4 0
+6 1
+4
+1004
+3
+19 0
+0 0
+6 1
+4
+1007
+3
+22 0
+4 0
+6 1
+4
+1006
+3
+21 0
+3 0
+6 1
+4
+1005
+3
+20 0
+1 0
+6 1
+5
+1016
+3
+23 0
+0 0
+6 1
+5
+1017
+3
+24 0
+1 0
+6 1
+5
+1018
+3
+25 0
+3 0
+6 1
+5
+1019
+3
+27 0
+4 0
+6 1
+6
+1028
+3
+28 0
+0 0
+6 1
+6
+1029
+3
+30 0
+1 0
+6 1
+6
+1030
+3
+31 0
+3 0
+6 1
+6
+1031
+3
+33 0
+4 0
+6 1
+4
+0
+1040
+2
+0 0
+6 1
+0
+1041
+2
+1 0
+6 1
+0
+1042
+2
+3 0
+6 1
+0
+1043
+2
+4 0
+6 1
+4
+0
+1052
+2
+0 0
+6 1
+0
+1053
+2
+1 0
+6 1
+0
+1054
+2
+3 0
+6 1
+0
+1055
+2
+4 0
+6 1
+4
+0
+1064
+2
+0 0
+6 1
+0
+1065
+2
+1 0
+6 1
+0
+1066
+2
+3 0
+6 1
+0
+1067
+2
+4 0
+6 1
+4
+0
+1076
+2
+0 0
+6 1
+0
+1077
+2
+1 0
+6 1
+0
+1078
+2
+3 0
+6 1
+0
+1079
+2
+4 0
+6 1
+4
+0
+1088
+2
+0 0
+6 1
+0
+1089
+2
+1 0
+6 1
+0
+1090
+2
+3 0
+6 1
+0
+1091
+2
+4 0
+6 1
+4
+0
+1100
+2
+0 0
+6 1
+0
+1101
+2
+1 0
+6 1
+0
+1102
+2
+3 0
+6 1
+0
+1103
+2
+4 0
+6 1
+end_DTG
+begin_DTG
+11
+1
+855
+1
+2 5
+1
+847
+1
+2 3
+1
+849
+1
+2 4
+1
+829
+1
+2 1
+1
+858
+1
+2 6
+1
+861
+1
+2 7
+1
+863
+1
+2 8
+1
+836
+1
+2 2
+1
+1023
+2
+4 0
+26 0
+1
+1027
+3
+4 0
+29 0
+5 1
+1
+1031
+3
+4 0
+32 0
+6 1
+3
+0
+1095
+2
+4 0
+26 6
+0
+1099
+3
+4 0
+29 6
+5 1
+0
+1103
+3
+4 0
+32 6
+6 1
+end_DTG
+begin_DTG
+0
+8
+0
+799
+2
+31 0
+2 1
+0
+806
+2
+31 0
+2 2
+0
+812
+2
+31 0
+2 3
+0
+817
+2
+31 0
+2 4
+0
+821
+2
+31 0
+2 5
+0
+824
+2
+31 0
+2 6
+0
+826
+2
+31 0
+2 7
+0
+827
+2
+31 0
+2 8
+end_DTG
+begin_DTG
+0
+8
+0
+675
+2
+25 0
+2 5
+0
+667
+2
+25 0
+2 3
+0
+669
+2
+25 0
+2 4
+0
+678
+2
+25 0
+2 6
+0
+681
+2
+25 0
+2 7
+0
+683
+2
+25 0
+2 8
+0
+657
+2
+25 0
+2 2
+0
+649
+2
+25 0
+2 1
+end_DTG
+begin_DTG
+0
+8
+0
+475
+2
+20 0
+2 1
+0
+482
+2
+20 0
+2 2
+0
+488
+2
+20 0
+2 3
+0
+493
+2
+20 0
+2 4
+0
+497
+2
+20 0
+2 5
+0
+500
+2
+20 0
+2 6
+0
+502
+2
+20 0
+2 7
+0
+503
+2
+20 0
+2 8
+end_DTG
+begin_DTG
+0
+4
+0
+327
+2
+16 0
+2 1
+0
+334
+2
+16 0
+2 2
+0
+340
+2
+16 0
+2 3
+0
+345
+2
+16 0
+2 4
+end_DTG
+begin_DTG
+0
+4
+0
+219
+2
+13 0
+2 1
+0
+226
+2
+13 0
+2 2
+0
+232
+2
+13 0
+2 3
+0
+237
+2
+13 0
+2 4
+end_DTG
+begin_DTG
+0
+4
+0
+75
+2
+9 0
+2 1
+0
+82
+2
+9 0
+2 2
+0
+88
+2
+9 0
+2 3
+0
+93
+2
+9 0
+2 4
+end_DTG
+begin_CG
+13
+7 6
+11 6
+15 6
+19 6
+23 6
+28 6
+1 8
+3 8
+4 8
+26 12
+29 12
+32 12
+2 24
+13
+8 6
+12 6
+16 6
+20 6
+24 6
+30 6
+0 8
+3 8
+4 8
+26 12
+29 12
+32 12
+2 24
+34
+7 36
+8 36
+9 36
+10 36
+11 36
+12 36
+13 36
+14 36
+15 36
+16 36
+17 36
+18 36
+19 36
+20 36
+21 36
+22 36
+23 36
+24 36
+25 36
+27 36
+28 36
+30 36
+31 36
+33 36
+0 48
+1 48
+3 48
+4 48
+35 36
+39 4
+38 4
+37 4
+36 8
+34 8
+13
+9 6
+13 6
+17 6
+21 6
+25 6
+31 6
+0 8
+1 8
+4 8
+26 12
+29 12
+32 12
+2 24
+13
+10 6
+14 6
+18 6
+22 6
+27 6
+33 6
+0 8
+1 8
+3 8
+26 12
+29 12
+32 12
+2 24
+25
+7 2
+8 2
+9 2
+10 2
+11 2
+12 2
+13 2
+14 2
+15 2
+16 2
+17 2
+18 2
+19 2
+20 2
+21 2
+22 2
+23 2
+24 2
+25 2
+27 2
+28 2
+30 2
+31 2
+33 2
+29 48
+25
+7 2
+8 2
+9 2
+10 2
+11 2
+12 2
+13 2
+14 2
+15 2
+16 2
+17 2
+18 2
+19 2
+20 2
+21 2
+22 2
+23 2
+24 2
+25 2
+27 2
+28 2
+30 2
+31 2
+33 2
+32 48
+3
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+4
+39 4
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+4
+38 4
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+4
+37 4
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+4
+36 8
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+4
+35 36
+26 1
+29 1
+32 1
+26
+7 2
+8 2
+9 2
+10 2
+11 2
+12 2
+13 2
+14 2
+15 2
+16 2
+17 2
+18 2
+19 2
+20 2
+21 2
+22 2
+23 2
+24 2
+25 2
+27 2
+28 2
+30 2
+31 2
+33 2
+5 1
+6 1
+3
+26 1
+29 1
+32 1
+3
+26 1
+29 1
+32 1
+25
+7 2
+8 2
+9 2
+10 2
+11 2
+12 2
+13 2
+14 2
+15 2
+16 2
+17 2
+18 2
+19 2
+20 2
+21 2
+22 2
+23 2
+24 2
+25 2
+27 2
+28 2
+30 2
+31 2
+33 2
+6 1
+3
+26 1
+29 1
+32 1
+4
+34 8
+26 1
+29 1
+32 1
+24
+7 2
+8 2
+9 2
+10 2
+11 2
+12 2
+13 2
+14 2
+15 2
+16 2
+17 2
+18 2
+19 2
+20 2
+21 2
+22 2
+23 2
+24 2
+25 2
+27 2
+28 2
+30 2
+31 2
+33 2
+3
+26 1
+29 1
+32 1
+0
+0
+0
+0
+0
+0
+end_CG

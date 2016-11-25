@@ -1,0 +1,1 @@
+adding inadmissible methods to lazy_search.cc

@@ -1,0 +1,89 @@
+{
+  "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p09.pddl",
+  "domain": "tpp",
+  "unsolvable": 0,
+  "score_total_time": 58.93,
+  "cost_all": [
+    62
+  ],
+  "run-search_parser0_returncode": 0,
+  "search_returncode": 0,
+  "validate_returncode": 0,
+  "commandline_config": [
+    "--search",
+    "lazy_anytime_wastar(lmcut(), w=3, delta=0.1, epsilon=0.9, rpac_lower_bound=0, rpac_open_based=1, trivial_pac=0, ratio_based=0, heuristic_func=lmcut)"
+  ],
+  "initial_h_value": 35,
+  "score_search_time": 58.93,
+  "score_evaluations": 47.4,
+  "initial_h_value_all": [
+    35
+  ],
+  "limit_search_time": 300,
+  "compact": true,
+  "translate_rev": "WORK",
+  "preprocess_rev": "WORK",
+  "search_time_all": [
+    21.72
+  ],
+  "translate_nick": "WORK",
+  "preprocess_nick": "WORK",
+  "dead_ends": 286,
+  "score_memory": 82.19,
+  "id": [
+    "WORK-lmcut",
+    "tpp",
+    "p09.pddl"
+  ],
+  "search_nick": "WORK",
+  "limit_preprocess_memory": 8192,
+  "config": "WORK-lmcut",
+  "rm-tmp-files_returncode": 0,
+  "limit_translate_memory": 8192,
+  "total_time": 21.72,
+  "score_expansions": 47.65,
+  "generated_all": [
+    97893
+  ],
+  "memory": 6900,
+  "reopened": 1049,
+  "rm-tmp-files_wall_clock_time": 0.008098840713500977,
+  "config_nick": "lmcut",
+  "plan_length_all": [
+    62
+  ],
+  "search_rev": "WORK",
+  "run-search_parser0_wall_clock_time": 0.06690406799316406,
+  "generated": 97893,
+  "plan_length": 62,
+  "dead_ends_all": [
+    286
+  ],
+  "coverage": 1,
+  "limit_preprocess_time": 7200,
+  "limit_search_memory": 2048,
+  "evaluations": 12700,
+  "search_time": 21.72,
+  "validate_wall_clock_time": 0.03641510009765625,
+  "stage": "search",
+  "run_dir": "runs-00001-00100/00041",
+  "search_summary": "WORK 6d8b3994270d+ tip",
+  "preprocess_summary": "WORK 6d8b3994270d+ tip",
+  "translate_summary": "WORK 6d8b3994270d+ tip",
+  "evaluations_all": [
+    12700
+  ],
+  "expansions": 12414,
+  "search_wall_clock_time": 21.801473140716553,
+  "queue": null,
+  "experiment_name": "new_exp_1-e0.9-d0.1-w3-l0-c4-h_lmcut",
+  "cost": 62,
+  "error": "none",
+  "planner_type": "single",
+  "expansions_all": [
+    12414
+  ],
+  "id_string": "WORK-lmcut:tpp:p09.pddl",
+  "problem": "p09.pddl",
+  "limit_translate_time": 7200
+}

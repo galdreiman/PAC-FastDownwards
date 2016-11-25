@@ -1,0 +1,3383 @@
+<?xml version="1.0"
+      encoding="UTF-8"
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>report_lmcut</title>
+<meta name="generator" content="http://txt2tags.sf.net" />
+<style type="text/css">
+    body {
+        font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    }
+    blockquote {
+        margin: 1em 2em;
+        border-left: 2px solid #999;
+        font-style: oblique;
+        padding-left: 1em;
+    }
+    blockquote:first-letter {
+        margin: .2em .1em .1em 0;
+        font-size: 160%;
+        font-weight: bold;
+    }
+    blockquote:first-line {
+        font-weight: bold;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    td, th {
+        <!--border: 1px solid #888;--> <!--Allow tables without borders-->
+        padding: 3px 7px 2px 7px;
+    }
+    th {
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 4px;
+        background-color: #aaa;
+        color: #ffffff;
+    }
+    hr.heavy {
+        height: 2px;
+        background-color: black;
+    }
+</style>
+</head>
+<body>
+
+<div class="header" id="header">
+<h1>report_lmcut</h1>
+<h3>2016-11-05</h3>
+</div>
+
+<div class="body" id="body">
+
+<ul>
+<li><b><a href="#unexplained-errors">Unexplained Errors</a></b>
+</li>
+<li><b><a href="#info">Info</a></b>
+</li>
+<li><b><a href="#summary">Summary</a></b>
+</li>
+<li><b><a href="#commualtive_hstar_to_h">commualtive_hstar_to_h</a></b>
+  <ul>
+  <li><a href="#commualtive_hstar_to_h-satellite">satellite</a> <a href="#commualtive_hstar_to_h-trucks">trucks</a>
+  </li>
+  </ul>
+</li>
+<li><b><a href="#cost">cost</a></b>
+  <ul>
+  <li><a href="#cost-satellite">satellite</a> <a href="#cost-trucks">trucks</a>
+  </li>
+  </ul>
+</li>
+<li><b><a href="#coverage">coverage</a></b>
+  <ul>
+  <li><a href="#coverage-satellite">satellite</a> <a href="#coverage-trucks">trucks</a>
+  </li>
+  </ul>
+</li>
+<li><b><a href="#expansions">expansions</a></b>
+  <ul>
+  <li><a href="#expansions-satellite">satellite</a> <a href="#expansions-trucks">trucks</a>
+  </li>
+  </ul>
+</li>
+<li><b><a href="#hstar_to_h">hstar_to_h</a></b>
+  <ul>
+  <li><a href="#hstar_to_h-satellite">satellite</a> <a href="#hstar_to_h-trucks">trucks</a>
+  </li>
+  </ul>
+</li>
+<li><b><a href="#initial_h_value">initial_h_value</a></b>
+  <ul>
+  <li><a href="#initial_h_value-satellite">satellite</a> <a href="#initial_h_value-trucks">trucks</a>
+  </li>
+  </ul>
+</li>
+<li><b><a href="#statistics">statistics</a></b>
+  <ul>
+  <li><a href="#statistics-satellite">satellite</a> <a href="#statistics-trucks">trucks</a>
+  </li>
+  </ul>
+</li>
+</ul>
+
+<a id="unexplained-errors" name="unexplained-errors"></a>
+<h1>unexplained-errors</h1>
+
+<table border="1">
+<tr>
+<th>Unexplained errors</th>
+<th>domain</th>
+<th>problem</th>
+<th>config</th>
+<th>error</th>
+<th>search_<wbr>wall_<wbr>clock_<wbr>time</th>
+<th>memory</th>
+</tr>
+<tr>
+<td>runs-00001-00100/00037</td>
+<td>trucks</td>
+<td>p01.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.03</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00038</td>
+<td>trucks</td>
+<td>p02.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.04</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00039</td>
+<td>trucks</td>
+<td>p03.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.06</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00040</td>
+<td>trucks</td>
+<td>p04.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.06</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00041</td>
+<td>trucks</td>
+<td>p05.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.08</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00042</td>
+<td>trucks</td>
+<td>p06.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.08</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00043</td>
+<td>trucks</td>
+<td>p07.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.06</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00044</td>
+<td>trucks</td>
+<td>p08.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.08</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00045</td>
+<td>trucks</td>
+<td>p09.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.11</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00046</td>
+<td>trucks</td>
+<td>p10.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.09</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00047</td>
+<td>trucks</td>
+<td>p11.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.12</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00048</td>
+<td>trucks</td>
+<td>p12.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.11</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00049</td>
+<td>trucks</td>
+<td>p13.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.10</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00050</td>
+<td>trucks</td>
+<td>p14.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.13</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00051</td>
+<td>trucks</td>
+<td>p15.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.15</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00052</td>
+<td>trucks</td>
+<td>p16.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.21</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00053</td>
+<td>trucks</td>
+<td>p17.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.20</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00054</td>
+<td>trucks</td>
+<td>p18.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.20</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00055</td>
+<td>trucks</td>
+<td>p19.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.30</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00056</td>
+<td>trucks</td>
+<td>p20.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.19</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00057</td>
+<td>trucks</td>
+<td>p21.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.40</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00058</td>
+<td>trucks</td>
+<td>p22.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.41</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00059</td>
+<td>trucks</td>
+<td>p23.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.66</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00060</td>
+<td>trucks</td>
+<td>p24.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.37</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00061</td>
+<td>trucks</td>
+<td>p25.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.59</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00062</td>
+<td>trucks</td>
+<td>p26.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.38</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00063</td>
+<td>trucks</td>
+<td>p27.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.68</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00064</td>
+<td>trucks</td>
+<td>p28.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.42</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00065</td>
+<td>trucks</td>
+<td>p29.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.92</td>
+<td>None</td>
+</tr>
+<tr>
+<td>runs-00001-00100/00066</td>
+<td>trucks</td>
+<td>p30.pddl</td>
+<td>WORK-lmcut</td>
+<td>unexplained-unsupported-feature-requested</td>
+<td align="right">0.60</td>
+<td>None</td>
+</tr>
+</table>
+
+<a id="info" name="info"></a>
+<h1>info</h1>
+
+<table border="1">
+<tr>
+<th>algorithm</th>
+<th>translate_<wbr>summary</th>
+<th>preprocess_<wbr>summary</th>
+<th>search_<wbr>summary</th>
+<th>config_<wbr>nick</th>
+<th>commandline_<wbr>config</th>
+</tr>
+<tr>
+<td>WORK-lmcut</td>
+<td>WORK 6d8b3994270d+ tip</td>
+<td>WORK 6d8b3994270d+ tip</td>
+<td>WORK 6d8b3994270d+ tip</td>
+<td>lmcut</td>
+<td>[--search, astar(lmcut())]</td>
+</tr>
+</table>
+
+<a id="summary" name="summary"></a>
+<h1>summary</h1>
+
+<table border="1">
+<tr>
+<th>summary</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#commualtive_hstar_to_h">commualtive_hstar_to_h - Sum</a></td>
+<td align="right"><b>0</b></td>
+</tr>
+<tr>
+<td><a href="#cost">cost - Sum</a></td>
+<td align="right"><b>106</b></td>
+</tr>
+<tr>
+<td><a href="#coverage">coverage - Sum</a></td>
+<td align="right"><b>7</b></td>
+</tr>
+<tr>
+<td><a href="#expansions">expansions - Geometric mean</a></td>
+<td align="right"><b>308.29</b></td>
+</tr>
+<tr>
+<td><a href="#hstar_to_h">hstar_to_h - Sum</a></td>
+<td align="right"><b>7.87</b></td>
+</tr>
+<tr>
+<td><a href="#initial_h_value">initial_h_value - Sum</a></td>
+<td align="right"><b>94</b></td>
+</tr>
+<tr>
+<td><a href="#statistics">statistics - Sum</a></td>
+<td align="right"><b>7</b></td>
+</tr>
+</table>
+
+<a id="commualtive_hstar_to_h" name="commualtive_hstar_to_h"></a>
+<h1>commualtive_hstar_to_h</h1>
+
+<table border="1">
+<tr>
+<th>commualtive_<wbr>hstar_<wbr>to_<wbr>h</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#commualtive_hstar_to_h-satellite">satellite</a> (36)</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td><a href="#commualtive_hstar_to_h-trucks">trucks</a> (30)</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td><b>Sum (66)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+</table>
+
+<p>
+The last row reports the sum across all domains.
+</p>
+
+<a id="commualtive_hstar_to_h-satellite" name="commualtive_hstar_to_h-satellite"></a>
+<h2>satellite</h2>
+
+<table border="1">
+<tr>
+<th>Commulative</th>
+<th>Percentage</th>
+<th>h*/h(s)</th>
+</tr>
+<tr>
+<td>a</td>
+<td align="right"><span style="color:rgb(0,0,178)">0.00</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">0.75</span></td>
+</tr>
+<tr>
+<td>aa</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.80</span></td>
+</tr>
+<tr>
+<td>ab</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.85</span></td>
+</tr>
+<tr>
+<td>ac</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.90</span></td>
+</tr>
+<tr>
+<td>ad</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.95</span></td>
+</tr>
+<tr>
+<td>ae</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.00</span></td>
+</tr>
+<tr>
+<td>af</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.05</span></td>
+</tr>
+<tr>
+<td>ag</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.10</span></td>
+</tr>
+<tr>
+<td>ah</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.15</span></td>
+</tr>
+<tr>
+<td>ai</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.20</span></td>
+</tr>
+<tr>
+<td>aj</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.25</span></td>
+</tr>
+<tr>
+<td>ak</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.30</span></td>
+</tr>
+<tr>
+<td>al</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.35</span></td>
+</tr>
+<tr>
+<td>am</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.40</span></td>
+</tr>
+<tr>
+<td>an</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.45</span></td>
+</tr>
+<tr>
+<td>ao</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.50</span></td>
+</tr>
+<tr>
+<td>ap</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.55</span></td>
+</tr>
+<tr>
+<td>aq</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.60</span></td>
+</tr>
+<tr>
+<td>ar</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.65</span></td>
+</tr>
+<tr>
+<td>as</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.70</span></td>
+</tr>
+<tr>
+<td>at</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.75</span></td>
+</tr>
+<tr>
+<td>au</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.80</span></td>
+</tr>
+<tr>
+<td>av</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.85</span></td>
+</tr>
+<tr>
+<td>aw</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.90</span></td>
+</tr>
+<tr>
+<td>ax</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">3.95</span></td>
+</tr>
+<tr>
+<td>ay</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">4.00</span></td>
+</tr>
+<tr>
+<td>az</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">4.05</span></td>
+</tr>
+<tr>
+<td>b</td>
+<td align="right"><span style="color:rgb(0,0,178)">0.00</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">0.80</span></td>
+</tr>
+<tr>
+<td>ba</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">4.10</span></td>
+</tr>
+<tr>
+<td>bb</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">4.15</span></td>
+</tr>
+<tr>
+<td>bc</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">4.20</span></td>
+</tr>
+<tr>
+<td>bd</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.25</span></td>
+</tr>
+<tr>
+<td>be</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">4.30</span></td>
+</tr>
+<tr>
+<td>bf</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">4.35</span></td>
+</tr>
+<tr>
+<td>bg</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">4.40</span></td>
+</tr>
+<tr>
+<td>bh</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">4.45</span></td>
+</tr>
+<tr>
+<td>bi</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">4.50</span></td>
+</tr>
+<tr>
+<td>c</td>
+<td align="right"><span style="color:rgb(0,0,178)">0.00</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">0.85</span></td>
+</tr>
+<tr>
+<td>d</td>
+<td align="right"><span style="color:rgb(0,0,178)">0.00</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">0.90</span></td>
+</tr>
+<tr>
+<td>e</td>
+<td align="right"><span style="color:rgb(0,0,178)">0.00</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">0.95</span></td>
+</tr>
+<tr>
+<td>f</td>
+<td align="right"><span style="color:rgb(0,178,0)">14.29</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1</span></td>
+</tr>
+<tr>
+<td>g</td>
+<td align="right"><span style="color:rgb(0,178,0)">14.29</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.05</span></td>
+</tr>
+<tr>
+<td>h</td>
+<td align="right"><span style="color:rgb(0,178,0)">57.14</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.10</span></td>
+</tr>
+<tr>
+<td>i</td>
+<td align="right"><span style="color:rgb(0,178,0)">71.43</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.15</span></td>
+</tr>
+<tr>
+<td>j</td>
+<td align="right"><span style="color:rgb(0,178,0)">71.43</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.20</span></td>
+</tr>
+<tr>
+<td>k</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.25</span></td>
+</tr>
+<tr>
+<td>l</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.30</span></td>
+</tr>
+<tr>
+<td>m</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.35</span></td>
+</tr>
+<tr>
+<td>n</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.40</span></td>
+</tr>
+<tr>
+<td>o</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.45</span></td>
+</tr>
+<tr>
+<td>p</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.50</span></td>
+</tr>
+<tr>
+<td>q</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.55</span></td>
+</tr>
+<tr>
+<td>r</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.60</span></td>
+</tr>
+<tr>
+<td>s</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.65</span></td>
+</tr>
+<tr>
+<td>t</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.70</span></td>
+</tr>
+<tr>
+<td>u</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.75</span></td>
+</tr>
+<tr>
+<td>v</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.80</span></td>
+</tr>
+<tr>
+<td>w</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.85</span></td>
+</tr>
+<tr>
+<td>x</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.90</span></td>
+</tr>
+<tr>
+<td>y</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">1.95</span></td>
+</tr>
+<tr>
+<td>z</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2</span></td>
+</tr>
+<tr>
+<td>za</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.05</span></td>
+</tr>
+<tr>
+<td>zb</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.10</span></td>
+</tr>
+<tr>
+<td>zc</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.15</span></td>
+</tr>
+<tr>
+<td>zd</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.20</span></td>
+</tr>
+<tr>
+<td>ze</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.25</span></td>
+</tr>
+<tr>
+<td>zf</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.30</span></td>
+</tr>
+<tr>
+<td>zg</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.35</span></td>
+</tr>
+<tr>
+<td>zh</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.40</span></td>
+</tr>
+<tr>
+<td>zi</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.45</span></td>
+</tr>
+<tr>
+<td>zj</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.50</span></td>
+</tr>
+<tr>
+<td>zk</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.55</span></td>
+</tr>
+<tr>
+<td>zl</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.60</span></td>
+</tr>
+<tr>
+<td>zm</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.65</span></td>
+</tr>
+<tr>
+<td>zn</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.70</span></td>
+</tr>
+<tr>
+<td>zo</td>
+<td align="right"><span style="color:rgb(0,178,0)">100.00</span></td>
+<td align="right"><span style="color:rgb(0,0,178)">2.75</span></td>
+</tr>
+</table>
+
+<a id="commualtive_hstar_to_h-trucks" name="commualtive_hstar_to_h-trucks"></a>
+<h2>trucks</h2>
+
+<table border="1">
+<tr>
+<th>Commulative</th>
+<th>Percentage</th>
+<th>h*/h(s)</th>
+</tr>
+<tr>
+<td>a</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">0.75</span></td>
+</tr>
+<tr>
+<td>aa</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.80</span></td>
+</tr>
+<tr>
+<td>ab</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.85</span></td>
+</tr>
+<tr>
+<td>ac</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.90</span></td>
+</tr>
+<tr>
+<td>ad</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.95</span></td>
+</tr>
+<tr>
+<td>ae</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.00</span></td>
+</tr>
+<tr>
+<td>af</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.05</span></td>
+</tr>
+<tr>
+<td>ag</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.10</span></td>
+</tr>
+<tr>
+<td>ah</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.15</span></td>
+</tr>
+<tr>
+<td>ai</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.20</span></td>
+</tr>
+<tr>
+<td>aj</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.25</span></td>
+</tr>
+<tr>
+<td>ak</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.30</span></td>
+</tr>
+<tr>
+<td>al</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.35</span></td>
+</tr>
+<tr>
+<td>am</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.40</span></td>
+</tr>
+<tr>
+<td>an</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.45</span></td>
+</tr>
+<tr>
+<td>ao</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.50</span></td>
+</tr>
+<tr>
+<td>ap</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.55</span></td>
+</tr>
+<tr>
+<td>aq</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.60</span></td>
+</tr>
+<tr>
+<td>ar</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.65</span></td>
+</tr>
+<tr>
+<td>as</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.70</span></td>
+</tr>
+<tr>
+<td>at</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.75</span></td>
+</tr>
+<tr>
+<td>au</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.80</span></td>
+</tr>
+<tr>
+<td>av</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.85</span></td>
+</tr>
+<tr>
+<td>aw</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.90</span></td>
+</tr>
+<tr>
+<td>ax</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">3.95</span></td>
+</tr>
+<tr>
+<td>ay</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">4.00</span></td>
+</tr>
+<tr>
+<td>az</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">4.05</span></td>
+</tr>
+<tr>
+<td>b</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">0.80</span></td>
+</tr>
+<tr>
+<td>ba</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">4.10</span></td>
+</tr>
+<tr>
+<td>bb</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">4.15</span></td>
+</tr>
+<tr>
+<td>bc</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">4.20</span></td>
+</tr>
+<tr>
+<td>bd</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.25</span></td>
+</tr>
+<tr>
+<td>be</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">4.30</span></td>
+</tr>
+<tr>
+<td>bf</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">4.35</span></td>
+</tr>
+<tr>
+<td>bg</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">4.40</span></td>
+</tr>
+<tr>
+<td>bh</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">4.45</span></td>
+</tr>
+<tr>
+<td>bi</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">4.50</span></td>
+</tr>
+<tr>
+<td>c</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">0.85</span></td>
+</tr>
+<tr>
+<td>d</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">0.90</span></td>
+</tr>
+<tr>
+<td>e</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">0.95</span></td>
+</tr>
+<tr>
+<td>f</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1</span></td>
+</tr>
+<tr>
+<td>g</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.05</span></td>
+</tr>
+<tr>
+<td>h</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.10</span></td>
+</tr>
+<tr>
+<td>i</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.15</span></td>
+</tr>
+<tr>
+<td>j</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.20</span></td>
+</tr>
+<tr>
+<td>k</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.25</span></td>
+</tr>
+<tr>
+<td>l</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.30</span></td>
+</tr>
+<tr>
+<td>m</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.35</span></td>
+</tr>
+<tr>
+<td>n</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.40</span></td>
+</tr>
+<tr>
+<td>o</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.45</span></td>
+</tr>
+<tr>
+<td>p</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.50</span></td>
+</tr>
+<tr>
+<td>q</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.55</span></td>
+</tr>
+<tr>
+<td>r</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.60</span></td>
+</tr>
+<tr>
+<td>s</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.65</span></td>
+</tr>
+<tr>
+<td>t</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.70</span></td>
+</tr>
+<tr>
+<td>u</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.75</span></td>
+</tr>
+<tr>
+<td>v</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.80</span></td>
+</tr>
+<tr>
+<td>w</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.85</span></td>
+</tr>
+<tr>
+<td>x</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.90</span></td>
+</tr>
+<tr>
+<td>y</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">1.95</span></td>
+</tr>
+<tr>
+<td>z</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2</span></td>
+</tr>
+<tr>
+<td>za</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.05</span></td>
+</tr>
+<tr>
+<td>zb</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.10</span></td>
+</tr>
+<tr>
+<td>zc</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.15</span></td>
+</tr>
+<tr>
+<td>zd</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.20</span></td>
+</tr>
+<tr>
+<td>ze</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.25</span></td>
+</tr>
+<tr>
+<td>zf</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.30</span></td>
+</tr>
+<tr>
+<td>zg</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.35</span></td>
+</tr>
+<tr>
+<td>zh</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.40</span></td>
+</tr>
+<tr>
+<td>zi</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.45</span></td>
+</tr>
+<tr>
+<td>zj</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.50</span></td>
+</tr>
+<tr>
+<td>zk</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.55</span></td>
+</tr>
+<tr>
+<td>zl</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.60</span></td>
+</tr>
+<tr>
+<td>zm</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.65</span></td>
+</tr>
+<tr>
+<td>zn</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.70</span></td>
+</tr>
+<tr>
+<td>zo</td>
+<td align="right"><span style="color:rgb(0,0,178)">0</span></td>
+<td align="right"><span style="color:rgb(0,178,0)">2.75</span></td>
+</tr>
+</table>
+
+<a id="cost" name="cost"></a>
+<h1>cost</h1>
+
+<table border="1">
+<tr>
+<th>cost</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#cost-satellite">satellite</a> (7)</td>
+<td align="right"><span style="color:rgb(127,127,127)">106</span></td>
+</tr>
+<tr>
+<td><b>Sum (7)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">106</span></td>
+</tr>
+</table>
+
+<p>
+Only instances where all configurations have a value for "cost" are considered. Each table entry gives the sum of "cost" for that domain. The last row reports the sum across all domains.
+</p>
+
+<a id="cost-satellite" name="cost-satellite"></a>
+<h2>satellite</h2>
+
+<table border="1">
+<tr>
+<th>cost</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01-pfile1.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">9</span></td>
+</tr>
+<tr>
+<td>p02-pfile2.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">13</span></td>
+</tr>
+<tr>
+<td>p03-pfile3.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">11</span></td>
+</tr>
+<tr>
+<td>p04-pfile4.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">17</span></td>
+</tr>
+<tr>
+<td>p05-pfile5.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">15</span></td>
+</tr>
+<tr>
+<td>p06-pfile6.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">20</span></td>
+</tr>
+<tr>
+<td>p07-pfile7.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">21</span></td>
+</tr>
+<tr>
+<td>p08-pfile8.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p09-pfile9.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p10-pfile10.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p11-pfile11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p12-pfile12.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13-pfile13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p14-pfile14.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p15-pfile15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p16-pfile16.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p17-pfile17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p18-pfile18.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19-pfile19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p20-pfile20.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21-HC-pfile1.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p22-HC-pfile2.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23-HC-pfile3.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p24-HC-pfile4.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25-HC-pfile5.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p26-HC-pfile6.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27-HC-pfile7.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p28-HC-pfile8.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29-HC-pfile9.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p30-HC-pfile10.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p31-HC-pfile11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p32-HC-pfile12.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p33-HC-pfile13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p34-HC-pfile14.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p35-HC-pfile15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p36-HC-pfile16.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="cost-trucks" name="cost-trucks"></a>
+<h2>trucks</h2>
+
+<table border="1">
+<tr>
+<th>cost</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p02.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p04.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p06.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p08.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p10.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p12.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p14.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p16.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p18.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p20.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p22.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p24.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p26.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p28.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p30.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="coverage" name="coverage"></a>
+<h1>coverage</h1>
+
+<table border="1">
+<tr>
+<th>coverage</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#coverage-satellite">satellite</a> (36)</td>
+<td align="right"><span style="color:rgb(127,127,127)">7</span></td>
+</tr>
+<tr>
+<td><a href="#coverage-trucks">trucks</a> (30)</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td><b>Sum (66)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">7</span></td>
+</tr>
+</table>
+
+<p>
+The last row reports the sum across all domains.
+</p>
+
+<a id="coverage-satellite" name="coverage-satellite"></a>
+<h2>satellite</h2>
+
+<table border="1">
+<tr>
+<th>coverage</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01-pfile1.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p02-pfile2.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p03-pfile3.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p04-pfile4.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p05-pfile5.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p06-pfile6.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p07-pfile7.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p08-pfile8.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p09-pfile9.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p10-pfile10.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p11-pfile11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p12-pfile12.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p13-pfile13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p14-pfile14.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p15-pfile15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p16-pfile16.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p17-pfile17.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p18-pfile18.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p19-pfile19.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p20-pfile20.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p21-HC-pfile1.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p22-HC-pfile2.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p23-HC-pfile3.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p24-HC-pfile4.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p25-HC-pfile5.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p26-HC-pfile6.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p27-HC-pfile7.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p28-HC-pfile8.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p29-HC-pfile9.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p30-HC-pfile10.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p31-HC-pfile11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p32-HC-pfile12.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p33-HC-pfile13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p34-HC-pfile14.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p35-HC-pfile15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p36-HC-pfile16.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+</table>
+
+<a id="coverage-trucks" name="coverage-trucks"></a>
+<h2>trucks</h2>
+
+<table border="1">
+<tr>
+<th>coverage</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p02.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p04.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p06.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p08.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p10.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p12.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p14.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p16.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p18.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p20.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p22.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p24.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p26.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p28.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p30.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+</table>
+
+<a id="expansions" name="expansions"></a>
+<h1>expansions</h1>
+
+<table border="1">
+<tr>
+<th>expansions</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#expansions-satellite">satellite</a> (7)</td>
+<td align="right"><span style="color:rgb(127,127,127)">308.29</span></td>
+</tr>
+<tr>
+<td><b>Geometric mean (7)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">308.29</span></td>
+</tr>
+</table>
+
+<p>
+Only instances where all configurations have a value for "expansions" are considered. Each table entry gives the geometric mean of "expansions" for that domain. The last row reports the geometric mean across all domains.
+</p>
+
+<a id="expansions-satellite" name="expansions-satellite"></a>
+<h2>satellite</h2>
+
+<table border="1">
+<tr>
+<th>expansions</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01-pfile1.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">10</span></td>
+</tr>
+<tr>
+<td>p02-pfile2.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">14</span></td>
+</tr>
+<tr>
+<td>p03-pfile3.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">41</span></td>
+</tr>
+<tr>
+<td>p04-pfile4.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">84</span></td>
+</tr>
+<tr>
+<td>p05-pfile5.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1175</span></td>
+</tr>
+<tr>
+<td>p06-pfile6.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">4868</span></td>
+</tr>
+<tr>
+<td>p07-pfile7.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">95978</span></td>
+</tr>
+<tr>
+<td>p08-pfile8.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p09-pfile9.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p10-pfile10.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p11-pfile11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p12-pfile12.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13-pfile13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p14-pfile14.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p15-pfile15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p16-pfile16.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p17-pfile17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p18-pfile18.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19-pfile19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p20-pfile20.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21-HC-pfile1.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p22-HC-pfile2.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23-HC-pfile3.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p24-HC-pfile4.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25-HC-pfile5.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p26-HC-pfile6.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27-HC-pfile7.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p28-HC-pfile8.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29-HC-pfile9.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p30-HC-pfile10.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p31-HC-pfile11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p32-HC-pfile12.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p33-HC-pfile13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p34-HC-pfile14.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p35-HC-pfile15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p36-HC-pfile16.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="expansions-trucks" name="expansions-trucks"></a>
+<h2>trucks</h2>
+
+<table border="1">
+<tr>
+<th>expansions</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p02.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p04.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p06.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p08.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p10.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p12.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p14.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p16.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p18.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p20.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p22.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p24.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p26.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p28.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p30.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="hstar_to_h" name="hstar_to_h"></a>
+<h1>hstar_to_h</h1>
+
+<table border="1">
+<tr>
+<th>hstar_<wbr>to_<wbr>h</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#hstar_to_h-satellite">satellite</a> (36)</td>
+<td align="right"><span style="color:rgb(127,127,127)">7.87</span></td>
+</tr>
+<tr>
+<td><a href="#hstar_to_h-trucks">trucks</a> (30)</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td><b>Sum (66)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">7.87</span></td>
+</tr>
+</table>
+
+<p>
+The last row reports the sum across all domains.
+</p>
+
+<a id="hstar_to_h-satellite" name="hstar_to_h-satellite"></a>
+<h2>satellite</h2>
+
+<table border="1">
+<tr>
+<th>hstar_<wbr>to_<wbr>h</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01-pfile1.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1.12</span></td>
+</tr>
+<tr>
+<td>p02-pfile2.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1.08</span></td>
+</tr>
+<tr>
+<td>p03-pfile3.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1.10</span></td>
+</tr>
+<tr>
+<td>p04-pfile4.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1.00</span></td>
+</tr>
+<tr>
+<td>p05-pfile5.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1.07</span></td>
+</tr>
+<tr>
+<td>p06-pfile6.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1.25</span></td>
+</tr>
+<tr>
+<td>p07-pfile7.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1.24</span></td>
+</tr>
+<tr>
+<td>p08-pfile8.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p09-pfile9.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p10-pfile10.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p11-pfile11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p12-pfile12.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p13-pfile13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p14-pfile14.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p15-pfile15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p16-pfile16.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p17-pfile17.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p18-pfile18.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p19-pfile19.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p20-pfile20.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p21-HC-pfile1.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p22-HC-pfile2.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p23-HC-pfile3.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p24-HC-pfile4.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p25-HC-pfile5.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p26-HC-pfile6.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p27-HC-pfile7.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p28-HC-pfile8.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p29-HC-pfile9.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p30-HC-pfile10.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p31-HC-pfile11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p32-HC-pfile12.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p33-HC-pfile13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p34-HC-pfile14.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p35-HC-pfile15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p36-HC-pfile16.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+</table>
+
+<a id="hstar_to_h-trucks" name="hstar_to_h-trucks"></a>
+<h2>trucks</h2>
+
+<table border="1">
+<tr>
+<th>hstar_<wbr>to_<wbr>h</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p02.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p04.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p06.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p08.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p10.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p12.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p14.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p16.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p18.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p20.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p22.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p24.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p26.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p28.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p30.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+</table>
+
+<a id="initial_h_value" name="initial_h_value"></a>
+<h1>initial_h_value</h1>
+
+<table border="1">
+<tr>
+<th>initial_<wbr>h_<wbr>value</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#initial_h_value-satellite">satellite</a> (7)</td>
+<td align="right"><span style="color:rgb(127,127,127)">94</span></td>
+</tr>
+<tr>
+<td><b>Sum (7)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">94</span></td>
+</tr>
+</table>
+
+<p>
+Only instances where all configurations have a value for "initial_h_value" are considered. Each table entry gives the sum of "initial_h_value" for that domain. The last row reports the sum across all domains.
+</p>
+
+<a id="initial_h_value-satellite" name="initial_h_value-satellite"></a>
+<h2>satellite</h2>
+
+<table border="1">
+<tr>
+<th>initial_<wbr>h_<wbr>value</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01-pfile1.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">8</span></td>
+</tr>
+<tr>
+<td>p02-pfile2.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">12</span></td>
+</tr>
+<tr>
+<td>p03-pfile3.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">10</span></td>
+</tr>
+<tr>
+<td>p04-pfile4.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">17</span></td>
+</tr>
+<tr>
+<td>p05-pfile5.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">14</span></td>
+</tr>
+<tr>
+<td>p06-pfile6.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">16</span></td>
+</tr>
+<tr>
+<td>p07-pfile7.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">17</span></td>
+</tr>
+<tr>
+<td>p08-pfile8.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p09-pfile9.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p10-pfile10.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p11-pfile11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p12-pfile12.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13-pfile13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p14-pfile14.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p15-pfile15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p16-pfile16.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p17-pfile17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p18-pfile18.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19-pfile19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p20-pfile20.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21-HC-pfile1.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p22-HC-pfile2.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23-HC-pfile3.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p24-HC-pfile4.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25-HC-pfile5.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p26-HC-pfile6.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27-HC-pfile7.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p28-HC-pfile8.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29-HC-pfile9.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p30-HC-pfile10.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p31-HC-pfile11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p32-HC-pfile12.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p33-HC-pfile13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p34-HC-pfile14.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p35-HC-pfile15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p36-HC-pfile16.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="initial_h_value-trucks" name="initial_h_value-trucks"></a>
+<h2>trucks</h2>
+
+<table border="1">
+<tr>
+<th>initial_<wbr>h_<wbr>value</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p02.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p04.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p06.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p08.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p10.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p12.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p14.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p16.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p18.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p20.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p22.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p24.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p26.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p28.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p30.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="statistics" name="statistics"></a>
+<h1>statistics</h1>
+
+<table border="1">
+<tr>
+<th>statistics</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#statistics-satellite">satellite</a> (36)</td>
+<td align="right"><span style="color:rgb(127,127,127)">7</span></td>
+</tr>
+<tr>
+<td><a href="#statistics-trucks">trucks</a> (30)</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td><b>Sum (66)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">7</span></td>
+</tr>
+</table>
+
+<p>
+The last row reports the sum across all domains.
+</p>
+
+<a id="statistics-satellite" name="statistics-satellite"></a>
+<h2>satellite</h2>
+
+<table border="1">
+<tr>
+<th>statistics</th>
+<th>WORK-lmcut</th>
+<th>h*</th>
+<th>ff_<wbr>h(s)</th>
+<th>h(s)</th>
+<th>h*/h(s)</th>
+</tr>
+<tr>
+<td>p01-pfile1.pddl</td>
+<td align="right">1</td>
+<td align="right">9</td>
+<td align="right">8</td>
+<td align="right">8</td>
+<td align="right">1.12</td>
+</tr>
+<tr>
+<td>p02-pfile2.pddl</td>
+<td align="right">1</td>
+<td align="right">13</td>
+<td align="right">12</td>
+<td align="right">12</td>
+<td align="right">1.08</td>
+</tr>
+<tr>
+<td>p03-pfile3.pddl</td>
+<td align="right">1</td>
+<td align="right">11</td>
+<td align="right">11</td>
+<td align="right">10</td>
+<td align="right">1.10</td>
+</tr>
+<tr>
+<td>p04-pfile4.pddl</td>
+<td align="right">1</td>
+<td align="right">17</td>
+<td align="right">21</td>
+<td align="right">17</td>
+<td align="right">1.00</td>
+</tr>
+<tr>
+<td>p05-pfile5.pddl</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">18</td>
+<td align="right">14</td>
+<td align="right">1.07</td>
+</tr>
+<tr>
+<td>p06-pfile6.pddl</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">20</td>
+<td align="right">16</td>
+<td align="right">1.25</td>
+</tr>
+<tr>
+<td>p07-pfile7.pddl</td>
+<td align="right">1</td>
+<td align="right">21</td>
+<td align="right">27</td>
+<td align="right">17</td>
+<td align="right">1.24</td>
+</tr>
+<tr>
+<td>p08-pfile8.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">27</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p09-pfile9.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">40</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p10-pfile10.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">34</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p11-pfile11.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">36</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p12-pfile12.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">44</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p13-pfile13.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">62</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p14-pfile14.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">40</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p15-pfile15.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">58</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p16-pfile16.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">56</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p17-pfile17.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">56</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p18-pfile18.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">35</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p19-pfile19.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">66</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p20-pfile20.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">89</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p21-HC-pfile1.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">85</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p22-HC-pfile2.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">96</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p23-HC-pfile3.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">99</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p24-HC-pfile4.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">145</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p25-HC-pfile5.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">138</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p26-HC-pfile6.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">151</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p27-HC-pfile7.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">141</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p28-HC-pfile8.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">206</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p29-HC-pfile9.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">202</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p30-HC-pfile10.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">244</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p31-HC-pfile11.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">281</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p32-HC-pfile12.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">375</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p33-HC-pfile13.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">486</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p34-HC-pfile14.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">292</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p35-HC-pfile15.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">387</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p36-HC-pfile16.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td align="right">376</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+</table>
+
+<a id="statistics-trucks" name="statistics-trucks"></a>
+<h2>trucks</h2>
+
+<table border="1">
+<tr>
+<th>statistics</th>
+<th>WORK-lmcut</th>
+<th>h*</th>
+<th>ff_<wbr>h(s)</th>
+<th>h(s)</th>
+<th>h*/h(s)</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p02.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p04.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p06.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p08.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p10.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p12.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p14.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p16.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p18.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p20.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p22.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p24.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p26.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p28.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>p30.pddl</td>
+<td align="right">0</td>
+<td>None</td>
+<td>None</td>
+<td>None</td>
+<td align="right">0</td>
+</tr>
+</table>
+
+</div>
+<!-- xhtml code generated by txt2tags 2.6b (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags  -->
+</body></html>

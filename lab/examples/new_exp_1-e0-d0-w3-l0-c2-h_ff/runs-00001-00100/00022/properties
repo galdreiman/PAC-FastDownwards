@@ -1,0 +1,89 @@
+{
+  "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p03.pddl",
+  "domain": "storage",
+  "unsolvable": 0,
+  "score_total_time": 100.0,
+  "cost_all": [
+    3
+  ],
+  "run-search_parser0_returncode": 0,
+  "search_returncode": 0,
+  "validate_returncode": 0,
+  "commandline_config": [
+    "--search",
+    "lazy_anytime_wastar(ff(), w=3, delta=0, epsilon=0, rpac_lower_bound=0, rpac_open_based=0, trivial_pac=0, ratio_based=1, heuristic_func=ff)"
+  ],
+  "initial_h_value": 3,
+  "score_search_time": 100.0,
+  "score_evaluations": 100.0,
+  "initial_h_value_all": [
+    3
+  ],
+  "limit_search_time": 300,
+  "compact": true,
+  "translate_rev": "WORK",
+  "preprocess_rev": "WORK",
+  "search_time_all": [
+    0.0
+  ],
+  "translate_nick": "WORK",
+  "preprocess_nick": "WORK",
+  "dead_ends": 0,
+  "score_memory": 90.62,
+  "id": [
+    "WORK-ff",
+    "storage",
+    "p03.pddl"
+  ],
+  "search_nick": "WORK",
+  "limit_preprocess_memory": 8192,
+  "config": "WORK-ff",
+  "rm-tmp-files_returncode": 0,
+  "limit_translate_memory": 8192,
+  "total_time": 0.1,
+  "score_expansions": 100.0,
+  "generated_all": [
+    39
+  ],
+  "memory": 3840,
+  "reopened": 0,
+  "rm-tmp-files_wall_clock_time": 0.0055501461029052734,
+  "config_nick": "ff",
+  "plan_length_all": [
+    3
+  ],
+  "search_rev": "WORK",
+  "run-search_parser0_wall_clock_time": 0.06907200813293457,
+  "generated": 39,
+  "plan_length": 3,
+  "dead_ends_all": [
+    0
+  ],
+  "coverage": 1,
+  "limit_preprocess_time": 7200,
+  "limit_search_memory": 2048,
+  "evaluations": 12,
+  "search_time": 0.1,
+  "validate_wall_clock_time": 0.02934098243713379,
+  "stage": "search",
+  "run_dir": "runs-00001-00100/00022",
+  "search_summary": "WORK 6d8b3994270d+ tip",
+  "preprocess_summary": "WORK 6d8b3994270d+ tip",
+  "translate_summary": "WORK 6d8b3994270d+ tip",
+  "evaluations_all": [
+    12
+  ],
+  "expansions": 12,
+  "search_wall_clock_time": 0.03284502029418945,
+  "queue": null,
+  "experiment_name": "new_exp_1-e0-d0-w3-l0-c2-h_ff",
+  "cost": 3,
+  "error": "none",
+  "planner_type": "single",
+  "expansions_all": [
+    12
+  ],
+  "id_string": "WORK-ff:storage:p03.pddl",
+  "problem": "p03.pddl",
+  "limit_translate_time": 7200
+}

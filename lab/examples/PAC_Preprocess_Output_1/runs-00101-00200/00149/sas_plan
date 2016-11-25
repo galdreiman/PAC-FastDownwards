@@ -1,0 +1,7 @@
+(do-immersion-paint b0 blue)
+(do-lathe d0)
+(do-spray-paint f0 black)
+(do-time-step )
+(do-immersion-paint d0 red)
+(do-polish f0)
+(do-spray-paint e0 blue)

@@ -1,0 +1,7 @@
+(do-roll b0)
+(do-immersion-paint c0 blue)
+(do-lathe f0)
+(do-polish e0)
+(do-time-step )
+(do-polish f0)
+(do-punch c0 one back)

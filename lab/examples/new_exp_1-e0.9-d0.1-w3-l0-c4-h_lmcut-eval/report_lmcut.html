@@ -1,0 +1,1194 @@
+<?xml version="1.0"
+      encoding="UTF-8"
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>report_lmcut</title>
+<meta name="generator" content="http://txt2tags.sf.net" />
+<style type="text/css">
+    body {
+        font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    }
+    blockquote {
+        margin: 1em 2em;
+        border-left: 2px solid #999;
+        font-style: oblique;
+        padding-left: 1em;
+    }
+    blockquote:first-letter {
+        margin: .2em .1em .1em 0;
+        font-size: 160%;
+        font-weight: bold;
+    }
+    blockquote:first-line {
+        font-weight: bold;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    td, th {
+        <!--border: 1px solid #888;--> <!--Allow tables without borders-->
+        padding: 3px 7px 2px 7px;
+    }
+    th {
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 4px;
+        background-color: #aaa;
+        color: #ffffff;
+    }
+    hr.heavy {
+        height: 2px;
+        background-color: black;
+    }
+</style>
+</head>
+<body>
+
+<div class="header" id="header">
+<h1>report_lmcut</h1>
+<h3>2016-11-20</h3>
+</div>
+
+<div class="body" id="body">
+
+<ul>
+<li><b><a href="#info">Info</a></b>
+</li>
+<li><b><a href="#summary">Summary</a></b>
+</li>
+<li><b><a href="#cost">cost</a></b>
+  <ul>
+  <li><a href="#cost-rovers">rovers</a> <a href="#cost-storage">storage</a> <a href="#cost-tpp">tpp</a>
+  </li>
+  </ul>
+</li>
+<li><b><a href="#coverage">coverage</a></b>
+  <ul>
+  <li><a href="#coverage-rovers">rovers</a> <a href="#coverage-storage">storage</a> <a href="#coverage-tpp">tpp</a>
+  </li>
+  </ul>
+</li>
+<li><b><a href="#expansions">expansions</a></b>
+  <ul>
+  <li><a href="#expansions-rovers">rovers</a> <a href="#expansions-storage">storage</a> <a href="#expansions-tpp">tpp</a>
+  </li>
+  </ul>
+</li>
+<li><b><a href="#initial_h_value">initial_h_value</a></b>
+  <ul>
+  <li><a href="#initial_h_value-rovers">rovers</a> <a href="#initial_h_value-storage">storage</a> <a href="#initial_h_value-tpp">tpp</a>
+  </li>
+  </ul>
+</li>
+</ul>
+
+<a id="info" name="info"></a>
+<h1>info</h1>
+
+<table border="1">
+<tr>
+<th>algorithm</th>
+<th>translate_<wbr>summary</th>
+<th>preprocess_<wbr>summary</th>
+<th>search_<wbr>summary</th>
+<th>config_<wbr>nick</th>
+<th>commandline_<wbr>config</th>
+</tr>
+<tr>
+<td>WORK-lmcut</td>
+<td>WORK 6d8b3994270d+ tip</td>
+<td>WORK 6d8b3994270d+ tip</td>
+<td>WORK 6d8b3994270d+ tip</td>
+<td>lmcut</td>
+<td>[--search, lazy_anytime_wastar(lmcut(), w=3, delta=0.1, epsilon=0.9, rpac_lower_bound=0, rpac_open_based=1, trivial_pac=0, ratio_based=0, heuristic_func=lmcut)]</td>
+</tr>
+</table>
+
+<a id="summary" name="summary"></a>
+<h1>summary</h1>
+
+<table border="1">
+<tr>
+<th>summary</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#cost">cost - Sum</a></td>
+<td align="right"><b>382</b></td>
+</tr>
+<tr>
+<td><a href="#coverage">coverage - Sum</a></td>
+<td align="right"><b>18</b></td>
+</tr>
+<tr>
+<td><a href="#expansions">expansions - Geometric mean</a></td>
+<td align="right"><b>301.72</b></td>
+</tr>
+<tr>
+<td><a href="#initial_h_value">initial_h_value - Sum</a></td>
+<td align="right"><b>244</b></td>
+</tr>
+</table>
+
+<a id="cost" name="cost"></a>
+<h1>cost</h1>
+
+<table border="1">
+<tr>
+<th>cost</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#cost-rovers">rovers</a> (6)</td>
+<td align="right"><span style="color:rgb(127,127,127)">162</span></td>
+</tr>
+<tr>
+<td><a href="#cost-storage">storage</a> (7)</td>
+<td align="right"><span style="color:rgb(127,127,127)">80</span></td>
+</tr>
+<tr>
+<td><a href="#cost-tpp">tpp</a> (5)</td>
+<td align="right"><span style="color:rgb(127,127,127)">140</span></td>
+</tr>
+<tr>
+<td><b>Sum (18)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">382</span></td>
+</tr>
+</table>
+
+<p>
+Only instances where all configurations have a value for "cost" are considered. Each table entry gives the sum of "cost" for that domain. The last row reports the sum across all domains.
+</p>
+
+<a id="cost-rovers" name="cost-rovers"></a>
+<h2>rovers</h2>
+
+<table border="1">
+<tr>
+<th>cost</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">11</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">13</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">24</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">21</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">47</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">46</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p28.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p31.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p33.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p35.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p37.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p39.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="cost-storage" name="cost-storage"></a>
+<h2>storage</h2>
+
+<table border="1">
+<tr>
+<th>cost</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">3</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">3</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">10</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">14</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">13</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">19</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">18</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="cost-tpp" name="cost-tpp"></a>
+<h2>tpp</h2>
+
+<table border="1">
+<tr>
+<th>cost</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">5</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">11</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">19</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">43</span></td>
+</tr>
+<tr>
+<td>p08.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">62</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p18.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="coverage" name="coverage"></a>
+<h1>coverage</h1>
+
+<table border="1">
+<tr>
+<th>coverage</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#coverage-rovers">rovers</a> (20)</td>
+<td align="right"><span style="color:rgb(127,127,127)">6</span></td>
+</tr>
+<tr>
+<td><a href="#coverage-storage">storage</a> (15)</td>
+<td align="right"><span style="color:rgb(127,127,127)">7</span></td>
+</tr>
+<tr>
+<td><a href="#coverage-tpp">tpp</a> (16)</td>
+<td align="right"><span style="color:rgb(127,127,127)">5</span></td>
+</tr>
+<tr>
+<td><b>Sum (51)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">18</span></td>
+</tr>
+</table>
+
+<p>
+The last row reports the sum across all domains.
+</p>
+
+<a id="coverage-rovers" name="coverage-rovers"></a>
+<h2>rovers</h2>
+
+<table border="1">
+<tr>
+<th>coverage</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p28.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p31.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p33.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p35.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p37.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p39.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+</table>
+
+<a id="coverage-storage" name="coverage-storage"></a>
+<h2>storage</h2>
+
+<table border="1">
+<tr>
+<th>coverage</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+</table>
+
+<a id="coverage-tpp" name="coverage-tpp"></a>
+<h2>tpp</h2>
+
+<table border="1">
+<tr>
+<th>coverage</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p08.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p18.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">0</span></td>
+</tr>
+</table>
+
+<a id="expansions" name="expansions"></a>
+<h1>expansions</h1>
+
+<table border="1">
+<tr>
+<th>expansions</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#expansions-rovers">rovers</a> (6)</td>
+<td align="right"><span style="color:rgb(127,127,127)">649.07</span></td>
+</tr>
+<tr>
+<td><a href="#expansions-storage">storage</a> (7)</td>
+<td align="right"><span style="color:rgb(127,127,127)">170.92</span></td>
+</tr>
+<tr>
+<td><a href="#expansions-tpp">tpp</a> (5)</td>
+<td align="right"><span style="color:rgb(127,127,127)">247.58</span></td>
+</tr>
+<tr>
+<td><b>Geometric mean (18)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">301.72</span></td>
+</tr>
+</table>
+
+<p>
+Only instances where all configurations have a value for "expansions" are considered. Each table entry gives the geometric mean of "expansions" for that domain. The last row reports the geometric mean across all domains.
+</p>
+
+<a id="expansions-rovers" name="expansions-rovers"></a>
+<h2>rovers</h2>
+
+<table border="1">
+<tr>
+<th>expansions</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">81</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">71</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">631</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">338</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">9210</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">6619</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p28.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p31.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p33.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p35.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p37.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p39.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="expansions-storage" name="expansions-storage"></a>
+<h2>storage</h2>
+
+<table border="1">
+<tr>
+<th>expansions</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">6</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">9</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">64</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">139</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">1891</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">6770</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">693</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="expansions-tpp" name="expansions-tpp"></a>
+<h2>tpp</h2>
+
+<table border="1">
+<tr>
+<th>expansions</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">7</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">20</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">43</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">12447</span></td>
+</tr>
+<tr>
+<td>p08.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">12414</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p18.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="initial_h_value" name="initial_h_value"></a>
+<h1>initial_h_value</h1>
+
+<table border="1">
+<tr>
+<th>initial_<wbr>h_<wbr>value</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td><a href="#initial_h_value-rovers">rovers</a> (6)</td>
+<td align="right"><span style="color:rgb(127,127,127)">102</span></td>
+</tr>
+<tr>
+<td><a href="#initial_h_value-storage">storage</a> (7)</td>
+<td align="right"><span style="color:rgb(127,127,127)">50</span></td>
+</tr>
+<tr>
+<td><a href="#initial_h_value-tpp">tpp</a> (5)</td>
+<td align="right"><span style="color:rgb(127,127,127)">92</span></td>
+</tr>
+<tr>
+<td><b>Sum (18)</b></td>
+<td align="right"><span style="color:rgb(127,127,127)">244</span></td>
+</tr>
+</table>
+
+<p>
+Only instances where all configurations have a value for "initial_h_value" are considered. Each table entry gives the sum of "initial_h_value" for that domain. The last row reports the sum across all domains.
+</p>
+
+<a id="initial_h_value-rovers" name="initial_h_value-rovers"></a>
+<h2>rovers</h2>
+
+<table border="1">
+<tr>
+<th>initial_<wbr>h_<wbr>value</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">7</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">9</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">17</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">15</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">27</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">27</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p28.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p31.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p33.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p35.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p37.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p39.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="initial_h_value-storage" name="initial_h_value-storage"></a>
+<h2>storage</h2>
+
+<table border="1">
+<tr>
+<th>initial_<wbr>h_<wbr>value</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">3</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">3</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">6</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">10</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">7</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">9</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">12</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p17.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+<a id="initial_h_value-tpp" name="initial_h_value-tpp"></a>
+<h2>tpp</h2>
+
+<table border="1">
+<tr>
+<th>initial_<wbr>h_<wbr>value</th>
+<th>WORK-lmcut</th>
+</tr>
+<tr>
+<td>p01.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">4</span></td>
+</tr>
+<tr>
+<td>p03.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">10</span></td>
+</tr>
+<tr>
+<td>p05.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">17</span></td>
+</tr>
+<tr>
+<td>p07.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">26</span></td>
+</tr>
+<tr>
+<td>p08.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p09.pddl</td>
+<td align="right"><span style="color:rgb(127,127,127)">35</span></td>
+</tr>
+<tr>
+<td>p11.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p13.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p15.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p18.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p19.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p21.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p23.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p25.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p27.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+<tr>
+<td>p29.pddl</td>
+<td><span style="color:rgb(127,127,127)">None</span></td>
+</tr>
+</table>
+
+</div>
+<!-- xhtml code generated by txt2tags 2.6b (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags  -->
+</body></html>

@@ -1,0 +1,89 @@
+{
+  "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p05.pddl",
+  "domain": "tpp",
+  "unsolvable": 0,
+  "score_total_time": 100.0,
+  "cost_all": [
+    19
+  ],
+  "run-search_parser0_returncode": 0,
+  "search_returncode": 0,
+  "validate_returncode": 0,
+  "commandline_config": [
+    "--search",
+    "lazy_anytime_wastar(lmcut(), w=3, delta=0, epsilon=0, rpac_lower_bound=0, rpac_open_based=1, trivial_pac=0, ratio_based=0, heuristic_func=lmcut)"
+  ],
+  "initial_h_value": 17,
+  "score_search_time": 100.0,
+  "score_evaluations": 96.82,
+  "initial_h_value_all": [
+    17
+  ],
+  "limit_search_time": 300,
+  "compact": true,
+  "translate_rev": "WORK",
+  "preprocess_rev": "WORK",
+  "search_time_all": [
+    0.0
+  ],
+  "translate_nick": "WORK",
+  "preprocess_nick": "WORK",
+  "dead_ends": 0,
+  "score_memory": 91.12,
+  "id": [
+    "WORK-lmcut",
+    "tpp",
+    "p05.pddl"
+  ],
+  "search_nick": "WORK",
+  "limit_preprocess_memory": 8192,
+  "config": "WORK-lmcut",
+  "rm-tmp-files_returncode": 0,
+  "limit_translate_memory": 8192,
+  "total_time": 0.1,
+  "score_expansions": 96.82,
+  "generated_all": [
+    626
+  ],
+  "memory": 3708,
+  "reopened": 0,
+  "rm-tmp-files_wall_clock_time": 0.0067141056060791016,
+  "config_nick": "lmcut",
+  "plan_length_all": [
+    19
+  ],
+  "search_rev": "WORK",
+  "run-search_parser0_wall_clock_time": 0.06485509872436523,
+  "generated": 626,
+  "plan_length": 19,
+  "dead_ends_all": [
+    0
+  ],
+  "coverage": 1,
+  "limit_preprocess_time": 7200,
+  "limit_search_memory": 2048,
+  "evaluations": 134,
+  "search_time": 0.1,
+  "validate_wall_clock_time": 0.02710700035095215,
+  "stage": "search",
+  "run_dir": "runs-00001-00100/00038",
+  "search_summary": "WORK 6d8b3994270d+ tip",
+  "preprocess_summary": "WORK 6d8b3994270d+ tip",
+  "translate_summary": "WORK 6d8b3994270d+ tip",
+  "evaluations_all": [
+    134
+  ],
+  "expansions": 134,
+  "search_wall_clock_time": 0.03287792205810547,
+  "queue": null,
+  "experiment_name": "new_exp_1-e0-d0-w3-l0-c4-h_lmcut",
+  "cost": 19,
+  "error": "none",
+  "planner_type": "single",
+  "expansions_all": [
+    134
+  ],
+  "id_string": "WORK-lmcut:tpp:p05.pddl",
+  "problem": "p05.pddl",
+  "limit_translate_time": 7200
+}
