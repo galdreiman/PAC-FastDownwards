@@ -1,2 +1,0 @@
-/home/sternron/gal-dreiman/downward/src/search/unitcost: 4: /home/sternron/gal-dreiman/downward/src/search/unitcost: gawk: not found
-/home/sternron/gal-dreiman/downward/src/search/downward: line 193:  5121 CPU time limit exceeded (core dumped) "$PLANNER" "$@" < $TEMPFILE
