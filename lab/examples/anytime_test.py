@@ -13,10 +13,11 @@ from downward.reports.absolute import AbsoluteReport
 from downward.reports.hstar_2_h_stat import HstarToHRatioAndStatistics
 from downward import suites
 from downward.reports.MyPlot import ProblemPlotReport
+from lab.EnvHandler import BASE_REPO
 
 
 EXPPATH = os.environ["exp_name"]
-REPO = os.path.expanduser('~/gal-dreiman/downward')
+REPO = os.path.expanduser(BASE_REPO)
 ENV = LocalEnvironment(processes=4)
 
 
@@ -57,7 +58,7 @@ exp = DownwardExperiment(path=EXPPATH, repo=REPO, environment=ENV, limits={'sear
 #exp.add_suite({'grid','ferry','logistics'})
 #exp.add_suite({'rovers:p01.pddl'})
 # exp.add_suite({'blocks:probBLOCKS-8-0.pddl','blocks:probBLOCKS-8-1.pddl','blocks:probBLOCKS-9-0.pddl','blocks:probBLOCKS-9-1.pddl', 'blocks:probBLOCKS-11-1.pddl'})
-#exp.add_suite({'blocks:probBLOCKS-9-1.pddl'})
+exp.add_suite({'blocks:probBLOCKS-4-1.pddl'})
 # exp.add_suite({'gripper','logistics00','openstacks','pathways','rovers','satellite','trucks'})
 # exp.add_suite({'schedule','zenotravel','trucks-strips','sokoban-sat11-strips','philosophers'})
 # exp.add_suite({'blocks','tpp','storage',})
@@ -70,7 +71,7 @@ exp = DownwardExperiment(path=EXPPATH, repo=REPO, environment=ENV, limits={'sear
 #exp.add_suite({'storage','tpp','trucks'})
 #exp.add_suite({'satellite','schedule'})
 
-exp.add_suite({'tpp','rovers','storage'})
+#exp.add_suite({'tpp','rovers','storage'})
 
 for nick, config in CONFIGS:
     exp.add_config(nick, config)

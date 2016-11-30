@@ -19,16 +19,16 @@ from lab.calls.log import set_property
 set_property('queue', os.environ.get('QUEUE'))
 
 
-DOMAIN = "/home/sternron/lab/preprocessed-tasks/WORK-WORK/rovers/p02.pddl/domain.pddl"
+DOMAIN = "/home/sternron/lab/preprocessed-tasks/WORK-WORK/blocks/probBLOCKS-4-1.pddl/domain.pddl"
 DOWNWARD_VALIDATE = "/home/sternron/gal-dreiman/downward/lab/downward/scripts/validate.py"
-OUTPUT = "/home/sternron/lab/preprocessed-tasks/WORK-WORK/rovers/p02.pddl/output"
-PROBLEM = "/home/sternron/lab/preprocessed-tasks/WORK-WORK/rovers/p02.pddl/problem.pddl"
+OUTPUT = "/home/sternron/lab/preprocessed-tasks/WORK-WORK/blocks/probBLOCKS-4-1.pddl/output"
+PROBLEM = "/home/sternron/lab/preprocessed-tasks/WORK-WORK/blocks/probBLOCKS-4-1.pddl/problem.pddl"
 SEARCH_PARSER0 = "/home/sternron/gal-dreiman/downward/lab/downward/scripts/search_parser.py"
 SEARCH_WORK = "/home/sternron/gal-dreiman/downward/src/search/downward"
 VALIDATE = "/home/sternron/gal-dreiman/downward/src/VAL/validate"
 
 
-retcode = Call([SEARCH_WORK, "--search", "astar(lmcut())"], time_limit=300, mem_limit=2048, stdin=OUTPUT, name="search", **redirects).wait()
+retcode = Call([SEARCH_WORK, "--search", "astar(lmcut())"], time_limit=600, mem_limit=2048, stdin=OUTPUT, name="search", **redirects).wait()
 save_returncode("search", retcode)
 
 retcode = Call(["bash", "-c", "rm -f downward.tmp.*"], name="rm-tmp-files", **redirects).wait()

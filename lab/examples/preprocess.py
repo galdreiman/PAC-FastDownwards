@@ -12,21 +12,22 @@ from downward.reports.absolute import AbsoluteReport
 from downward.reports.hstar_2_h_stat import HstarToHRatioAndStatistics
 from downward import suites
 from downward.reports.MyPlot import ProblemPlotReport
+from lab.EnvHandler import BASE_REPO
 
 
 EXPPATH = 'PAC_Preprocess_Output'
-REPO = os.path.expanduser('~/gal-dreiman/downward')
+REPO = os.path.expanduser(BASE_REPO)
 ENV = LocalEnvironment(processes=4)
 
 CONFIGS = [('lmcut', ['--search', 'astar(lmcut())']) ]
 ATTRIBUTES = ['coverage', 'expansions','initial_h_value','cost','hstar_to_h','statistics','commualtive_hstar_to_h']
 
 
-exp = DownwardExperiment(path=EXPPATH, repo=REPO, environment=ENV, limits={'search_time': 300})
+exp = DownwardExperiment(path=EXPPATH, repo=REPO, environment=ENV, limits={'search_time': 600})
 # exp.add_suite({'grid','ferry','logistics'})
-#exp.add_suite({'grid:prob_grid_29982290.pddl'})
-# exp.add_suite({'airport:p45-domain.pddl'})
-# exp.add_suite({'blocks'})
+exp.add_suite({'blocks:probBLOCKS-4-1.pddl'})
+#exp.add_suite({'airport:p45-domain.pddl'})
+#exp.add_suite({'blocks'})
 #exp.add_suite({'blocks','tpp','storage',})
 # exp.add_suite({'blocks','tpp','schedule','storage'})
 #exp.add_suite({'blocks','tpp','storage','schedule','logistics00','rovers','satellite','trucks'})
@@ -34,7 +35,7 @@ exp = DownwardExperiment(path=EXPPATH, repo=REPO, environment=ENV, limits={'sear
 
 #exp.add_suite({'blocks', 'tpp','storage', 'schedule','rovers'})
 #exp.add_suite({'satellite','trucks',})
-exp.add_suite({'tpp','storage','rovers'})
+#exp.add_suite({'trucks','trucks-strips','visitall-opt11-strips','visitall-sat11-strips','woodworking-opt08-strips','woodworking-opt11-strips','woodworking-sat08-strips','woodworking-sat11-strips','zenotravel','tidybot-opt11-strips','tidybot-sat11-strips','miconic','miconic-fulladl','movie','mprime','mystery','no-mprime','no-mystery'})
 
 
 # exp.add_suite({'blocks:probBLOCKS-8-0.pddl','blocks:probBLOCKS-8-1.pddl','blocks:probBLOCKS-4-0.pddl','blocks:probBLOCKS-5-1.pddl'})

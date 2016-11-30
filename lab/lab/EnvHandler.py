@@ -1,1 +1,1 @@
-BASE_REPO = '/home/gal-d/downward'
+BASE_REPO = '/home/sternron/gal-dreiman/downward/'

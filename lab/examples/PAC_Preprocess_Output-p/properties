@@ -1,13 +1,13 @@
 {
   "compact": true,
   "experiment_file": "preprocess.py",
-  "runs": 49,
-  "repo": "/home/sternron/gal-dreiman/downward",
+  "runs": 1,
+  "repo": "/home/sternron/gal-dreiman/downward/",
   "algorithms": [
     "WORK-lmcut"
   ],
   "default_limits": {
-    "search_time": 300,
+    "search_time": 600,
     "translate_time": 7200,
     "preprocess_time": 7200,
     "search_memory": 2048,
@@ -16,9 +16,7 @@
   },
   "suite": {
     "/home/sternron/gal-dreiman/downward/benchmarks": [
-      "rovers",
-      "storage",
-      "tpp"
+      "blocks:probBLOCKS-4-1.pddl"
     ]
   },
   "stage": "preprocess"

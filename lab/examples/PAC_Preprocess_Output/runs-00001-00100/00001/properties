@@ -1,7 +1,7 @@
 {
   "unsolvable": 0,
   "cost_all": [
-    8
+    10
   ],
   "run-search_parser0_returncode": 0,
   "search_returncode": 0,
@@ -10,81 +10,81 @@
     "--search",
     "astar(lmcut())"
   ],
-  "initial_h_value": 7,
+  "initial_h_value": 6,
   "score_search_time": 100.0,
-  "limit_search_time": 300,
+  "limit_search_time": 600,
   "compact": true,
   "search_time": 0.1,
   "translate_nick": "WORK",
   "preprocess_nick": "WORK",
-  "search_summary": "WORK 6d8b3994270d+ tip",
+  "search_summary": "WORK 000000000000 tip",
   "memory": 3704,
   "rm-tmp-files_returncode": 0,
   "search_nick": "WORK",
   "total_time": 0.1,
   "generated_all": [
-    74
+    27
   ],
   "limit_preprocess_memory": 8192,
   "reopened": 0,
   "dead_ends_all": [
     0
   ],
-  "plan_length": 8,
+  "plan_length": 10,
   "limit_preprocess_time": 7200,
   "limit_search_memory": 2048,
-  "validate_wall_clock_time": 0.07471489906311035,
+  "validate_wall_clock_time": 0.04435396194458008,
   "score_total_time": 100.0,
-  "preprocess_summary": "WORK 6d8b3994270d+ tip",
-  "translate_summary": "WORK 6d8b3994270d+ tip",
-  "expansions": 10,
-  "search_wall_clock_time": 0.0393681526184082,
-  "initial_ff_h_value": 7,
+  "preprocess_summary": "WORK 000000000000 tip",
+  "translate_summary": "WORK 000000000000 tip",
+  "expansions": 12,
+  "search_wall_clock_time": 0.02906489372253418,
+  "initial_ff_h_value": 6,
   "reopened_until_last_jump": 0,
   "error": "none",
-  "run-search_parser0_wall_clock_time": 0.12633919715881348,
-  "id_string": "WORK-lmcut:rovers:p02.pddl",
-  "problem": "p02.pddl",
-  "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/rovers/p02.pddl",
-  "domain": "rovers",
-  "cost": 8,
+  "run-search_parser0_wall_clock_time": 0.11861515045166016,
+  "id_string": "WORK-lmcut:blocks:probBLOCKS-4-1.pddl",
+  "problem": "probBLOCKS-4-1.pddl",
+  "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/blocks/probBLOCKS-4-1.pddl",
+  "domain": "blocks",
+  "cost": 10,
   "initial_h_value_all": [
-    7
+    6
   ],
   "id": [
     "WORK-lmcut",
-    "rovers",
-    "p02.pddl"
+    "blocks",
+    "probBLOCKS-4-1.pddl"
   ],
   "translate_rev": "WORK",
   "preprocess_rev": "WORK",
-  "evaluations_until_last_jump": 26,
+  "evaluations_until_last_jump": 6,
   "dead_ends": 0,
   "score_memory": 91.14,
   "experiment_name": "PAC_Preprocess_Output",
-  "generated_until_last_jump": 32,
+  "generated_until_last_jump": 8,
   "config": "WORK-lmcut",
   "limit_translate_memory": 8192,
   "score_expansions": 100.0,
   "planner_type": "single",
-  "rm-tmp-files_wall_clock_time": 0.01299595832824707,
+  "rm-tmp-files_wall_clock_time": 0.0068759918212890625,
   "search_rev": "WORK",
   "expansions_all": [
-    10
+    12
   ],
-  "generated": 74,
+  "generated": 27,
   "coverage": 1,
-  "evaluations": 52,
+  "evaluations": 18,
   "search_time_all": [
     0.0
   ],
   "stage": "search",
   "run_dir": "runs-00001-00100/00001",
   "plan_length_all": [
-    8
+    10
   ],
   "evaluations_all": [
-    52
+    18
   ],
   "queue": null,
   "config_nick": "lmcut",

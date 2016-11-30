@@ -7,6 +7,8 @@ import csv
 import re
 import subprocess
 import time
+from lab.EnvHandler import BASE_REPO
+
 
 class experiment_suit(object):
 
@@ -16,10 +18,10 @@ class experiment_suit(object):
 		self.is_ratio_based_pac = 0;  # 1- true, 0- false
 		self.is_lower_bound_pac = 0;  # 1- true, 0- false
 		self.is_open_based_pac 	= 0;  # 1- true, 0- false
-		self.epsilon = [0, 0.5, 0.9] # [0, 0.1, 0.5, 0.9]   [0, 0.1,0.5] #
-		self.delta =   [0,0.1,0.3] #[0, 0.5, 0.9] #[0, 0.1, 0.5, 0.9] #[0, 0.1, 0.2, 0.5] # [0.5] # [0.2] #
+		self.epsilon = [0.3] # [0, 0.1, 0.5, 0.9]   [0, 0.1,0.5] #
+		self.delta =   [0.3] #[0, 0.5, 0.9] #[0, 0.1, 0.5, 0.9] #[0, 0.1, 0.2, 0.5] # [0.5] # [0.2] #
 		self.weight = 3
-		self.heuristics = ['lmcut','ff']
+		self.heuristics = ['lmcut']
 		self.exp_results_filename = []
 
 	def start_experiment_suit(self):
@@ -53,7 +55,7 @@ class experiment_suit(object):
 				for e in self.epsilon:
 					for d in self.delta:
 						s = "new_exp_" + str(i) + "-e" + str(e) + "-d" + str(d) + "-w" + str(self.weight) + "-l" + str(self.is_lower_bound_pac) + "-c" + str(conditionIndx) + '-h_'+str(heuristic_method)
-						self.exp_results_filename.append('/home/sternron/gal-dreiman/' + s + '.csv')
+						self.exp_results_filename.append(BASE_REPO + '/../' + s + '.csv')
 						print s
 						os.environ["exp_name"]					=str(s)
 						os.environ["epsilon"]					=str(e)
@@ -80,7 +82,7 @@ class experiment_suit(object):
 
 	def concatenate_result_files(self):
 		topLine = True
-		with open('/home/sternron/gal-dreiman/outfile.csv', 'w') as outfile:
+		with open(BASE_REPO + '/../outfile.csv', 'w') as outfile:
 		    for fname in self.exp_results_filename:
 		        with open(fname) as infile:
 		            for line in infile:

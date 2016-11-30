@@ -94,11 +94,17 @@
     "expansions_until_last_jump": 2
   },
   "WORK-lmcut-tpp-p04.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p04.pddl",
+    "domain": "tpp",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       14
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      15
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -107,83 +113,77 @@
     ],
     "initial_h_value": 13,
     "score_search_time": 100.0,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 0.1,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 1,
-    "total_time": 0.1,
-    "generated_all": [
-      44
-    ],
-    "memory": 3704,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 14,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.04728198051452637,
-    "score_total_time": 100.0,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 15,
-    "search_wall_clock_time": 0.028851985931396484,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      15
-    ],
-    "id_string": "WORK-lmcut:tpp:p04.pddl",
-    "problem": "p04.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p04.pddl",
-    "domain": "tpp",
-    "cost": 14,
     "initial_h_value_all": [
       13
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 0.1,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 2,
+    "dead_ends": 0,
+    "score_memory": 91.14,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "tpp",
       "p04.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 2,
-    "dead_ends": 0,
-    "score_memory": 91.14,
-    "initial_ff_h_value": 13,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 1,
+    "memory": 3704,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 0.1,
     "score_expansions": 100.0,
-    "error": "none",
+    "generated_all": [
+      44
+    ],
+    "planner_type": "single",
+    "score_evaluations": 100.0,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.0045928955078125,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.06284880638122559,
-    "generated": 44,
+    "plan_length": 14,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      14
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 43,
     "search_time_all": [
       0.0
     ],
+    "validate_wall_clock_time": 0.04728198051452637,
     "stage": "search",
     "run_dir": "runs-00001-00100/00037",
-    "plan_length_all": [
-      14
-    ],
+    "score_total_time": 100.0,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       43
     ],
+    "expansions": 15,
+    "generated": 44,
+    "search_wall_clock_time": 0.028851985931396484,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 100.0,
+    "initial_ff_h_value": 13,
+    "cost": 14,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.06284880638122559,
+    "id_string": "WORK-lmcut:tpp:p04.pddl",
+    "problem": "p04.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 1
   },
@@ -201,11 +201,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-35-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -214,7 +210,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-35-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -324,7 +324,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "storage",
+      "p20.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -333,11 +337,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 22,
-    "id": [
-      "WORK-lmcut",
-      "storage",
-      "p20.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -385,7 +385,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p08.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -394,11 +398,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 21,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p08.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -526,11 +526,17 @@
     "expansions_until_last_jump": 6136
   },
   "WORK-lmcut-storage-p02.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p02.pddl",
+    "domain": "storage",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       3
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      4
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -539,83 +545,77 @@
     ],
     "initial_h_value": 3,
     "score_search_time": 100.0,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 0.1,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 0,
-    "total_time": 0.1,
-    "generated_all": [
-      9
-    ],
-    "memory": 3704,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 3,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.04949188232421875,
-    "score_total_time": 100.0,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 4,
-    "search_wall_clock_time": 0.033354997634887695,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      4
-    ],
-    "id_string": "WORK-lmcut:storage:p02.pddl",
-    "problem": "p02.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p02.pddl",
-    "domain": "storage",
-    "cost": 3,
     "initial_h_value_all": [
       3
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 0.1,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 1,
+    "dead_ends": 0,
+    "score_memory": 91.14,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "storage",
       "p02.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 1,
-    "dead_ends": 0,
-    "score_memory": 91.14,
-    "initial_ff_h_value": 3,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 0,
+    "memory": 3704,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 0.1,
     "score_expansions": 100.0,
-    "error": "none",
+    "generated_all": [
+      9
+    ],
+    "planner_type": "single",
+    "score_evaluations": 100.0,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.004716157913208008,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.06551885604858398,
-    "generated": 9,
+    "plan_length": 3,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      3
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 8,
     "search_time_all": [
       0.0
     ],
+    "validate_wall_clock_time": 0.04949188232421875,
     "stage": "search",
     "run_dir": "runs-00001-00100/00021",
-    "plan_length_all": [
-      3
-    ],
+    "score_total_time": 100.0,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       8
     ],
+    "expansions": 4,
+    "generated": 9,
+    "search_wall_clock_time": 0.033354997634887695,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 100.0,
+    "initial_ff_h_value": 3,
+    "cost": 3,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.06551885604858398,
+    "id_string": "WORK-lmcut:storage:p02.pddl",
+    "problem": "p02.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 0
   },
@@ -638,9 +638,7 @@
     ],
     "initial_h_value": 8,
     "score_search_time": 54.67,
-    "search_time_all": [
-      29.9
-    ],
+    "score_evaluations": 5.59,
     "initial_h_value_all": [
       8
     ],
@@ -648,7 +646,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      29.9
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 420019,
@@ -666,12 +666,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 29.92,
-    "score_evaluations": 5.59,
     "score_expansions": 49.18,
     "generated_all": [
       1044187
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.004240989685058594,
     "dead_ends_all": [
@@ -682,7 +681,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.05489492416381836,
-    "generated": 1044187,
+    "limit_preprocess_memory": 8192,
     "plan_length": 10,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -699,18 +698,19 @@
       597429
     ],
     "expansions": 10787,
+    "generated": 1044187,
     "search_wall_clock_time": 30.20545196533203,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       10787
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-10-1.pddl",
     "problem": "probschedule-10-1.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 5113
   },
   "WORK-lmcut-rovers-p16.pddl": {
@@ -728,7 +728,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p16.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -737,11 +741,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 30,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p16.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -788,11 +788,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-20-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -801,7 +797,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-20-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -850,7 +850,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "storage",
+      "p18.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -859,11 +863,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 21,
-    "id": [
-      "WORK-lmcut",
-      "storage",
-      "p18.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -900,7 +900,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-9-1.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       9
     ],
@@ -949,7 +948,7 @@
       3363
     ],
     "planner_type": "single",
-    "score_evaluations": 64.42,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.004327058792114258,
     "dead_ends_all": [
@@ -984,6 +983,7 @@
     "initial_ff_h_value": 9,
     "cost": 9,
     "error": "none",
+    "score_evaluations": 64.42,
     "run-search_parser0_wall_clock_time": 0.06027412414550781,
     "id_string": "WORK-lmcut:schedule:probschedule-9-1.pddl",
     "problem": "probschedule-9-1.pddl",
@@ -1070,9 +1070,7 @@
     ],
     "initial_h_value": 4,
     "score_search_time": 100.0,
-    "search_time_all": [
-      0.04
-    ],
+    "score_evaluations": 77.34,
     "initial_h_value_all": [
       4
     ],
@@ -1080,7 +1078,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      0.04
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 642,
@@ -1098,12 +1098,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 0.1,
-    "score_evaluations": 77.34,
     "score_expansions": 100.0,
     "generated_all": [
       1117
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.007875204086303711,
     "dead_ends_all": [
@@ -1114,7 +1113,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.12604689598083496,
-    "generated": 1117,
+    "limit_preprocess_memory": 8192,
     "plan_length": 5,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -1131,18 +1130,19 @@
       806
     ],
     "expansions": 36,
+    "generated": 1117,
     "search_wall_clock_time": 0.07718896865844727,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       36
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-4-0.pddl",
     "problem": "probschedule-4-0.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 21
   },
   "WORK-lmcut-schedule-probschedule-7-0.pddl": {
@@ -1164,9 +1164,7 @@
     ],
     "initial_h_value": 6,
     "score_search_time": 100.0,
-    "search_time_all": [
-      0.14
-    ],
+    "score_evaluations": 67.83,
     "initial_h_value_all": [
       6
     ],
@@ -1174,7 +1172,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      0.14
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 1481,
@@ -1192,12 +1192,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 0.16,
-    "score_evaluations": 67.83,
     "score_expansions": 100.0,
     "generated_all": [
       2527
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.007762908935546875,
     "dead_ends_all": [
@@ -1208,7 +1207,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.1021571159362793,
-    "generated": 2527,
+    "limit_preprocess_memory": 8192,
     "plan_length": 7,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -1225,18 +1224,19 @@
       1936
     ],
     "expansions": 36,
+    "generated": 2527,
     "search_wall_clock_time": 0.20998692512512207,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       36
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-7-0.pddl",
     "problem": "probschedule-7-0.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 20
   },
   "WORK-lmcut-schedule-probschedule-38-2.pddl": {
@@ -1315,7 +1315,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p30.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -1324,11 +1328,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 80,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p30.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -1375,11 +1375,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-39-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -1388,7 +1384,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-39-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -1609,7 +1609,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-11-2.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       13
     ],
@@ -1658,7 +1657,7 @@
       6276016
     ],
     "planner_type": "single",
-    "score_evaluations": 0.0,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.004283905029296875,
     "dead_ends_all": [
@@ -1693,6 +1692,7 @@
     "initial_ff_h_value": 11,
     "cost": 13,
     "error": "none",
+    "score_evaluations": 0.0,
     "run-search_parser0_wall_clock_time": 0.06145000457763672,
     "id_string": "WORK-lmcut:schedule:probschedule-11-2.pddl",
     "problem": "probschedule-11-2.pddl",
@@ -1713,11 +1713,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-34-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -1726,7 +1722,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-34-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -1760,6 +1760,67 @@
     "problem": "probschedule-34-0.pddl",
     "limit_translate_time": 7200
   },
+  "WORK-lmcut-schedule-probschedule-50-1.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-50-1.pddl",
+    "domain": "schedule",
+    "unsolvable": 0,
+    "score_total_time": 0,
+    "cost_all": [],
+    "run-search_parser0_returncode": 0,
+    "search_returncode": 152,
+    "validate_returncode": 0,
+    "commandline_config": [
+      "--search",
+      "astar(lmcut())"
+    ],
+    "score_search_time": 0,
+    "score_evaluations": 0,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-50-1.pddl"
+    ],
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "error": "timeout",
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "score_memory": 0,
+    "initial_ff_h_value": 50,
+    "limit_search_time": 300,
+    "search_nick": "WORK",
+    "limit_preprocess_memory": 8192,
+    "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
+    "limit_translate_memory": 8192,
+    "score_expansions": 0,
+    "generated_all": [],
+    "memory": null,
+    "rm-tmp-files_wall_clock_time": 0.004029035568237305,
+    "config_nick": "lmcut",
+    "search_rev": "WORK",
+    "run-search_parser0_wall_clock_time": 0.055108070373535156,
+    "plan_length_all": [],
+    "coverage": 0,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
+    "search_time_all": [],
+    "validate_wall_clock_time": 0.01856517791748047,
+    "stage": "search",
+    "run_dir": "runs-00101-00200/00146",
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
+    "search_wall_clock_time": 300.50428891181946,
+    "queue": null,
+    "experiment_name": "PAC_Preprocess_Output",
+    "planner_type": "single",
+    "expansions_all": [],
+    "id_string": "WORK-lmcut:schedule:probschedule-50-1.pddl",
+    "problem": "probschedule-50-1.pddl",
+    "limit_translate_time": 7200
+  },
   "WORK-lmcut-schedule-probschedule-38-1.pddl": {
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-38-1.pddl",
     "translate_summary": "WORK 6d8b3994270d+ tip",
@@ -1774,11 +1835,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-38-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -1787,7 +1844,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-38-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -1821,66 +1882,99 @@
     "problem": "probschedule-38-1.pddl",
     "limit_translate_time": 7200
   },
-  "WORK-lmcut-schedule-probschedule-15-0.pddl": {
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-15-0.pddl",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "domain": "schedule",
+  "WORK-lmcut-storage-p04.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p04.pddl",
+    "domain": "storage",
     "unsolvable": 0,
-    "cost_all": [],
+    "config_nick": "lmcut",
+    "cost_all": [
+      8
+    ],
     "run-search_parser0_returncode": 0,
-    "search_returncode": 152,
+    "expansions_all": [
+      15
+    ],
+    "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
       "--search",
       "astar(lmcut())"
     ],
-    "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-15-0.pddl"
+    "initial_h_value": 6,
+    "score_search_time": 100.0,
+    "initial_h_value_all": [
+      6
     ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
+    "search_time": 0.1,
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
-    "score_memory": 0,
+    "evaluations_until_last_jump": 17,
+    "dead_ends": 0,
+    "score_memory": 90.64,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
-    "search_nick": "WORK",
-    "limit_preprocess_memory": 8192,
+    "id": [
+      "WORK-lmcut",
+      "storage",
+      "p04.pddl"
+    ],
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 22,
+    "memory": 3836,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
-    "memory": null,
-    "score_expansions": 0,
-    "generated_all": [],
+    "search_nick": "WORK",
+    "total_time": 0.1,
+    "score_expansions": 100.0,
+    "generated_all": [
+      48
+    ],
     "planner_type": "single",
-    "score_evaluations": 0,
-    "rm-tmp-files_wall_clock_time": 0.009935855865478516,
-    "config_nick": "lmcut",
+    "score_evaluations": 100.0,
+    "reopened": 0,
+    "rm-tmp-files_wall_clock_time": 0.006118059158325195,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "expansions_all": [],
-    "plan_length_all": [],
-    "coverage": 0,
+    "plan_length": 8,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      8
+    ],
+    "coverage": 1,
     "limit_preprocess_time": 7200,
     "limit_search_memory": 2048,
-    "search_time_all": [],
-    "validate_wall_clock_time": 0.022176027297973633,
+    "evaluations": 36,
+    "search_time_all": [
+      0.0
+    ],
+    "validate_wall_clock_time": 0.04483199119567871,
     "stage": "search",
-    "run_dir": "runs-00001-00100/00020",
-    "score_total_time": 0,
+    "run_dir": "runs-00001-00100/00022",
+    "score_total_time": 100.0,
     "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "rm-tmp-files_returncode": 0,
-    "search_wall_clock_time": 300.852331161499,
+    "translate_summary": "WORK 6d8b3994270d+ tip",
+    "evaluations_all": [
+      36
+    ],
+    "expansions": 15,
+    "generated": 48,
+    "search_wall_clock_time": 0.02447795867919922,
     "queue": null,
-    "initial_ff_h_value": 15,
-    "error": "timeout",
-    "run-search_parser0_wall_clock_time": 0.06748294830322266,
-    "id_string": "WORK-lmcut:schedule:probschedule-15-0.pddl",
-    "problem": "probschedule-15-0.pddl",
-    "limit_translate_time": 7200
+    "initial_ff_h_value": 6,
+    "cost": 8,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.07012796401977539,
+    "id_string": "WORK-lmcut:storage:p04.pddl",
+    "problem": "p04.pddl",
+    "limit_translate_time": 7200,
+    "expansions_until_last_jump": 7
   },
   "WORK-lmcut-schedule-probschedule-11-0.pddl": {
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-11-0.pddl",
@@ -1896,11 +1990,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-11-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -1909,7 +1999,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-11-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -2102,7 +2196,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-4-1.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       5
     ],
@@ -2151,7 +2244,7 @@
       1089
     ],
     "planner_type": "single",
-    "score_evaluations": 78.4,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.007554054260253906,
     "dead_ends_all": [
@@ -2186,6 +2279,7 @@
     "initial_ff_h_value": 4,
     "cost": 5,
     "error": "none",
+    "score_evaluations": 78.4,
     "run-search_parser0_wall_clock_time": 0.11510491371154785,
     "id_string": "WORK-lmcut:schedule:probschedule-4-1.pddl",
     "problem": "probschedule-4-1.pddl",
@@ -2267,11 +2361,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-47-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -2280,7 +2370,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-47-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -2516,11 +2610,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-27-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -2529,7 +2619,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-27-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -2577,11 +2671,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-30-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -2590,7 +2680,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-30-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -2760,11 +2854,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-25-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -2773,7 +2863,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-25-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -2821,11 +2915,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-31-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -2834,7 +2924,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-31-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -2943,11 +3037,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-40-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -2956,7 +3046,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-40-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -3065,11 +3159,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-42-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -3078,7 +3168,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-42-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -3248,11 +3342,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-37-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -3261,7 +3351,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-37-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -3370,11 +3464,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-30-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -3383,7 +3473,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-30-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -3492,11 +3586,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-28-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -3505,7 +3595,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-28-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -3540,11 +3634,17 @@
     "limit_translate_time": 7200
   },
   "WORK-lmcut-storage-p10.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p10.pddl",
+    "domain": "storage",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       18
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      1225
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -3553,83 +3653,77 @@
     ],
     "initial_h_value": 12,
     "score_search_time": 100.0,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 0.26,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 5090,
-    "total_time": 0.26,
-    "generated_all": [
-      5717
-    ],
-    "memory": 4232,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 18,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.049468994140625,
-    "score_total_time": 100.0,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 1225,
-    "search_wall_clock_time": 0.37171077728271484,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      1225
-    ],
-    "id_string": "WORK-lmcut:storage:p10.pddl",
-    "problem": "p10.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p10.pddl",
-    "domain": "storage",
-    "cost": 18,
     "initial_h_value_all": [
       12
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 0.26,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 3683,
+    "dead_ends": 0,
+    "score_memory": 89.22,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "storage",
       "p10.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 3683,
-    "dead_ends": 0,
-    "score_memory": 89.22,
-    "initial_ff_h_value": 12,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 5090,
+    "memory": 4232,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 0.26,
     "score_expansions": 72.8,
-    "error": "none",
+    "generated_all": [
+      5717
+    ],
+    "planner_type": "single",
+    "score_evaluations": 59.36,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.00587010383605957,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.12110495567321777,
-    "generated": 5717,
+    "plan_length": 18,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      18
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 4223,
     "search_time_all": [
       0.26
     ],
+    "validate_wall_clock_time": 0.049468994140625,
     "stage": "search",
     "run_dir": "runs-00001-00100/00025",
-    "plan_length_all": [
-      18
-    ],
+    "score_total_time": 100.0,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       4223
     ],
+    "expansions": 1225,
+    "generated": 5717,
+    "search_wall_clock_time": 0.37171077728271484,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 59.36,
+    "initial_ff_h_value": 12,
+    "cost": 18,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.12110495567321777,
+    "id_string": "WORK-lmcut:storage:p10.pddl",
+    "problem": "p10.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 1141
   },
@@ -3741,11 +3835,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-13-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -3754,7 +3844,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-13-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -3883,11 +3977,17 @@
     "expansions_until_last_jump": 30
   },
   "WORK-lmcut-storage-p06.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p06.pddl",
+    "domain": "storage",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       8
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      41
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -3896,83 +3996,77 @@
     ],
     "initial_h_value": 6,
     "score_search_time": 100.0,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 0.1,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 154,
-    "total_time": 0.1,
-    "generated_all": [
-      238
-    ],
-    "memory": 3996,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 8,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.045433998107910156,
-    "score_total_time": 100.0,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 41,
-    "search_wall_clock_time": 0.04326915740966797,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      41
-    ],
-    "id_string": "WORK-lmcut:storage:p06.pddl",
-    "problem": "p06.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p06.pddl",
-    "domain": "storage",
-    "cost": 8,
     "initial_h_value_all": [
       6
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 0.1,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 107,
+    "dead_ends": 0,
+    "score_memory": 90.05,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "storage",
       "p06.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 107,
-    "dead_ends": 0,
-    "score_memory": 90.05,
-    "initial_ff_h_value": 6,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 154,
+    "memory": 3996,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 0.1,
     "score_expansions": 100.0,
-    "error": "none",
+    "generated_all": [
+      238
+    ],
+    "planner_type": "single",
+    "score_evaluations": 94.37,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.004230022430419922,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.06332206726074219,
-    "generated": 238,
+    "plan_length": 8,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      8
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 168,
     "search_time_all": [
       0.0
     ],
+    "validate_wall_clock_time": 0.045433998107910156,
     "stage": "search",
     "run_dir": "runs-00001-00100/00023",
-    "plan_length_all": [
-      8
-    ],
+    "score_total_time": 100.0,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       168
     ],
+    "expansions": 41,
+    "generated": 238,
+    "search_wall_clock_time": 0.04326915740966797,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 94.37,
+    "initial_ff_h_value": 6,
+    "cost": 8,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.06332206726074219,
+    "id_string": "WORK-lmcut:storage:p06.pddl",
+    "problem": "p06.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 29
   },
@@ -4052,7 +4146,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p22.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -4061,11 +4159,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 49,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p22.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -4113,7 +4207,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p36.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -4122,11 +4220,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 143,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p36.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -4174,7 +4268,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "tpp",
+      "p28.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -4183,11 +4281,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 103,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p28.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -4235,7 +4329,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p10.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -4244,11 +4342,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 29,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p10.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -4296,7 +4390,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p06.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -4305,11 +4403,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 27,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p06.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -4402,6 +4496,100 @@
     "id_string": "WORK-lmcut:schedule:probschedule-47-2.pddl",
     "problem": "probschedule-47-2.pddl",
     "limit_translate_time": 7200
+  },
+  "WORK-lmcut-blocks-probBLOCKS-4-1.pddl": {
+    "unsolvable": 0,
+    "cost_all": [
+      10
+    ],
+    "run-search_parser0_returncode": 0,
+    "search_returncode": 0,
+    "validate_returncode": 0,
+    "commandline_config": [
+      "--search",
+      "astar(lmcut())"
+    ],
+    "initial_h_value": 6,
+    "score_search_time": 100.0,
+    "limit_search_time": 600,
+    "compact": true,
+    "search_time": 0.1,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "search_summary": "WORK 000000000000 tip",
+    "limit_preprocess_memory": 8192,
+    "rm-tmp-files_returncode": 0,
+    "generated_until_last_jump": 8,
+    "total_time": 0.1,
+    "generated_all": [
+      27
+    ],
+    "memory": 3704,
+    "reopened": 0,
+    "dead_ends_all": [
+      0
+    ],
+    "plan_length": 10,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
+    "validate_wall_clock_time": 0.04435396194458008,
+    "score_total_time": 100.0,
+    "preprocess_summary": "WORK 000000000000 tip",
+    "translate_summary": "WORK 000000000000 tip",
+    "expansions": 12,
+    "search_wall_clock_time": 0.02906489372253418,
+    "experiment_name": "PAC_Preprocess_Output",
+    "reopened_until_last_jump": 0,
+    "planner_type": "single",
+    "expansions_all": [
+      12
+    ],
+    "id_string": "WORK-lmcut:blocks:probBLOCKS-4-1.pddl",
+    "problem": "probBLOCKS-4-1.pddl",
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/blocks/probBLOCKS-4-1.pddl",
+    "domain": "blocks",
+    "cost": 10,
+    "initial_h_value_all": [
+      6
+    ],
+    "id": [
+      "WORK-lmcut",
+      "blocks",
+      "probBLOCKS-4-1.pddl"
+    ],
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "evaluations_until_last_jump": 6,
+    "dead_ends": 0,
+    "score_memory": 91.14,
+    "initial_ff_h_value": 6,
+    "search_nick": "WORK",
+    "config": "WORK-lmcut",
+    "limit_translate_memory": 8192,
+    "score_expansions": 100.0,
+    "error": "none",
+    "rm-tmp-files_wall_clock_time": 0.0068759918212890625,
+    "search_rev": "WORK",
+    "run-search_parser0_wall_clock_time": 0.11861515045166016,
+    "generated": 27,
+    "coverage": 1,
+    "evaluations": 18,
+    "search_time_all": [
+      0.0
+    ],
+    "stage": "search",
+    "run_dir": "runs-00001-00100/00001",
+    "plan_length_all": [
+      10
+    ],
+    "evaluations_all": [
+      18
+    ],
+    "queue": null,
+    "config_nick": "lmcut",
+    "score_evaluations": 100.0,
+    "limit_translate_time": 7200,
+    "expansions_until_last_jump": 4
   },
   "WORK-lmcut-schedule-probschedule-35-2.pddl": {
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-35-2.pddl",
@@ -4662,7 +4850,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "storage",
+      "p28.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -4671,11 +4863,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 40,
-    "id": [
-      "WORK-lmcut",
-      "storage",
-      "p28.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -4723,7 +4911,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "storage",
+      "p24.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -4732,11 +4924,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 29,
-    "id": [
-      "WORK-lmcut",
-      "storage",
-      "p24.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -4783,11 +4971,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-34-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -4796,7 +4980,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-34-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -4845,7 +5033,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p29.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -4854,11 +5046,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 46,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p29.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -4905,11 +5093,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-51-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -4918,7 +5102,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-51-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -5088,11 +5276,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-37-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -5101,7 +5285,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-37-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -5149,11 +5337,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-12-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -5162,7 +5346,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-12-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -5200,7 +5388,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-2-1.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       2
     ],
@@ -5249,7 +5436,7 @@
       63
     ],
     "planner_type": "single",
-    "score_evaluations": 100.0,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.0074291229248046875,
     "dead_ends_all": [
@@ -5284,6 +5471,7 @@
     "initial_ff_h_value": 2,
     "cost": 2,
     "error": "none",
+    "score_evaluations": 100.0,
     "run-search_parser0_wall_clock_time": 0.13678503036499023,
     "id_string": "WORK-lmcut:schedule:probschedule-2-1.pddl",
     "problem": "probschedule-2-1.pddl",
@@ -5305,7 +5493,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p20.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -5314,11 +5506,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 62,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p20.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -5426,11 +5614,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-19-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -5439,7 +5623,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-19-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -5477,7 +5665,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-8-2.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       9
     ],
@@ -5526,7 +5713,7 @@
       78843
     ],
     "planner_type": "single",
-    "score_evaluations": 31.8,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.0064051151275634766,
     "dead_ends_all": [
@@ -5561,6 +5748,7 @@
     "initial_ff_h_value": 8,
     "cost": 9,
     "error": "none",
+    "score_evaluations": 31.8,
     "run-search_parser0_wall_clock_time": 0.11496114730834961,
     "id_string": "WORK-lmcut:schedule:probschedule-8-2.pddl",
     "problem": "probschedule-8-2.pddl",
@@ -5704,7 +5892,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p40.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -5713,11 +5905,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 210,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p40.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -5764,11 +5952,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-23-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -5777,7 +5961,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-23-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -5826,7 +6014,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "tpp",
+      "p14.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -5835,11 +6027,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 48,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p14.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -5947,11 +6135,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-32-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -5960,7 +6144,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-32-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -6008,11 +6196,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-21-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -6021,7 +6205,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-21-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -6059,7 +6247,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-6-2.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       5
     ],
@@ -6108,7 +6295,7 @@
       1193
     ],
     "planner_type": "single",
-    "score_evaluations": 76.59,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.0061779022216796875,
     "dead_ends_all": [
@@ -6143,6 +6330,7 @@
     "initial_ff_h_value": 6,
     "cost": 5,
     "error": "none",
+    "score_evaluations": 76.59,
     "run-search_parser0_wall_clock_time": 0.1291491985321045,
     "id_string": "WORK-lmcut:schedule:probschedule-6-2.pddl",
     "problem": "probschedule-6-2.pddl",
@@ -6257,11 +6445,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-19-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -6270,7 +6454,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-19-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -6319,7 +6507,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "tpp",
+      "p10.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -6328,11 +6520,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 46,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p10.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -6379,11 +6567,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-16-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -6392,7 +6576,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-16-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -6430,7 +6618,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-10-2.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       12
     ],
@@ -6479,7 +6666,7 @@
       932334
     ],
     "planner_type": "single",
-    "score_evaluations": 6.72,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.004781961441040039,
     "dead_ends_all": [
@@ -6514,6 +6701,7 @@
     "initial_ff_h_value": 10,
     "cost": 12,
     "error": "none",
+    "score_evaluations": 6.72,
     "run-search_parser0_wall_clock_time": 0.06943392753601074,
     "id_string": "WORK-lmcut:schedule:probschedule-10-2.pddl",
     "problem": "probschedule-10-2.pddl",
@@ -6595,11 +6783,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-44-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -6608,7 +6792,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-44-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -6656,11 +6844,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-26-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -6669,7 +6853,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-26-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -6717,11 +6905,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-24-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -6730,7 +6914,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-24-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -6779,7 +6967,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p18.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -6788,11 +6980,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 32,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p18.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -6829,7 +7017,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-6-1.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       7
     ],
@@ -6878,7 +7065,7 @@
       2854
     ],
     "planner_type": "single",
-    "score_evaluations": 66.13,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.00822901725769043,
     "dead_ends_all": [
@@ -6913,6 +7100,7 @@
     "initial_ff_h_value": 6,
     "cost": 7,
     "error": "none",
+    "score_evaluations": 66.13,
     "run-search_parser0_wall_clock_time": 0.12855792045593262,
     "id_string": "WORK-lmcut:schedule:probschedule-6-1.pddl",
     "problem": "probschedule-6-1.pddl",
@@ -6933,11 +7121,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-33-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -6946,7 +7130,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-33-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -7149,11 +7337,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-16-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -7162,7 +7346,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-16-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -7258,11 +7446,17 @@
     "limit_translate_time": 7200
   },
   "WORK-lmcut-storage-p12.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p12.pddl",
+    "domain": "storage",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       16
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      31537
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -7271,83 +7465,77 @@
     ],
     "initial_h_value": 9,
     "score_search_time": 56.09,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 26.88,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 308052,
-    "total_time": 26.92,
-    "generated_all": [
-      308079
-    ],
-    "memory": 11952,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 16,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.05729508399963379,
-    "score_total_time": 56.07,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 31537,
-    "search_wall_clock_time": 27.084907054901123,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      31537
-    ],
-    "id_string": "WORK-lmcut:storage:p12.pddl",
-    "problem": "p12.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p12.pddl",
-    "domain": "storage",
-    "cost": 16,
     "initial_h_value_all": [
       9
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 26.88,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 139301,
+    "dead_ends": 0,
+    "score_memory": 74.3,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "storage",
       "p12.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 139301,
-    "dead_ends": 0,
-    "score_memory": 74.3,
-    "initial_ff_h_value": 9,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 308052,
+    "memory": 11952,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 26.92,
     "score_expansions": 37.53,
-    "error": "none",
+    "generated_all": [
+      308079
+    ],
+    "planner_type": "single",
+    "score_evaluations": 21.4,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.0042040348052978516,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.11976385116577148,
-    "generated": 308079,
+    "plan_length": 16,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      16
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 139325,
     "search_time_all": [
       26.88
     ],
+    "validate_wall_clock_time": 0.05729508399963379,
     "stage": "search",
     "run_dir": "runs-00001-00100/00026",
-    "plan_length_all": [
-      16
-    ],
+    "score_total_time": 56.07,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       139325
     ],
+    "expansions": 31537,
+    "generated": 308079,
+    "search_wall_clock_time": 27.084907054901123,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 21.4,
+    "initial_ff_h_value": 9,
+    "cost": 16,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.11976385116577148,
+    "id_string": "WORK-lmcut:storage:p12.pddl",
+    "problem": "p12.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 31534
   },
@@ -7365,11 +7553,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-32-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -7378,7 +7562,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-32-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -7538,7 +7726,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-7-1.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       8
     ],
@@ -7587,7 +7774,7 @@
       9383
     ],
     "planner_type": "single",
-    "score_evaluations": 54.05,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.006474018096923828,
     "dead_ends_all": [
@@ -7622,6 +7809,7 @@
     "initial_ff_h_value": 7,
     "cost": 8,
     "error": "none",
+    "score_evaluations": 54.05,
     "run-search_parser0_wall_clock_time": 0.12987804412841797,
     "id_string": "WORK-lmcut:schedule:probschedule-7-1.pddl",
     "problem": "probschedule-7-1.pddl",
@@ -7642,11 +7830,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-31-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -7655,7 +7839,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-31-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -7690,11 +7878,17 @@
     "limit_translate_time": 7200
   },
   "WORK-lmcut-tpp-p02.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p02.pddl",
+    "domain": "tpp",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       8
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      9
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -7703,83 +7897,77 @@
     ],
     "initial_h_value": 7,
     "score_search_time": 100.0,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 0.1,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 1,
-    "total_time": 0.1,
-    "generated_all": [
-      17
-    ],
-    "memory": 3704,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 8,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.07175111770629883,
-    "score_total_time": 100.0,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 9,
-    "search_wall_clock_time": 0.02884197235107422,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      9
-    ],
-    "id_string": "WORK-lmcut:tpp:p02.pddl",
-    "problem": "p02.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p02.pddl",
-    "domain": "tpp",
-    "cost": 8,
     "initial_h_value_all": [
       7
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 0.1,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 2,
+    "dead_ends": 0,
+    "score_memory": 91.14,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "tpp",
       "p02.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 2,
-    "dead_ends": 0,
-    "score_memory": 91.14,
-    "initial_ff_h_value": 7,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 1,
+    "memory": 3704,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 0.1,
     "score_expansions": 100.0,
-    "error": "none",
+    "generated_all": [
+      17
+    ],
+    "planner_type": "single",
+    "score_evaluations": 100.0,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.0058329105377197266,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.06022500991821289,
-    "generated": 17,
+    "plan_length": 8,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      8
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 16,
     "search_time_all": [
       0.0
     ],
+    "validate_wall_clock_time": 0.07175111770629883,
     "stage": "search",
     "run_dir": "runs-00001-00100/00036",
-    "plan_length_all": [
-      8
-    ],
+    "score_total_time": 100.0,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       16
     ],
+    "expansions": 9,
+    "generated": 17,
+    "search_wall_clock_time": 0.02884197235107422,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 100.0,
+    "initial_ff_h_value": 7,
+    "cost": 8,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.06022500991821289,
+    "id_string": "WORK-lmcut:tpp:p02.pddl",
+    "problem": "p02.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 1
   },
@@ -7858,11 +8046,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-33-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -7871,7 +8055,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-33-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -7967,11 +8155,17 @@
     "limit_translate_time": 7200
   },
   "WORK-lmcut-storage-p08.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p08.pddl",
+    "domain": "storage",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       12
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      575
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -7980,83 +8174,77 @@
     ],
     "initial_h_value": 8,
     "score_search_time": 100.0,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 0.28,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 3981,
-    "total_time": 0.3,
-    "generated_all": [
-      4064
-    ],
-    "memory": 4116,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 12,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.05645394325256348,
-    "score_total_time": 100.0,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 575,
-    "search_wall_clock_time": 0.3774888515472412,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      575
-    ],
-    "id_string": "WORK-lmcut:storage:p08.pddl",
-    "problem": "p08.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p08.pddl",
-    "domain": "storage",
-    "cost": 12,
     "initial_h_value_all": [
       8
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 0.28,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 2319,
+    "dead_ends": 0,
+    "score_memory": 89.62,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "storage",
       "p08.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 2319,
-    "dead_ends": 0,
-    "score_memory": 89.62,
-    "initial_ff_h_value": 8,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 3981,
+    "memory": 4116,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 0.3,
     "score_expansions": 81.01,
-    "error": "none",
+    "generated_all": [
+      4064
+    ],
+    "planner_type": "single",
+    "score_evaluations": 65.56,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.009531021118164062,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.08301186561584473,
-    "generated": 4064,
+    "plan_length": 12,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      12
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 2386,
     "search_time_all": [
       0.28
     ],
+    "validate_wall_clock_time": 0.05645394325256348,
     "stage": "search",
     "run_dir": "runs-00001-00100/00024",
-    "plan_length_all": [
-      12
-    ],
+    "score_total_time": 100.0,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       2386
     ],
+    "expansions": 575,
+    "generated": 4064,
+    "search_wall_clock_time": 0.3774888515472412,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 65.56,
+    "initial_ff_h_value": 8,
+    "cost": 12,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.08301186561584473,
+    "id_string": "WORK-lmcut:storage:p08.pddl",
+    "problem": "p08.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 566
   },
@@ -8140,9 +8328,7 @@
     ],
     "initial_h_value": 2,
     "score_search_time": 100.0,
-    "search_time_all": [
-      0.0
-    ],
+    "score_evaluations": 100.0,
     "initial_h_value_all": [
       2
     ],
@@ -8150,7 +8336,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      0.0
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 1,
@@ -8168,12 +8356,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 0.1,
-    "score_evaluations": 100.0,
     "score_expansions": 100.0,
     "generated_all": [
       103
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.008419036865234375,
     "dead_ends_all": [
@@ -8184,7 +8371,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.13604307174682617,
-    "generated": 103,
+    "limit_preprocess_memory": 8192,
     "plan_length": 2,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -8201,18 +8388,19 @@
       82
     ],
     "expansions": 3,
+    "generated": 103,
     "search_wall_clock_time": 0.04238605499267578,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       3
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-3-1.pddl",
     "problem": "probschedule-3-1.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 0
   },
   "WORK-lmcut-schedule-probschedule-29-2.pddl": {
@@ -8290,11 +8478,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-50-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -8303,7 +8487,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-50-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -8352,7 +8540,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "tpp",
+      "p30.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -8361,11 +8553,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 127,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p30.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -8412,11 +8600,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-12-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -8425,7 +8609,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-12-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -8572,9 +8760,7 @@
     ],
     "initial_h_value": 11,
     "score_search_time": 100.0,
-    "search_time_all": [
-      0.7
-    ],
+    "score_evaluations": 50.03,
     "initial_h_value_all": [
       11
     ],
@@ -8582,7 +8768,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      0.7
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 4261,
@@ -8600,12 +8788,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 0.7,
-    "score_evaluations": 50.03,
     "score_expansions": 99.16,
     "generated_all": [
       13818
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.008919000625610352,
     "dead_ends_all": [
@@ -8616,7 +8803,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.05788087844848633,
-    "generated": 13818,
+    "limit_preprocess_memory": 8192,
     "plan_length": 12,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -8633,18 +8820,19 @@
       9968
     ],
     "expansions": 108,
+    "generated": 13818,
     "search_wall_clock_time": 0.7493128776550293,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       108
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-11-1.pddl",
     "problem": "probschedule-11-1.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 42
   },
   "WORK-lmcut-schedule-probschedule-36-0.pddl": {
@@ -8661,11 +8849,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-36-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -8674,7 +8858,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-36-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -8773,7 +8961,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-8-1.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       10
     ],
@@ -8822,7 +9009,7 @@
       270265
     ],
     "planner_type": "single",
-    "score_evaluations": 19.33,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.004047870635986328,
     "dead_ends_all": [
@@ -8857,6 +9044,7 @@
     "initial_ff_h_value": 8,
     "cost": 10,
     "error": "none",
+    "score_evaluations": 19.33,
     "run-search_parser0_wall_clock_time": 0.05778694152832031,
     "id_string": "WORK-lmcut:schedule:probschedule-8-1.pddl",
     "problem": "probschedule-8-1.pddl",
@@ -8877,11 +9065,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-17-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -8890,7 +9074,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-17-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -8985,72 +9173,10 @@
     "problem": "probschedule-24-2.pddl",
     "limit_translate_time": 7200
   },
-  "WORK-lmcut-tpp-p24.pddl": {
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p24.pddl",
-    "domain": "tpp",
-    "unsolvable": 0,
-    "score_total_time": 0,
-    "cost_all": [],
-    "run-search_parser0_returncode": 0,
-    "search_returncode": 152,
-    "validate_returncode": 0,
-    "commandline_config": [
-      "--search",
-      "astar(lmcut())"
-    ],
-    "score_search_time": 0,
-    "score_evaluations": 0,
-    "limit_search_time": 300,
-    "compact": true,
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "error": "timeout",
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "score_memory": 0,
-    "initial_ff_h_value": 85,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p24.pddl"
-    ],
-    "search_nick": "WORK",
-    "limit_preprocess_memory": 8192,
-    "config": "WORK-lmcut",
-    "rm-tmp-files_returncode": 0,
-    "limit_translate_memory": 8192,
-    "score_expansions": 0,
-    "generated_all": [],
-    "memory": null,
-    "rm-tmp-files_wall_clock_time": 0.004319190979003906,
-    "config_nick": "lmcut",
-    "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.05921292304992676,
-    "plan_length_all": [],
-    "coverage": 0,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "search_time_all": [],
-    "validate_wall_clock_time": 0.02025890350341797,
-    "stage": "search",
-    "run_dir": "runs-00001-00100/00046",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "search_wall_clock_time": 300.52188205718994,
-    "queue": null,
-    "experiment_name": "PAC_Preprocess_Output",
-    "planner_type": "single",
-    "expansions_all": [],
-    "id_string": "WORK-lmcut:tpp:p24.pddl",
-    "problem": "p24.pddl",
-    "limit_translate_time": 7200
-  },
   "WORK-lmcut-schedule-probschedule-5-2.pddl": {
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-5-2.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       7
     ],
@@ -9099,7 +9225,7 @@
       40299
     ],
     "planner_type": "single",
-    "score_evaluations": 41.68,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.00993800163269043,
     "dead_ends_all": [
@@ -9134,6 +9260,7 @@
     "initial_ff_h_value": 5,
     "cost": 7,
     "error": "none",
+    "score_evaluations": 41.68,
     "run-search_parser0_wall_clock_time": 0.07447099685668945,
     "id_string": "WORK-lmcut:schedule:probschedule-5-2.pddl",
     "problem": "probschedule-5-2.pddl",
@@ -9159,9 +9286,7 @@
     ],
     "initial_h_value": 6,
     "score_search_time": 100.0,
-    "search_time_all": [
-      0.36
-    ],
+    "score_evaluations": 53.79,
     "initial_h_value_all": [
       6
     ],
@@ -9169,7 +9294,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      0.36
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 255,
@@ -9187,12 +9314,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 0.38,
-    "score_evaluations": 53.79,
     "score_expansions": 97.24,
     "generated_all": [
       10773
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.006094932556152344,
     "dead_ends_all": [
@@ -9203,7 +9329,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.11948204040527344,
-    "generated": 10773,
+    "limit_preprocess_memory": 8192,
     "plan_length": 7,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -9220,18 +9346,19 @@
       7055
     ],
     "expansions": 129,
+    "generated": 10773,
     "search_wall_clock_time": 0.43194007873535156,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       129
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-6-0.pddl",
     "problem": "probschedule-6-0.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 3
   },
   "WORK-lmcut-tpp-p17.pddl": {
@@ -9249,7 +9376,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "tpp",
+      "p17.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -9258,11 +9389,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 59,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p17.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -9314,9 +9441,7 @@
     ],
     "initial_h_value": 8,
     "score_search_time": 100.0,
-    "search_time_all": [
-      0.62
-    ],
+    "score_evaluations": 53.05,
     "initial_h_value_all": [
       8
     ],
@@ -9324,7 +9449,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      0.62
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 4543,
@@ -9342,12 +9469,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 0.64,
-    "score_evaluations": 53.05,
     "score_expansions": 98.02,
     "generated_all": [
       10236
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.008696794509887695,
     "dead_ends_all": [
@@ -9358,7 +9484,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.10245800018310547,
-    "generated": 10236,
+    "limit_preprocess_memory": 8192,
     "plan_length": 9,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -9375,18 +9501,19 @@
       7550
     ],
     "expansions": 120,
+    "generated": 10236,
     "search_wall_clock_time": 0.6889340877532959,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       120
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-8-0.pddl",
     "problem": "probschedule-8-0.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 70
   },
   "WORK-lmcut-schedule-probschedule-46-2.pddl": {
@@ -9464,11 +9591,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-14-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -9477,7 +9600,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-14-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -9525,11 +9652,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-45-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -9538,7 +9661,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-45-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -9708,11 +9835,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-48-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -9721,7 +9844,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-48-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -9830,11 +9957,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-14-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -9843,7 +9966,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-14-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -9881,7 +10008,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-4-2.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       5
     ],
@@ -9930,7 +10056,7 @@
       759
     ],
     "planner_type": "single",
-    "score_evaluations": 82.29,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.0061528682708740234,
     "dead_ends_all": [
@@ -9965,6 +10091,7 @@
     "initial_ff_h_value": 4,
     "cost": 5,
     "error": "none",
+    "score_evaluations": 82.29,
     "run-search_parser0_wall_clock_time": 0.11252093315124512,
     "id_string": "WORK-lmcut:schedule:probschedule-4-2.pddl",
     "problem": "probschedule-4-2.pddl",
@@ -10047,7 +10174,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p24.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -10056,11 +10187,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 72,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p24.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -10107,11 +10234,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-41-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -10120,7 +10243,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-41-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -10152,67 +10279,6 @@
     "run-search_parser0_wall_clock_time": 0.0814659595489502,
     "id_string": "WORK-lmcut:schedule:probschedule-41-0.pddl",
     "problem": "probschedule-41-0.pddl",
-    "limit_translate_time": 7200
-  },
-  "WORK-lmcut-tpp-p12.pddl": {
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p12.pddl",
-    "domain": "tpp",
-    "unsolvable": 0,
-    "score_total_time": 0,
-    "cost_all": [],
-    "run-search_parser0_returncode": 0,
-    "search_returncode": 152,
-    "validate_returncode": 0,
-    "commandline_config": [
-      "--search",
-      "astar(lmcut())"
-    ],
-    "score_search_time": 0,
-    "score_evaluations": 0,
-    "limit_search_time": 300,
-    "compact": true,
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "error": "timeout",
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "score_memory": 0,
-    "initial_ff_h_value": 43,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p12.pddl"
-    ],
-    "search_nick": "WORK",
-    "limit_preprocess_memory": 8192,
-    "config": "WORK-lmcut",
-    "rm-tmp-files_returncode": 0,
-    "limit_translate_memory": 8192,
-    "score_expansions": 0,
-    "generated_all": [],
-    "memory": null,
-    "rm-tmp-files_wall_clock_time": 0.004044055938720703,
-    "config_nick": "lmcut",
-    "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.0575108528137207,
-    "plan_length_all": [],
-    "coverage": 0,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "search_time_all": [],
-    "validate_wall_clock_time": 0.019699811935424805,
-    "stage": "search",
-    "run_dir": "runs-00001-00100/00040",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "search_wall_clock_time": 300.5621829032898,
-    "queue": null,
-    "experiment_name": "PAC_Preprocess_Output",
-    "planner_type": "single",
-    "expansions_all": [],
-    "id_string": "WORK-lmcut:tpp:p12.pddl",
-    "problem": "p12.pddl",
     "limit_translate_time": 7200
   },
   "WORK-lmcut-schedule-probschedule-23-1.pddl": {
@@ -10291,7 +10357,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "tpp",
+      "p22.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -10300,11 +10370,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 75,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p22.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -10351,11 +10417,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-22-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -10364,7 +10426,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-22-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -10535,7 +10601,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "tpp",
+      "p26.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -10544,11 +10614,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 83,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p26.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -10595,11 +10661,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-35-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -10608,7 +10670,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-35-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -10703,9 +10769,9 @@
     "problem": "probschedule-49-2.pddl",
     "limit_translate_time": 7200
   },
-  "WORK-lmcut-schedule-probschedule-50-1.pddl": {
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-50-1.pddl",
-    "domain": "schedule",
+  "WORK-lmcut-tpp-p12.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p12.pddl",
+    "domain": "tpp",
     "unsolvable": 0,
     "score_total_time": 0,
     "cost_all": [],
@@ -10720,8 +10786,8 @@
     "score_evaluations": 0,
     "id": [
       "WORK-lmcut",
-      "schedule",
-      "probschedule-50-1.pddl"
+      "tpp",
+      "p12.pddl"
     ],
     "compact": true,
     "translate_rev": "WORK",
@@ -10730,7 +10796,7 @@
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "score_memory": 0,
-    "initial_ff_h_value": 50,
+    "initial_ff_h_value": 43,
     "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
@@ -10740,123 +10806,29 @@
     "score_expansions": 0,
     "generated_all": [],
     "memory": null,
-    "rm-tmp-files_wall_clock_time": 0.004029035568237305,
+    "rm-tmp-files_wall_clock_time": 0.004044055938720703,
     "config_nick": "lmcut",
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.055108070373535156,
+    "run-search_parser0_wall_clock_time": 0.0575108528137207,
     "plan_length_all": [],
     "coverage": 0,
     "limit_preprocess_time": 7200,
     "limit_search_memory": 2048,
     "search_time_all": [],
-    "validate_wall_clock_time": 0.01856517791748047,
+    "validate_wall_clock_time": 0.019699811935424805,
     "stage": "search",
-    "run_dir": "runs-00101-00200/00146",
+    "run_dir": "runs-00001-00100/00040",
     "search_summary": "WORK 6d8b3994270d+ tip",
     "preprocess_summary": "WORK 6d8b3994270d+ tip",
     "translate_summary": "WORK 6d8b3994270d+ tip",
-    "search_wall_clock_time": 300.50428891181946,
+    "search_wall_clock_time": 300.5621829032898,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "planner_type": "single",
     "expansions_all": [],
-    "id_string": "WORK-lmcut:schedule:probschedule-50-1.pddl",
-    "problem": "probschedule-50-1.pddl",
+    "id_string": "WORK-lmcut:tpp:p12.pddl",
+    "problem": "p12.pddl",
     "limit_translate_time": 7200
-  },
-  "WORK-lmcut-storage-p04.pddl": {
-    "unsolvable": 0,
-    "cost_all": [
-      8
-    ],
-    "run-search_parser0_returncode": 0,
-    "search_returncode": 0,
-    "validate_returncode": 0,
-    "commandline_config": [
-      "--search",
-      "astar(lmcut())"
-    ],
-    "initial_h_value": 6,
-    "score_search_time": 100.0,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 0.1,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 22,
-    "total_time": 0.1,
-    "generated_all": [
-      48
-    ],
-    "memory": 3836,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 8,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.04483199119567871,
-    "score_total_time": 100.0,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 15,
-    "search_wall_clock_time": 0.02447795867919922,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      15
-    ],
-    "id_string": "WORK-lmcut:storage:p04.pddl",
-    "problem": "p04.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p04.pddl",
-    "domain": "storage",
-    "cost": 8,
-    "initial_h_value_all": [
-      6
-    ],
-    "id": [
-      "WORK-lmcut",
-      "storage",
-      "p04.pddl"
-    ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 17,
-    "dead_ends": 0,
-    "score_memory": 90.64,
-    "initial_ff_h_value": 6,
-    "search_nick": "WORK",
-    "config": "WORK-lmcut",
-    "limit_translate_memory": 8192,
-    "score_expansions": 100.0,
-    "error": "none",
-    "rm-tmp-files_wall_clock_time": 0.006118059158325195,
-    "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.07012796401977539,
-    "generated": 48,
-    "coverage": 1,
-    "evaluations": 36,
-    "search_time_all": [
-      0.0
-    ],
-    "stage": "search",
-    "run_dir": "runs-00001-00100/00022",
-    "plan_length_all": [
-      8
-    ],
-    "evaluations_all": [
-      36
-    ],
-    "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 100.0,
-    "limit_translate_time": 7200,
-    "expansions_until_last_jump": 7
   },
   "WORK-lmcut-schedule-probschedule-44-2.pddl": {
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-44-2.pddl",
@@ -11042,11 +11014,17 @@
     "limit_translate_time": 7200
   },
   "WORK-lmcut-tpp-p06.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p06.pddl",
+    "domain": "tpp",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       25
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      29013
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -11055,83 +11033,77 @@
     ],
     "initial_h_value": 21,
     "score_search_time": 76.5,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 5.82,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 231915,
-    "total_time": 5.82,
-    "generated_all": [
-      241060
-    ],
-    "memory": 9160,
-    "reopened": 0,
-    "dead_ends_all": [
-      32
-    ],
-    "plan_length": 25,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.0738821029663086,
-    "score_total_time": 76.5,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 29013,
-    "search_wall_clock_time": 5.91499400138855,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      29013
-    ],
-    "id_string": "WORK-lmcut:tpp:p06.pddl",
-    "problem": "p06.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p06.pddl",
-    "domain": "tpp",
-    "cost": 25,
     "initial_h_value_all": [
       21
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 5.82,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 91997,
+    "dead_ends": 32,
+    "score_memory": 78.12,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "tpp",
       "p06.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 91997,
-    "dead_ends": 32,
-    "score_memory": 78.12,
-    "initial_ff_h_value": 23,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 231915,
+    "memory": 9160,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 5.82,
     "score_expansions": 38.44,
-    "error": "none",
+    "generated_all": [
+      241060
+    ],
+    "planner_type": "single",
+    "score_evaluations": 25.42,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.00758814811706543,
+    "dead_ends_all": [
+      32
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.06718301773071289,
-    "generated": 241060,
+    "plan_length": 25,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      25
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 96167,
     "search_time_all": [
       5.82
     ],
+    "validate_wall_clock_time": 0.0738821029663086,
     "stage": "search",
     "run_dir": "runs-00001-00100/00038",
-    "plan_length_all": [
-      25
-    ],
+    "score_total_time": 76.5,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       96167
     ],
+    "expansions": 29013,
+    "generated": 241060,
+    "search_wall_clock_time": 5.91499400138855,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 25.42,
+    "initial_ff_h_value": 23,
+    "cost": 25,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.06718301773071289,
+    "id_string": "WORK-lmcut:tpp:p06.pddl",
+    "problem": "p06.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 27591
   },
@@ -11150,7 +11122,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p14.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -11159,11 +11135,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 23,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p14.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -11215,9 +11187,7 @@
     ],
     "initial_h_value": 4,
     "score_search_time": 100.0,
-    "search_time_all": [
-      0.04
-    ],
+    "score_evaluations": 79.43,
     "initial_h_value_all": [
       4
     ],
@@ -11225,7 +11195,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      0.04
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 349,
@@ -11243,12 +11215,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 0.1,
-    "score_evaluations": 79.43,
     "score_expansions": 100.0,
     "generated_all": [
       905
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.010402917861938477,
     "dead_ends_all": [
@@ -11259,7 +11230,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.12119293212890625,
-    "generated": 905,
+    "limit_preprocess_memory": 8192,
     "plan_length": 5,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -11276,18 +11247,19 @@
       665
     ],
     "expansions": 21,
+    "generated": 905,
     "search_wall_clock_time": 0.08383798599243164,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       21
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-5-0.pddl",
     "problem": "probschedule-5-0.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 6
   },
   "WORK-lmcut-schedule-probschedule-18-1.pddl": {
@@ -11304,11 +11276,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-18-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -11317,7 +11285,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-18-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -11366,7 +11338,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p38.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -11375,11 +11351,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 170,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p38.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -11427,7 +11399,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "storage",
+      "p26.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -11436,11 +11412,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 34,
-    "id": [
-      "WORK-lmcut",
-      "storage",
-      "p26.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -11477,7 +11449,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-9-2.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       11
     ],
@@ -11526,7 +11497,7 @@
       443879
     ],
     "planner_type": "single",
-    "score_evaluations": 13.67,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.003981113433837891,
     "dead_ends_all": [
@@ -11561,6 +11532,7 @@
     "initial_ff_h_value": 9,
     "cost": 11,
     "error": "none",
+    "score_evaluations": 13.67,
     "run-search_parser0_wall_clock_time": 0.05588102340698242,
     "id_string": "WORK-lmcut:schedule:probschedule-9-2.pddl",
     "problem": "probschedule-9-2.pddl",
@@ -11571,7 +11543,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-5-1.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       6
     ],
@@ -11620,7 +11591,7 @@
       3284
     ],
     "planner_type": "single",
-    "score_evaluations": 65.8,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.009413003921508789,
     "dead_ends_all": [
@@ -11655,6 +11626,7 @@
     "initial_ff_h_value": 5,
     "cost": 6,
     "error": "none",
+    "score_evaluations": 65.8,
     "run-search_parser0_wall_clock_time": 0.10440587997436523,
     "id_string": "WORK-lmcut:schedule:probschedule-5-1.pddl",
     "problem": "probschedule-5-1.pddl",
@@ -11859,7 +11831,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p26.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -11868,11 +11844,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 46,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p26.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -11919,11 +11891,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-18-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -11932,7 +11900,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-18-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -12074,11 +12046,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-17-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -12087,7 +12055,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-17-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -12135,11 +12107,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-36-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -12148,7 +12116,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-36-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -12257,11 +12229,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-15-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -12270,7 +12238,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-15-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -12318,11 +12290,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-46-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -12331,7 +12299,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-46-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -12369,7 +12341,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-3-2.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       4
     ],
@@ -12418,7 +12389,7 @@
       331
     ],
     "planner_type": "single",
-    "score_evaluations": 89.54,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.010146141052246094,
     "dead_ends_all": [
@@ -12453,6 +12424,7 @@
     "initial_ff_h_value": 3,
     "cost": 4,
     "error": "none",
+    "score_evaluations": 89.54,
     "run-search_parser0_wall_clock_time": 0.14075684547424316,
     "id_string": "WORK-lmcut:schedule:probschedule-3-2.pddl",
     "problem": "probschedule-3-2.pddl",
@@ -12478,9 +12450,7 @@
     ],
     "initial_h_value": 2,
     "score_search_time": 100.0,
-    "search_time_all": [
-      0.0
-    ],
+    "score_evaluations": 100.0,
     "initial_h_value_all": [
       2
     ],
@@ -12488,7 +12458,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      0.0
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 1,
@@ -12506,12 +12478,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 0.1,
-    "score_evaluations": 100.0,
     "score_expansions": 100.0,
     "generated_all": [
       66
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.007688045501708984,
     "dead_ends_all": [
@@ -12522,7 +12493,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.13501501083374023,
-    "generated": 66,
+    "limit_preprocess_memory": 8192,
     "plan_length": 2,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -12539,18 +12510,19 @@
       49
     ],
     "expansions": 3,
+    "generated": 66,
     "search_wall_clock_time": 0.039771080017089844,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       3
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-2-0.pddl",
     "problem": "probschedule-2-0.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 0
   },
   "WORK-lmcut-blocks-probBLOCKS-4-2.pddl": {
@@ -12709,11 +12681,17 @@
     "limit_translate_time": 7200
   },
   "WORK-lmcut-storage-p14.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p14.pddl",
+    "domain": "storage",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       19
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      21193
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -12722,83 +12700,77 @@
     ],
     "initial_h_value": 13,
     "score_search_time": 58.49,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 22.46,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 174850,
-    "total_time": 22.5,
-    "generated_all": [
-      179950
-    ],
-    "memory": 10332,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 19,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.05320000648498535,
-    "score_total_time": 58.46,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 21193,
-    "search_wall_clock_time": 22.618934154510498,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      21193
-    ],
-    "id_string": "WORK-lmcut:storage:p14.pddl",
-    "problem": "p14.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/storage/p14.pddl",
-    "domain": "storage",
-    "cost": 19,
     "initial_h_value_all": [
       13
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 22.46,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 102553,
+    "dead_ends": 0,
+    "score_memory": 76.39,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "storage",
       "p14.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 102553,
-    "dead_ends": 0,
-    "score_memory": 76.39,
-    "initial_ff_h_value": 16,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 174850,
+    "memory": 10332,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 22.5,
     "score_expansions": 41.85,
-    "error": "none",
+    "generated_all": [
+      179950
+    ],
+    "planner_type": "single",
+    "score_evaluations": 24.31,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.006613016128540039,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.05876016616821289,
-    "generated": 179950,
+    "plan_length": 19,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      19
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 106535,
     "search_time_all": [
       22.46
     ],
+    "validate_wall_clock_time": 0.05320000648498535,
     "stage": "search",
     "run_dir": "runs-00001-00100/00027",
-    "plan_length_all": [
-      19
-    ],
+    "score_total_time": 58.46,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       106535
     ],
+    "expansions": 21193,
+    "generated": 179950,
+    "search_wall_clock_time": 22.618934154510498,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 24.31,
+    "initial_ff_h_value": 16,
+    "cost": 19,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.05876016616821289,
+    "id_string": "WORK-lmcut:storage:p14.pddl",
+    "problem": "p14.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 20722
   },
@@ -12877,11 +12849,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-39-1.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -12890,7 +12858,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-39-1.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -12943,9 +12915,7 @@
     ],
     "initial_h_value": 10,
     "score_search_time": 33.16,
-    "search_time_all": [
-      149.92
-    ],
+    "score_evaluations": 0.0,
     "initial_h_value_all": [
       10
     ],
@@ -12953,7 +12923,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      149.92
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 351400,
@@ -12971,12 +12943,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 149.94,
-    "score_evaluations": 0.0,
     "score_expansions": 32.38,
     "generated_all": [
       5497583
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.004040956497192383,
     "dead_ends_all": [
@@ -12987,7 +12958,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.05861496925354004,
-    "generated": 5497583,
+    "limit_preprocess_memory": 8192,
     "plan_length": 12,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -13004,25 +12975,25 @@
       2611108
     ],
     "expansions": 50679,
+    "generated": 5497583,
     "search_wall_clock_time": 150.00693583488464,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       50679
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-10-0.pddl",
     "problem": "probschedule-10-0.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 3367
   },
   "WORK-lmcut-schedule-probschedule-2-2.pddl": {
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-2-2.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       2
     ],
@@ -13071,7 +13042,7 @@
       63
     ],
     "planner_type": "single",
-    "score_evaluations": 100.0,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.010503053665161133,
     "dead_ends_all": [
@@ -13106,14 +13077,15 @@
     "initial_ff_h_value": 2,
     "cost": 2,
     "error": "none",
+    "score_evaluations": 100.0,
     "run-search_parser0_wall_clock_time": 0.12740087509155273,
     "id_string": "WORK-lmcut:schedule:probschedule-2-2.pddl",
     "problem": "probschedule-2-2.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 0
   },
-  "WORK-lmcut-tpp-p16.pddl": {
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p16.pddl",
+  "WORK-lmcut-tpp-p24.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p24.pddl",
     "domain": "tpp",
     "unsolvable": 0,
     "score_total_time": 0,
@@ -13127,7 +13099,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "tpp",
+      "p24.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -13135,12 +13111,8 @@
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "score_memory": 0,
-    "initial_ff_h_value": 61,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p16.pddl"
-    ],
+    "initial_ff_h_value": 85,
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -13149,28 +13121,28 @@
     "score_expansions": 0,
     "generated_all": [],
     "memory": null,
-    "rm-tmp-files_wall_clock_time": 0.004045009613037109,
+    "rm-tmp-files_wall_clock_time": 0.004319190979003906,
     "config_nick": "lmcut",
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.05648994445800781,
+    "run-search_parser0_wall_clock_time": 0.05921292304992676,
     "plan_length_all": [],
     "coverage": 0,
     "limit_preprocess_time": 7200,
     "limit_search_memory": 2048,
     "search_time_all": [],
-    "validate_wall_clock_time": 0.01878809928894043,
+    "validate_wall_clock_time": 0.02025890350341797,
     "stage": "search",
-    "run_dir": "runs-00001-00100/00042",
+    "run_dir": "runs-00001-00100/00046",
     "search_summary": "WORK 6d8b3994270d+ tip",
     "preprocess_summary": "WORK 6d8b3994270d+ tip",
     "translate_summary": "WORK 6d8b3994270d+ tip",
-    "search_wall_clock_time": 300.6200771331787,
+    "search_wall_clock_time": 300.52188205718994,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "planner_type": "single",
     "expansions_all": [],
-    "id_string": "WORK-lmcut:tpp:p16.pddl",
-    "problem": "p16.pddl",
+    "id_string": "WORK-lmcut:tpp:p24.pddl",
+    "problem": "p24.pddl",
     "limit_translate_time": 7200
   },
   "WORK-lmcut-storage-p22.pddl": {
@@ -13188,7 +13160,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "storage",
+      "p22.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -13197,11 +13173,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 25,
-    "id": [
-      "WORK-lmcut",
-      "storage",
-      "p22.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -13248,11 +13220,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-9-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -13261,7 +13229,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-9-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -13309,11 +13281,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-49-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -13322,7 +13290,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-49-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -13493,7 +13465,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "tpp",
+      "p20.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -13502,11 +13478,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 87,
-    "id": [
-      "WORK-lmcut",
-      "tpp",
-      "p20.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -13648,7 +13620,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "storage",
+      "p30.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -13657,11 +13633,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 41,
-    "id": [
-      "WORK-lmcut",
-      "storage",
-      "p30.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -13709,7 +13681,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "storage",
+      "p16.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -13718,11 +13694,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 13,
-    "id": [
-      "WORK-lmcut",
-      "storage",
-      "p16.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -13816,6 +13788,67 @@
     "problem": "probschedule-18-2.pddl",
     "limit_translate_time": 7200
   },
+  "WORK-lmcut-schedule-probschedule-15-0.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-15-0.pddl",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
+    "domain": "schedule",
+    "unsolvable": 0,
+    "cost_all": [],
+    "run-search_parser0_returncode": 0,
+    "search_returncode": 152,
+    "validate_returncode": 0,
+    "commandline_config": [
+      "--search",
+      "astar(lmcut())"
+    ],
+    "score_search_time": 0,
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "score_memory": 0,
+    "experiment_name": "PAC_Preprocess_Output",
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-15-0.pddl"
+    ],
+    "search_nick": "WORK",
+    "limit_preprocess_memory": 8192,
+    "config": "WORK-lmcut",
+    "limit_translate_memory": 8192,
+    "memory": null,
+    "score_expansions": 0,
+    "generated_all": [],
+    "planner_type": "single",
+    "score_evaluations": 0,
+    "rm-tmp-files_wall_clock_time": 0.009935855865478516,
+    "config_nick": "lmcut",
+    "search_rev": "WORK",
+    "expansions_all": [],
+    "plan_length_all": [],
+    "coverage": 0,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
+    "search_time_all": [],
+    "validate_wall_clock_time": 0.022176027297973633,
+    "stage": "search",
+    "run_dir": "runs-00001-00100/00020",
+    "score_total_time": 0,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "rm-tmp-files_returncode": 0,
+    "search_wall_clock_time": 300.852331161499,
+    "queue": null,
+    "initial_ff_h_value": 15,
+    "error": "timeout",
+    "run-search_parser0_wall_clock_time": 0.06748294830322266,
+    "id_string": "WORK-lmcut:schedule:probschedule-15-0.pddl",
+    "problem": "probschedule-15-0.pddl",
+    "limit_translate_time": 7200
+  },
   "WORK-lmcut-schedule-probschedule-38-0.pddl": {
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-38-0.pddl",
     "translate_summary": "WORK 6d8b3994270d+ tip",
@@ -13830,11 +13863,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-38-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -13843,7 +13872,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-38-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -13878,11 +13911,17 @@
     "limit_translate_time": 7200
   },
   "WORK-lmcut-rovers-p02.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/rovers/p02.pddl",
+    "domain": "rovers",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       8
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      10
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -13891,83 +13930,77 @@
     ],
     "initial_h_value": 7,
     "score_search_time": 100.0,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 0.1,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 32,
-    "total_time": 0.1,
-    "generated_all": [
-      74
-    ],
-    "memory": 3704,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 8,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.07471489906311035,
-    "score_total_time": 100.0,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 10,
-    "search_wall_clock_time": 0.0393681526184082,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      10
-    ],
-    "id_string": "WORK-lmcut:rovers:p02.pddl",
-    "problem": "p02.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/rovers/p02.pddl",
-    "domain": "rovers",
-    "cost": 8,
     "initial_h_value_all": [
       7
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 0.1,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 26,
+    "dead_ends": 0,
+    "score_memory": 91.14,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "rovers",
       "p02.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 26,
-    "dead_ends": 0,
-    "score_memory": 91.14,
-    "initial_ff_h_value": 7,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 32,
+    "memory": 3704,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 0.1,
     "score_expansions": 100.0,
-    "error": "none",
+    "generated_all": [
+      74
+    ],
+    "planner_type": "single",
+    "score_evaluations": 100.0,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.01299595832824707,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.12633919715881348,
-    "generated": 74,
+    "plan_length": 8,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      8
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 52,
     "search_time_all": [
       0.0
     ],
+    "validate_wall_clock_time": 0.07471489906311035,
     "stage": "search",
     "run_dir": "runs-00001-00100/00001",
-    "plan_length_all": [
-      8
-    ],
+    "score_total_time": 100.0,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       52
     ],
+    "expansions": 10,
+    "generated": 74,
+    "search_wall_clock_time": 0.0393681526184082,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 100.0,
+    "initial_ff_h_value": 7,
+    "cost": 8,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.12633919715881348,
+    "id_string": "WORK-lmcut:rovers:p02.pddl",
+    "problem": "p02.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 4
   },
@@ -13975,7 +14008,6 @@
     "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/schedule/probschedule-7-2.pddl",
     "domain": "schedule",
     "unsolvable": 0,
-    "config_nick": "lmcut",
     "cost_all": [
       8
     ],
@@ -14024,7 +14056,7 @@
       34006
     ],
     "planner_type": "single",
-    "score_evaluations": 41.17,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.00486302375793457,
     "dead_ends_all": [
@@ -14059,6 +14091,7 @@
     "initial_ff_h_value": 7,
     "cost": 8,
     "error": "none",
+    "score_evaluations": 41.17,
     "run-search_parser0_wall_clock_time": 0.0651710033416748,
     "id_string": "WORK-lmcut:schedule:probschedule-7-2.pddl",
     "problem": "probschedule-7-2.pddl",
@@ -14084,9 +14117,7 @@
     ],
     "initial_h_value": 3,
     "score_search_time": 100.0,
-    "search_time_all": [
-      0.0
-    ],
+    "score_evaluations": 92.0,
     "initial_h_value_all": [
       3
     ],
@@ -14094,7 +14125,9 @@
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
-    "error": "none",
+    "search_time_all": [
+      0.0
+    ],
     "translate_nick": "WORK",
     "preprocess_nick": "WORK",
     "evaluations_until_last_jump": 84,
@@ -14112,12 +14145,11 @@
     "limit_translate_memory": 8192,
     "search_nick": "WORK",
     "total_time": 0.1,
-    "score_evaluations": 92.0,
     "score_expansions": 100.0,
     "generated_all": [
       279
     ],
-    "limit_preprocess_memory": 8192,
+    "config_nick": "lmcut",
     "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.008980035781860352,
     "dead_ends_all": [
@@ -14128,7 +14160,7 @@
     ],
     "search_rev": "WORK",
     "run-search_parser0_wall_clock_time": 0.13357114791870117,
-    "generated": 279,
+    "limit_preprocess_memory": 8192,
     "plan_length": 4,
     "coverage": 1,
     "limit_preprocess_time": 7200,
@@ -14145,18 +14177,19 @@
       209
     ],
     "expansions": 10,
+    "generated": 279,
     "search_wall_clock_time": 0.054486989974975586,
     "queue": null,
     "experiment_name": "PAC_Preprocess_Output",
     "reopened_until_last_jump": 0,
-    "limit_translate_time": 7200,
+    "error": "none",
     "planner_type": "single",
     "expansions_all": [
       10
     ],
     "id_string": "WORK-lmcut:schedule:probschedule-3-0.pddl",
     "problem": "probschedule-3-0.pddl",
-    "config_nick": "lmcut",
+    "limit_translate_time": 7200,
     "expansions_until_last_jump": 2
   },
   "WORK-lmcut-schedule-probschedule-43-0.pddl": {
@@ -14173,11 +14206,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-43-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -14186,7 +14215,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-43-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -14356,11 +14389,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-13-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -14369,7 +14398,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-13-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -14403,12 +14436,79 @@
     "problem": "probschedule-13-0.pddl",
     "limit_translate_time": 7200
   },
-  "WORK-lmcut-rovers-p04.pddl": {
+  "WORK-lmcut-tpp-p16.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/tpp/p16.pddl",
+    "domain": "tpp",
     "unsolvable": 0,
+    "score_total_time": 0,
+    "cost_all": [],
+    "run-search_parser0_returncode": 0,
+    "search_returncode": 152,
+    "validate_returncode": 0,
+    "commandline_config": [
+      "--search",
+      "astar(lmcut())"
+    ],
+    "score_search_time": 0,
+    "score_evaluations": 0,
+    "id": [
+      "WORK-lmcut",
+      "tpp",
+      "p16.pddl"
+    ],
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "error": "timeout",
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "score_memory": 0,
+    "initial_ff_h_value": 61,
+    "limit_search_time": 300,
+    "search_nick": "WORK",
+    "limit_preprocess_memory": 8192,
+    "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
+    "limit_translate_memory": 8192,
+    "score_expansions": 0,
+    "generated_all": [],
+    "memory": null,
+    "rm-tmp-files_wall_clock_time": 0.004045009613037109,
+    "config_nick": "lmcut",
+    "search_rev": "WORK",
+    "run-search_parser0_wall_clock_time": 0.05648994445800781,
+    "plan_length_all": [],
+    "coverage": 0,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
+    "search_time_all": [],
+    "validate_wall_clock_time": 0.01878809928894043,
+    "stage": "search",
+    "run_dir": "runs-00001-00100/00042",
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
+    "search_wall_clock_time": 300.6200771331787,
+    "queue": null,
+    "experiment_name": "PAC_Preprocess_Output",
+    "planner_type": "single",
+    "expansions_all": [],
+    "id_string": "WORK-lmcut:tpp:p16.pddl",
+    "problem": "p16.pddl",
+    "limit_translate_time": 7200
+  },
+  "WORK-lmcut-rovers-p04.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/rovers/p04.pddl",
+    "domain": "rovers",
+    "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       8
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      9
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -14417,83 +14517,77 @@
     ],
     "initial_h_value": 8,
     "score_search_time": 100.0,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 0.1,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 0,
-    "total_time": 0.1,
-    "generated_all": [
-      81
-    ],
-    "memory": 3704,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 8,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.07265114784240723,
-    "score_total_time": 100.0,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 9,
-    "search_wall_clock_time": 0.031713008880615234,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      9
-    ],
-    "id_string": "WORK-lmcut:rovers:p04.pddl",
-    "problem": "p04.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/rovers/p04.pddl",
-    "domain": "rovers",
-    "cost": 8,
     "initial_h_value_all": [
       8
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 0.1,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 1,
+    "dead_ends": 0,
+    "score_memory": 91.14,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "rovers",
       "p04.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 1,
-    "dead_ends": 0,
-    "score_memory": 91.14,
-    "initial_ff_h_value": 8,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 0,
+    "memory": 3704,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 0.1,
     "score_expansions": 100.0,
-    "error": "none",
+    "generated_all": [
+      81
+    ],
+    "planner_type": "single",
+    "score_evaluations": 100.0,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.007729053497314453,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.13158512115478516,
-    "generated": 81,
+    "plan_length": 8,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      8
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 53,
     "search_time_all": [
       0.0
     ],
+    "validate_wall_clock_time": 0.07265114784240723,
     "stage": "search",
     "run_dir": "runs-00001-00100/00002",
-    "plan_length_all": [
-      8
-    ],
+    "score_total_time": 100.0,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       53
     ],
+    "expansions": 9,
+    "generated": 81,
+    "search_wall_clock_time": 0.031713008880615234,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 100.0,
+    "initial_ff_h_value": 8,
+    "cost": 8,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.13158512115478516,
+    "id_string": "WORK-lmcut:rovers:p04.pddl",
+    "problem": "p04.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 0
   },
@@ -14572,11 +14666,7 @@
       "astar(lmcut())"
     ],
     "score_search_time": 0,
-    "id": [
-      "WORK-lmcut",
-      "schedule",
-      "probschedule-29-0.pddl"
-    ],
+    "limit_search_time": 300,
     "search_summary": "WORK 6d8b3994270d+ tip",
     "compact": true,
     "translate_rev": "WORK",
@@ -14585,7 +14675,11 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "experiment_name": "PAC_Preprocess_Output",
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "schedule",
+      "probschedule-29-0.pddl"
+    ],
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -14728,7 +14822,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p34.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -14737,11 +14835,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 103,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p34.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -14850,7 +14944,11 @@
     ],
     "score_search_time": 0,
     "score_evaluations": 0,
-    "limit_search_time": 300,
+    "id": [
+      "WORK-lmcut",
+      "rovers",
+      "p32.pddl"
+    ],
     "compact": true,
     "translate_rev": "WORK",
     "preprocess_rev": "WORK",
@@ -14859,11 +14957,7 @@
     "preprocess_nick": "WORK",
     "score_memory": 0,
     "initial_ff_h_value": 108,
-    "id": [
-      "WORK-lmcut",
-      "rovers",
-      "p32.pddl"
-    ],
+    "limit_search_time": 300,
     "search_nick": "WORK",
     "limit_preprocess_memory": 8192,
     "config": "WORK-lmcut",
@@ -14897,11 +14991,17 @@
     "limit_translate_time": 7200
   },
   "WORK-lmcut-rovers-p12.pddl": {
+    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/rovers/p12.pddl",
+    "domain": "rovers",
     "unsolvable": 0,
+    "config_nick": "lmcut",
     "cost_all": [
       19
     ],
     "run-search_parser0_returncode": 0,
+    "expansions_all": [
+      19201
+    ],
     "search_returncode": 0,
     "validate_returncode": 0,
     "commandline_config": [
@@ -14910,83 +15010,77 @@
     ],
     "initial_h_value": 16,
     "score_search_time": 71.17,
-    "limit_search_time": 300,
-    "compact": true,
-    "search_time": 8.68,
-    "translate_nick": "WORK",
-    "preprocess_nick": "WORK",
-    "search_summary": "WORK 6d8b3994270d+ tip",
-    "limit_preprocess_memory": 8192,
-    "rm-tmp-files_returncode": 0,
-    "generated_until_last_jump": 364120,
-    "total_time": 8.68,
-    "generated_all": [
-      364209
-    ],
-    "memory": 11300,
-    "reopened": 0,
-    "dead_ends_all": [
-      0
-    ],
-    "plan_length": 19,
-    "limit_preprocess_time": 7200,
-    "limit_search_memory": 2048,
-    "validate_wall_clock_time": 0.043936967849731445,
-    "score_total_time": 71.17,
-    "preprocess_summary": "WORK 6d8b3994270d+ tip",
-    "translate_summary": "WORK 6d8b3994270d+ tip",
-    "expansions": 19201,
-    "search_wall_clock_time": 8.717248916625977,
-    "experiment_name": "PAC_Preprocess_Output",
-    "reopened_until_last_jump": 0,
-    "planner_type": "single",
-    "expansions_all": [
-      19201
-    ],
-    "id_string": "WORK-lmcut:rovers:p12.pddl",
-    "problem": "p12.pddl",
-    "preprocess_dir": "/home/sternron/lab/preprocessed-tasks/WORK-WORK/rovers/p12.pddl",
-    "domain": "rovers",
-    "cost": 19,
     "initial_h_value_all": [
       16
     ],
+    "limit_search_time": 300,
+    "search_summary": "WORK 6d8b3994270d+ tip",
+    "compact": true,
+    "translate_rev": "WORK",
+    "preprocess_rev": "WORK",
+    "search_time": 8.68,
+    "translate_nick": "WORK",
+    "preprocess_nick": "WORK",
+    "evaluations_until_last_jump": 140159,
+    "dead_ends": 0,
+    "score_memory": 75.1,
+    "experiment_name": "PAC_Preprocess_Output",
     "id": [
       "WORK-lmcut",
       "rovers",
       "p12.pddl"
     ],
-    "translate_rev": "WORK",
-    "preprocess_rev": "WORK",
-    "evaluations_until_last_jump": 140159,
-    "dead_ends": 0,
-    "score_memory": 75.1,
-    "initial_ff_h_value": 20,
-    "search_nick": "WORK",
+    "reopened_until_last_jump": 0,
+    "generated_until_last_jump": 364120,
+    "memory": 11300,
     "config": "WORK-lmcut",
+    "rm-tmp-files_returncode": 0,
     "limit_translate_memory": 8192,
+    "search_nick": "WORK",
+    "total_time": 8.68,
     "score_expansions": 42.92,
-    "error": "none",
+    "generated_all": [
+      364209
+    ],
+    "planner_type": "single",
+    "score_evaluations": 21.33,
+    "reopened": 0,
     "rm-tmp-files_wall_clock_time": 0.00403904914855957,
+    "dead_ends_all": [
+      0
+    ],
     "search_rev": "WORK",
-    "run-search_parser0_wall_clock_time": 0.10844898223876953,
-    "generated": 364209,
+    "plan_length": 19,
+    "limit_preprocess_memory": 8192,
+    "plan_length_all": [
+      19
+    ],
     "coverage": 1,
+    "limit_preprocess_time": 7200,
+    "limit_search_memory": 2048,
     "evaluations": 140217,
     "search_time_all": [
       8.68
     ],
+    "validate_wall_clock_time": 0.043936967849731445,
     "stage": "search",
     "run_dir": "runs-00001-00100/00006",
-    "plan_length_all": [
-      19
-    ],
+    "score_total_time": 71.17,
+    "preprocess_summary": "WORK 6d8b3994270d+ tip",
+    "translate_summary": "WORK 6d8b3994270d+ tip",
     "evaluations_all": [
       140217
     ],
+    "expansions": 19201,
+    "generated": 364209,
+    "search_wall_clock_time": 8.717248916625977,
     "queue": null,
-    "config_nick": "lmcut",
-    "score_evaluations": 21.33,
+    "initial_ff_h_value": 20,
+    "cost": 19,
+    "error": "none",
+    "run-search_parser0_wall_clock_time": 0.10844898223876953,
+    "id_string": "WORK-lmcut:rovers:p12.pddl",
+    "problem": "p12.pddl",
     "limit_translate_time": 7200,
     "expansions_until_last_jump": 19195
   }

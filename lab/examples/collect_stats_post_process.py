@@ -7,6 +7,8 @@ import glob
 import csv
 from pathlib import Path
 import shutil
+from lab.EnvHandler import BASE_REPO
+
 
 class collect_statistics(object):
 	def __init__ (self):
@@ -21,7 +23,7 @@ class collect_statistics(object):
 		
 		# get all properties files into a list
 		#result_dirs = glob.glob("/home/shahar/downward/lab/examples/%s/runs-*/*" % self.exp_name_env)
-		result_dirs = glob.glob("/home/sternron/gal-dreiman/downward/lab/examples/*/runs-*/*")
+		result_dirs = glob.glob(BASE_REPO + "/lab/examples/*/runs-*/*")
 
 		#result_dirs=['/home/shahar/downward/lab/examples/new_exp_lower_11-e0.5-d0.5-w30-l0/runs-00001-00100/00008']
 		#result_dirs = glob.glob("/home/shahar/downward/lab/examples/new_exp_lower_11-e0.1-d0.1-w30-l0/runs-00001-00100/*")
@@ -223,10 +225,10 @@ class collect_statistics(object):
 
 
 
-		parent_dirs = glob.glob("/home/sternron/gal-dreiman/downward/lab/examples/%s*" % self.exp_name_env)
+		parent_dirs = glob.glob(BASE_REPO + "/lab/examples/%s*" % self.exp_name_env)
 		for dir in parent_dirs:
 			print '-------- deleting: %s --------' % (dir)
-			#shutil.rmtree(dir)
+			shutil.rmtree(dir)
 
 
 	def write_to_file(self, filename):
@@ -270,4 +272,4 @@ if __name__ == '__main__':
 
 	cs = collect_statistics()
 	cs.collect_stats()
-	cs.write_to_file("/home/sternron/gal-dreiman/%s.csv" % os.environ["exp_name"] ) #os.environ["exp_name"])
+	cs.write_to_file(BASE_REPO + "../%s.csv" % os.environ["exp_name"] ) #os.environ["exp_name"])

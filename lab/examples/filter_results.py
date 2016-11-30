@@ -6,7 +6,7 @@ import sys
 import glob
 import csv
 import re
-
+from lab.EnvHandler import BASE_REPO
 
 
 class filter_results(object):
@@ -15,7 +15,7 @@ class filter_results(object):
 		print ("init...")
 
 		self.table = []
-		self.inFileName = "/home/sternron/gal-dreiman/outfile.csv"
+		self.inFileName =BASE_REPO +  "../outfile.csv"
 		self.dictOfProblemNames = dict()
 		self.numOfRepeats = 0
 		self.firstLine = []
@@ -27,7 +27,7 @@ class filter_results(object):
 		self.countRepeatedProblems()
 		# self.filterNonRepeatedProblems()
 		# self.write_to_file("/home/shahar/filtered_outfile.csv")
-		self.write_to_file_2("/home/sternron/gal-dreiman/filtered_outfile.csv")
+		self.write_to_file_2(BASE_REPO + "../filtered_outfile.csv")
 
 
 	def readOutFile(self, filename):
