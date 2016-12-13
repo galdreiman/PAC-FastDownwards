@@ -2,7 +2,7 @@
   "compact": true,
   "experiment_file": "preprocess.py",
   "runs": 1,
-  "repo": "/home/sternron/gal-dreiman/downward/",
+  "repo": "/home/gal-d/PAC3/",
   "algorithms": [
     "WORK-lmcut"
   ],
@@ -15,7 +15,7 @@
     "preprocess_memory": 8192
   },
   "suite": {
-    "/home/sternron/gal-dreiman/downward/benchmarks": [
+    "/home/gal-d/PAC3/benchmarks": [
       "blocks:probBLOCKS-4-1.pddl"
     ]
   },
